@@ -54,3 +54,21 @@ Punteggio finale = Σ(punteggio × peso) / 5 − penalità, su una scala 0-100.
 - Nessun criterio senza evidenza riceve più di 2.
 - Per evitare di confermare le proprie ipotesi, per ogni candidato si cerca esplicitamente anche il **motivo più forte per scartarlo**.
 - I pesi si fissano **prima** dello scoring e non si toccano dopo aver visto i risultati.
+
+## Traccia separata: giochi
+I giochi non passano dai gate G3/G4 così come sono scritti, perché distribuzione e monetizzazione funzionano in modo diverso. Hanno gate e criteri propri.
+
+**Gate giochi:** (GG1) originale: genere/meccanica sì, copia di un gioco preciso no · (GG2) esiste un canale di distribuzione senza pubblico (portali di giochi web, store con scoperta organica, formato condivisibile/daily) · (GG3) esiste un modello di monetizzazione provato per quel genere.
+
+| # | Criterio giochi | Peso | Evidenza |
+|---|---|---|---|
+| CG1 | Domanda del genere/formato | 20 | Classifiche dei portali e degli store, Google Trends, community |
+| CG2 | Qualità media dell'offerta (spazio per fare meglio) | 15 | Prova dei titoli principali, recensioni |
+| CG3 | Viralità/condivisibilità intrinseca | 20 | Meccaniche di condivisione, casi noti |
+| CG4 | Monetizzazione per il genere | 15 | Benchmark (pubblicità, abbonamenti, acquisti in-app) |
+| CG5 | Fit con dati/scraping/AI (vantaggio non copiabile) | 15 | Contenuti generati da dati reali o da AI |
+| CG6 | Retention (abitudine quotidiana, progressione) | 10 | Struttura del gioco, benchmark |
+| CG7 | Tempo alla prima evidenza | 5 | Piano dell'esperimento |
+
+## Decisioni registrate
+- 2026-11-19: pesi C1-C9 confermati così come scritti (l'utente ha dato il via senza modifiche). Giochi: traccia separata.
