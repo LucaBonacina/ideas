@@ -10,6 +10,8 @@ tags: [ipotesi, trasversale]
 ---
 # H16 — Founder a tempo parziale + team di fiducia
 
+> **Regola operativa sul contratto:** la versione aggiornata è nella [[Raccomandazione]], punto 4. L'autorizzazione scritta è richiesta per le idee che vendono dati o scraping; per le altre bastano lettura del contratto e regole di separazione, più la comunicazione al datore se il contratto la impone.
+
 > **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata non è quella di un business a sé: per H16 è la probabilità che un progetto avviato con il modello "founder a tempo parziale con team" arrivi a 50 k€ di margine, tasso base compreso (il fattore da applicare alle singole idee è circa 0,5); per H17 è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Sigle nel [[Glossario]].
 
 ## Ipotesi (pre-registrata)

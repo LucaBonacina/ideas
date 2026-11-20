@@ -201,6 +201,7 @@ Costo inferiore a 1,5 k€. **Basta una soglia mancata per archiviare.**
 - Se una delle due manca, si archivia senza spendere altro.
 
 **Giorni 1-7: legale.** Parere rapido sullo schema "lettera firmata elettronicamente dal consumatore, documento allegato, invio dalla PEC del servizio", sulla conservazione minima dei documenti e sul testo delle pagine. Le pagine devono dichiarare che la disdetta presso il gestore è gratuita.
+- **Stop se il parere è negativo.** Pagine e annunci partono solo dopo un parere positivo.
 
 **Giorni 5-10: pagine.** 30 pagine solo sui verticali senza pulsante (palestre, allarmi, riviste, affitti, associazioni). Due livelli di prezzo: **PEC 7,99 €** e **raccomandata A/R 12,99 €**.
 

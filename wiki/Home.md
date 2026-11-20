@@ -8,7 +8,7 @@ aggiornato: 2026-11-20
 Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scraping, **senza lasciare il lavoro** e affidando la gestione a persone di fiducia.
 
 ## In breve
-- **Reddito extra (1-2 k€/mese netti):** la strada più solida è comprare un piccolo software già redditizio (servono ~165-285 k€); con poco capitale, quiz automatici per testate locali (più incerti).
+- **Reddito extra (1-2 k€/mese netti):** la strada più solida è comprare un piccolo software già redditizio (servono ~165-285 k€). Con poco capitale non c'è una strada solida: la meno debole sono i quiz automatici per testate locali (probabilità bassa).
 - **Costruisci e vendi:** la strada migliore è comprare, migliorare e rivendere.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
@@ -23,7 +23,7 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 ## Come è stata fatta
 - [[Profilo e vincoli]] · [[Protocollo di discovery]] · [[Registro delle ipotesi]] (scritto prima della ricerca e non modificato)
 - Per ogni ipotesi: un **Entusiasta** e un **Bucatore di palloncini** in parallelo e alla cieca, poi un **Giudice** che riverifica le affermazioni decisive. Rapporti integrali nella cartella `Rapporti/` (materiale grezzo).
-- Secondo giro su 4 idee: la sezione del secondo giro, "Approfondimento (round 2)", nelle loro note.
+- Secondo giro su 4 idee: vedi la sezione "Approfondimento (round 2)" nelle loro note.
 - Dopo la discovery l'utente ha chiarito che non ha una soglia di successo: le idee sono state rivalutate per tre obiettivi in [[Classifica per obiettivo]].
 
 ## Ipotesi
@@ -51,4 +51,4 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 
 ## Archivio
 - Screening B2C: [[05 Screening B2C]].
-- Screening dei portali da rifare (prima fase): file `docs/03-screening.md` del repository, fuori da questa wiki.
+- Screening dei primi candidati, in gran parte B2B (fase 2): file `docs/03-screening.md` del repository, fuori da questa wiki.

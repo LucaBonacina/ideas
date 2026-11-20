@@ -14,6 +14,8 @@ tags: [idea, S1, R2]
 
 > **Superata in parte dal secondo giro.** Punteggio 66 → **52**, probabilità ~4%. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; le cifre del primo giro qui sotto restano per traccia. Cambiamenti principali: senza autorizzazione scritta del datore l'idea è scartata; la stima di ~91.000 e-commerce era sovrastimata; servono 26-32 clienti, non ~20; NetPricer copre già i ricambi auto in italiano.
 
+> **Gate aggiornato.** Questa idea vende dati raccolti con lo scraping: serve l'**autorizzazione scritta del datore prima di qualunque esperimento**, anche preparatorio, con parere di un avvocato del lavoro (vedi [[Raccomandazione]], punto 4). Vale anche per il "Giorno 0" dell'esperimento del secondo giro.
+
 > **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
 
 ## In una frase

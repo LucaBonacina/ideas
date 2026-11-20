@@ -46,5 +46,5 @@ Punteggio = Σ(punteggio × peso) / 5, scala 0-100. Penalità fino a −10 per r
 - Collegamenti tra note con `[[...]]`. Frontmatter YAML obbligatorio.
 
 ## Decisioni registrate dopo la discovery
-- 2026-11-20: l'utente chiarisce che **non ha una soglia di successo**: vanno bene reddito extra (1-2 k€/mese), business a lungo termine e "costruisci e vendi". La soglia del registro (50 k€/anno entro 24 mesi) era stata fissata da Claude. Le idee sono rivalutate sui tre obiettivi in [[Classifica per obiettivo]], con le stesse evidenze; il registro delle ipotesi non viene modificato.
+- 2026-11-20: l'utente chiarisce che **non ha una soglia di successo**: vanno bene reddito extra (1-2 k€/mese netti), business da almeno 50 k€/anno entro 24 mesi e "costruisci e vendi" (costruire o comprare e migliorare un asset e venderlo entro 12-18 mesi). La soglia del registro (50 k€/anno entro 24 mesi) era stata fissata da Claude. Le idee sono rivalutate sui tre obiettivi in [[Classifica per obiettivo]], con le stesse evidenze; il registro delle ipotesi non viene modificato.
 - 2026-11-20: nella [[Classifica]] la penalità di conflitto con il lavoro è applicata con una regola unica (−8 / −2 / −1 / 0), e il tetto di −10 si intende per ciascuna categoria di penalità (legale, piattaforma, conflitto). Il testo originale ("penalità fino a −10") non lo specificava.

@@ -15,11 +15,11 @@ tags: [idea, raccomandazione-operativa]
 > **Ambito (allineato con la [[Raccomandazione]]).** Tutti i passi valgono per le idee che vendono dati o servizi di scraping. Per le altre idee (es. comprare un software, quiz per testate) bastano il passo 1 (audit del contratto) e il passo 5 (igiene). Se il contratto prevede l'obbligo di comunicare altre attività, anche per queste vale il passo 3 prima di costituire la società.
 
 ## In una frase
-Prima di costituire qualunque veicolo, mettere per iscritto il perimetro: verifica di contratto e CCNL, autorizzazione o comunicazione scritta al datore, poi una SRL con il founder socio di capitale non operativo e un operatore amministratore.
+Per le idee che vendono dati o scraping (per le altre vedi il riquadro "Ambito" sopra): prima di costituire qualunque veicolo, mettere per iscritto il perimetro: verifica di contratto e CCNL, autorizzazione o comunicazione scritta al datore, poi una SRL con il founder socio di capitale non operativo e un operatore amministratore.
 
 ## Chi paga, quanto, perché
 Non applicabile. Costo per il founder:
-- parere di un giuslavorista su contratto, CCNL e clausole di proprietà intellettuale: qualche centinaio di euro, fino a circa 1.500 € [stima, non verificata];
+- parere di un giuslavorista su contratto, CCNL e clausole di proprietà intellettuale: circa 500-1.500 € [stima, non verificata];
 - costi fissi di una SRL: 4-15 k€/anno, ma probabilmente vicini al minimo per una società piccola [stima dalle fonti del Bucatore].
 
 ## Passi

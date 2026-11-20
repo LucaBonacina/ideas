@@ -3,7 +3,7 @@ tipo: idea
 id: I-H07-1
 ipotesi: "[[H07 Micro-SaaS B2B verticale]]"
 punteggio_v2: 57
-modello_ricavo: "abbonamento mensile per operatore (79-199 €/mese)"
+modello_ricavo: "abbonamento mensile per operatore (100-199 €/mese)"
 tempo_founder_h_sett: 5
 investimento_iniziale_eur: "30-50 k€ [stima]"
 tags: [idea, S3]

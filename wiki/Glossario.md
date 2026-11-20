@@ -15,7 +15,7 @@ Termini e sigle usati nella wiki.
 | **Penalità di conflitto** | Sottrazione per il rischio di conflitto con il lavoro attuale: −8 se l'idea vende dati o servizi di scraping a terzi, −2 se lo scraping è uno strumento interno, −1 se serve solo a trovare opportunità, 0 se non c'entra. Vedi [[Classifica]]. |
 | **Primo giro / secondo giro** | Primo giro: ogni ipotesi esaminata da Entusiasta, Bucatore e Giudice. Secondo giro: approfondimento delle 4 idee scelte, con un nuovo confronto. |
 | **Entusiasta / Bucatore di palloncini / Giudice** | I tre ruoli della discovery: chi costruisce il caso a favore, chi cerca di smentirlo, chi verifica e decide. |
-| **Obiettivi A, B, C** | A = reddito extra di 1-2 k€/mese netti (~20-40 k€/anno di margine prima delle tasse); B = business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana dopo l'avvio; C = costruire un asset e venderlo entro 12-18 mesi. Vedi [[Classifica per obiettivo]]. |
+| **Obiettivi A, B, C** | A = reddito extra di 1-2 k€/mese netti (~20-40 k€/anno di margine prima delle tasse); B = business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana dopo l'avvio; C = costruire (o comprare e migliorare) un asset e venderlo entro 12-18 mesi. Vedi [[Classifica per obiettivo]]. |
 | **Gate** (nelle note anche **cancello**) | Condizione da superare prima di tutto (es. autorizzazione del datore, parere legale, capitale): senza, l'idea è ferma. |
 | **Kill / stop / criterio di arresto** | Risultato che, se si verifica durante un esperimento, fa fermare l'idea. |
 | **Confutata / parziale / incerta** | Esito di un'ipotesi: smentita dalle evidenze / vera solo in una forma ristretta / evidenze insufficienti per decidere. |
