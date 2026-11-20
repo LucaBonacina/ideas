@@ -45,3 +45,6 @@ Il riconoscimento formale esiste solo per **Montessori** (Opera Nazionale Montes
 - Elenco degli aderenti alla Rete Scuole all'aperto; rete degli asili nel bosco aggiornata (le mappe del 2017 non rispondono).
 - Altri approcci non trattati: Pikler/Lóczy, Malaguzzi fuori Reggio, Pizzigoni, Agazzi, educazione parentale ispirata a metodi. [stima: minori]
 - Licenze di riuso: nessuna fonte di questo segmento indica una licenza.
+
+## Bisogni delle famiglie: testimonianze (sessione P7)
+Le discussioni dirette di genitori, "non trovate" in P5, sono in [[Segmenti - voce delle famiglie]]: [[SP1 Verificare se un metodo pedagogico e autentico]], [[SP2 Sapere se un asilo nel bosco e autorizzato e sicuro]] (caso Monfumo 2026, struttura abusiva chiusa), [[SP3 Conciliare approccio pedagogico con costi orari e continuita]]. Priorità in [[Bisogni genitori - sintesi]].
