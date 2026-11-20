@@ -6,6 +6,11 @@
 - Capacità di esecuzione alta e lavoro in parallelo con l'AI: **il tempo di sviluppo non è il vincolo.**
 - **Nessun pubblico/canale** proprio (newsletter, social, community).
 
+## Contesto professionale (aggiunto 2026-11-20)
+- Lavoro attuale: scraping per istituti finanziari e business information provider.
+- **Ambiti esclusi** (sovrapposti al lavoro attuale): aste, procedure concorsuali, aziende e bilanci, immobili.
+- Neo-padre: interesse personale per il mondo famiglia (asili, iscrizioni, burocrazia per genitori). **Va trattato come possibile fonte di bias**, vedi il protocollo anti-bias nel metodo.
+
 ## Aperture
 - B2B e B2C (più esperienza in B2B, forte interesse per il B2C).
 - Mercato italiano e internazionale.

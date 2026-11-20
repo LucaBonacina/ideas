@@ -1,5 +1,7 @@
 # 03 — Screening (fase 2): sintesi
 
+> **Aggiornamento 2026-11-20.** Esclusi per conflitto con il lavoro dell'utente: #1, #7, #16, #24, N2, N4, N10, gioco "Asta o affare?". Esclusi in quanto dati su aziende: #6 (da confermare). Il focus si sposta sul B2C: vedi `docs/04-b2c-generazione.md`.
+
 Dettaglio, evidenze e fonti nei file di `docs/research/03-screening-*.md`. Data: 2026-11-20.
 
 > **Limite di affidabilità.** Gli agenti hanno lavorato quasi solo sugli estratti dei risultati di ricerca (la rete della sessione blocca la lettura diretta di molti siti). Inoltre il tetto di 200 ricerche web per sessione si è esaurito a metà lavoro. Prezzi e numeri vanno riverificati aprendo le pagine prima dello scoring. **Volumi di ricerca e lamentele degli utenti non sono stati misurati per nessun candidato**: per ora C1 e C2 hanno un tetto di 2.

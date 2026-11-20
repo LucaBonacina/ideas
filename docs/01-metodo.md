@@ -72,3 +72,15 @@ I giochi non passano dai gate G3/G4 così come sono scritti, perché distribuzio
 
 ## Decisioni registrate
 - 2026-11-19: pesi C1-C9 confermati così come scritti (l'utente ha dato il via senza modifiche). Giochi: traccia separata.
+
+## Protocollo anti-bias (aggiunto 2026-11-20)
+L'utente ha dichiarato un interesse personale (famiglia, asili, burocrazia per genitori) e ha chiesto un'analisi oggettiva. Regole:
+1. **Ipotesi pre-registrate.** Prima di cercare evidenze, per ogni candidato si scrive cosa ci aspettiamo e quale risultato lo farebbe scartare.
+2. **Scoring alla cieca.** Gli agenti che danno i punteggi non sanno quali candidati preferisce l'utente.
+3. **Avvocato del diavolo separato.** Un agente diverso cerca solo i motivi per scartare i primi classificati.
+4. **Stessa asticella di evidenza** per tutti i candidati, nessuna eccezione.
+5. **Il fit personale non entra nel punteggio.** Essere un genitore dà un vantaggio reale (capire il problema, intervistare altri genitori), ma si annota a parte e si usa solo per decidere tra candidati con punteggi molto vicini.
+6. **Si riporta il risultato com'è,** anche se i candidati legati alla famiglia finiscono in basso.
+
+## Decisioni registrate (segue)
+- 2026-11-20: esclusi gli ambiti sovrapposti al lavoro dell'utente: aste, procedure concorsuali, aziende e bilanci, immobili. Focus spostato sul B2C.
