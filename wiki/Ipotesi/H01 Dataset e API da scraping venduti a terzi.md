@@ -36,7 +36,7 @@ Sintesi di [[H01 Entusiasta]] (16 ricerche web).
 - **Rischio legale [fatto].** Non è sistematico per i dati pubblici non personali raccolti senza login:
   - negli USA le cause di Meta e di X contro Bright Data sono state archiviate, e Google contro SerpApi è stata archiviata due volte;
   - nell'UE c'è la sentenza CV-Online (C-762/19), che limita il diritto *sui generis*.
-- **Concessione.** La mediana è sotto i 500 €: la media è circa 267 $ al mese per sviluppatore, la mediana è di circa 14 utenti mensili e i primi 10 sviluppatori hanno il 52% degli utenti. Però circa 46 sviluppatori stanno sopra la soglia di successo, e un esperto con un team non è lo sviluppatore mediano.
+- **Concessione.** Il ricavo mediano è sotto i 500 €/mese: la media è circa 267 $ al mese per sviluppatore, e lo sviluppatore mediano ha circa 14 utenti al mese e i primi 10 sviluppatori hanno il 52% degli utenti. Però circa 46 sviluppatori stanno sopra la soglia di successo, e un esperto con un team non è lo sviluppatore mediano.
 - **Idee proposte.**
   1. Un portafoglio di 30-80 actor ad alta affidabilità.
   2. Un'API di dati sulle risposte dei motori AI (GEO) in più lingue europee: DataForSEO coprirebbe ChatGPT solo per USA e inglese; Peec AI ha superato 4 M$ di ARR con 1.300 clienti.
@@ -92,8 +92,8 @@ Il registro dice che un criterio verificato con evidenza basta per confutare o r
 Su tutte le idee pesa un rischio trasversale: la compatibilità con il lavoro dipendente (art. 2105 c.c.). Il founder fa scraping per mestiere, e vendere dati da scraping è lo stesso settore tecnico anche con domini diversi. Va chiarito sul contratto prima di pubblicare qualunque cosa (vedi [[H03 Servizio di scraping a prodotto per clienti non finanziari]]).
 
 ## Idee concrete che sopravvivono
-- [[I-H01-1 Portafoglio di actor su target difficili non personali]]: punteggio v2 **64** (58 in [[Classifica]] con la regola unica sul conflitto).
-- [[I-H01-2 API dati di visibilita nelle risposte AI multilingua]]: punteggio v2 **53**.
+- [[I-H01-1 Portafoglio di actor su target difficili non personali]]: punteggio v2 **64** (58 in [[Classifica]]).
+- [[I-H01-2 API dati di visibilità nelle risposte AI multilingua]]: punteggio v2 **53** (47 in [[Classifica]]).
 
 Scartate:
 - **API social/creator:** GDPR sui profili personali, Apify e grandi operatori già leader, terreno legale peggiore.

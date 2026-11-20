@@ -12,7 +12,7 @@ tags: [idea, S2, R2]
 ---
 # I-H06-1 — Disdetta digitale per l'Italia
 
-> **Superata dal secondo giro: da archiviare salvo esperimento.** Punteggio 58 → **42** (41 in [[Classifica]]), probabilità ~3%. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; l'esperimento del primo giro (6,99 € con raccomandata) è superato perché a margine nullo. Cambiamenti principali: Disdettaonline.it è diventato gratuito; servono ~2.800 disdette al mese, non 1.000; ComunicApp non è un concorrente.
+> **Superata dal secondo giro: da archiviare salvo esperimento.** Punteggio 58 → **42** (41 in [[Classifica]]), probabilità ~3%. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; l'esperimento del primo giro (6,99 € a pratica) è superato: con la raccomandata il margine è nullo e resta solo la PEC. Cambiamenti principali: Disdettaonline.it è diventato gratuito; servono ~2.800 disdette al mese, non 1.000; ComunicApp non è un concorrente.
 
 > **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
 

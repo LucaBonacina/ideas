@@ -22,7 +22,7 @@ Confutata se:
 3. la gestione delegata non è realistica nel game dev.
 
 ## Caso a favore — Entusiasta
-Rapporto integrale: `wiki/Rapporti/S4/H12 Entusiasta.md`.
+Rapporto integrale: [[H12 Entusiasta]].
 
 **La mediana è il benchmark sbagliato.** Va condizionata su progetti seri:
 - **Publisher:** con un publisher la mediana è circa 5 volte quella dei giochi auto-pubblicati, 16.222 $ contro 3.285 $ ([stima di terzi], https://opgamemarketing.substack.com/p/the-2024-indie-and-aa-game-market).
@@ -55,7 +55,7 @@ Rapporto integrale: `wiki/Rapporti/S4/H12 Entusiasta.md`.
 - La mediana degli indie mobile non è stata trovata.
 
 ## Caso contro — Bucatore di palloncini
-Rapporto integrale: `wiki/Rapporti/S4/H12 Bucatore.md`.
+Rapporto integrale: [[H12 Bucatore]].
 
 **Steam.** Nel 2025 sono usciti 20.282 giochi:
 - solo il 2,99% è arrivato a 1.000 recensioni (https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/);
@@ -114,7 +114,7 @@ Rapporto integrale: `wiki/Rapporti/S4/H12 Bucatore.md`.
 Nessuna: l'ipotesi è confutata. Le idee "daily di stima su dati reali" e "gestionale su mappe reali" vengono riassorbite, se sopravvivono, in H10 e H11.
 
 ## Fonti
-Elenchi completi con data di accesso nei rapporti `wiki/Rapporti/S4/H12 Entusiasta.md` e `wiki/Rapporti/S4/H12 Bucatore.md`. Fonti verificate dal Giudice il 2026-11-20:
+Elenchi completi con data di accesso nei rapporti [[H12 Entusiasta]] e [[H12 Bucatore]]. Fonti verificate dal Giudice il 2026-11-20:
 - https://tech4gamers.com/40-of-steam-games-in-2025-didnt-even-earn-100-dollars/
 - https://www.gamesradar.com/platforms/pc-gaming/valve-peels-back-the-curtain-in-rare-steam-presentation-more-games-are-finding-success-than-ever-and-nearly-6-000-made-over-usd100-000-last-year/
 - https://80.lv/articles/ultimate-games-on-creating-simulation-games-the-publishing-process-and-the-video-game-market

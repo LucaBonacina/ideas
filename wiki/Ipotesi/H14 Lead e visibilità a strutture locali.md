@@ -22,7 +22,7 @@ Confutata se:
 - (c) esistono già directory dominanti.
 
 ## Caso a favore — Entusiasta
-Rapporto integrale: `wiki/Rapporti/S5/H14 Entusiasta.md` (12 WebSearch).
+Rapporto integrale: [[H14 Entusiasta]] (12 WebSearch).
 
 **Tesi.** Il modello che funziona non è il marketplace orizzontale di lead. È una **directory verticale di strutture regolamentate**, costruita aggregando registri pubblici sparsi (albi regionali, open data, ATS, carte dei servizi in PDF) e venduta come **abbonamento self-serve a prezzo fisso**.
 
@@ -52,7 +52,7 @@ Rapporto integrale: `wiki/Rapporti/S5/H14 Entusiasta.md` (12 WebSearch).
 Sconsigliati dallo stesso Entusiasta: palestre, scuole di lingue e musica, babysitter e badanti.
 
 ## Caso contro — Bucatore di palloncini
-Rapporto integrale: `wiki/Rapporti/S5/H14 Bucatore.md` (18 WebSearch). Verdetto del Bucatore: **confutata**.
+Rapporto integrale: [[H14 Bucatore]] (18 WebSearch). Verdetto del Bucatore: **confutata**.
 
 **(b) Serve una forza vendita, anche per il leader mondiale.**
 - Yelp spende il 41,5% dei ricavi in vendite e marketing, e la vendita diretta locale vale "nearly half" dei ricavi pubblicitari ([10-K FY2024](https://www.sec.gov/Archives/edgar/data/1345016/000134501625000007/yelp-20241231.htm), letto).
@@ -127,7 +127,7 @@ Nessuna (ipotesi confutata). Le idee dell'Entusiasta (RSA, nidi, centri estivi, 
 
 ## Fonti
 Tutte con accesso 2026-11-20.
-- Rapporti: `wiki/Rapporti/S5/H14 Entusiasta.md`, `wiki/Rapporti/S5/H14 Bucatore.md` (elenchi completi delle fonti lì).
+- Rapporti: [[H14 Entusiasta]], [[H14 Bucatore]] (elenchi completi delle fonti lì).
 - Verifiche del Giudice:
   - Yelp 10-K FY2025: https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm (letto)
   - ProntoPro: https://topaziende.quotidiano.net/?p=169288 (letto)

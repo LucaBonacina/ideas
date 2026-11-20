@@ -8,7 +8,7 @@ aggiornato: 2026-11-20
 Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scraping, **senza lasciare il lavoro** e affidando la gestione a persone di fiducia.
 
 ## In breve
-- **Reddito extra (1-2 k€/mese):** due strade realistiche: comprare un piccolo software già redditizio, oppure costruire quiz automatici per testate locali.
+- **Reddito extra (1-2 k€/mese netti):** la strada più solida è comprare un piccolo software già redditizio (servono ~125-280 k€); con poco capitale, quiz automatici per testate locali (più incerti).
 - **Costruisci e vendi:** la strada migliore è comprare, migliorare e rivendere.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
@@ -32,17 +32,17 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 | Dati come prodotto | [[H01 Dataset e API da scraping venduti a terzi]] | parziale | 10% |
 | | [[H02 Dati freschi per AI e agenti]] | parziale | 5% |
 | | [[H03 Servizio di scraping a prodotto per clienti non finanziari]] | incerta | 8% |
-| Siti e SEO | [[H04 SEO programmatica + affiliazione]] | **smentita** | 4% |
+| Siti e SEO | [[H04 SEO programmatica + affiliazione]] | **confutata** | 4% |
 | | [[H05 Comprare e rifare meglio]] | parziale | 12% |
 | | [[H06 Arbitraggio geografico]] | parziale | 7% |
 | Software | [[H07 Micro-SaaS B2B verticale]] | parziale | 8% |
-| | [[H08 App mobile B2C in abbonamento]] | **smentita** | 5% |
+| | [[H08 App mobile B2C in abbonamento]] | **confutata** | 5% |
 | | [[H09 Estensioni e plugin su marketplace]] | parziale | 10% |
-| Giochi | [[H10 Giochi web su portali]] | **smentita** | 5% |
+| Giochi | [[H10 Giochi web su portali]] | **confutata** | 5% |
 | | [[H11 Giochi quotidiani basati su dati]] | parziale | 7% |
-| | [[H12 Giochi indie su Steam o mobile]] | **smentita** | 4% |
-| B2C e servizi | [[H13 Regole e disponibilità locali per chi si muove]] | **smentita** | 5% |
-| | [[H14 Lead e visibilità a strutture locali]] | **smentita** | 5% |
+| | [[H12 Giochi indie su Steam o mobile]] | **confutata** | 4% |
+| B2C e servizi | [[H13 Regole e disponibilità locali per chi si muove]] | **confutata** | 5% |
+| | [[H14 Lead e visibilità a strutture locali]] | **confutata** | 5% |
 | | [[H15 AI che contesta e recupera soldi per i consumatori]] | parziale | 10% |
 | Trasversali | [[H16 Founder a tempo parziale]] | parziale | n.a. |
 | | [[H17 Vantaggio dello scraping]] | parziale | n.a. |

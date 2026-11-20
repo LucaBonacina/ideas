@@ -31,7 +31,7 @@ Due conclusioni sono **confermate**:
 - Corriere Giochi è l'incumbent B2C, senza giochi su dati.
 
 ## Caso a favore — Entusiasta
-Rapporto integrale in `wiki/Rapporti/S4/H11 Entusiasta.md`.
+Rapporto integrale in [[H11 Entusiasta]].
 
 **Gli editori italiani ed europei stanno aprendo sezioni giochi adesso.**
 - Il Messaggero, l'11/11/2026, con una piattaforma condivisa da 6 testate.
@@ -61,7 +61,7 @@ Azerion fa funzionare 20 portali white-label per giornali.
 - nel B2C il vantaggio dati è debole: Costcodle funziona con prezzi vecchi.
 
 ## Caso contro — Bucatore di palloncini
-Rapporto integrale in `wiki/Rapporti/S4/H11 Bucatore.md`.
+Rapporto integrale in [[H11 Bucatore]].
 
 **Il canale italiano è presidiato.**
 - Studio Giochi serve da oltre 40 anni La Stampa, i 15 quotidiani locali ex GEDI e Il Sole 24 Ore (https://studiogiochi.com/i-nostri-clienti/).
@@ -118,7 +118,7 @@ Rapporto integrale in `wiki/Rapporti/S4/H11 Bucatore.md`.
 - In Europa ci sono incumbent (Keesing, PA Media, Amuse Labs) e il vantaggio di lingua sparisce.
 
 ## Idee concrete che sopravvivono
-- [[I-H11-1 Quiz locali automatici per testate]] — punteggio v2: **56**
+- [[I-H11-1 Quiz locali automatici per testate]] — punteggio v2: **56** (54 in [[Classifica]])
 
 Scartate:
 - prezzo della spesa, come prodotto autonomo: nessuna domanda, rischio art. 102-bis, il dato fresco non serve al gioco;
@@ -127,7 +127,7 @@ Scartate:
 - feed per piattaforme: nessun listino né domanda trovati.
 
 ## Fonti
-Elenchi completi con data di accesso nei rapporti `wiki/Rapporti/S4/H11 Entusiasta.md` e `wiki/Rapporti/S4/H11 Bucatore.md`.
+Elenchi completi con data di accesso nei rapporti [[H11 Entusiasta]] e [[H11 Bucatore]].
 
 Fonti lette dal Giudice il 2026-11-20:
 - https://amuselabs.com/pricing/

@@ -87,7 +87,7 @@ Sintesi di [[H02 Bucatore]] (22 ricerche web).
 - **Probabilità di successo: 5%.** Il budget AI esiste ma va a pochi; un piccolo fornitore di dati verticali si ritrova nel modello H01, con in più una domanda specifica non dimostrata.
 
 ## Idee concrete che sopravvivono
-- [[I-H02-1 Feed Italia in tempo reale per assistenti di viaggio]]: punteggio v2 **49**. È la più debole della sessione; si tiene solo perché è l'unica con dati che i grandi non coprono, e va validata prima con lettere d'intenti.
+- [[I-H02-1 Feed Italia in tempo reale per assistenti di viaggio]]: punteggio v2 **49** (43 in [[Classifica]]). È la più debole della sessione; si tiene solo perché è l'unica con dati che i grandi non coprono, e va validata prima con lettere d'intenti.
 
 Scartate:
 - **Server MCP a pagamento come business autonomo:** registri chiusi o gratuiti, casi indie a 0-345 $ al mese.

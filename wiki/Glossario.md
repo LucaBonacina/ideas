@@ -15,9 +15,30 @@ Termini e sigle usati nella wiki.
 | **Penalità di conflitto** | Sottrazione per il rischio di conflitto con il lavoro attuale: −8 se l'idea vende dati o servizi di scraping a terzi, −2 se lo scraping è uno strumento interno, −1 se serve solo a trovare opportunità, 0 se non c'entra. Vedi [[Classifica]]. |
 | **Primo giro / secondo giro** | Primo giro: ogni ipotesi esaminata da Entusiasta, Bucatore e Giudice. Secondo giro: approfondimento delle 4 idee scelte, con un nuovo confronto. |
 | **Entusiasta / Bucatore di palloncini / Giudice** | I tre ruoli della discovery: chi costruisce il caso a favore, chi cerca di smentirlo, chi verifica e decide. |
-| **Obiettivi A, B, C** | A = reddito extra di 1-2 k€/mese; B = business da almeno 50 k€/anno di margine entro 24 mesi; C = costruire un asset e venderlo entro 12-18 mesi. Vedi [[Classifica per obiettivo]]. |
-| **Gate** | Condizione da superare prima di tutto (es. autorizzazione del datore, parere legale, capitale): senza, l'idea è ferma. |
+| **Obiettivi A, B, C** | A = reddito extra di 1-2 k€/mese netti (~20-40 k€/anno di margine prima delle tasse); B = business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana dopo l'avvio; C = costruire un asset e venderlo entro 12-18 mesi. Vedi [[Classifica per obiettivo]]. |
+| **Gate** (nelle note anche **cancello**) | Condizione da superare prima di tutto (es. autorizzazione del datore, parere legale, capitale): senza, l'idea è ferma. |
+| **Kill / stop / criterio di arresto** | Risultato che, se si verifica durante un esperimento, fa fermare l'idea. |
+| **Confutata / parziale / incerta** | Esito di un'ipotesi: smentita dalle evidenze / vera solo in una forma ristretta / evidenze insufficienti per decidere. |
 | **[fatto] / [stima]** | Dato verificato su una fonte / valutazione con il ragionamento dichiarato. |
+| **B2B / B2C** | Vendita ad aziende / a consumatori. |
+| **Founder** | Chi avvia il progetto (qui: l'utente). |
+| **SEO** | Ottimizzazione per farsi trovare su Google. |
+| **FTE** | Equivalente a tempo pieno (1 FTE = una persona a tempo pieno). |
+| **Earn-out / pagamento differito** | Parte del prezzo di acquisto pagata dopo, in base ai risultati. |
+| **White label** | Prodotto venduto da un'altra azienda con il proprio marchio. |
+| **KPI** | Indicatori chiave misurati per decidere. |
+| **SLA** | Livello di servizio garantito per contratto. |
+| **LOI** | Lettera d'intenti: impegno scritto non vincolante. |
+| **CAC / LTV** | Costo per acquisire un cliente / valore totale di un cliente nel tempo. |
+| **CPC** | Costo per clic nella pubblicità online. |
+| **ARPU / ARPA** | Ricavo medio per utente / per account. |
+| **ASO** | Ottimizzazione per farsi trovare negli store di app. |
+| **SKU** | Singolo articolo di un catalogo. |
+| **GTIN / MPN** | GTIN: famiglia di codici standard di prodotto di cui fa parte l'EAN. MPN: codice del produttore. |
+| **MAP** | Prezzo minimo pubblicizzato imposto da un marchio ai rivenditori. |
+| **PEC** | Posta elettronica certificata, con valore legale. |
+| **ADR** | Risoluzione alternativa delle controversie (es. conciliazioni, arbitro dell'energia). |
+| **MCP** | Protocollo con cui le applicazioni AI si collegano a fonti di dati e strumenti esterni. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |

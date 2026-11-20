@@ -96,7 +96,7 @@ Ulteriore verifica (1 ricerca web): la validità di una disdetta inviata *da ter
 - **Tutte le idee ovvie** attaccate dal Bucatore.
 
 ## Idee concrete che sopravvivono
-- [[I-H06-1 Disdetta digitale per l'Italia]] — punteggio v2: **42** dopo il secondo giro (58 al primo)
+- [[I-H06-1 Disdetta digitale per l'Italia]] — punteggio v2: **42** dopo il secondo giro, 58 al primo (41 in [[Classifica]])
 
 ## Fonti
 Accesso a tutte le fonti: 2026-11-20. Gli elenchi completi sono in [[H06 Entusiasta]] e [[H06 Bucatore]].

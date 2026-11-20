@@ -10,6 +10,8 @@ tags: [idea, S1]
 ---
 # I-H01-2 — API di dati sulla visibilità nelle risposte AI, in più lingue
 
+> **Gate aggiornato.** Questa idea vende dati raccolti con lo scraping: serve l'**autorizzazione scritta del datore prima di qualunque esperimento**, anche preparatorio (vedi [[Raccomandazione]], punto 4, e [[I-H16-1 Autorizzazione scritta e veicolo societario]]). Prevale su eventuali passi più leggeri indicati sotto.
+
 > **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
 
 ## In una frase

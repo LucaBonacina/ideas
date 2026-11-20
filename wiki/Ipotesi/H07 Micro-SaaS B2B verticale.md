@@ -80,8 +80,8 @@ Rapporto integrale: [[H07 Bucatore]].
   - il founder a 5 h/settimana e il canale di acquisizione incerto le abbassano.
 
 ## Idee concrete che sopravvivono
-- [[I-H07-1 Intelligence OTA per operatori di tour]] — punteggio v2: **57**
-- [[I-H07-2 Rate shopper per autonoleggi]] — punteggio v2: **56**
+- [[I-H07-1 Intelligence OTA per operatori di tour]] — punteggio v2: **57** (49 in [[Classifica]])
+- [[I-H07-2 Rate shopper per autonoleggi]] — punteggio v2: **56** (48 in [[Classifica]])
 
 Scartate:
 - **Monitoraggio MAP senza EAN:** il mercato è affollato, la vendita richiede demo e si sovrappone a H03.

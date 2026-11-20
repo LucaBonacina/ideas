@@ -103,8 +103,8 @@ Sintesi del rapporto integrale: [[H05 Bucatore]]. Posizione: **sostanzialmente c
   È comunque la più promettente delle tre ipotesi della sessione.
 
 ## Idee concrete che sopravvivono
-- [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] — punteggio v2: **49** dopo il secondo giro (60 al primo)
-- [[I-H05-2 App utility trovate via scraping degli store]] — punteggio v2: **56**
+- [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] — punteggio v2: **49** dopo il secondo giro, 60 al primo (48 in [[Classifica]])
+- [[I-H05-2 App utility trovate via scraping degli store]] — punteggio v2: **56** (55 in [[Classifica]])
 
 Scartate:
 - **T4** (directory consumer con dati da rinnovare): ricade nei problemi di H04 (dipendenza da Google, core update di marzo 2026 contro le directory).

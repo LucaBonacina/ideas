@@ -75,8 +75,8 @@ Rapporto integrale: [[H09 Bucatore]].
   - il founder a 5 ore/settimana le abbassa.
 
 ## Idee concrete che sopravvivono
-- [[I-H09-1 Sync fornitori senza feed]] — punteggio v2: **49** dopo il secondo giro (69 al primo)
-- [[I-H09-2 Schede prodotto da EAN]] — punteggio v2: **56**
+- [[I-H09-1 Sync fornitori senza feed]] — punteggio v2: **49** dopo il secondo giro, 69 al primo (50 in [[Classifica]])
+- [[I-H09-2 Schede prodotto da EAN]] — punteggio v2: **56** (48 in [[Classifica]])
 
 Scartate: posizione sui comparatori (domanda debole, al massimo una funzione dell'idea 1); estensione per i rivenditori di Vinted (policy di Chrome e Vinted, nessun pagamento nativo); tutte le idee ovvie attaccate dal Bucatore.
 

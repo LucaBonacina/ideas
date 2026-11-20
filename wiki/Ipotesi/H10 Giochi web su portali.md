@@ -21,7 +21,7 @@ Confutata se:
 2. servono competenze di game design che il team non ha.
 
 ## Caso a favore — Entusiasta
-Rapporto integrale: `wiki/Rapporti/S4/H10 Entusiasta.md`.
+Rapporto integrale: [[H10 Entusiasta]].
 
 **Pubblico grande.** Poki dichiara:
 - 100 M di giocatori al mese;
@@ -62,7 +62,7 @@ Tutti e tre i casi sono raccontati sul blog di Poki.
 - la competenza di game design va comprata.
 
 ## Caso contro — Bucatore di palloncini
-Rapporto integrale: `wiki/Rapporti/S4/H10 Bucatore.md`.
+Rapporto integrale: [[H10 Bucatore]].
 
 **Scraping di CrazyGames (700 giochi recenti):**
 - mediana: 57.156 partite;
@@ -124,7 +124,7 @@ Il gioco mediano incassa quindi poche centinaia di euro.
 Nessuna: l'ipotesi è confutata.
 
 ## Fonti
-Elenchi completi nei rapporti `wiki/Rapporti/S4/H10 Entusiasta.md` e `wiki/Rapporti/S4/H10 Bucatore.md`.
+Elenchi completi nei rapporti [[H10 Entusiasta]] e [[H10 Bucatore]].
 
 Lette dal Giudice il 2026-11-20:
 - https://poki.com/blog/2025-at-poki-a-year-in-review

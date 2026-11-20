@@ -113,4 +113,4 @@ Tutte con accesso 2026-11-20.
 - Cass. pen. 13341/2024, massima: https://brocardi.it/massimario/81023.html (letto)
 - ecnews, cessione del credito e art. 115 TULPS: https://www.ecnews.it/legale/diritto-civile/diritto-bancario/cessione-del-credito-e-licenza-ex-art-115-tulps/ (letto)
 - deQuo, bollette errate: https://www.dequo.it/articoli/bollette-errate (letto)
-- Rapporti integrali: `wiki/Rapporti/S5/H15 Entusiasta.md`, `wiki/Rapporti/S5/H15 Bucatore.md`
+- Rapporti integrali: [[H15 Entusiasta]], [[H15 Bucatore]]

@@ -22,7 +22,7 @@ Confutata se:
 - (c) gli incumbent (ZigZag, Spiagge.it, app outdoor) coprono già il bundle.
 
 ## Caso a favore — Entusiasta
-Rapporto integrale: `wiki/Rapporti/S5/H13 Entusiasta.md` (7 WebSearch).
+Rapporto integrale: [[H13 Entusiasta]] (7 WebSearch).
 
 **Tesi.** Il caso forte non è unire cinque siti informativi. È presidiare i **colli di bottiglia ad accesso regolato**, che crescono ogni anno.
 - **Tre Cime:** accesso solo con prenotazione online, 40 € per auto ([dolomiti.it](https://www.dolomiti.it/it/auronzo-misurina/news/tre-cime-strada-pedaggio-accesso-prenotazione-online), letto). Nel primo anno il portale ha avuto "oltre 100.000 accessi in un mese", il 65% dall'estero e il 68% da mobile ([ildolomiti.it](https://www.ildolomiti.it/cronaca/2025/parcheggi-alle-tre-cime-di-lavaredo-ecco-le-prime-prenotazioni-obbligatorie-quasi-5000-ticket-venduti-per-le-auto-il-costo-e-di-40-euro-al-giorno), letto).
@@ -52,7 +52,7 @@ I blog della nicchia monetizzano già con Mediavine, Stay22 e DiscoverCars.
 5. Monitor delle aperture dei rifugi.
 
 ## Caso contro — Bucatore di palloncini
-Rapporto integrale: `wiki/Rapporti/S5/H13 Bucatore.md` (12 WebSearch). Verdetto del Bucatore: (a) e (b) scattati, (c) scattato in parte; probabilità ≤ 5%.
+Rapporto integrale: [[H13 Bucatore]] (12 WebSearch). Verdetto del Bucatore: (a) e (b) scattati, (c) scattato in parte; probabilità ≤ 5%.
 
 **(a) La domanda è per singolo luogo, non per pacchetto.**
 - Le query "di bundle" sono quasi vuote: "app per viaggiare in italia" e "regole turisti italia" danno al massimo un suggerimento, contro i 10 di "lago di braies prenotazione".
@@ -126,7 +126,7 @@ Nessuna (ipotesi confutata). Le cinque idee dell'Entusiasta restano documentate 
 
 ## Fonti
 Tutte con accesso 2026-11-20.
-- Rapporti: `wiki/Rapporti/S5/H13 Entusiasta.md`, `wiki/Rapporti/S5/H13 Bucatore.md` (elenchi completi lì).
+- Rapporti: [[H13 Entusiasta]], [[H13 Bucatore]] (elenchi completi lì).
 - Verifiche del Giudice (lette):
   - https://www.travelpayouts.com/en/offers/getyourguide-affiliate-program/
   - https://www.travelpayouts.com/en/offers/localrent-affiliate-program/

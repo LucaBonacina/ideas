@@ -102,4 +102,4 @@ Tutte con accesso il 2026-11-20.
 - https://www.anso.it/
 - https://purplepublish.com/en/loesungen/lokalzeitungen
 - https://inn.org/resource/news-games/ (403, solo estratti)
-- Rapporti `wiki/Rapporti/S4/H11 Entusiasta.md` e `wiki/Rapporti/S4/H11 Bucatore.md`
+- Rapporti [[H11 Entusiasta]] e [[H11 Bucatore]]

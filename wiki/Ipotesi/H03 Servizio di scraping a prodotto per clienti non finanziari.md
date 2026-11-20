@@ -72,7 +72,7 @@ Sintesi di [[H03 Bucatore]] (14 ricerche web).
 | # | Affermazione | Chi la sostiene | Esito della verifica | Fonte |
 |---|---|---|---|---|
 | 1 | Il servizio gestito ha già un prezzo pubblico basso (ScrapeHero 199 $/sito/mese) che comprime il margine (Bucatore), oppure dimostra che il gestito si vende ben sopra il self-service (Entusiasta) | Divergenza di lettura | **Il listino è confermato e dà più ragione all'Entusiasta.** "Business Starts at $199… per month per website", setup a parte, "Up to 2" siti, 1-5K pagine per sito; "Complex websites cost more". Enterprise Basic "Minimum price is $1500 per month", fino a 4 siti. Un cliente di monitoraggio con 8 concorrenti costerebbe da ScrapeHero almeno circa 1.600 $/mese più setup [stima]. Un canone di 500-900 €/mese è quindi *sotto* il riferimento di mercato per un servizio gestito: lo spazio di prezzo c'è. | https://www.scrapehero.com/pricing/ |
-| 2 | Basta la "mera preordinazione" di un'attività concorrente per violare l'art. 2105 c.c. | Bucatore (e Entusiasta con Cass. 16377/2006) | **Confermato.** Cass. 19096/2013: "è sufficiente la mera preordinazione di un'attività contraria agli interessi del datore di lavoro anche solo potenzialmente produttiva di danno" (licenziamento legittimo di un dipendente socio di una Srl concorrente). Per H03, che vende proprio servizi di scraping come il founder fa per lavoro, la questione non è teorica. | https://www.studiocataldi.it/articoli/14116-cassazione-attivita-concorrenziale-e-violazione-dell-obbligo-di-fedelta.asp |
+| 2 | Basta la "mera preordinazione" di un'attività concorrente per violare l'art. 2105 c.c. | Bucatore (e l'Entusiasta, con Cass. 16377/2006) | **Confermato.** Cass. 19096/2013: "è sufficiente la mera preordinazione di un'attività contraria agli interessi del datore di lavoro anche solo potenzialmente produttiva di danno" (licenziamento legittimo di un dipendente socio di una Srl concorrente). Per H03, che vende proprio servizi di scraping come il founder fa per lavoro, la questione non è teorica. | https://www.studiocataldi.it/articoli/14116-cassazione-attivita-concorrenziale-e-violazione-dell-obbligo-di-fedelta.asp |
 | 3 | Il fallimento di Wiser mostra che la price intelligence non genera margini (Bucatore) | Bucatore | **Il fatto è confermato, l'inferenza è debole.** Chapter 11 del 26/04/2026, circa 563 M$ di debito. Le cause dichiarate sono 11 acquisizioni a debito e piattaforme duplicate: "ARR grew… but operating costs grew faster". È un caso di leva finanziaria e integrazione fallita, non una prova sull'economia di un servizio piccolo. | https://chapter11cases.com/blogs/news/in-re-wiser-solutions-a-credit-bid-section-363-sale-on-a-65-day-timeline |
 
 Non verificato: l'annuncio Flippa con margine del 56% e meno di 2 h/giorno risponde 403. Escluso dal giudizio.
@@ -93,8 +93,8 @@ Non verificato: l'annuncio Flippa con margine del 56% e meno di 2 h/giorno rispo
 **Prima azione per qualunque idea di S1:** leggere il contratto e chiedere un parere giuslavoristico (1-2 ore). Se il datore vende scraping a terzi, serve un'autorizzazione scritta, che è anche la mitigazione indicata dall'Entusiasta.
 
 ## Idee concrete che sopravvivono
-- [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]]: punteggio v2 **52** dopo il secondo giro (66 al primo).
-- [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]]: punteggio v2 **58**.
+- [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]]: punteggio v2 **52** dopo il secondo giro, 66 al primo (52 in [[Classifica]]).
+- [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]]: punteggio v2 **58** (56 in [[Classifica]]).
 
 Scartate:
 - **Rate shopping per l'ospitalità:** strumenti a 35-100 $/mese, incumbent forte (Lighthouse con oltre 70.000 strutture), siti OTA molto difesi.

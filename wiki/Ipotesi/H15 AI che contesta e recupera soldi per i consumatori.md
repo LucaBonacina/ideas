@@ -22,7 +22,7 @@ Confutata se:
 - (c) il mercato è già coperto (AirHelp e simili) o i canali ufficiali gratuiti bastano.
 
 ## Caso a favore — Entusiasta
-Rapporto integrale: `wiki/Rapporti/S5/H15 Entusiasta.md` (16 WebSearch).
+Rapporto integrale: [[H15 Entusiasta]] (16 WebSearch).
 
 **Tesi.** H15 regge se la si restringe a **maxi-bollette e conguagli di energia e acqua**, più un'infrastruttura dati per i voli venduta a chi ha già i clienti. Voli verso il consumatore, telefonia, treni e spese di gestione multe dei noleggiatori cadono invece su (b) o (c).
 
@@ -51,7 +51,7 @@ Rapporto integrale: `wiki/Rapporti/S5/H15 Entusiasta.md` (16 WebSearch).
 4. Multe ZTL dei turisti stranieri, debole.
 
 ## Caso contro — Bucatore di palloncini
-Rapporto integrale: `wiki/Rapporti/S5/H15 Bucatore.md` (17 WebSearch). Verdetto del Bucatore: **confutata** su (a) e, per voli e bollette, su (c).
+Rapporto integrale: [[H15 Bucatore]] (17 WebSearch). Verdetto del Bucatore: **confutata** su (a) e, per voli e bollette, su (c).
 
 **Criterio (a).**
 - **Licenza:** "agisco per te e trattengo una %" è recupero stragiudiziale per conto terzi e richiede la licenza del Questore (art. 115 c. 6 TULPS).
@@ -113,7 +113,7 @@ La fiducia è bassa per tre motivi:
 **Probabilità di successo: 10%** [stima]. Corrisponde allo scenario in cui un parere legale conferma la struttura, il costo di acquisizione per pratica firmata resta sotto 80 € e si arriva a circa 500 pratiche vinte l'anno con commissione al 20-25%.
 
 ## Idee concrete che sopravvivono
-- [[I-H15-1 Contestazione maxi-bollette a successo]] — punteggio v2: **45**
+- [[I-H15-1 Contestazione maxi-bollette a successo]] — punteggio v2: **45** (44 in [[Classifica]])
 
 Scartate dal Giudice:
 - **White-label voli B2B:** AirHelp ha già partnership e un prodotto per i partner, e manca un listino.
@@ -122,7 +122,7 @@ Scartate dal Giudice:
 
 ## Fonti
 Tutte con accesso 2026-11-20.
-- Rapporti: `wiki/Rapporti/S5/H15 Entusiasta.md`, `wiki/Rapporti/S5/H15 Bucatore.md` (elenchi completi lì).
+- Rapporti: [[H15 Entusiasta]], [[H15 Bucatore]] (elenchi completi lì).
 - Verifiche del Giudice:
   - ARERA, relazione Conciliazione 2025: https://arera.it/fileadmin/allegati/consumatori/conciliazione/Relazione_annuale_2025/Servizio_Conciliazione_Relazione_annuale_2025_IT_20260618.pdf (letto)
   - Cass. pen. 13341/2024, massima: https://brocardi.it/massimario/81023.html (letto)

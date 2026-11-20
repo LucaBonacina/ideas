@@ -132,7 +132,7 @@ Rapporti integrali: [[I-H03-1 Entusiasta]] (13 ricerche web) e [[I-H03-1 Bucator
 | C7 Difendibilità (5) | 3 | 3 | — |
 | C8 Debolezza degli incumbent (5) | 3 | **2** | Concorrente italiano verticale verificato (NetPricer); Price2Spy ibrido con umani verificato; Dealavo |
 | C9 Primo euro (5) | 3 | 3 | — |
-| C10 Delegabilità (10) | 3 | **2** | Team a mercato di 145-180 k€ (concordano entrambi); la vendita tecnica dei primi 6-12 mesi dipende dal founder |
+| C10 Delegabilità (10) | 3 | **2** | Team a mercato di 145-180 k€ (l'Entusiasta stima 155-180 k€; i due ruoli concordano sull'ordine di grandezza); la vendita tecnica dei primi 6-12 mesi dipende dal founder |
 | C11 Tetto a 24 mesi (5) | 3 | 3 | — |
 | **Lordo** | 73 | **61** | (40+20+60+45+45+20+15+10+15+20+15)/5 |
 | Penalità | −7 | **−9** | −8 conflitto con il lavoro (stessa attività economica del datore: vendita a terzi di dati estratti dal web; H16 fascia −5/−10, parte alta); −1 termini d'uso delle fonti |
