@@ -99,3 +99,14 @@ Manca una ricerca avanzata di punti di interesse, servizi, regole e bonus per ge
 ### H23 Coordinamento e accordi della famiglia
 Coppie, nonni e tate litigano o si coordinano male su regole, turni, spese, regali e "vizi": uno strumento di coordinamento e di accordi condivisi ha spazio.
 **Confutata se:** app di organizzazione familiare consolidate coprono il bisogno; il problema è relazionale e non si risolve con uno strumento; non esiste disponibilità a pagare.
+
+## Filone famiglia, secondo giro (registrato il 2026-11-20, prima della ricerca)
+Nate dalle obiezioni dell'utente ai risultati di H20 e H22. Valgono gli obiettivi di [[Classifica per obiettivo]], **con priorità all'obiettivo A** e con il "modello leggero" descritto nel [[Protocollo di discovery]] (decisioni del 2026-11-20).
+
+### H20b Un prodotto per la famiglia allargata che vive dove i nonni sono già
+I nonni di oggi usano molto lo smartphone (WhatsApp 78% degli over 65, Censis 2025). Un prodotto per coordinare la famiglia allargata intorno al bambino (aggiornamenti, foto, lista regali, turni, cose da sapere) che **non chiede ai nonni di installare nulla** (vive in WhatsApp, via link o via web) ha uno spazio che le app dedicate non hanno colto.
+**Confutata se:** i servizi esistenti (gruppi WhatsApp, album condivisi, FamilyAlbum, liste regali con link) coprono già il bisogno senza attriti rilevanti; le regole di WhatsApp per le aziende rendono il prodotto impraticabile o costoso; non c'è un modo di ricavare almeno i costi più un piccolo margine (obiettivo A con modello leggero).
+
+### H22b Un unico punto di accesso a informazioni che esistono ma sono disperse
+Bonus nazionali, regionali e comunali, nidi (non solo quelli della mappa INPS), servizi per l'infanzia e regole locali esistono, ma sono su molti portali diversi, e molti genitori non sanno nemmeno che esistono (es. la mappa INPS dei nidi). Un aggregatore unico, aggiornato con lo scraping e personalizzato per comune ed età del bambino, ha valore anche se ogni singola informazione è già pubblica.
+**Confutata se:** un servizio esistente fa già l'aggregazione completa per comune (non solo i bonus nazionali); la frammentazione reale è bassa (pochi portali coprono quasi tutto); la mappa INPS copre già tutti i nidi, pubblici e privati; non esiste un canale per farsi trovare dai genitori; non c'è un modo di ricavare almeno i costi più un piccolo margine.
