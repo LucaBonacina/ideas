@@ -28,8 +28,10 @@ Con un lavoro a tempo pieno, il modello regge solo se c'è una persona a tempo p
 - Steam e mobile: il 65,9% dei giochi incassa meno di 1.000 $; un team delegato costa ~165-185 k€/anno. Vedi [[H12 Giochi indie su Steam o mobile]].
 - Giochi daily su dati: non monetizzano in B2C; i grandi editori li fanno in casa. Resta una nicchia di quiz per testate locali. Vedi [[H11 Giochi quotidiani basati su dati]].
 
-## 5. Dove restano soldi: B2B con distribuzione integrata
-Le idee migliori vendono a piccole imprese **attraverso uno store di piattaforma** (Shopify, WooCommerce) o risolvono un problema di **dati di catalogo e prezzi senza codici standard**. La distribuzione arriva dallo store, il vantaggio dal matching difficile.
+## 5. Dove restano soldi
+- **Al primo giro** le idee migliori vendevano a piccole imprese attraverso uno store di piattaforma (Shopify, WooCommerce) o risolvevano problemi di dati di catalogo e prezzi senza codici standard.
+- **Il secondo giro le ha ridimensionate:** i portali dei grossisti vietano i bot, il monitoraggio prezzi coincide con l'attività del datore e ha già concorrenti in italiano.
+- **Restano in piedi soprattutto due strade, e per obiettivi piccoli:** comprare un software già redditizio e i quiz per testate locali. Vedi [[Classifica per obiettivo]].
 
 ## 6. Le distribuzioni contano più dei casi di successo
 In ogni area i giudici hanno trovato mediane molto basse (Apify: ~30 $/mese per sviluppatore; micro-SaaS: 68% sotto 1 k$/mese; app: ~72 $/mese). I casi celebri sono l'eccezione.

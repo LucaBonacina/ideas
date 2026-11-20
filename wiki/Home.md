@@ -8,7 +8,10 @@ aggiornato: 2026-11-20
 Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scraping, **senza lasciare il lavoro** e affidando la gestione a persone di fiducia.
 
 ## In breve
-Dopo due giri di verifica, **nessuna idea supera 52 punti su 100** e le probabilità di successo stimate sono tra il 3% e il 7%. Con un obiettivo di reddito extra (1-2 k€/mese) il quadro migliora: vedi [[Classifica per obiettivo]]. La raccomandazione è prima sciogliere il nodo del contratto di lavoro, poi al massimo un esperimento a costo quasi zero. Vedi [[Raccomandazione]].
+- **Reddito extra (1-2 k€/mese):** due strade realistiche, comprare un piccolo software già redditizio o costruire quiz automatici per testate locali.
+- **Business da ≥ 50 k€/anno:** nessuna idea supera il 10% di probabilità secondo i giudici.
+- **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
+Vedi [[Raccomandazione]] e [[Classifica per obiettivo]].
 
 ## Da leggere per primo
 1. [[Raccomandazione]] — cosa farei, in che ordine, e perché
@@ -42,7 +45,7 @@ Dopo due giri di verifica, **nessuna idea supera 52 punti su 100** e le probabil
 | Trasversali | [[H16 Founder a tempo parziale]] | parziale | 15% |
 | | [[H17 Vantaggio dello scraping]] | parziale | 10% |
 
-"Prob." = probabilità di successo stimata dal giudice: ≥ 50 k€/anno di margine entro 24 mesi, con il founder a ≤ 5 ore/settimana.
+"Prob." = probabilità di successo stimata dal giudice per l'obiettivo "business": ≥ 50 k€/anno di margine entro 24 mesi, con il founder a ≤ 5 ore/settimana. Per gli altri obiettivi vedi [[Classifica per obiettivo]].
 
 ## Archivio
 Le fasi precedenti (screening di portali da rifare, B2C) sono nella cartella `docs/` del repo: [[05 Screening B2C]].

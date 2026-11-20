@@ -25,6 +25,8 @@ Le 4 idee migliori sono state riesaminate con un nuovo confronto Entusiasta cont
 
 Dettagli nella sezione "Approfondimento (round 2)" di ogni nota e nei rapporti in `Rapporti/R2/`.
 
+> **Attenzione al confronto.** I punteggi del secondo giro non sono confrontabili con quelli del primo: il secondo giro ha ricalibrato il vantaggio dello scraping e il costo della delega, e queste correzioni abbassano tutte le idee. Le idee rimaste al primo giro (es. [[I-H01-1 Portafoglio di actor su target difficili non personali]] a 58, [[I-H11-1 Quiz locali automatici per testate]] a 56) **non sono migliori** delle 4 approfondite: semplicemente non sono state ricalibrate. Tutti i punteggi misurano l'obiettivo "business ≥ 50 k€/anno"; per gli altri obiettivi vedi [[Classifica per obiettivo]].
+
 ## Classifica armonizzata (round 1)
 | # | Idea | Lordo | Altre penalità | Conflitto | **v2 armonizzato** | v2 della sessione | Founder h/sett | Investimento iniziale [stima] |
 |---|---|---|---|---|---|---|---|---|
