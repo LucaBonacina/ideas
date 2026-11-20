@@ -28,7 +28,7 @@ Le altre penalità (legali, di piattaforma) restano quelle dei giudici. Il proto
 
 **Perché sono scesi:** sia per due correzioni di metodo (il costo di un operatore pagato a mercato, da [[H16 Founder a tempo parziale]]; il vantaggio dello scraping ricalibrato, da [[H17 Vantaggio dello scraping]]), sia per fatti nuovi verificati (concorrenti, termini d'uso dei portali, vincoli di piattaforma).
 
-**Attenzione al confronto:** i punteggi del secondo giro non sono confrontabili con quelli del primo. Le idee rimaste al primo giro non sono migliori delle 4 approfondite: semplicemente non sono state ricalibrate, e probabilmente scenderebbero anche loro.
+**Attenzione al confronto:** i punteggi del secondo giro non sono confrontabili con quelli del primo. Le idee rimaste al primo giro non sono migliori delle 4 approfondite: semplicemente non sono state ricalibrate, e probabilmente scenderebbero anche loro. Inoltre alcune di quelle note assegnano 4 o 5 a criteri senza una fonte, contro la regola del protocollo "senza evidenza al massimo 2" (per esempio [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]], [[I-H01-2 API dati di visibilità nelle risposte AI multilingua]], [[I-H11-1 Quiz locali automatici per testate]], [[I-H09-2 Schede prodotto da EAN]], [[I-H07-2 Rate shopper per autonoleggi]]): applicando la regola scenderebbero ancora.
 
 Il test pratico previsto in [[I-H17-1 Test di replicabilità dello scraping]] non è stato eseguito: la ricalibrazione del vantaggio dello scraping è stata fatta a tavolino, con la regola di H17.
 

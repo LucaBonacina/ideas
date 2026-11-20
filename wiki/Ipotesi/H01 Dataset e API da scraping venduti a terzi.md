@@ -10,6 +10,8 @@ tags: [ipotesi, S1]
 ---
 # H01 — Dataset e API da scraping venduti a terzi
 
+> **Gate aggiornato.** Per le idee di questa ipotesi che vendono dati o servizi di scraping serve l'**autorizzazione scritta del datore prima di qualunque esperimento**, con parere di un avvocato del lavoro (vedi [[Raccomandazione]], punto 4). Prevale sulle indicazioni più leggere scritte sotto.
+
 > **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
 
 Rapporti integrali: [[H01 Entusiasta]] · [[H01 Bucatore]]. Metodo: [[Protocollo di discovery]]. Profilo: [[Profilo e vincoli]].

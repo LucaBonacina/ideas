@@ -6,7 +6,8 @@ punteggio_v2: 49
 punteggio_v2_r1: 60
 verdetto_r2: "ridimensionata: capitale reale 1,5x, leva di prezzo bloccata su Shopify, trasferimento a discrezione della piattaforma"
 modello_ricavo: "abbonamenti B2B di un SaaS acquisito (20-200 $/mese a cliente)"
-tempo_founder_h_sett: 5 # 5-8 durante la ricerca dei deal
+tempo_founder_h_sett: 5
+tempo_founder_h_sett_nota: "5-8 durante la ricerca dei deal"
 investimento_iniziale_eur: "obiettivo B: 350-475 k€ dopo il secondo giro (150-300 k€ al primo); obiettivo A: ~165-285 k€ (vedi Raccomandazione) [stima]"
 tags: [idea, S2, R2]
 ---
@@ -122,7 +123,7 @@ Rapporti integrali: [[I-H05-1 Entusiasta]] (16 ricerche web) e [[I-H05-1 Bucator
 - **I target sono elencabili da API pubbliche** (misure proprie del 2026-11-20, solo dati aggregati):
   - WordPress.org: 510 plugin con ≥ 5.000 installazioni fermi da oltre 12 mesi, 338 dei quali con una homepage esterna, usata come indizio di un Pro (stima di 100-170 Pro veri);
   - Atlassian: 173 app cloud a pagamento con ≥ 50 installazioni ferme da 12 mesi, 128 su Connect;
-  - Shopify: circa 460 app "spente" con ≥ 50 recensioni, da un campione di 400.
+  - Shopify: circa 460 app "spente" con ≥ 50 recensioni (stima estrapolata da un campione di 400 schede).
   In totale circa 700-1.000 target.
 - **I clienti restano anche con un prodotto abbandonato.** Lo mostrano le recensioni: "I don't know of an alternative so we stick with it"; un plugin con 60.000 installazioni fermo dal 2024 e una licenza Pro ormai inutile.
 - **Angolo migliore: Atlassian.** La fine del supporto a Connect (31/01/2027) e la fine vita dei Data Center (2029) creano venditori costretti a scegliere tra migrare e vendere, e la migrazione a Forge è il lavoro in cui il profilo è forte.
@@ -140,7 +141,7 @@ Rapporti integrali: [[I-H05-1 Entusiasta]] (16 ricerche web) e [[I-H05-1 Bucator
   - Atlassian: Connect con revenue share al 25% e fine supporto; Data Center chiuso ai nuovi clienti.
   - WordPress.org: la FAQ sconsiglia agli sviluppatori di rispondere alle offerte di acquisto. Dopo il caso Essential Plugin (comprato su Flippa, poi backdoor) chi compra è sospetto.
 - **Il filtro seleziona prodotti in declino.** Il primo target verificato (GrowthHero, 102 recensioni) è dichiarato "abandoned" e non funziona. Il funnel off-market documentato è brutale: 700 contatti, 4 LOI e 0 chiusure in 9 mesi. Solo il 48% dei search fund arriva a comprare.
-- **Economia.** Lo SDE include il lavoro del venditore. Con un SDE di 60 k€ e un operatore a mercato restano 10-25 k€. Per 50 k€ servono 315-475 k€ di prezzo. Sotto 300 k$ i multipli realizzati sono 1,8-2,9x, ma per buone ragioni di rischio. Le tasse lasciano circa 28 k€ netti su 50 k€ di margine.
+- **Economia.** Lo SDE include il lavoro del venditore. Con un SDE di 60 k€ e un operatore a mercato restano 10-25 k€. Per 50 k€ servono 315-475 k€ di prezzo. Sotto 300 k$ i multipli realizzati sono 1,85-2,24x (richiesti fino a 2,9x), ma per buone ragioni di rischio. Le tasse lasciano circa 28 k€ netti su 50 k€ di margine.
 - **Conflitto con il lavoro:** basso (0/−1), escludendo gli asset di dati, lead o scraping.
 - **Punteggio proposto:** circa 48.
 

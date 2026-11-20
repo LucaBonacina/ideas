@@ -93,7 +93,7 @@ Somma ponderata: 40 + 30 + 30 + 30 + 30 + 15 + 10 + 15 + 15 + 30 + 15 = 260, qui
 
 ## Esperimento di validazione (≤ 30 giorni, soglia di successo decisa prima)
 1. **Giorni 1-10:** parere scritto di un avvocato esperto di diritto dei consumatori e di professioni riservate (1-3 k€) sulla struttura "delega ADR a successo per contestazioni di importi non pagati". **Gate:** se il parere è negativo o richiede l'iscrizione all'albo per ogni pratica, stop.
-2. **Giorni 5-30 (in parallelo):**
+2. **Giorni 5-30 (in parallelo):** *nota: fino all'esito del parere sono ammessi solo test di domanda; i mandati si firmano solo dopo un parere favorevole.*
    - landing page "Hai ricevuto una maxi-bolletta? Analisi gratuita in 24 ore, paghi il 22% solo se annulliamo";
    - 2.000 € di Google Ads sulle query di intento forte;
    - analisi delle bollette fatta a mano da un operatore con il supporto di un LLM.

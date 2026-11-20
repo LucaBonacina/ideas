@@ -12,7 +12,7 @@ tags: [idea, raccomandazione-operativa]
 
 > Raccomandazione operativa emersa da [[H16 Founder a tempo parziale]]. Non genera ricavi: è la condizione perché le idee delle altre sessioni siano praticabili senza mettere a rischio il posto di lavoro. Per questo il punteggio v2 non si applica.
 
-> **Ambito (allineato con la [[Raccomandazione]]).** Tutti i passi valgono per le idee che vendono dati o servizi di scraping. Per le altre idee (es. comprare un software, quiz per testate) bastano il passo 1 (audit del contratto) e il passo 5 (igiene). Se il contratto prevede l'obbligo di comunicare altre attività, anche per queste vale il passo 3 prima di costituire la società.
+> **Ambito (allineato con la [[Raccomandazione]]).** Tutti i passi valgono per le idee che vendono dati o servizi di scraping. Per [[I-H09-1 Sync fornitori senza feed]] vale la regola specifica della [[Raccomandazione]], punto 4. Per le altre idee (es. comprare un software, quiz per testate) bastano il passo 1 (audit del contratto) e il passo 5 (igiene). Se il contratto prevede l'obbligo di comunicare altre attività, anche per queste vale il passo 3 prima di costituire la società.
 
 ## In una frase
 Per le idee che vendono dati o scraping (per le altre vedi il riquadro "Ambito" sopra): prima di costituire qualunque veicolo, mettere per iscritto il perimetro: verifica di contratto e CCNL, autorizzazione o comunicazione scritta al datore, poi una SRL con il founder socio di capitale non operativo e un operatore amministratore.

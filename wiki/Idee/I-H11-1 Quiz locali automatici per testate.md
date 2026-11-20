@@ -27,7 +27,7 @@ Ogni settimana, per ogni testata locale cliente, un feed *done-for-you* di quiz 
   - ParkerSyndication gratuito con il 50% della pubblicità (estratto).
 - **Prezzo ipotizzato:** 79-99 €/mese per testata, 249-490 €/mese per gruppo.
 - **Conti [stima]:**
-  - per 50 k€ di margine servono circa 60-80 testate equivalenti (stima senza i costi del team; con collaboratori e costi della società ne servono di più, vedi [[Classifica per obiettivo]]) paganti;
+  - per 50 k€ di margine servono circa 60-80 testate paganti equivalenti, a 99 €/mese (con il prezzo di 79 €/mese e gli stessi costi usati per l'obiettivo A ne servirebbero ~78-100, vedi [[Classifica per obiettivo]]);
   - è più del numero di quotidiani italiani (59, di cui 43 locali), quindi servono testate online (ANSO dichiara 150-300 testate) e poi l'estero.
 
 ## Distribuzione: come arrivano i primi 100 clienti/utenti
@@ -80,13 +80,13 @@ Ogni settimana, per ogni testata locale cliente, un feed *done-for-you* di quiz 
 | C8 Debolezza degli incumbent (5) | 3 | Nessun fornitore digitale italiano trovato; Studio Giochi e Keesing sono forti sulla stampa; gli strumenti esteri non localizzano | studiogiochi.com; amuselabs.com |
 | C9 Tempo al primo euro (5) | 4 | Prototipo in 4-6 settimane; vendita a canone mensile senza gara | stima |
 | C10 Delegabilità (10) | 4 | Pipeline automatica più operatore part-time; il founder è necessario solo all'avvio | stima |
-| C11 Tetto a 24 mesi (5) | 2 | Italia circa 30-90 k€/anno anche con buona penetrazione; oltre serve l'estero | stima del rapporto H11 Bucatore |
+| C11 Tetto a 24 mesi (5) | 2 | Circa 32 k€/anno sui soli quotidiani italiani; le testate online alzano il tetto, ma di quanto non è stato stimato; oltre serve l'estero | rapporto [[H11 Bucatore]] |
 
 Calcolo: (3·10 + 2·10 + 2·15 + 3·15 + 3·15 + 3·5 + 2·5 + 3·5 + 4·5 + 4·10 + 2·5) / 5 = 280 / 5 = **56**. Nessuna penalità: niente conflitto con il lavoro attuale (editoria locale, non finanza né business information), rischio legale gestito con il consenso dei clienti, nessuna piattaforma unica.
 
 ## Esperimento di validazione (≤ 30 giorni, soglia di successo decisa prima)
 1. **Settimane 1-2.** Pipeline minima sugli articoli di 3 testate locali, scelte tra quelle senza sezione giochi: RSS/scraping, generazione di 8 domande, revisione umana, widget embeddabile. Più una domanda "dato del territorio" (carburanti per provincia da open data MIMIT).
-2. **Settimane 1-4.** Outreach a 30 testate locali e regionali (direttori, responsabili digitali) con una demo sulla *loro* testata, generata dagli articoli della settimana prima. Offerta: 4 settimane gratis, poi 79 €/mese.
+2. **Settimane 1-4.** Outreach a 30 testate locali e regionali (direttori, responsabili digitali) con una demo sulla *loro* testata, generata dagli articoli della settimana prima presi dai feed RSS pubblici e mostrata solo a quella testata (non pubblicata): è l'unica eccezione alla regola "scraping solo dei siti dei clienti, con consenso". Offerta: 4 settimane gratis, poi 79 €/mese.
 3. **Soglie decise ora:**
    Le regole si applicano in quest'ordine:
    - **Fallimento:** meno di 2 impegni a pagare, oppure la risposta prevalente è "abbiamo già Studio Giochi/Keesing" o "lo facciamo gratis con tool esteri".

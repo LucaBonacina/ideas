@@ -36,7 +36,7 @@ Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 ## 6. Dove restano soldi
 - **Al primo giro** le idee migliori vendevano a piccole imprese attraverso uno store di piattaforma (Shopify, WooCommerce) o risolvevano problemi di dati di catalogo e prezzi senza codici standard.
 - **Il secondo giro le ha ridimensionate:** i portali dei grossisti vietano i bot; il monitoraggio prezzi coincide con l'attività del datore e ha già concorrenti in italiano.
-- **Per il reddito extra la strada più solida è comprare un software già redditizio,** se c'è il capitale. Con poco capitale, e senza autorizzazione del datore o pareri legali favorevoli, resta solo un'opzione debole: i quiz per testate locali. Per "costruisci e vendi" la strada migliore è comprare. Vedi [[Classifica per obiettivo]].
+- **Per il reddito extra la strada più solida è comprare un software già redditizio,** se c'è il capitale. Con poco capitale, e senza autorizzazione del datore o pareri legali favorevoli, restano due opzioni deboli: prendere app in gestione in revenue share e i quiz per testate locali. Per "costruisci e vendi" la strada migliore è comprare. Vedi [[Classifica per obiettivo]].
 
 ## 7. Le distribuzioni contano più dei casi di successo
 In ogni area i giudici hanno trovato mediane molto basse (Apify: ~30 $/mese per sviluppatore; piccoli software in abbonamento: 68% nella fascia 0-1 k$ di ricavi (TrustMRR, metrica non dichiarata); app: ~72 $/mese). I casi celebri sono l'eccezione.

@@ -51,6 +51,9 @@ Termini e sigle usati nella wiki.
 | **Margine di contribuzione** | Ricavi meno i costi variabili di ogni cliente (es. accesso ai siti, calcolo), prima dei costi fissi e del personale. |
 | **Asset** | Un'attività che si può vendere: software, sito, app con i suoi clienti e ricavi. |
 | **Tasso base** | Quota di progetti simili che raggiunge l'obiettivo, prima di considerare le specificità del caso. |
+| **Fasce di probabilità** | Usate per gli obiettivi A e C: bassa < 5%, media 5-15%. |
+| **Acquire.com, Flippa, Empire Flippers, FE International** | Piattaforme e intermediari per comprare e vendere piccoli business online. |
+| **Revenue share** | Accordo in cui si gestisce un prodotto altrui dividendo i ricavi, senza comprarlo. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |

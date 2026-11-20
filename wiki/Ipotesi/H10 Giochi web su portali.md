@@ -48,7 +48,7 @@ Tutti e tre i casi sono raccontati sul blog di Poki.
 - Playgama: non esclusivo;
 - YouTube Playables: in pilota.
 
-**Resa stimata [stima]:** 1-5 € ogni 1.000 partite. Per 50 k€ di margine servono 40-80 M di partite all'anno.
+**Resa stimata [stima]:** 1-5 € ogni 1.000 partite. Per 50 k€ di margine, contando anche i costi di produzione delegata, servono decine di milioni di partite all'anno (i rapporti stimano da 13-90 M a 40-80 M, con premesse diverse).
 
 **Idee proposte:**
 1. Daily puzzle da dati reali.

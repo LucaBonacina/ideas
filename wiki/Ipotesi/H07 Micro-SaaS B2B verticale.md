@@ -3,7 +3,8 @@ tipo: ipotesi
 id: H07
 titolo: "Micro-SaaS B2B verticale"
 sessione: S3
-stato: parziale # confutata come strategia generica; sopravvive solo il verticale a dati difficili con prezzo ≥ 100 €/mese
+stato: parziale
+stato_nota: "confutata come strategia generica; sopravvive solo il verticale a dati difficili con prezzo ≥ 100 €/mese"
 fiducia: media
 probabilita_successo: "8%"
 tags: [ipotesi, S3]

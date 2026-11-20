@@ -3,7 +3,8 @@ tipo: ipotesi
 id: H09
 titolo: "Estensioni e plugin su marketplace"
 sessione: S3
-stato: parziale # confutata nella forma generica; sopravvive la forma "app che vende dati web mantenuti"
+stato: parziale
+stato_nota: "confutata nella forma generica; sopravvive la forma 'app che vende dati web mantenuti'"
 fiducia: media
 probabilita_successo: "10%"
 tags: [ipotesi, S3]

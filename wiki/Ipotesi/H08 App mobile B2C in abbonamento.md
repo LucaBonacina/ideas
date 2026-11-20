@@ -3,7 +3,8 @@ tipo: ipotesi
 id: H08
 titolo: "App mobile B2C in abbonamento"
 sessione: S3
-stato: confutata # come strategia generale; resta una nicchia "app di dati freschi con prezzo alto" a bassa probabilità
+stato: confutata
+stato_nota: "come strategia generale; resta una nicchia 'app di dati freschi con prezzo alto' a bassa probabilità"
 fiducia: alta
 probabilita_successo: "5%"
 tags: [ipotesi, S3]
