@@ -8,7 +8,7 @@ verdetto_r2: "ridimensionata: capitale reale 1,5x, leva di prezzo bloccata su Sh
 modello_ricavo: "abbonamenti B2B di un SaaS acquisito (20-200 $/mese a cliente)"
 tempo_founder_h_sett: 5
 tempo_founder_h_sett_nota: "5-8 durante la ricerca dei deal"
-investimento_iniziale_eur: "obiettivo B: 350-475 k€ dopo il secondo giro (150-300 k€ al primo); obiettivo A: ~165-285 k€ (vedi Raccomandazione) [stima]"
+investimento_iniziale_eur: "obiettivo B: 350-475 k€ dopo il secondo giro (150-300 k€ al primo); obiettivo A: ~100-290 k€ (vedi Raccomandazione) [stima]"
 tags: [idea, S2, R2]
 ---
 # I-H05-1 — Micro-SaaS B2B trascurato con leva di prezzo
@@ -141,7 +141,7 @@ Rapporti integrali: [[I-H05-1 Entusiasta]] (16 ricerche web) e [[I-H05-1 Bucator
   - Atlassian: Connect con revenue share al 25% e fine supporto; Data Center chiuso ai nuovi clienti.
   - WordPress.org: la FAQ sconsiglia agli sviluppatori di rispondere alle offerte di acquisto. Dopo il caso Essential Plugin (comprato su Flippa, poi backdoor) chi compra è sospetto.
 - **Il filtro seleziona prodotti in declino.** Il primo target verificato (GrowthHero, 102 recensioni) è dichiarato "abandoned" e non funziona. Il funnel off-market documentato è brutale: 700 contatti, 4 LOI e 0 chiusure in 9 mesi. Solo il 48% dei search fund arriva a comprare.
-- **Economia.** Lo SDE include il lavoro del venditore. Con un SDE di 60 k€ e un operatore a mercato restano 10-25 k€. Per 50 k€ servono 315-475 k€ di prezzo. Sotto 300 k$ i multipli realizzati sono 1,85-2,24x (richiesti fino a 2,9x), ma per buone ragioni di rischio. Le tasse lasciano circa 28 k€ netti su 50 k€ di margine.
+- **Economia.** Lo SDE include il lavoro del venditore. Con un SDE di 60 k€ e un operatore a mercato restano 10-25 k€. Per 50 k€ servono 315-475 k€ di prezzo (420-475 k€ con un operatore a tempo pieno, secondo la tabella del rapporto). Sotto 300 k$ i multipli realizzati sono 1,85-2,24x (richiesti fino a 2,9x), ma per buone ragioni di rischio. Le tasse lasciano circa 28 k€ netti su 50 k€ di margine.
 - **Conflitto con il lavoro:** basso (0/−1), escludendo gli asset di dati, lead o scraping.
 - **Punteggio proposto:** circa 48.
 

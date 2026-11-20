@@ -15,7 +15,7 @@ Termini e sigle usati nella wiki.
 | **Penalità di conflitto** | Sottrazione per il rischio di conflitto con il lavoro attuale: −8 se l'idea vende dati o servizi di scraping a terzi, −2 se lo scraping è uno strumento interno, −1 se serve solo a trovare opportunità, 0 se non c'entra. Vedi [[Classifica]]. |
 | **Primo giro / secondo giro** | Primo giro: ogni ipotesi esaminata da Entusiasta, Bucatore e Giudice. Secondo giro: approfondimento delle 4 idee scelte, con un nuovo confronto. |
 | **Entusiasta / Bucatore di palloncini / Giudice** | I tre ruoli della discovery: chi costruisce il caso a favore, chi cerca di smentirlo, chi verifica e decide. |
-| **Obiettivi A, B, C** | A = reddito extra di 1-2 k€/mese netti (~20-40 k€/anno di margine prima delle tasse); B = business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana dopo l'avvio; C = costruire (o comprare e migliorare) un asset e venderlo entro 12-18 mesi. Vedi [[Classifica per obiettivo]]. |
+| **Obiettivi A, B, C** | A = reddito extra di 1-2 k€/mese netti (~21-43 k€/anno di margine prima delle tasse); B = business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana dopo l'avvio; C = costruire (o comprare e migliorare) un asset e venderlo entro 12-18 mesi dall'avvio. Vedi [[Classifica per obiettivo]]. |
 | **Gate** (nelle note anche **cancello**) | Condizione da superare prima di tutto (es. autorizzazione del datore, parere legale, capitale): senza, l'idea è ferma. |
 | **Kill / stop / criterio di arresto** | Risultato che, se si verifica durante un esperimento, fa fermare l'idea. |
 | **Confutata / parziale / incerta** | Esito di un'ipotesi: smentita dalle evidenze / vera solo in una forma ristretta / evidenze insufficienti per decidere. |
@@ -42,7 +42,7 @@ Termini e sigle usati nella wiki.
 | **Subagenti** | Gli agenti di ricerca (Entusiasta e Bucatore) avviati dal Giudice di ogni sessione. |
 | **Round 2** | Secondo giro. |
 | **Bot / anti-bot** | Programma automatico che visita i siti / protezioni dei siti contro i programmi automatici. |
-| **Margine / margine lordo** | Margine: quanto resta dopo tutti i costi, prima delle tasse. Margine lordo: prima del costo dell'operatore, dei costi fissi della società e dell'infrastruttura. |
+| **Margine / margine lordo** | Margine: quanto resta dopo tutti i costi, prima delle tasse. Margine lordo: prima di operatore, costi fissi della società e infrastruttura. |
 | **AI** | Intelligenza artificiale. |
 | **Ranking** | Posizione in una classifica (es. di un'offerta su un'agenzia online). |
 | **Back office** | Lavoro amministrativo e di gestione delle pratiche. |
@@ -60,7 +60,10 @@ Termini e sigle usati nella wiki.
 | **Micro-SaaS** | Piccolo software venduto in abbonamento online. |
 | **Plugin / app di marketplace** | Estensione venduta dentro uno store di piattaforma (Shopify, WordPress, Atlassian), che porta i clienti. |
 | **Atlassian Connect / Forge** | Due tecnologie per le app Atlassian: Connect va in dismissione (31/01/2027), le app vanno migrate a Forge. |
-| **Feed** | File o flusso con catalogo, prezzi e disponibilità che un fornitore mette a disposizione dei rivenditori. |
+| **Feed** | Flusso di dati aggiornato in modo automatico: per esempio il catalogo con prezzi e disponibilità che un fornitore dà ai rivenditori, o un feed RSS di articoli. |
+| **RSS** | Formato standard con cui un sito pubblica l'elenco dei suoi nuovi articoli. |
+| **Operatore** | Persona che gestisce l'attività al posto del founder (a tempo pieno o part-time). |
+| **Repository** | Archivio di file su GitHub che contiene questa wiki e i documenti di lavoro. |
 | **EAN / OEM** | EAN: codice a barre standard di un prodotto. OEM: codice del produttore originale (es. ricambi). |
 | **Matching** | Riconoscere lo stesso prodotto su siti diversi. |
 | **OTA** | *Online travel agency*: agenzie di viaggio online (GetYourGuide, Booking…). |

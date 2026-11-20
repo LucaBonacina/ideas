@@ -8,9 +8,10 @@ aggiornato: 2026-11-20
 Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scraping, **senza lasciare il lavoro** e affidando la gestione a persone di fiducia.
 
 ## In breve
-- **Nessuna idea ha una probabilità alta.** Le migliori stanno nella fascia 5-15%.
-- **Reddito extra (1-2 k€/mese netti):** la strada più solida è comprare un piccolo software già redditizio (servono ~165-285 k€). Con poco capitale non c'è una strada solida: le opzioni meno deboli sono prendere app in gestione in revenue share o costruire quiz automatici per testate locali.
-- **Costruisci e vendi:** la strada migliore è comprare, migliorare e rivendere.
+- **Nessuna idea ha una probabilità alta:** le migliori stanno nella fascia 5-15%.
+- **Reddito extra (1-2 k€/mese netti), con capitale (~100-290 k€):** la strada più solida è comprare un piccolo software già redditizio.
+- **Reddito extra con poco capitale:** non c'è una strada solida; le opzioni meno deboli sono prendere app in gestione in revenue share o costruire quiz automatici per testate locali.
+- **Costruisci e vendi:** nessuna strada senza autorizzazione del datore.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
 
@@ -22,7 +23,7 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 5. [[Glossario]] — sigle e termini tecnici
 
 ## Come è stata fatta
-- [[Profilo e vincoli]] · [[Protocollo di discovery]] · [[Registro delle ipotesi]] (scritto prima della ricerca e non modificato)
+- [[Profilo e vincoli]] · [[Protocollo di discovery]] · [[Registro delle ipotesi]] (scritto prima della ricerca; testo originale non modificato)
 - Per ogni ipotesi: un **Entusiasta** e un **Bucatore di palloncini** in parallelo e alla cieca, poi un **Giudice** che riverifica le affermazioni decisive. Rapporti integrali nella cartella `Rapporti/` (materiale grezzo).
 - Secondo giro su 4 idee: vedi la sezione "Approfondimento (round 2)" nelle loro note.
 - Dopo la discovery l'utente ha chiarito che non ha una soglia di successo: le idee sono state rivalutate per tre obiettivi in [[Classifica per obiettivo]].

@@ -17,14 +17,14 @@ Due sessioni di ricerca indipendenti sono arrivate alla stessa conclusione. Per 
 L'accesso ai siti si compra (servizi che superano le protezioni anti-bot) e l'estrazione la fanno anche i non esperti con un modello linguistico. Il vantaggio resta solo nei **flussi continui su molte fonti diverse** (freschezza, riconoscimento degli stessi prodotti, storico, qualità) e nell'uso dello scraping per **trovare opportunità**. Vedi [[H17 Vantaggio dello scraping]].
 
 ## 3. Il costo della delega dipende dall'obiettivo
-- **Per un business da almeno 50 k€/anno** serve una persona a tempo pieno, pagata a mercato e con quote: l'attività deve arrivare a ~120-160 k€ di margine lordo, cioè prima del costo dell'operatore, della società e dell'infrastruttura [stima].
-- **Per un reddito extra di 1-2 k€/mese netti** Claude ipotizza che bastino collaboratori part-time pagati a mercato (stima non verificata dalla discovery).
+- **Per un business da almeno 50 k€/anno** serve una persona a tempo pieno, pagata a mercato e con quote: l'attività deve arrivare a ~120-160 k€ di margine lordo, cioè prima di operatore, costi della società e infrastruttura [stima].
+- **Per un reddito extra di 1-2 k€/mese netti** Claude ipotizza che bastino collaboratori part-time pagati a mercato (30-38 k€/anno; stima non verificata dalla discovery).
 Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 
 ## 4. Il B2C informativo italiano è quasi chiuso
 - Siti SEO con affiliazione: confutata (risposte AI nei motori di ricerca, aggiornamenti di Google 2026, nessun successo verificato dopo il 2024). Vedi [[H04 SEO programmatica + affiliazione]].
 - Contatti e visibilità venduti a strutture locali: confutata (serve una funzione commerciale continua, con costi che si mangiano il margine). Vedi [[H14 Lead e visibilità a strutture locali]].
-- App in abbonamento: confutata (ricavo tipico ~72 $/mese, costo di acquisizione superiore al valore). Vedi [[H08 App mobile B2C in abbonamento]].
+- App nuove in abbonamento: confutata (ricavo tipico ~72 $/mese, costo di acquisizione superiore al valore). Diverso è prendere in gestione app che hanno già utenti ([[I-H05-2 App utility trovate via scraping degli store]]), ma il ricavo tipico resta basso. Vedi [[H08 App mobile B2C in abbonamento]].
 - Regole e accessi per chi viaggia: confutata (affiliazione turistica a 0,02-0,28 $ per clic). Vedi [[H13 Regole e disponibilità locali per chi si muove]].
 - Servizi B2C legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]] è stata declassata nel secondo giro; resta aperta solo [[I-H15-1 Contestazione maxi-bollette a successo]], subordinata a un parere legale.
 
@@ -36,7 +36,7 @@ Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 ## 6. Dove restano soldi
 - **Al primo giro** le idee migliori vendevano a piccole imprese attraverso uno store di piattaforma (Shopify, WooCommerce) o risolvevano problemi di dati di catalogo e prezzi senza codici standard.
 - **Il secondo giro le ha ridimensionate:** i portali dei grossisti vietano i bot; il monitoraggio prezzi coincide con l'attività del datore e ha già concorrenti in italiano.
-- **Per il reddito extra la strada più solida è comprare un software già redditizio,** se c'è il capitale. Con poco capitale, e senza autorizzazione del datore o pareri legali favorevoli, restano due opzioni deboli: prendere app in gestione in revenue share e i quiz per testate locali. Per "costruisci e vendi" la strada migliore è comprare. Vedi [[Classifica per obiettivo]].
+- **Per il reddito extra la strada più solida è comprare un software già redditizio,** se c'è il capitale. Con poco capitale, e senza autorizzazione del datore o pareri legali favorevoli, restano due opzioni deboli: prendere app in gestione in revenue share e i quiz per testate locali. Per "costruisci e vendi" non c'è una strada senza autorizzazione del datore: comprare e rivendere non regge ai multipli realizzati. Vedi [[Classifica per obiettivo]].
 
 ## 7. Le distribuzioni contano più dei casi di successo
 In ogni area i giudici hanno trovato mediane molto basse (Apify: ~30 $/mese per sviluppatore; piccoli software in abbonamento: 68% nella fascia 0-1 k$ di ricavi (TrustMRR, metrica non dichiarata); app: ~72 $/mese). I casi celebri sono l'eccezione.
