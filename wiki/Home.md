@@ -13,7 +13,7 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 - **Reddito extra con poco capitale:** non c'è una strada solida; le opzioni meno deboli sono prendere app in gestione in revenue share o costruire quiz automatici per testate locali.
 - **Costruisci e vendi:** nessuna strada senza autorizzazione del datore.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
-- **Filone famiglia** (neo genitori, nonni, famiglie che si allargano): sei ipotesi verificate, nessuna promettente; sopravvivono tre idee piccole a probabilità bassa. Vedi [[Filone famiglia]].
+- **Filone famiglia** (neo genitori, nonni, famiglie che si allargano): otto ipotesi in due giri; sette idee piccole vive. Con il modello leggero (prodotto automatizzato, poche ore) per 1-2 k€/mese bastano centinaia di clienti; le più interessanti sono un servizio sui nidi per comune pagato dai nidi privati e un libro del primo anno costruito via WhatsApp. Vedi [[Filone famiglia]].
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
 
 ## Da leggere per primo
@@ -53,8 +53,10 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 | Famiglia | [[H18 Roadmap personalizzata per neo genitori]] | **confutata** | 3% |
 | | [[H19 Archetipi di genitori e fiducia nelle fonti]] | **confutata** | 3% |
 | | [[H20 Nonni e famiglia allargata come utenti]] | **confutata** | 3% |
+| | [[H20b Famiglia allargata dove i nonni sono già]] | parziale | 3% |
 | | [[H21 Lista regali governata dai genitori]] | **confutata** | 2% |
 | | [[H22 Ricerca di luoghi servizi norme e bonus per genitori]] | parziale | 2% |
+| | [[H22b Un unico punto di accesso a informazioni disperse]] | parziale | 2% |
 | | [[H23 Coordinamento e accordi della famiglia]] | parziale | 3% |
 
 "Prob." = probabilità stimata dal giudice che l'ipotesi produca un business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana (obiettivo B; soglia fissata da Claude, non dall'utente). H16 e H17 sono trasversali e non descrivono un business. I numeri dei giudici hanno un altro significato: per H16, 15% è la probabilità che un progetto avviato con il modello "founder a tempo parziale con team" arrivi a 50 k€ di margine, tasso base compreso (il fattore da applicare alle singole idee è circa 0,5); per H17, 10% è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Per gli altri obiettivi vedi [[Classifica per obiettivo]].

@@ -28,8 +28,8 @@ Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 - Regole e accessi per chi viaggia: confutata (affiliazione turistica a 0,01-0,28 $ per clic). Vedi [[H13 Regole e disponibilità locali per chi si muove]].
 - Servizi B2C legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]] è stata declassata nel secondo giro; resta aperta solo [[I-H15-1 Contestazione maxi-bollette a successo]], subordinata a un parere legale.
 
-## 4b. Il filone famiglia conferma il quadro B2C
-Sei ipotesi su neo genitori, nonni e famiglie: quattro confutate, due valide solo in forma ristretta, probabilità 2-3%. Il bisogno c'è, ma è coperto gratis (app con decine di milioni di download, Stato, WhatsApp, liste nascita dei negozi) e chi paga è raro. Vedi [[Filone famiglia]].
+## 4b. Il filone famiglia: bisogno reale, pagatore incerto
+Otto ipotesi su neo genitori, nonni e famiglie, in due giri. Il bisogno c'è e molte informazioni sono davvero disperse (rette e scadenze dei nidi in PDF e albi comunali; la mappa INPS è dietro SPID). Ma la parte che si paga è piccola: chi paga sono strutture private, enti o famiglie per un oggetto stampato. Con un modello leggero (prodotto automatizzato, poche ore) i volumi necessari per un reddito extra diventano di centinaia di clienti. Vedi [[Filone famiglia]].
 
 ## 5. Anche i giochi sono quasi chiusi per questo profilo
 - Portali web: un gioco recente fa in mediana ~44-57 mila partite; i portali filtrano su qualità di game design. Vedi [[H10 Giochi web su portali]].

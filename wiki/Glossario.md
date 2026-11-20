@@ -64,6 +64,10 @@ Termini e sigle usati nella wiki.
 | **Co-parenting** | Gestione condivisa dei figli tra genitori separati. |
 | **Protocollo anti-bias** | Regole per evitare che le preferenze dell'utente influenzino la valutazione (vedi [[Protocollo di discovery]]). |
 | **F1-F5, C1 (screening B2C)** | Codici dei candidati dello screening B2C (es. F1 nidi, C1 trova-bonus); da non confondere con i criteri C1-C11 della scala. |
+| **Modello leggero** | Ipotesi di costo per l'obiettivo A: prodotto automatizzato, seguito dal founder con poche ore; 23-51 k€/anno da coprire. Vedi [[Filone famiglia]]. |
+| **Lente di utilità** | Stima di quante famiglie un'idea aiuta e quanto tempo o denaro fa risparmiare; affianca il punteggio senza cambiarne i pesi. |
+| **Ambiti / Centri per le famiglie** | Enti pubblici locali che gestiscono servizi sociali e di sostegno alle famiglie. |
+| **DPIA** | Valutazione d'impatto sulla protezione dei dati prevista dal GDPR. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |
@@ -91,4 +95,4 @@ Termini e sigle usati nella wiki.
 | **Riserva forense** | Attività che per legge possono svolgere solo gli avvocati. |
 | **Art. 2105 c.c.** | Obbligo di fedeltà del dipendente: non fare concorrenza al datore. Per la Cassazione (sent. 19096/2013) basta anche preparare un'attività concorrente. |
 | **SRL** | Società a responsabilità limitata. |
-| **Sessioni S1-S9, R2** | Le sessioni di ricerca: S7-S9 sono quelle del filone famiglia; S1-S6 primo giro (una per gruppo di ipotesi), R2 secondo giro. I loro rapporti integrali sono in `Rapporti/`. |
+| **Sessioni S1-S11, R2** | Le sessioni di ricerca: S7-S11 sono quelle del filone famiglia (S10-S11 secondo giro); S1-S6 primo giro (una per gruppo di ipotesi), R2 secondo giro. I loro rapporti integrali sono in `Rapporti/`. |
