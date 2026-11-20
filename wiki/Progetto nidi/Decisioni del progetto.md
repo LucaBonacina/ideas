@@ -12,3 +12,4 @@ tags: [progetto, nidi, decisioni]
 | 2026-11-20 | Includere scuole e servizi bilingui o internazionali e servizi per bambini con bisogni speciali | utente |
 | 2026-11-20 | Le funzioni del prodotto si derivano dai bisogni documentati degli utenti, non il contrario | utente |
 | 2026-11-20 | Cercanido, MigliorAsilo (rilanciato), MyNido e Nidò non sono collegati all'utente né al progetto: vanno trattati come concorrenti indipendenti | utente |
+| 2026-11-20 | Analisi aggiuntive (es. approfondimento su Cercanido) rimandate a dopo l'azzeramento del limite settimanale di utilizzo (22 novembre, 23:00 UTC); le sintesi finali scritte senza nuove sessioni | utente |
