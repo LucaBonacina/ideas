@@ -13,6 +13,8 @@ tags: [idea, famiglia, S9]
 ---
 # I-H22-1 — Directory feste e corsi per bambini con abbonamento strutture
 
+> **Confronto con [[H14 Lead e visibilità a strutture locali]] (confutata).** Questa idea vende visibilità a strutture locali, cioè la strada confutata in H14. È tenuta aperta solo per due fatti nuovi: listini esteri reali per questa categoria (kidsgo 1,50-49 €/mese, Happity 72-250 £/anno) e un precedente italiano (BeMyHero, 9,90 €/mese, oltre 150 professionisti); le feste non sono stagionali come i centri estivi. I rischi di H14 (strutture che pagano poco, vendita continua) restano tutti: da qui la probabilità bassa.
+
 > **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B. Per reddito extra (A) e "costruisci e vendi" (C) vedi la sezione sugli obiettivi e [[Classifica per obiettivo]].
 
 ## In una frase

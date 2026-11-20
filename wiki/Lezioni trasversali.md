@@ -5,7 +5,7 @@ aggiornato: 2026-11-20
 ---
 # Lezioni trasversali
 
-Cosa dicono insieme le 17 ipotesi, al di là delle singole idee. Termini tecnici nel [[Glossario]].
+Cosa dicono insieme le 23 ipotesi, al di là delle singole idee. Termini tecnici nel [[Glossario]].
 
 ## 1. Il vincolo più forte è il contratto di lavoro
 Due sessioni di ricerca indipendenti sono arrivate alla stessa conclusione. Per la Cassazione (sent. 19096/2013, testo verificato) viola l'obbligo di fedeltà (art. 2105 c.c.) anche solo **preparare** un'attività concorrente, per esempio costituendo una società. Il tuo datore fa scraping, quindi **vendere dati o servizi di scraping** è esposto anche fuori dagli ambiti già esclusi. Vedi [[H16 Founder a tempo parziale]] e [[I-H16-1 Autorizzazione scritta e veicolo societario]].
@@ -23,13 +23,13 @@ Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 
 ## 4. Il B2C informativo italiano è quasi chiuso
 - Siti SEO con affiliazione: confutata (risposte AI nei motori di ricerca, aggiornamenti di Google 2026, nessun successo verificato dopo il 2024). Vedi [[H04 SEO programmatica + affiliazione]].
-- Contatti e visibilità venduti a strutture locali: confutata (serve una funzione commerciale continua, con costi che si mangiano il margine). Vedi [[H14 Lead e visibilità a strutture locali]].
+- Contatti e visibilità venduti a strutture locali (eccezione piccola, a probabilità bassa: [[I-H22-1 Directory feste e corsi per bambini con abbonamento strutture]]): confutata (serve una funzione commerciale continua, con costi che si mangiano il margine). Vedi [[H14 Lead e visibilità a strutture locali]].
 - App nuove in abbonamento: confutata (ricavo tipico ~72 $/mese, costo di acquisizione superiore al valore). Diverso è prendere in gestione app che hanno già utenti ([[I-H05-2 App utility trovate via scraping degli store]]), ma il ricavo tipico resta basso. Vedi [[H08 App mobile B2C in abbonamento]].
 - Regole e accessi per chi viaggia: confutata (affiliazione turistica a 0,01-0,28 $ per clic). Vedi [[H13 Regole e disponibilità locali per chi si muove]].
 - Servizi B2C legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]] è stata declassata nel secondo giro; resta aperta solo [[I-H15-1 Contestazione maxi-bollette a successo]], subordinata a un parere legale.
 
 ## 4b. Il filone famiglia conferma il quadro B2C
-Sei ipotesi su neo genitori, nonni e famiglie: tre confutate, tre valide solo in forma ristretta, probabilità 2-3%. Il bisogno c'è, ma è coperto gratis (app con decine di milioni di download, Stato, WhatsApp, liste nascita dei negozi) e chi paga è poco. Vedi [[Filone famiglia]].
+Sei ipotesi su neo genitori, nonni e famiglie: quattro confutate, due valide solo in forma ristretta, probabilità 2-3%. Il bisogno c'è, ma è coperto gratis (app con decine di milioni di download, Stato, WhatsApp, liste nascita dei negozi) e chi paga è raro. Vedi [[Filone famiglia]].
 
 ## 5. Anche i giochi sono quasi chiusi per questo profilo
 - Portali web: un gioco recente fa in mediana ~44-57 mila partite; i portali filtrano su qualità di game design. Vedi [[H10 Giochi web su portali]].

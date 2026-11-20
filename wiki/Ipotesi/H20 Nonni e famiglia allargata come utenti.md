@@ -3,7 +3,7 @@ tipo: ipotesi
 id: H20
 titolo: "Nonni e famiglia allargata come utenti"
 sessione: S8
-stato: "parziale"
+stato: "confutata"
 fiducia: "media"
 probabilita_successo: "3%"
 tags: [ipotesi, famiglia]
@@ -84,17 +84,19 @@ Non verificato dal Giudice: il prezzo che le RSA italiane pagherebbero (la pagin
 - **(c) Non esistono modelli provati in cui pagano i nonni.** **Scatta.** In nessun caso trovato il nonno è il pagante principale: pagano figli e nipoti (Famileo, Storyworth, cornici regalo) o le strutture. Il "family kitty" di Famileo coinvolge anche i nonni, ma non è un dato sulla loro quota.
 
 ### Verdetto
+> **Esito aggiornato: confutata.** La gazzetta cartacea non è una forma ristretta dell'ipotesi registrata (nonni come utenti, magari paganti) ma un suo rovesciamento (nonni come destinatari, paga la famiglia): è un'idea nata da una riformulazione, come gli spunti di H18.
+
 **Parziale, fiducia media.**
 - Nella forma registrata ("i nonni come utenti di un prodotto, magari paganti") l'ipotesi è **confutata**: due criteri scattano pieni (b, c) e il terzo scatta per tutto il segmento digitale.
 - Sopravvive una **variante stretta**: i nonni non digitali come *destinatari* di un prodotto fisico pagato da figli o strutture. È provata in Francia (circa 14 M€) e assente in Italia.
-- Per questo profilo però la variante è debole: lo scraping non dà vantaggio (al più per costruire la lista delle strutture), il margine per famiglia è di 20-35 €/anno, e il business è fatto di stampa, poste, assistenza e vendita alle RSA. Famileo, redditizia e già in 5 lingue, può entrare in Italia quando vuole.
+- Per questo profilo però la variante è debole: lo scraping non dà vantaggio (al più per costruire la lista delle strutture), il margine per famiglia è di 21-35 €/anno, e il business è fatto di stampa, poste, assistenza e vendita alle RSA. Famileo, redditizia e già in 5 lingue, può entrare in Italia quando vuole.
 
-**Probabilità di successo (obiettivo B): 3%** [stima]. Per arrivare a 120-160 k€ di margine lordo servirebbero circa 3.500-7.500 famiglie paganti attive (al margine di 21-35 €/anno calcolato sopra, più eventuali contratti con RSA), con churn strutturale e costo di acquisizione non misurato. Famileo ha impiegato circa 6 anni per arrivare a 160.000 famiglie in Francia, partendo dalle case di riposo.
+**Probabilità di successo (obiettivo B): 3%** [stima]. Per arrivare a 120-160 k€ di margine lordo servirebbero circa 3.400-7.600 famiglie paganti attive (al margine di 21-35 €/anno calcolato sopra, più eventuali contratti con RSA), con churn strutturale e costo di acquisizione non misurato. Famileo ha impiegato circa 6 anni per arrivare a 160.000 famiglie in Francia, partendo dalle case di riposo.
 
-**Correzioni rispetto ai rapporti.** L'Entusiasta stima 1.000-2.000 famiglie per l'obiettivo A: con la posta italiana verificata ne servono circa il doppio. Il Bucatore usa ~54 €/anno per famiglia come ricavo: è un ricavo lordo, il margine dopo posta e stampa è meno della metà.
+**Correzioni rispetto ai rapporti.** L'Entusiasta stima 1.000-2.000 famiglie per l'obiettivo A: con la posta italiana verificata ne servono ~1.700-5.500. Il Bucatore usa ~54 €/anno per famiglia come ricavo: è un ricavo lordo, il margine dopo posta e stampa è meno della metà.
 
 ## Idee concrete che sopravvivono
-- [[I-H20-1 Gazzetta cartacea per nonni non digitali]] — punteggio v2: **48**
+- [[I-H20-1 Gazzetta cartacea per nonni non digitali]] — punteggio v2: **46**
 
 Scartate dal Giudice:
 - **Raccontami, nonno (storie di vita e libro):** MyHeritage MyStories è già disponibile con assistenza in italiano; acquisto una tantum stagionale; scraping irrilevante; il costo di acquisizione con pubblicità stagionale non è sostenibile senza pubblico.

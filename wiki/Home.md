@@ -52,7 +52,7 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 | | [[H17 Vantaggio dello scraping]] | parziale | n.a. |
 | Famiglia | [[H18 Roadmap personalizzata per neo genitori]] | **confutata** | 3% |
 | | [[H19 Archetipi di genitori e fiducia nelle fonti]] | **confutata** | 3% |
-| | [[H20 Nonni e famiglia allargata come utenti]] | parziale | 3% |
+| | [[H20 Nonni e famiglia allargata come utenti]] | **confutata** | 3% |
 | | [[H21 Lista regali governata dai genitori]] | **confutata** | 2% |
 | | [[H22 Ricerca di luoghi servizi norme e bonus per genitori]] | parziale | 2% |
 | | [[H23 Coordinamento e accordi della famiglia]] | parziale | 3% |

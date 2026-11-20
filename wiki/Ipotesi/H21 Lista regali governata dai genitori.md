@@ -77,7 +77,7 @@ Rapporto integrale: [[H21 Bucatore]] (15 WebSearch, circa 25 fetch). Verdetto de
 ### Verdetto
 **Confutata, fiducia media.** Due criteri scattano pieni (a, b) e il terzo scatta per questo profilo. Il bisogno è reale (gli attriti delle collette di classe sono documentati), ma è servito gratis per il pagamento e per la lista, e la parte non servita (scegliere insieme il regalo) non ha un pagatore. La fiducia è media e non alta perché mancano dati quantitativi sulla diffusione delle collette di compleanno in Italia e sulle commissioni dirette di Prénatal, Chicco e Toys Center.
 
-**Probabilità di successo (obiettivo B): 2%** [stima]. Servirebbero 7-9 mila liste nascita all'anno (4-5% dei primogeniti) o 30-50 mila collette tracciate, senza pubblico, contro sconti del retailer e strumenti gratuiti, con una monetizzazione dipendente da Amazon.
+**Probabilità di successo (obiettivo B): 2%** [stima]. Servirebbero 7-9 mila liste nascita all'anno (4-5% dei primogeniti) o ~24-32 mila collette tracciate (a ~5 € ciascuna), senza pubblico, contro sconti del retailer e strumenti gratuiti, con una monetizzazione dipendente da Amazon.
 
 **Correzione rispetto all'Entusiasta.** L'Entusiasta non ha trovato uno strumento per la colletta di classe: esiste (ScuolaPay, gratuito, attivo), oltre a PayPal e Satispay.
 

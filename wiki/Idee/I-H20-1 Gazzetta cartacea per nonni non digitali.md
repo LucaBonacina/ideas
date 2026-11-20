@@ -2,9 +2,10 @@
 tipo: idea
 id: I-H20-1
 ipotesi: "[[H20 Nonni e famiglia allargata come utenti]]"
-punteggio_v2: 48
+punteggio_v2: 46
 modello_ricavo: "abbonamento mensile pagato da figli e nipoti (6,99-9,99 €/mese); contratti con RSA da validare"
 tempo_founder_h_sett: 4
+tempo_founder_h_sett_nota: "8-10 nei primi 3 mesi"
 investimento_iniziale_eur: "20-40 k€ (MVP 8-15 k€, primo anno di operatore part-time per stampa e assistenza, test di acquisizione 3-5 k€, parere privacy 1-2 k€) [stima]"
 tags: [idea, famiglia]
 ---
@@ -63,11 +64,11 @@ Poco. Lo scraping serve solo a costruire e pulire l'anagrafica delle strutture p
 | C9 Tempo al primo euro (5) | 4 | MVP con impaginazione semiautomatica e preordini in 1-2 mesi | [stima] |
 | C10 Delegabilità (10) | 3 | Delegabile a un operatore, ma il business è di operations e vendita | — |
 | C11 Tetto a 24 mesi (5) | 3 | Con 2.000-5.000 famiglie a 6,55 € netti/mese: ~160-390 k€ di ricavi, ma margine di 40-175 k€ [stima] | calcolo del Giudice |
-| **Lordo** | **52** | | |
+| **Lordo** | **50** | (3×10 + 2×10 + 3×15 + 1×15 + 2×15 + 4×5 + 2×5 + 3×5 + 4×5 + 3×10 + 3×5) / 5 = 250 / 5 | |
 | Penalità legale (foto di minori) | −2 | | Garante |
 | Penalità piattaforma (API WhatsApp) | −1 | | |
 | Penalità conflitto con il lavoro | −1 | Lo scraping serve solo a trovare i partner (regola della [[Classifica]]) | |
-| **Punteggio v2** | **48** | | |
+| **Punteggio v2** | **46** | Correzione: la versione precedente riportava lordo 52 e punteggio 48 per un errore di somma | |
 
 ## Fasce per obiettivo (modello di [[Classifica per obiettivo]])
 | Obiettivo | Fascia | Perché |

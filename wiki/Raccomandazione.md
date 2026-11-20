@@ -13,7 +13,7 @@ Organizzata per obiettivo: **A** reddito extra (1-2 k€/mese netti), **B** busi
 - **A. Reddito extra, con poco capitale:** non c'è una strada solida. Due opzioni deboli senza autorizzazione del datore: prendere **app in gestione in revenue share** ([[I-H05-2 App utility trovate via scraping degli store]], fino a ~40-60 k€ per 4-6 accordi; ogni app deve lasciare ~0,8-2 k€/mese al gestore) oppure costruire **quiz automatici per testate locali** ([[I-H11-1 Quiz locali automatici per testate]], ~15-30 k€ di avvio; servono ~63-122 testate paganti). Entrambe hanno probabilità bassa.
 - **C. Costruisci e vendi:** nessuna strada senza autorizzazione del datore. Con l'autorizzazione, software B2B a canone da costruire (monitoraggio prezzi, dati per tour operator e autonoleggi; con più rischio, dati sulla visibilità nelle risposte AI).
 - **B. Business:** nessuna idea è promettente (3-7% per le idee approfondite). Oggi non ci investirei.
-- **Filone famiglia:** nessuna idea promettente; sopravvivono tre idee piccole (gazzetta cartacea per nonni non digitali, app per le spese dei genitori separati, directory di feste e corsi per bambini), tutte a probabilità bassa. Se vuoi comunque provare, hanno esperimenti economici. Vedi [[Filone famiglia]].
+- **Filone famiglia:** nessuna idea promettente; sopravvivono tre idee piccole (app per le spese dei genitori separati, gazzetta cartacea per nonni non digitali, directory di feste e corsi per bambini), tutte a probabilità bassa. Se vuoi comunque provare, hanno esperimenti economici. Vedi [[Filone famiglia]].
 
 ## Il quadro che vale per tutti gli obiettivi
 1. **Le idee più vicine alla tua competenza sono quelle più esposte al contratto di lavoro.** Vendere dati o servizi di scraping rischia di violare l'obbligo di fedeltà (art. 2105 c.c.). Le opzioni per A indicate sopra non vendono dati né scraping. Vedi [[H16 Founder a tempo parziale]].
@@ -58,7 +58,7 @@ La tua competenza vale soprattutto dove lavori già. Un nuovo prodotto o una lin
 **È una mia ipotesi, non verificata con il metodo della discovery.**
 
 ### 6. Strade da non riaprire senza fatti nuovi
-Confutate con evidenze: roadmap per neo genitori, fonti "certificate" per genitori meticolosi, lista regali governata dai genitori, siti SEO con affiliazione, app mobile nuove in abbonamento (diverso dal prendere in gestione app che hanno già utenti, [[I-H05-2 App utility trovate via scraping degli store]]), directory e contatti venduti a strutture locali, regole e accessi per chi viaggia, giochi su portali web, giochi indie. Vedi [[Lezioni trasversali]].
+Confutate con evidenze: roadmap per neo genitori, fonti "certificate" per genitori meticolosi, lista regali governata dai genitori, siti SEO con affiliazione, app mobile nuove in abbonamento (diverso dal prendere in gestione app che hanno già utenti, [[I-H05-2 App utility trovate via scraping degli store]]), directory e contatti venduti a strutture locali (eccezione piccola e a probabilità bassa: la directory di feste e corsi per bambini, per fatti nuovi spiegati nella sua nota), regole e accessi per chi viaggia, giochi su portali web, giochi indie. Vedi [[Lezioni trasversali]].
 
 ## Cosa non sappiamo ancora
 - **Le probabilità per A e C sono stime di Claude**, ricavate dai numeri delle note, non verdetti dei giudici. Anche l'ipotesi che per A bastino collaboratori part-time non è stata verificata. Per le idee con un gate, le fasce sono condizionate al superamento del gate.

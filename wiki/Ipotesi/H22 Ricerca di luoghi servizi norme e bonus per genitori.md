@@ -136,3 +136,6 @@ Tutte con accesso del 2026-11-20; elenco completo nei rapporti [[H22 Entusiasta]
 - Termini Google Maps Platform: https://cloud.google.com/maps-platform/terms
 - Termini TripAdvisor: https://tripadvisor.mediaroom.com/it-terms-of-use
 - BonusX: https://bonusx.it/prezzi/
+
+## Nota di coerenza
+L'idea sopravvissuta ([[I-H22-1 Directory feste e corsi per bambini con abbonamento strutture]]) vende visibilità a strutture locali, la strada confutata in [[H14 Lead e visibilità a strutture locali]]. La nota dell'idea spiega quali fatti nuovi la tengono aperta e perché resta a probabilità bassa.
