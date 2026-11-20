@@ -48,6 +48,9 @@ Termini e sigle usati nella wiki.
 | **Back office** | Lavoro amministrativo e di gestione delle pratiche. |
 | **Regole di separazione** | Precauzioni per tenere il progetto separato dal lavoro: codice scritto da zero, infrastruttura propria, nessun ex collega senza parere (passo 5 di [[I-H16-1 Autorizzazione scritta e veicolo societario]]). |
 | **Zona grigia** | Esito intermedio di un esperimento: né successo né stop; si ripete prima di investire. |
+| **Margine di contribuzione** | Ricavi meno i costi variabili di ogni cliente (es. accesso ai siti, calcolo), prima dei costi fissi e del personale. |
+| **Asset** | Un'attività che si può vendere: software, sito, app con i suoi clienti e ricavi. |
+| **Tasso base** | Quota di progetti simili che raggiunge l'obiettivo, prima di considerare le specificità del caso. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |

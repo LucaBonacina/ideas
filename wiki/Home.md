@@ -8,7 +8,8 @@ aggiornato: 2026-11-20
 Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scraping, **senza lasciare il lavoro** e affidando la gestione a persone di fiducia.
 
 ## In breve
-- **Reddito extra (1-2 k€/mese netti):** la strada più solida è comprare un piccolo software già redditizio (servono ~165-285 k€). Con poco capitale non c'è una strada solida: la meno debole sono i quiz automatici per testate locali (probabilità bassa).
+- **Nessuna idea ha una probabilità alta.** Le migliori stanno nella fascia 5-15%.
+- **Reddito extra (1-2 k€/mese netti):** la strada più solida è comprare un piccolo software già redditizio (servono ~165-285 k€). Con poco capitale non c'è una strada solida: la meno debole è costruire i quiz automatici per testate locali (probabilità bassa).
 - **Costruisci e vendi:** la strada migliore è comprare, migliorare e rivendere.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.

@@ -27,7 +27,7 @@ Ogni settimana, per ogni testata locale cliente, un feed *done-for-you* di quiz 
   - ParkerSyndication gratuito con il 50% della pubblicità (estratto).
 - **Prezzo ipotizzato:** 79-99 €/mese per testata, 249-490 €/mese per gruppo.
 - **Conti [stima]:**
-  - per 50 k€ di margine servono circa 60-80 testate equivalenti paganti;
+  - per 50 k€ di margine servono circa 60-80 testate equivalenti (stima senza i costi del team; con collaboratori e costi della società ne servono di più, vedi [[Classifica per obiettivo]]) paganti;
   - è più del numero di quotidiani italiani (59, di cui 43 locali), quindi servono testate online (ANSO dichiara 150-300 testate) e poi l'estero.
 
 ## Distribuzione: come arrivano i primi 100 clienti/utenti

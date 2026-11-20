@@ -79,7 +79,7 @@ Cruscotto per tour operator e attività (guide, attrazioni, esperienze) che vend
 ## Esperimento di validazione (≤ 30 giorni, soglia di successo decisa prima)
 1. Estrarre gli operatori di Roma, Firenze e Venezia da GetYourGuide e Viator (stima: 500-1.000).
 2. Generare 150 audit automatici.
-3. Proporli tramite moduli di contatto, telefono e messaggi LinkedIn, gestiti da un operatore.
+3. Proporli tramite moduli di contatto e telefono, gestiti da un operatore. Niente messaggi LinkedIn non richiesti: il caso del Garante citato in [[H07 Micro-SaaS B2B verticale]] riguarda proprio un contatto via LinkedIn.
 4. Offrire una prova di 14 giorni e poi 79 €/mese.
 
 **Soglie fissate prima:**
