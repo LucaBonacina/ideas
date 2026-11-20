@@ -57,6 +57,9 @@ Termini e sigle usati nella wiki.
 | **Leva di prezzo** | Aumentare i prezzi di un prodotto comprato, che il venditore aveva lasciato fermi. |
 | **Prelievo (fiscale)** | Quota del margine che va in tasse prima di arrivare in tasca al founder. |
 | **Ricalibrare** | Rivalutare un punteggio del primo giro con le regole e i fatti emersi nel secondo giro. |
+| **k€ / k$ / M$** | Migliaia di euro / migliaia di dollari / milioni di dollari. |
+| **Screening** | Prima selezione delle idee con criteri sì/no. |
+| **TrustMRR** | Sito che raccoglie i ricavi ricorrenti dichiarati da piccoli software. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |

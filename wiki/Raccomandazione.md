@@ -10,8 +10,8 @@ Organizzata per obiettivo: **A** reddito extra (1-2 k€/mese netti), **B** busi
 ## In sintesi
 - **Nessuna idea ha una probabilità alta:** le migliori stanno nella fascia 5-15%.
 - **A. Reddito extra, con capitale (~100-290 k€):** **comprare un piccolo software già redditizio** ([[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]]), probabilità media. Non richiede l'autorizzazione del datore, salvo obblighi di comunicazione previsti dal contratto.
-- **A. Reddito extra, con poco capitale:** non c'è una strada solida. Due opzioni deboli senza autorizzazione del datore: prendere **app in gestione in revenue share** ([[I-H05-2 App utility trovate via scraping degli store]], fino a ~40-60 k€ per 4-6 accordi; probabilità media ma evidenze aneddotiche) oppure costruire **quiz automatici per testate locali** ([[I-H11-1 Quiz locali automatici per testate]], ~15-30 k€ di avvio; probabilità bassa, servono ~63-122 testate paganti).
-- **C. Costruisci e vendi:** nessuna strada senza autorizzazione del datore. Con l'autorizzazione, software B2B a canone da costruire (monitoraggio prezzi, dati per tour operator e autonoleggi).
+- **A. Reddito extra, con poco capitale:** non c'è una strada solida. Due opzioni deboli senza autorizzazione del datore: prendere **app in gestione in revenue share** ([[I-H05-2 App utility trovate via scraping degli store]], fino a ~40-60 k€ per 4-6 accordi; ogni app deve lasciare ~0,8-2 k€/mese al gestore) oppure costruire **quiz automatici per testate locali** ([[I-H11-1 Quiz locali automatici per testate]], ~15-30 k€ di avvio; servono ~63-122 testate paganti). Entrambe hanno probabilità bassa.
+- **C. Costruisci e vendi:** nessuna strada senza autorizzazione del datore. Con l'autorizzazione, software B2B a canone da costruire (monitoraggio prezzi, dati per tour operator e autonoleggi; con più rischio, dati sulla visibilità nelle risposte AI).
 - **B. Business:** nessuna idea è promettente (3-7% per le idee approfondite). Oggi non ci investirei.
 
 ## Il quadro che vale per tutti gli obiettivi
@@ -27,7 +27,7 @@ Da questa scelta dipende la strada per l'obiettivo A. Per 1-2 k€/mese netti bi
 | Situazione | Strada |
 |---|---|
 | Hai **~100-290 k€** da rischiare [stima] | **Comprare** un software con SDE (utile prima del compenso del proprietario) di ~55-96 k€/anno. Ai multipli realizzati per software di questa taglia (1,85-2,24 volte l'SDE) costa ~100-215 k€; a 3 volte, la soglia massima dell'esperimento, ~165-290 k€. Se è un'app Atlassian ancora su Connect, aggiungere 20-60 k€ di migrazione a Forge. |
-| Hai **fino a ~40-60 k€** | **Prendere app in gestione in revenue share** (fino a 10 k€ per accordo, 4-6 accordi; esperimento nella nota di [[I-H05-2 App utility trovate via scraping degli store]]) oppure, con ~15-30 k€, **costruire** i quiz per testate locali. Probabilità media per la prima (evidenze aneddotiche), bassa per la seconda: valgono soprattutto come esperimenti economici. |
+| Hai **fino a ~40-60 k€** | **Prendere app in gestione in revenue share** (fino a 10 k€ per accordo, 4-6 accordi; esperimento nella nota di [[I-H05-2 App utility trovate via scraping degli store]]) oppure, con ~15-30 k€, **costruire** i quiz per testate locali. Probabilità bassa per entrambe: valgono soprattutto come esperimenti economici. |
 | Hai il capitale **e vuoi partire subito** | Avviare l'esperimento sui quiz (30 giorni) mentre si cerca il software da comprare. |
 
 I 350-475 k€ citati nella nota di [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] valgono per l'obiettivo B, non per A: circa 350-450 k€ con un operatore a 0,6-1 persona (45-65 k€/anno, stima dell'Entusiasta del secondo giro); ~420-475 k€ con un operatore a tempo pieno pagato secondo [[H16 Founder a tempo parziale]] (60-75 k€/anno, stima del Bucatore).

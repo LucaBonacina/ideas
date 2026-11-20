@@ -25,7 +25,7 @@ Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 - Siti SEO con affiliazione: confutata (risposte AI nei motori di ricerca, aggiornamenti di Google 2026, nessun successo verificato dopo il 2024). Vedi [[H04 SEO programmatica + affiliazione]].
 - Contatti e visibilità venduti a strutture locali: confutata (serve una funzione commerciale continua, con costi che si mangiano il margine). Vedi [[H14 Lead e visibilità a strutture locali]].
 - App nuove in abbonamento: confutata (ricavo tipico ~72 $/mese, costo di acquisizione superiore al valore). Diverso è prendere in gestione app che hanno già utenti ([[I-H05-2 App utility trovate via scraping degli store]]), ma il ricavo tipico resta basso. Vedi [[H08 App mobile B2C in abbonamento]].
-- Regole e accessi per chi viaggia: confutata (affiliazione turistica a 0,02-0,28 $ per clic). Vedi [[H13 Regole e disponibilità locali per chi si muove]].
+- Regole e accessi per chi viaggia: confutata (affiliazione turistica a 0,01-0,28 $ per clic). Vedi [[H13 Regole e disponibilità locali per chi si muove]].
 - Servizi B2C legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]] è stata declassata nel secondo giro; resta aperta solo [[I-H15-1 Contestazione maxi-bollette a successo]], subordinata a un parere legale.
 
 ## 5. Anche i giochi sono quasi chiusi per questo profilo
