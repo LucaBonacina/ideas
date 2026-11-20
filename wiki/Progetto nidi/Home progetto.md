@@ -17,5 +17,5 @@ aggiornato: 2026-11-20
 2. **Bisogni → funzioni:** i bisogni degli utenti (genitori e gestori) guidano le funzioni. Analisi di Winnie e dei concorrenti, raccolta dei bisogni con evidenze, priorità, elenco delle funzioni. → [[Bisogni e funzioni]]
 
 ## Pagine
-- [[Metodo del progetto]] · [[Decisioni del progetto]]
+- [[Metodo del progetto]] · [[Decisioni del progetto]] · [[Concorrenti - matrice delle funzioni]]
 - Cartelle: `Fonti/` (una nota per fonte), `Regioni/` (una nota per regione), `Segmenti/`, `Concorrenti/`, `Bisogni/`.
