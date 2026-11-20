@@ -14,7 +14,8 @@ tags: [regione, nidi]
 - Accreditamento: non trovato.
 
 ## Registro o elenco
-- Elenco nominativo pubblico dei servizi: **non trovato**. Il portale open data regionale non ha risposto (dati.regione.vda.it, timeout). [fatto]
+- **Correzione P9 (2026-11-20):** un elenco regionale per struttura esiste: PDF delle autorizzazioni e degli accreditamenti dei nidi (titolare, tipologia, posti, SCIA/DGR, scadenza dell'accreditamento), creato il 03/08/2026: https://gestionewww.regione.vda.it/allegato.aspx?pk=115707 (letto dal coordinatore con pdftotext). Non contiene le tate familiari. Vedi [[Aosta]] (test di completezza).
+- Elenco nominativo pubblico dei servizi (ricerca della sessione P2): **non trovato**. Il portale open data regionale non ha risposto (dati.regione.vda.it, timeout). [fatto]
 - Dati aggregati: [[Regione Valle d Aosta - Annuario statistico posti prima infanzia]], 1.098 posti nel 2024 (872 nido, 52 nido aziendale, 108 tata familiare, 66 spazio gioco). [fatto]
 - La DGR 1564/2015 prevede "debiti informativi" dei gestori verso la Regione: l'Assessorato ha quindi i dati per struttura [stima].
 

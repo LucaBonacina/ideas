@@ -18,4 +18,5 @@ aggiornato: 2026-11-20
 
 ## Pagine
 - [[Metodo del progetto]] · [[Decisioni del progetto]]
+- Test di completezza: [[Test di completezza - Nord e Centro]] (note per comune in `Test di completezza/`)
 - Cartelle: `Fonti/` (una nota per fonte), `Regioni/` (una nota per regione), `Segmenti/`, `Concorrenti/`, `Bisogni/`.
