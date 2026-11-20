@@ -68,3 +68,34 @@ Servizi che compilano reclami, contestazioni e richieste di rimborso (voli, mult
 **Confutata se:** evidenze (studi, casi) mostrano che i progetti senza founder a tempo pieno falliscono in grande maggioranza per motivi non compensabili con la delega; i vincoli del lavoro dipendente (art. 2105 c.c., clausole tipiche) rendono il progetto rischioso nei casi rilevanti.
 ### H17 Le competenze di scraping sono un vantaggio competitivo reale nel 2026
 **Confutata se:** strumenti AI di estrazione (agenti browser, API di scraping gestite, "web data" as a service) hanno reso lo scraping una commodity, al punto che il vantaggio non si misura più nei casi rilevanti.
+
+---
+
+## Filone famiglia (registrato il 2026-11-20, prima della ricerca)
+Ipotesi proposte dall'utente, riformulate in forma verificabile. Criteri di confutazione scritti da Claude prima della ricerca. "Successo" si valuta sui tre obiettivi A, B, C di [[Classifica per obiettivo]].
+
+**Già noto dallo screening B2C** ([[05 Screening B2C]]), da verificare di nuovo e non da dare per scontato: il calendario burocratico per famiglie (F2) e il trova-bonus (C1) erano stati scartati perché esistono già BonusX e l'app IO; per i nidi (F1) la domanda c'era ma non un pagatore; i pediatri con posti liberi (F4) erano stati scartati.
+
+### H18 Roadmap personalizzata per neo genitori
+Dalla gravidanza ai primi anni, i neo genitori non hanno una mappa chiara di cosa fare e quando (casa, nido, auto, alimentazione, libri, bonus, burocrazia) e la pagherebbero, o la userebbero abbastanza da monetizzarla con altri mezzi.
+**Confutata se:** app e siti gratuiti consolidati (in Italia e all'estero) coprono già la roadmap in modo soddisfacente; l'uso crolla dopo la nascita; non esiste un modello di ricavo provato oltre a pubblicità a basso valore; gli strumenti pubblici (app IO, INPS) coprono la parte burocratica.
+
+### H19 Archetipi di genitori e fiducia nelle fonti
+Esistono archetipi distinti (almeno "pigro", che si affida ai social, e "meticoloso", che vuole fonti certificate: ospedali, società scientifiche, studi) e un prodotto che serve bene il meticoloso ha uno spazio non coperto.
+**Confutata se:** non ci sono evidenze (studi, sondaggi) di questa segmentazione; il segmento meticoloso è piccolo o già servito da fonti autorevoli gratuite (società di pediatria, ospedali, riviste per genitori basate su evidenze); la fiducia non si traduce in disponibilità a pagare.
+
+### H20 Nonni e famiglia allargata come utenti
+I nonni (e la famiglia allargata) vogliono partecipare alla vita del nipote: condividere, sapere, consigliare, contribuire. Un prodotto che li coinvolge (e magari li fa pagare) ha spazio.
+**Confutata se:** app di condivisione familiare consolidate (album di famiglia, gruppi di messaggistica) coprono il bisogno; i nonni non adottano app nuove; non esistono modelli di ricavo provati in cui pagano i nonni.
+
+### H21 Lista regali "governata" dai genitori
+I genitori vogliono suggerire, regolare e controllare i regali di nonni e amici (nascita, compleanni, ricorrenze), evitando doppioni e regali indesiderati, anche con regali di gruppo.
+**Confutata se:** liste nascita e liste regali esistenti (negozi di prima infanzia, marketplace, servizi dedicati in Italia e all'estero) coprono già il bisogno; le commissioni di affiliazione in Italia sono troppo basse; non c'è spazio per un nuovo entrante.
+
+### H22 Ricerca avanzata di luoghi, servizi, norme e bonus per genitori
+Manca una ricerca avanzata di punti di interesse, servizi, regole e bonus per genitori (luoghi family-friendly, servizi per l'infanzia, norme e agevolazioni locali), e i dati frammentati si possono raccogliere con lo scraping.
+**Confutata se:** il bisogno è già coperto (mappe generaliste, app family-friendly, BonusX, app IO); i dati non sono raccoglibili in modo affidabile; non c'è un pagatore (genitori, strutture, brand) con cifre reali; gli scarti dello screening B2C (F1, F2, F4, C1) si confermano.
+
+### H23 Coordinamento e accordi della famiglia
+Coppie, nonni e tate litigano o si coordinano male su regole, turni, spese, regali e "vizi": uno strumento di coordinamento e di accordi condivisi ha spazio.
+**Confutata se:** app di organizzazione familiare consolidate coprono il bisogno; il problema è relazionale e non si risolve con uno strumento; non esiste disponibilità a pagare.
