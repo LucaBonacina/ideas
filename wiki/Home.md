@@ -16,6 +16,9 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 - **Filone famiglia** (neo genitori, nonni, famiglie che si allargano): otto ipotesi in due giri, sette idee piccole vive. Con il modello leggero (prodotto automatizzato, poche ore) i volumi richiesti per 1-2 k€/mese vanno da poche decine di clienti (enti) a qualche migliaio (libri). Vedi [[Filone famiglia]].
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
 
+## Progetto in corso
+**Progetto nidi** (un "Winnie per l'Italia", servizi educativi 0-6): [[Home progetto]].
+
 ## Da leggere per primo
 1. [[Raccomandazione]] — cosa farei, in che ordine, e perché
 2. [[Classifica per obiettivo]] — le idee valutate per reddito extra, business e "costruisci e vendi"
