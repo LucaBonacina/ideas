@@ -41,7 +41,7 @@ Il test pratico previsto in [[I-H17-1 Test di replicabilità dello scraping]] no
 | 4 | [[I-H01-1 Portafoglio di actor su target difficili non personali]] | 72 | −6 | −8 | **58** | 64 | 4 | 15-30 k€ |
 | 5 | [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]] | 65 | −1 | −8 | **56** | 58 | 4 | 25-45 k€ |
 | 5 | [[I-H06-1 Disdetta digitale per l'Italia]] | 64 | −6 | −2 | **56** | 58 | 3 | 15-30 k€ |
-| 7 | [[I-H05-2 App utility trovate via scraping degli store]] | 64 | −8 | −1 | **55** | 56 | 4 | 10-60 k€ per app |
+| 7 | [[I-H05-2 App utility trovate via scraping degli store]] | 64 | −8 | −1 | **55** | 56 | 4 | 10-60 k€ per app comprata; fino a ~40-60 k€ per 4-6 accordi in revenue share |
 | 8 | [[I-H11-1 Quiz locali automatici per testate]] | 56 | 0 | −2 | **54** | 56 | 4 | 15-30 k€ |
 | 9 | [[I-H07-1 Intelligence OTA per operatori di tour]] | 62 | −5 | −8 | **49** | 57 | 5 | 30-50 k€ |
 | 10 | [[I-H07-2 Rate shopper per autonoleggi]] | 61 | −5 | −8 | **48** | 56 | 5 | 30-45 k€ |

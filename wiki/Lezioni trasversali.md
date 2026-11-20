@@ -29,7 +29,7 @@ Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 - Servizi B2C legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]] è stata declassata nel secondo giro; resta aperta solo [[I-H15-1 Contestazione maxi-bollette a successo]], subordinata a un parere legale.
 
 ## 5. Anche i giochi sono quasi chiusi per questo profilo
-- Portali web: un gioco recente fa in mediana ~44 mila partite; i portali filtrano su qualità di game design. Vedi [[H10 Giochi web su portali]].
+- Portali web: un gioco recente fa in mediana ~44-57 mila partite; i portali filtrano su qualità di game design. Vedi [[H10 Giochi web su portali]].
 - Steam e mobile: il 65,9% dei giochi usciti su Steam nel 2025 incassa meno di 1.000 $; un team delegato costa ~165-185 k€/anno. Vedi [[H12 Giochi indie su Steam o mobile]].
 - Giochi quotidiani su dati: non monetizzano verso il pubblico; i grandi editori li fanno in casa. Resta la nicchia dei quiz per testate locali. Vedi [[H11 Giochi quotidiani basati su dati]].
 

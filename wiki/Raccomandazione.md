@@ -10,8 +10,8 @@ Organizzata per obiettivo: **A** reddito extra (1-2 k€/mese netti), **B** busi
 ## In sintesi
 - **Nessuna idea ha una probabilità alta:** le migliori stanno nella fascia 5-15%.
 - **A. Reddito extra, con capitale (~100-290 k€):** **comprare un piccolo software già redditizio** ([[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]]), probabilità media. Non richiede l'autorizzazione del datore, salvo obblighi di comunicazione previsti dal contratto.
-- **A. Reddito extra, con poco capitale:** non c'è una strada solida. Due opzioni deboli senza autorizzazione del datore: prendere **app in gestione in revenue share** ([[I-H05-2 App utility trovate via scraping degli store]], ~10-60 k€ per 4-6 accordi; probabilità media ma evidenze aneddotiche) oppure costruire **quiz automatici per testate locali** ([[I-H11-1 Quiz locali automatici per testate]], ~15-30 k€; probabilità bassa, servono ~58-101 testate paganti).
-- **C. Costruisci e vendi:** nessuna strada senza autorizzazione del datore. Con l'autorizzazione, software B2B a canone da costruire.
+- **A. Reddito extra, con poco capitale:** non c'è una strada solida. Due opzioni deboli senza autorizzazione del datore: prendere **app in gestione in revenue share** ([[I-H05-2 App utility trovate via scraping degli store]], fino a ~40-60 k€ per 4-6 accordi; probabilità media ma evidenze aneddotiche) oppure costruire **quiz automatici per testate locali** ([[I-H11-1 Quiz locali automatici per testate]], ~15-30 k€ di avvio; probabilità bassa, servono ~63-122 testate paganti).
+- **C. Costruisci e vendi:** nessuna strada senza autorizzazione del datore. Con l'autorizzazione, software B2B a canone da costruire (monitoraggio prezzi, dati per tour operator e autonoleggi).
 - **B. Business:** nessuna idea è promettente (3-7% per le idee approfondite). Oggi non ci investirei.
 
 ## Il quadro che vale per tutti gli obiettivi
@@ -22,12 +22,12 @@ Organizzata per obiettivo: **A** reddito extra (1-2 k€/mese netti), **B** busi
 ## Cosa farei, in ordine
 
 ### 1. Decidere il capitale che sei disposto a rischiare
-Da questa scelta dipende la strada per l'obiettivo A. Per 1-2 k€/mese netti bisogna coprire **55-96 k€/anno**: 21-43 k€ di margine prima delle tasse, 30-38 k€ di collaboratori part-time e 4-15 k€ di costi fissi della società.
+Da questa scelta dipende la strada per l'obiettivo A. Per 1-2 k€/mese netti bisogna coprire **55-96 k€/anno** se si compra un software (21-43 k€ di margine prima delle tasse, 30-38 k€ di collaboratori part-time, 4-15 k€ di costi fissi della società) e **60-116 k€/anno** se si costruisce (più 5-20 k€ di infrastruttura).
 
 | Situazione | Strada |
 |---|---|
 | Hai **~100-290 k€** da rischiare [stima] | **Comprare** un software con SDE (utile prima del compenso del proprietario) di ~55-96 k€/anno. Ai multipli realizzati per software di questa taglia (1,85-2,24 volte l'SDE) costa ~100-215 k€; a 3 volte, la soglia massima dell'esperimento, ~165-290 k€. Se è un'app Atlassian ancora su Connect, aggiungere 20-60 k€ di migrazione a Forge. |
-| Hai **~10-60 k€** | **Prendere app in gestione in revenue share** (fino a 10 k€ per accordo, 4-6 accordi; esperimento nella nota di [[I-H05-2 App utility trovate via scraping degli store]]) oppure, con ~15-30 k€, **costruire** i quiz per testate locali. Probabilità media per la prima (evidenze aneddotiche), bassa per la seconda: valgono soprattutto come esperimenti economici. |
+| Hai **fino a ~40-60 k€** | **Prendere app in gestione in revenue share** (fino a 10 k€ per accordo, 4-6 accordi; esperimento nella nota di [[I-H05-2 App utility trovate via scraping degli store]]) oppure, con ~15-30 k€, **costruire** i quiz per testate locali. Probabilità media per la prima (evidenze aneddotiche), bassa per la seconda: valgono soprattutto come esperimenti economici. |
 | Hai il capitale **e vuoi partire subito** | Avviare l'esperimento sui quiz (30 giorni) mentre si cerca il software da comprare. |
 
 I 350-475 k€ citati nella nota di [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] valgono per l'obiettivo B, non per A: circa 350-450 k€ con un operatore a 0,6-1 persona (45-65 k€/anno, stima dell'Entusiasta del secondo giro); ~420-475 k€ con un operatore a tempo pieno pagato secondo [[H16 Founder a tempo parziale]] (60-75 k€/anno, stima del Bucatore).
@@ -43,7 +43,7 @@ Riprende l'esperimento del secondo giro nella nota dell'idea, con le soglie adat
 ### 3. Strada "quiz per testate": esperimento di 30 giorni
 - Quiz generati dagli articoli di 3 testate; una demo costruita sulla testata di ciascun destinatario, a partire dai suoi feed RSS pubblici e mostrata solo a quella testata (non pubblicata); 30 testate contattate; 4 settimane gratis, poi 79 €/mese.
 - Le regole si applicano in quest'ordine. **Stop:** meno di 2 impegni a pagare, oppure la risposta prevalente è "abbiamo già un fornitore" o "lo facciamo gratis". **Successo:** almeno 3 testate si impegnano a pagare e almeno 6 accettano la prova. **Zona grigia (tutti gli altri casi):** ripetere con 30 testate in un secondo paese (es. Spagna) prima di investire.
-- **Limite:** per 1-2 k€/mese netti servono ricavi di 55-96 k€/anno, cioè **~58-101 testate paganti** a 79 €/mese, su 43 quotidiani locali e 150-300 testate online. Per confronto, il Bucatore di [[H11 Giochi quotidiani basati su dati]] stima ~32 k€/anno in uno scenario ottimistico (30% dei 59 quotidiani, ~18 testate, a 150 €/mese). Adatto all'obiettivo A solo se l'esperimento va molto bene; non adatto a B (servirebbero ~127-169 testate).
+- **Limite:** per 1-2 k€/mese netti servono ricavi di 60-116 k€/anno, cioè **~63-122 testate paganti** a 79 €/mese, su 43 quotidiani locali e 150-300 testate online. Per confronto, il Bucatore di [[H11 Giochi quotidiani basati su dati]] stima ~32 k€/anno in uno scenario ottimistico (30% dei 59 quotidiani, ~18 testate, a 150 €/mese). Adatto all'obiettivo A solo se l'esperimento va molto bene; non adatto a B (servirebbero ~127-169 testate).
 
 ### 4. Contratto e pareri legali
 - **Per tutte le idee:** prima di costituire una società (necessaria anche per comprare un software), far leggere il contratto (clausole di esclusiva, obbligo di comunicare altre attività) e seguire le regole di separazione: codice scritto da zero, infrastruttura propria, nessun ex collega senza un parere. Sono i passi 1 e 5 di [[I-H16-1 Autorizzazione scritta e veicolo societario]]; se il contratto obbliga a comunicare altre attività, anche il passo 3.
@@ -61,7 +61,7 @@ Confutate con evidenze: siti SEO con affiliazione, app mobile nuove in abbonamen
 
 ## Cosa non sappiamo ancora
 - **Le probabilità per A e C sono stime di Claude**, ricavate dai numeri delle note, non verdetti dei giudici. Anche l'ipotesi che per A bastino collaboratori part-time non è stata verificata. Per le idee con un gate, le fasce sono condizionate al superamento del gate.
-- **Alcune idee non approfondite** (es. [[I-H01-1 Portafoglio di actor su target difficili non personali]] a 58, [[I-H11-1 Quiz locali automatici per testate]] a 54) hanno punteggi più alti delle 4 approfondite solo perché non sono state ricalibrate, e in alcuni casi assegnano voti alti a criteri senza fonte. Vedi [[Classifica]].
+- **Alcune idee non approfondite** (es. [[I-H01-1 Portafoglio di actor su target difficili non personali]] a 58, [[I-H11-1 Quiz locali automatici per testate]] a 54) hanno punteggi più alti delle 4 approfondite solo perché non sono state ricalibrate. Alcune (es. [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]], [[I-H11-1 Quiz locali automatici per testate]]) assegnano anche voti alti a criteri senza fonte. Vedi [[Classifica]].
 - **Volumi di ricerca reali** (manca uno strumento SEO) e **interviste a clienti veri**: nessuna idea è ancora stata messa davanti a un cliente.
 - **Il testo del contratto.**
 
