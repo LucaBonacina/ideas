@@ -129,7 +129,7 @@ Rapporti integrali: [[I-H06-1 Entusiasta]] (17 ricerche web) e [[I-H06-1 Bucator
   - Disdettalegale ha 0 recensioni.
   - Disdettaonline offre ormai moduli gratuiti.
   - Nessuna app di disdetta supera 7 valutazioni.
-  
+
   Il modello a pratica funziona invece in Germania (Volders 7,99-19,99 €, 4,6 su 11.681 recensioni) e in Francia (Résilier.com 8,99 €).
 - **Correzioni all'economia:**
   - con la raccomandata a 6,99 € il margine è nullo, perché Poste costa 4,52-5,37 €;

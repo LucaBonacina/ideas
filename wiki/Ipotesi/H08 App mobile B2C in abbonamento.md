@@ -78,12 +78,12 @@ Rapporto integrale: [[H08 Bucatore]].
 
 ### Verdetto
 - **Stato: confutata** come strategia generale ("app utility o AI in abbonamento"): entrambi i pezzi del criterio sono soddisfatti per la popolazione.
-- Resta una sacca residua: **app di dati freschi raccolti con lo scraping, con paywall rigido e prezzo ≥ 50 €/anno, in nicchie trovabili con la ricerca**. Il suo valore viene dal dato, non dal formato app, quindi va esaminata in H04 e H13, non qui.
+- Resta una sacca residua: **app di dati freschi raccolti con lo scraping, con paywall rigido e prezzo ≥ 50 €/anno, in nicchie trovabili con la ricerca**. Il suo valore viene dal dato, non dal formato app, quindi non è stata esaminata come idea a sé (vedi la nota di coerenza in [[H13 Regole e disponibilità locali per chi si muove]]), non qui.
 - **Fiducia: alta.** Fonti primarie con oltre 115 mila app, verificate.
 - **Probabilità di successo: circa 5%** [stima]. Il 4,6% delle app nuove arriva a 10 k$ di MRR in 2 anni, e 10 k$ è appena la soglia necessaria. Il vantaggio sui dati compensa in parte la mancanza di pubblico e di spesa pubblicitaria.
 
 ## Idee concrete
-**Nessuna**: l'ipotesi è confutata. Segnalo due spunti dell'Entusiasta da passare all'esame di H13 (H04 è smentita), senza nota idea né punteggio:
+**Nessuna**: l'ipotesi è confutata. Segnalo due spunti dell'Entusiasta da passare all'esame di H13 (H04 è confutata; in H13 la sacca non è poi stata esaminata come idea a sé), senza nota idea né punteggio:
 - **Allerte di disponibilità nei rifugi alpini.** Prenota Rifugi CAI non descrive liste d'attesa né notifiche; l'analogo nordamericano Campnab costa 90-270 $/anno. Contro: la categoria Travel ha la mediana più bassa (35 $/mese), la stagionalità è forte e c'è un concorrente in beta (HutScanner). Si sovrappone a H13.
 - **Prezzi delle carte collezionabili in Europa da Cardmarket.** Collectr ha 70.491 valutazioni negli USA e 1.450 in Italia. Contro: termini d'uso di Cardmarket, decine di app scanner, e il leader può localizzarsi in qualunque momento.
 

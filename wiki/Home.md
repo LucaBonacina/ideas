@@ -8,7 +8,7 @@ aggiornato: 2026-11-20
 Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scraping, **senza lasciare il lavoro** e affidando la gestione a persone di fiducia.
 
 ## In breve
-- **Reddito extra (1-2 k€/mese netti):** la strada più solida è comprare un piccolo software già redditizio (servono ~125-280 k€); con poco capitale, quiz automatici per testate locali (più incerti).
+- **Reddito extra (1-2 k€/mese netti):** la strada più solida è comprare un piccolo software già redditizio (servono ~165-380 k€); con poco capitale, quiz automatici per testate locali (più incerti).
 - **Costruisci e vendi:** la strada migliore è comprare, migliorare e rivendere.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
@@ -23,7 +23,7 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 ## Come è stata fatta
 - [[Profilo e vincoli]] · [[Protocollo di discovery]] · [[Registro delle ipotesi]] (scritto prima della ricerca e non modificato)
 - Per ogni ipotesi: un **Entusiasta** e un **Bucatore di palloncini** in parallelo e alla cieca, poi un **Giudice** che riverifica le affermazioni decisive. Rapporti integrali nella cartella `Rapporti/` (materiale grezzo).
-- Secondo giro su 4 idee: sezione "Approfondimento (round 2)" nelle loro note.
+- Secondo giro su 4 idee: sezione "Approfondimento (round 2)", cioè del secondo giro, nelle loro note.
 - Dopo la discovery l'utente ha chiarito che non ha una soglia di successo: le idee sono state rivalutate per tre obiettivi in [[Classifica per obiettivo]].
 
 ## Ipotesi
@@ -47,7 +47,7 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 | Trasversali | [[H16 Founder a tempo parziale]] | parziale | n.a. |
 | | [[H17 Vantaggio dello scraping]] | parziale | n.a. |
 
-"Prob." = probabilità stimata dal giudice che l'ipotesi produca un business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana (obiettivo B; soglia fissata da Claude, non dall'utente). H16 e H17 sono trasversali: non descrivono un business, quindi la probabilità non si applica (i giudici hanno dato 15% e 10% come fattori di correzione per le altre idee). Per gli altri obiettivi vedi [[Classifica per obiettivo]].
+"Prob." = probabilità stimata dal giudice che l'ipotesi produca un business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana (obiettivo B; soglia fissata da Claude, non dall'utente). H16 e H17 sono trasversali e non descrivono un business. I numeri dei giudici hanno un altro significato: per H16, 15% è la probabilità stimata che il modello "founder a tempo parziale con team" regga (nel secondo giro è stato applicato come dimezzamento delle probabilità delle idee); per H17, 10% è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Per gli altri obiettivi vedi [[Classifica per obiettivo]].
 
 ## Archivio
 - Screening B2C: [[05 Screening B2C]].

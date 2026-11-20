@@ -17,13 +17,13 @@ Le sessioni di ricerca avevano applicato questa penalità in modo diverso (da 0 
 Le altre penalità (legali, di piattaforma) restano quelle dei giudici. Il protocollo prevedeva "penalità fino a −10" senza specificare altro: qui si è deciso che il tetto vale per ciascuna categoria di penalità (decisione registrata nel [[Protocollo di discovery]]). Per questo i punteggi qui possono differire di qualche punto da quelli scritti nelle singole note ("v2 della sessione").
 
 ## Le 4 idee approfondite (secondo giro)
-**Come sono state scelte:** al momento della scelta le prime tre per punteggio erano [[I-H09-1 Sync fornitori senza feed]], [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] e [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]]. Per il quarto posto erano pari [[I-H06-1 Disdetta digitale per l'Italia]] e [[I-H01-1 Portafoglio di actor su target difficili non personali]]: è stata scelta I-H06-1 perché era la migliore idea B2C, mentre I-H01-1 vende scraping a terzi come I-H03-1, già nel gruppo, e avrebbe aggiunto poca informazione nuova. Con la regola unica applicata dopo, I-H06-1 scende a 56, sotto I-H01-1 (58).
+**Come sono state scelte:** al momento della scelta le prime tre per punteggio erano [[I-H09-1 Sync fornitori senza feed]], [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] e [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]]. La scelta è stata fatta con una prima versione della regola sul conflitto, in cui I-H06-1 non aveva penalità: per il quarto posto erano quindi pari [[I-H06-1 Disdetta digitale per l'Italia]] e [[I-H01-1 Portafoglio di actor su target difficili non personali]] (58). È stata scelta I-H06-1 perché era la migliore idea B2C, mentre I-H01-1 vende scraping a terzi come I-H03-1, già nel gruppo, e avrebbe aggiunto poca informazione nuova. Con la regola definitiva (−2 per I-H06-1) I-H06-1 scende a 56, sotto I-H01-1 (58).
 
 | Idea | Primo giro | **Secondo giro** | Probabilità (giudice) | In una riga |
 |---|---|---|---|---|
 | [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] | 64 | **52** | ~4% | Ferma senza autorizzazione scritta del datore; NetPricer fa già matching per codice OEM nei ricambi auto, in italiano |
 | [[I-H09-1 Sync fornitori senza feed]] | 67 | **50** | ~5% | I portali B2B vietano bot e cessione delle credenziali; regge solo con grossisti che autorizzano |
-| [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 59 | **48** | ~7% | Conflitto con il lavoro trascurabile; per l'obiettivo B servono 350-475 k€ di capitale (~125-280 k€ per il reddito extra, vedi [[Raccomandazione]]) |
+| [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 59 | **48** | ~7% | Conflitto con il lavoro trascurabile; per l'obiettivo B servono 350-475 k€ di capitale (~165-380 k€ per il reddito extra, vedi [[Raccomandazione]]) |
 | [[I-H06-1 Disdetta digitale per l'Italia]] | 56 | **41** | ~3% | Concorrente diventato gratuito; margine nullo con la raccomandata online |
 
 **Perché sono scesi:** sia per due correzioni di metodo (il costo di un operatore pagato a mercato, da [[H16 Founder a tempo parziale]]; il vantaggio dello scraping ricalibrato, da [[H17 Vantaggio dello scraping]]), sia per fatti nuovi verificati (concorrenti, termini d'uso dei portali, vincoli di piattaforma).
@@ -37,7 +37,7 @@ Il test pratico previsto in [[I-H17-1 Test di replicabilità dello scraping]] no
 |---|---|---|---|---|---|---|---|---|
 | 1 | [[I-H09-1 Sync fornitori senza feed]] | 74 | −5 | −2 | **67** | 69 | 4 (10 nei primi 3 mesi) | 25-40 k€ (55-75 k€ dopo il secondo giro) |
 | 2 | [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] | 73 | −1 | −8 | **64** | 66 | 4 | 30-50 k€ |
-| 3 | [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 66 | −6 | −1 | **59** | 60 | 5 (5-8 durante la ricerca) | 150-300 k€ (350-475 k€ dopo il secondo giro per l'obiettivo B; ~125-280 k€ per l'obiettivo A) |
+| 3 | [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 66 | −6 | −1 | **59** | 60 | 5 (5-8 durante la ricerca) | 150-300 k€ (350-475 k€ dopo il secondo giro per l'obiettivo B; ~165-380 k€ per l'obiettivo A) |
 | 4 | [[I-H01-1 Portafoglio di actor su target difficili non personali]] | 72 | −6 | −8 | **58** | 64 | 4 | 15-30 k€ |
 | 5 | [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]] | 65 | −1 | −8 | **56** | 58 | 4 | 25-45 k€ |
 | 5 | [[I-H06-1 Disdetta digitale per l'Italia]] | 64 | −6 | −2 | **56** | 58 | 3 | 15-30 k€ |

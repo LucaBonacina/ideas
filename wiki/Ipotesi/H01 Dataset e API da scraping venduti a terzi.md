@@ -73,7 +73,7 @@ Sintesi di [[H01 Bucatore]] (19 ricerche web).
 | 3 | Google contro SerpApi: archiviata due volte (Entusiasta) oppure ancora pendente (Bucatore) | Divergenza | **Hanno ragione entrambi, in momenti diversi.** Il 10 novembre 2026 il giudice ha accolto la mozione di archiviazione anche sulla domanda modificata. Google può però modificarla ancora entro il 30 novembre 2026. La decisione riguarda la sufficienza delle accuse DMCA e "did not rule that SerpApi's scraping practices are lawful". Il rischio non è chiuso; resta un costo di difesa alto per chi rivende dati di grandi piattaforme. | https://www.seroundtable.com/google-loses-again-against-serpapi-42508.html |
 
 ### Applicazione dei criteri di confutazione
-1. **Ricavi mediani < 500 €/mese e top pochi e concentrati: VERIFICATO.** Mediana di circa 30 $ al mese tra chi ha utenti, circa 0 sul catalogo. Il gruppo sopra la soglia esiste (51-73 sviluppatori), ma è circa lo 0,1-0,2% di chi pubblica.
+1. **Ricavi mediani < 500 €/mese e top pochi e concentrati: VERIFICATO.** Mediana di circa 30 $ al mese tra chi ha utenti, circa 0 sul catalogo. Il gruppo sopra la soglia esiste (51-73 sviluppatori), ma è circa il 3-4% dei 1.656 sviluppatori censiti.
 2. **Domanda quasi tutta nei domini esclusi: NON VERIFICATO.** La parte esclusa è rilevante, circa 15-25% sullo Store e la quota finanziaria nei dati alternativi, ma non è "quasi tutta" (verifica 1).
 3. **Prezzi in corsa al ribasso: PARZIALE.** I cloni costano 10-50 volte meno, ma i leader tengono o alzano i prezzi (storico prezzi dall'API, [[H01 Bucatore]] E16).
 4. **Rischio legale sistematico: PARZIALE.** È alto su social, LinkedIn, Google e dati personali (GDPR, KASPR); è basso sui dati di prodotto e prezzo pubblici e senza login.

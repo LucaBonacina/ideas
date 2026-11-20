@@ -10,7 +10,7 @@ tags: [ipotesi, trasversale]
 ---
 # H16 — Founder a tempo parziale + team di fiducia
 
-> **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata è un fattore di correzione da applicare alle altre idee, non la probabilità di un business a sé. Sigle nel [[Glossario]].
+> **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata non è quella di un business a sé: per H16 è la probabilità che il modello "founder a tempo parziale con team" regga (nel secondo giro applicata come dimezzamento delle probabilità delle idee); per H17 è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Sigle nel [[Glossario]].
 
 ## Ipotesi (pre-registrata)
 Il modello "founder a tempo parziale + team di fiducia" è sostenibile (dal [[Registro delle ipotesi]]).

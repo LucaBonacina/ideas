@@ -4,7 +4,7 @@ id: I-H09-1
 ipotesi: "[[H09 Estensioni e plugin su marketplace]]"
 punteggio_v2: 49
 punteggio_v2_r1: 69
-verdetto_r2: "condizionata: solo esperimento di arresto, nessun investimento prima"
+verdetto_r2: "ridimensionata: solo esperimento con criteri di arresto, nessun investimento prima"
 modello_ricavo: "abbonamento mensile tramite fatturazione dell'app store (Shopify, poi WooCommerce e PrestaShop)"
 tempo_founder_h_sett: 4 # circa 10 nei primi 3 mesi
 investimento_iniziale_eur: "55-75 k€ dopo il secondo giro (25-40 k€ al primo) [stima]"

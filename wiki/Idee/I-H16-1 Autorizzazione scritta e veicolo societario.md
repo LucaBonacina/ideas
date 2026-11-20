@@ -5,7 +5,7 @@ ipotesi: "[[H16 Founder a tempo parziale]]"
 punteggio_v2: "n.a."
 modello_ricavo: "nessuno: prerequisito completo per le idee che vendono dati o scraping; per le altre almeno i passi 1 e 5"
 tempo_founder_h_sett: 2
-investimento_iniziale_eur: "500-1.500 per il parere legale; costituzione di una SRL e costi fissi di 4-15 k€/anno (probabilmente vicini al minimo), solo se il test passa [stima]"
+investimento_iniziale_eur: "500-1.500 € per il parere legale; costituzione di una SRL e costi fissi di 4-15 k€/anno (probabilmente vicini al minimo), solo se il test passa [stima]"
 tags: [idea, raccomandazione-operativa]
 ---
 # I-H16-1 — Autorizzazione scritta e veicolo societario
@@ -61,7 +61,7 @@ Il giuslavorista fa il parere, il commercialista costituisce la SRL, l'operatore
 - **Azione:** audit con un giuslavorista (1 ora), poi comunicazione scritta al datore sulla prima idea candidata delle altre sessioni.
 - **Soglia di successo (decisa ora):** entro 30 giorni,
   - (1) il parere legale non trova clausole di esclusiva o di proprietà intellettuale che coprano l'idea;
-  - **e** (2) il datore conferma per iscritto, o non solleva obiezioni entro 15 giorni da una comunicazione documentata (PEC o email con ricevuta).
+  - **e** (2) per le idee che vendono dati o servizi di scraping (e per I-H09-1): il datore conferma **per iscritto**; per le altre idee basta che non sollevi obiezioni entro 15 giorni da una comunicazione documentata (PEC o email con ricevuta), se la comunicazione è richiesta dal contratto.
 - **Fallimento:** il datore obietta, oppure il contratto contiene una cessione di IP "anche fuori orario" sul software in generale. In quel caso restano solo idee lontane dalla vendita di dati, con una deroga scritta da negoziare.
 
 ## Fonti

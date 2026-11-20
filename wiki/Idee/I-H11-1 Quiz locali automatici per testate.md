@@ -88,9 +88,10 @@ Calcolo: (3·10 + 2·10 + 2·15 + 3·15 + 3·15 + 3·5 + 2·5 + 3·5 + 4·5 + 4�
 1. **Settimane 1-2.** Pipeline minima sugli articoli di 3 testate locali, scelte tra quelle senza sezione giochi: RSS/scraping, generazione di 8 domande, revisione umana, widget embeddabile. Più una domanda "dato del territorio" (carburanti per provincia da open data MIMIT).
 2. **Settimane 1-4.** Outreach a 30 testate locali e regionali (direttori, responsabili digitali) con una demo sulla *loro* testata, generata dagli articoli della settimana prima. Offerta: 4 settimane gratis, poi 79 €/mese.
 3. **Soglie decise ora:**
-   - **Successo:** almeno 3 testate su 30 firmano un impegno a pagare almeno 79 €/mese dopo la prova (lettera d'intenti o primo pagamento), **e** almeno 6 su 30 accettano la prova gratuita.
+   Le regole si applicano in quest'ordine:
    - **Fallimento:** meno di 2 impegni a pagare, oppure la risposta prevalente è "abbiamo già Studio Giochi/Keesing" o "lo facciamo gratis con tool esteri".
-   - **Zona grigia (2 impegni):** ripetere con 30 testate in un secondo paese (Spagna) prima di investire.
+   - **Successo:** almeno 3 testate su 30 firmano un impegno a pagare almeno 79 €/mese dopo la prova (lettera d'intenti o primo pagamento), **e** almeno 6 su 30 accettano la prova gratuita.
+   - **Zona grigia (tutti gli altri casi, es. 2 impegni, oppure 3 o più impegni ma meno di 6 prove):** ripetere con 30 testate in un secondo paese (Spagna) prima di investire.
 
 ## Fonti
 Tutte con accesso il 2026-11-20.

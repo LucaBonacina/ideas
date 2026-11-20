@@ -135,4 +135,4 @@ Tutte con accesso 2026-11-20.
   - https://www.macitynet.it/google-maps-ztl/
 
 ## Nota di coerenza
-La sacca residua segnalata in [[H08 App mobile B2C in abbonamento]] e [[H04 SEO programmatica + affiliazione]] (app o servizio di dati freschi con paywall, es. regole e accessi su prenotazione) **non è stata esaminata come idea a sé**: questa ipotesi è stata smentita nella forma del prodotto unico con affiliazione.
+La sacca residua segnalata in [[H08 App mobile B2C in abbonamento]] e [[H04 SEO programmatica + affiliazione]] (app o servizio di dati freschi con paywall, es. regole e accessi su prenotazione) **non è stata esaminata come idea a sé**: questa ipotesi è stata confutata nella forma del prodotto unico con affiliazione.

@@ -39,6 +39,10 @@ Termini e sigle usati nella wiki.
 | **PEC** | Posta elettronica certificata, con valore legale. |
 | **ADR** | Risoluzione alternativa delle controversie (es. conciliazioni, arbitro dell'energia). |
 | **MCP** | Protocollo con cui le applicazioni AI si collegano a fonti di dati e strumenti esterni. |
+| **Subagenti** | Gli agenti di ricerca (Entusiasta e Bucatore) avviati dal Giudice di ogni sessione. |
+| **Round 2** | Secondo giro. |
+| **Bot / anti-bot** | Programma automatico che visita i siti / protezioni dei siti contro i programmi automatici. |
+| **Margine / margine lordo** | Margine: quanto resta dopo tutti i costi, prima delle tasse. Margine lordo: prima del costo dell'operatore o del founder. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |

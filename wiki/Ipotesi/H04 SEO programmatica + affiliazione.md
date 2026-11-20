@@ -83,7 +83,7 @@ Sintesi del rapporto integrale: [[H04 Bucatore]]. Posizione: **confutata su tutt
 - **Probabilità di successo: 4%** (successo = 50 k€/anno di margine entro 24 mesi, founder ≤ 5 h/settimana).
 - **Perché.** Il modello dipende al 100% da Google e da 2-3 programmi di affiliazione, cioè dai due fattori che si sono deteriorati di più nel 2024-2026. Il vantaggio dello scraping, produrre molte pagine, coincide con il profilo che Google penalizza.
 
-**Cosa si salva, fuori da H04.** Il *dato* raccolto ha valore: regole e accessi su prenotazione in Italia, aggiornati e con alert. Ma lo ha come prodotto che si fa pagare direttamente (alert e app a pagamento), non come sito pubblicitario. È materiale per [[H13 Regole e disponibilità locali per chi si muove]] (ipotesi poi smentita) e H08, dove va valutato con i loro criteri.
+**Cosa si salva, fuori da H04.** Il *dato* raccolto ha valore: regole e accessi su prenotazione in Italia, aggiornati e con alert. Ma lo ha come prodotto che si fa pagare direttamente (alert e app a pagamento), non come sito pubblicitario. È materiale per [[H13 Regole e disponibilità locali per chi si muove]] (ipotesi poi confutata) e H08, dove va valutato con i loro criteri.
 
 ## Idee concrete che sopravvivono
 Nessuna: l'ipotesi è confutata.

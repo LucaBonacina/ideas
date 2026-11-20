@@ -28,7 +28,7 @@ Un feed strutturato e storicizzato, con livelli di servizio, di informazioni ope
 ## Distribuzione: come arrivano i primi 100 clienti/utenti
 - **Outbound** verso una lista finita: OTA, app di viaggio italiane ed europee, tour operator digitali, startup di assistenti di viaggio.
 - **Actor e MCP su Apify** come vetrina a consumo.
-- **Sinergia possibile** con il prodotto B2C di [[H13 Regole e disponibilità locali per chi si muove]] (regole locali per chi si muove in Italia), che usa gli stessi dati. Nota: H13 è stata poi smentita.
+- **Sinergia possibile** con il prodotto B2C di [[H13 Regole e disponibilità locali per chi si muove]] (regole locali per chi si muove in Italia), che usa gli stessi dati. Nota: H13 è stata poi confutata.
 
 ## Perché queste competenze danno un vantaggio
 Le fonti sono frammentate: sui portali open data solo 6 dataset regionali di eventi trovati, mentre gli avvisi dei musei (per esempio gli scioperi agli Uffizi) stanno solo sulle home page (`docs/research/05-screening-b2c-b.md`). Servono raccolta multi-fonte, normalizzazione e storicizzazione continue, cioè il lavoro del founder.
