@@ -62,3 +62,6 @@ Come ho stimato: ho contato i servizi raggiungibili per nome con le fonti trovat
 - Non è stato fatto il confronto con i totali ISTAT per regione.
 - I requisiti numerici di Basilicata (PDF scansionati) e Sicilia (D.P.Reg. 16/05/2013) non sono stati letti.
 - Non ho trovato l'avviso ufficiale del voucher rette 2025/26 in Campania: c'è solo una notizia di stampa, non leggibile.
+
+## Test di completezza (P10, 2026-11-20)
+Misure su un comune campione per regione: [[Test di completezza - Sud e isole]]. Correzione principale: in Campania esiste un elenco regionale dei nidi e micronidi (2024), vedi [[Campania]].
