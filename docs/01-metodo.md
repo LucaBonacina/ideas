@@ -84,3 +84,12 @@ L'utente ha dichiarato un interesse personale (famiglia, asili, burocrazia per g
 
 ## Decisioni registrate (segue)
 - 2026-11-20: esclusi gli ambiti sovrapposti al lavoro dell'utente: aste, procedure concorsuali, aziende e bilanci, immobili. Focus spostato sul B2C.
+- 2026-11-20: esclusi anche gare d'appalto, bandi per imprese, finanziamenti UE e fondi pubblici come lead, **tranne gli incentivi rivolti a persone e famiglie**. Monetizzazione B2C: tutti i modelli ammessi (pubblicità, affiliazione, lead, abbonamento).
+
+## Misurare la domanda senza strumenti SEO (aggiunto 2026-11-20)
+L'utente non ha Semrush, Ahrefs o Keyword Planner. Le misure di C2 usano quindi questi proxy, sempre etichettati **[stima]**:
+1. **Autocompletamento di Google** (`suggestqueries.google.com`): quali varianti esistono e quanto si estende la long-tail (es. quanti comuni compaiono per "iscrizione nido [comune]").
+2. **Google Trends:** andamento relativo e stagionalità, confronto con query di riferimento di volume noto.
+3. **Analisi della SERP:** chi si posiziona oggi, se c'è una risposta AI del motore di ricerca, qualità dei risultati.
+4. **Traffico stimato dei concorrenti** da fonti pubbliche (es. pagine gratuite di Similarweb), quando disponibile.
+5. **Segnali di community:** numero e attività di thread su Reddit, forum e gruppi pubblici.
