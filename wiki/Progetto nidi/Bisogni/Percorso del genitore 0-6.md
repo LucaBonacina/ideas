@@ -65,7 +65,17 @@ Il percorso di un genitore che cerca, sceglie e usa i servizi educativi 0-6 in I
 - **Contro-evidenza:** all'infanzia i posti ci sono (Milano 2024; Assonidi 2026): il bisogno è la scelta, non l'accesso.
 
 ## Variazioni per segmento
-Sezione completata con il rapporto [[Segmenti - voce delle famiglie]].
+Fonti: [[Segmenti - voce delle famiglie]] e note di segmento.
+
+| Segmento | Dove il percorso cambia | Fase più critica | Bisogni specifici |
+|---|---|---|---|
+| Disabilità e bisogni speciali ([[Bambini con bisogni speciali]]) | Il percorso si intreccia con quello sanitario (neuropsichiatria, certificazione L. 104, verbali) e con scadenze proprie per il sostegno; al nido la priorità c'è nel pubblico ma il sostegno nei privati quasi mai; all'infanzia il problema è che il sostegno arrivi in tempo e copra l'orario; l'estate resta scoperta | 6 e 8 | [[SD1 Avere il sostegno al nido anche privato o fuori termine]], [[SD2 Avere sostegno e assistente all infanzia dal primo giorno]], [[SD3 Frequentare a orario pieno senza uscite anticipate imposte]], [[SD4 Riconoscere i segnali e rispettare i tempi di certificazione]], [[SD5 Coprire estate e chiusure con un bambino con disabilita]] |
+| Bilingui, internazionali, expat ([[Bilingui e internazionali]]) | Per le famiglie italiane la fase 3 si allunga (verificare quanta lingua c'è davvero, costi molto diversi); per gli expat le fasi 1 e 4 avvengono fuori calendario, senza ISEE, residenza o rete, spesso in inglese | 1, 3, 4 | [[SB1 Sapere quanta lingua straniera davvero e a che costo]], [[SB2 Trovare posto arrivando dall estero]] |
+| Approcci pedagogici ([[Approcci pedagogici]]) | Fase 3 dominata dalla verifica dell'autenticità e, per il bosco, dell'autorizzazione; costi privati e orari brevi; la fase 8 diventa "continuità fino alla primaria" | 3, 8 | [[SP1 Verificare se un metodo pedagogico e autentico]], [[SP2 Sapere se un asilo nel bosco e autorizzato e sicuro]], [[SP3 Conciliare approccio pedagogico con costi orari e continuita]] |
+| Orari di lavoro atipici ([[Orari di lavoro atipici]]) | Il nido "standard" copre solo parte del bisogno: il percorso include sempre una seconda soluzione (nonni, babysitter, nido famiglia, baby parking); i criteri di accesso premiano il tempo pieno, non i turni | 6 | [[SO1 Coprire turni serali festivi e all alba]], [[SO2 Frequentare a ore o a giorni variabili pagando per l uso]] |
+| Famiglie straniere ([[Famiglie straniere]]) | La fase 1 spesso manca (il servizio non è conosciuto o non è sentito "per sé"); in fase 4 pesano residenza, criteri sul lavoro e lingua; in fase 2 il titolo di soggiorno per il Bonus nido; in fase 6 la comunicazione | 1, 4 | [[SS1 Accedere al nido con criteri che non escludono]], [[SS2 Iscrivere il figlio senza residenza o documenti dei genitori]], [[SS3 Ottenere il Bonus nido con il proprio permesso di soggiorno]], [[SS4 Capire e farsi capire con il servizio]] |
+
+Osservazione trasversale [stima]: le famiglie dei segmenti disabilità, orari atipici e stranieri **non cercano su Google con parole di segmento** (0-1 suggerimenti); i loro bisogni compaiono dentro le domande generali. Un prodotto li serve con campi della scheda (inclusione, orari, lingue) e con canali diversi dalla ricerca (associazioni, mediatori, aziende, Centri per le famiglie).
 
 ## Dove il percorso si rompe: tre osservazioni [stima del coordinatore]
 1. **Il momento più grave (fase 5) è anche quello in cui nessuno aiuta il genitore a guardare oltre il servizio per cui ha fatto domanda.** Chi è in lista d'attesa non vede i posti liberi altrove né le misure che li renderebbero accessibili.
