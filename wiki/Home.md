@@ -13,14 +13,16 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 - **Reddito extra con poco capitale:** non c'è una strada solida; le opzioni meno deboli sono prendere app in gestione in revenue share o costruire quiz automatici per testate locali.
 - **Costruisci e vendi:** nessuna strada senza autorizzazione del datore.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
+- **Filone famiglia** (neo genitori, nonni, famiglie che si allargano): sei ipotesi verificate, nessuna promettente; sopravvivono tre idee piccole a probabilità bassa. Vedi [[Filone famiglia]].
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
 
 ## Da leggere per primo
 1. [[Raccomandazione]] — cosa farei, in che ordine, e perché
 2. [[Classifica per obiettivo]] — le idee valutate per reddito extra, business e "costruisci e vendi"
 3. [[Classifica]] — tutte le idee con il punteggio 0-100
-4. [[Lezioni trasversali]] — cosa dicono insieme le 17 ipotesi
-5. [[Glossario]] — sigle e termini tecnici
+4. [[Filone famiglia]] — l'approfondimento su neo genitori, nonni e famiglie
+5. [[Lezioni trasversali]] — cosa dicono insieme le ipotesi
+6. [[Glossario]] — sigle e termini tecnici
 
 ## Come è stata fatta
 - [[Profilo e vincoli]] · [[Protocollo di discovery]] · [[Registro delle ipotesi]] (scritto prima della ricerca; testo originale non modificato)
@@ -48,6 +50,12 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 | | [[H15 AI che contesta e recupera soldi per i consumatori]] | parziale | 10% |
 | Trasversali | [[H16 Founder a tempo parziale]] | parziale | n.a. |
 | | [[H17 Vantaggio dello scraping]] | parziale | n.a. |
+| Famiglia | [[H18 Roadmap personalizzata per neo genitori]] | **confutata** | 3% |
+| | [[H19 Archetipi di genitori e fiducia nelle fonti]] | **confutata** | 3% |
+| | [[H20 Nonni e famiglia allargata come utenti]] | parziale | 3% |
+| | [[H21 Lista regali governata dai genitori]] | **confutata** | 2% |
+| | [[H22 Ricerca di luoghi servizi norme e bonus per genitori]] | parziale | 2% |
+| | [[H23 Coordinamento e accordi della famiglia]] | parziale | 3% |
 
 "Prob." = probabilità stimata dal giudice che l'ipotesi produca un business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana (obiettivo B; soglia fissata da Claude, non dall'utente). H16 e H17 sono trasversali e non descrivono un business. I numeri dei giudici hanno un altro significato: per H16, 15% è la probabilità che un progetto avviato con il modello "founder a tempo parziale con team" arrivi a 50 k€ di margine, tasso base compreso (il fattore da applicare alle singole idee è circa 0,5); per H17, 10% è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Per gli altri obiettivi vedi [[Classifica per obiettivo]].
 

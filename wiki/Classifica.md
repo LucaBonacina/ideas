@@ -50,6 +50,15 @@ Il test pratico previsto in [[I-H17-1 Test di replicabilità dello scraping]] no
 | 13 | [[I-H15-1 Contestazione maxi-bollette a successo]] | 52 | −7 | −1 | **44** | 45 | 4 | 25-40 k€ |
 | 14 | [[I-H02-1 Feed Italia in tempo reale per assistenti di viaggio]] | 54 | −3 | −8 | **43** | 49 | 4 | 15-25 k€ |
 
+### Filone famiglia (stessa scala, stessa regola sul conflitto)
+| Idea | Lordo | Altre penalità | Conflitto | **Punteggio** | Nella nota | Ore founder/sett | Investimento iniziale [stima] |
+|---|---|---|---|---|---|---|---|
+| [[I-H20-1 Gazzetta cartacea per nonni non digitali]] | 52 | −3 | −1 | **48** | 48 | 4 | 20-40 k€ |
+| [[I-H23-1 Spese straordinarie e calendario per genitori separati]] | 54 | −5 | −2 | **47** | 47 | 3 | 25-50 k€ |
+| [[I-H22-1 Directory feste e corsi per bambini con abbonamento strutture]] | 49 | −1 | −2 | **46** | 46 | 3 | 20-40 k€ |
+
+Vedi [[Filone famiglia]].
+
 Perché alcune idee hanno −8 pur non sembrando "vendita di dati": [[I-H07-1 Intelligence OTA per operatori di tour]] vende ranking e prezzi raccolti dalle agenzie online, [[I-H07-2 Rate shopper per autonoleggi]] vende le tariffe dei concorrenti (è monitoraggio prezzi), [[I-H09-2 Schede prodotto da EAN]] vende contenuti raccolti dai siti dei produttori. Per tutte e tre serve quindi l'autorizzazione del datore.
 
 ## Come leggere i numeri
