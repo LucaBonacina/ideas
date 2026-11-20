@@ -36,7 +36,7 @@ Il modello leggero si applica solo se la nota dell'idea non richiede personale c
 |---|---|---|---|---|---|---|---|---|
 | [[I-H22b-1 Nidi e agevolazioni per comune pagato dai nidi privati]] | 54 | bassa (~4%, giudice) | ~66-224 nidi a 19-29 €/mese | ~172-509 nidi | 2% | bassa | media: alta nei comuni piccoli e dove manca un registro aperto dei nidi | Lettura del contratto e regole di separazione |
 | [[I-H20b-1 Libro del primo anno via WhatsApp]] | 49 | bassa, al limite della media (giudice) | ~470-1.590 libri/anno (margine 32-49 €; costo di stampa all'ingrosso non verificato) | ~1.220-3.630 libri | 3% | bassa | piccola: conserva ricordi, coinvolge i nonni | Lettura del contratto e regole di separazione; parere privacy (foto di minori) |
-| [[I-H22b-2 Guida 0-6 in white label per Ambiti e Centri per le famiglie]] | 48 | bassa (giudice) | ~8-26 enti a 2-3 k€/anno (prezzo non verificato) | ~20-58 enti | 1% | bassa | alta per le famiglie raggiunte | Lettura del contratto e regole di separazione |
+| [[I-H22b-2 Guida 0-6 in white label per Ambiti e Centri per le famiglie]] | 48 | bassa (giudice) | ~8-26 enti a 2-3 k€/anno (prezzo non verificato), solo con un commerciale a provvigione occasionale: la nota dice che serve esperienza di vendita alla PA | ~20-58 enti | 1% | bassa | alta per le famiglie raggiunte | Lettura del contratto e regole di separazione |
 | [[I-H20b-2 Dalla chat di famiglia al libro dei nonni]] | 47 | bassa (giudice) | ~1.100-3.000 libri/anno (margine 17-21 €) | ~2.860-6.820 libri | 2% | bassa | piccola | Lettura del contratto e regole di separazione; parere privacy (dati di tutti i membri del gruppo) |
 | [[I-H23-1 Spese straordinarie e calendario per genitori separati]] | 47 | bassa [stima Claude] | non applicabile: la nota richiede un operatore che segua gli studi legali | ~870-1.680 abbonamenti a 69 €/anno | 3% | bassa | media per chi la usa: riduce i conflitti sulle spese | Lettura del contratto e regole di separazione; parere legale (GDPR, dati di minori e sanitari) |
 | [[I-H20-1 Gazzetta cartacea per nonni non digitali]] | 46 | bassa [stima Claude] | non applicabile: la nota richiede un operatore per stampa e assistenza | ~1.710-5.520 famiglie (margine 21-35 €/anno) | 3% | bassa | media per i nonni non digitali | Lettura del contratto e regole di separazione; parere privacy (foto di minori) |
@@ -70,11 +70,12 @@ I codici F1-F5 e C1 sono quelli dello screening B2C (C1 = trova-bonus, da non co
 
 ## Esperimenti (tutti economici; per ognuno verificare prima chi paga)
 - **Nidi per comune:** 150 nidi privati di una provincia lombarda; successo con almeno 8 nidi che registrano la carta, stop sotto 3.
-- **Libro del primo anno:** prevendita a 89 € con 300 € di annunci e 15 famiglie pilota; successo con almeno 15 prevendite e almeno 10 famiglie su 15 ancora attive alla quarta settimana.
+- **Libro del primo anno:** prevendita a 89 € con 300 € di annunci e 15 famiglie pilota; successo con almeno 20 prevendite, almeno 10 famiglie su 15 ancora attive alla quarta settimana e almeno il 50% delle famiglie pilota con un nonno che ha aperto il link.
 - **Guida per gli enti:** 30 enti; successo con almeno 2 preventivi o lettere d'intenti da almeno 1.500 €.
-- **Libro dalla chat:** esperimento natalizio; almeno 40 export caricati e 12 ordini, con al massimo 300 € di annunci.
+- **Libro dalla chat:** esperimento natalizio con al massimo 300 € di annunci; successo con almeno 40 export caricati, almeno 20 ordini a 45 € e almeno il 70% delle anteprime senza errori gravi.
 - **Genitori separati:** almeno 5 avvocati o mediatori su 80 disposti a proporla, e almeno 15 preordini a 69 €/anno.
 - **Gazzetta per i nonni:** almeno 40 preordini di Natale a 4,95 € con costo di acquisizione ≤ 35 €, e almeno 5 RSA disposte a un pilota.
+- **Directory feste e corsi:** 150 strutture contattate con la scheda precompilata e un piano a 19 €/mese; successo con almeno 10 strutture paganti e almeno 40 richieste di preventivo dai genitori con meno di 300 € di annunci.
 
 ## Cosa resta fuori
 - **Valutati e scartati:** lista nascita universale con timeline e confronto prezzi (H21); bot nel gruppo WhatsApp, diario in abbonamento, web app per regali e turni (H20b); abbonamento dei genitori, newsletter a pagamento, lead ai nidi, pratiche per conto terzi (H22b).

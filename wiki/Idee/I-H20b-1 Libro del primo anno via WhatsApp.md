@@ -136,13 +136,13 @@ Il genitore compra (o riceve in regalo dai nonni) un pacchetto prepagato. Per 12
    - 15 famiglie pilota gratuite, che inoltrano foto per 4 settimane e ricevono il link settimanale.
 
 **Soglie decise ora:**
-- **≥ 20-25 prevendite pagate** con ≤ 300 € di pubblicità (costo per cliente ≤ 12-15 €, circa metà del margine a 89 €);
+- **≥ 20 prevendite pagate** con ≤ 300 € di pubblicità (costo per cliente ≤ 15 €, circa metà del margine a 89 €);
 - **≥ 10 delle 15 famiglie pilota** inoltrano foto anche nella quarta settimana;
 - **≥ 50%** delle famiglie pilota dichiara che almeno un nonno ha aperto il link.
 
 **Esito:**
 - meno di 5 prevendite: archiviare;
-- tra 5 e 14: un secondo mese solo sul canale migliore;
+- tra 5 e 19 (oppure 20 o più ma senza le altre due soglie): un secondo mese solo sul canale migliore;
 - tutte e tre le soglie superate: costruire l'integrazione Cloud API e la stampa on demand.
 
 ## Fonti

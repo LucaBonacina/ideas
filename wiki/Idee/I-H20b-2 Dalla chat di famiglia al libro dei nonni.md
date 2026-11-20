@@ -107,7 +107,7 @@ Zapptales stampa la chat così com'è: qui il valore sta nella pulizia. Resta co
 
 **Soglie decise ora:**
 - **≥ 40 export caricati** per l'anteprima;
-- **≥ 20-30 ordini pagati a 45 €** con ≤ 300 € di pubblicità (costo per cliente ≤ 10-15 €, perché il margine è 17-21 € a libro);
+- **≥ 20 ordini pagati a 45 €** con ≤ 300 € di pubblicità (costo per cliente ≤ 15 €, perché il margine è 17-21 € a libro);
 - **≥ 70% delle anteprime** senza errori gravi di selezione (verifica manuale).
 
 **Esito:**

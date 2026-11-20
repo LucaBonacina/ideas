@@ -29,7 +29,7 @@ Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 - Servizi B2C legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]] è stata declassata nel secondo giro; resta aperta solo [[I-H15-1 Contestazione maxi-bollette a successo]], subordinata a un parere legale.
 
 ## 4b. Il filone famiglia: bisogno reale, pagatore incerto
-Otto ipotesi su neo genitori, nonni e famiglie, in due giri. Il bisogno c'è e molte informazioni sono davvero disperse (rette e scadenze dei nidi in PDF e albi comunali; la mappa INPS è dietro SPID). Ma la parte che si paga è piccola: chi paga sono strutture private, enti o famiglie per un oggetto stampato. Con un modello leggero (prodotto automatizzato, poche ore) i volumi necessari per un reddito extra vanno da poche decine di clienti (enti) a qualche migliaio (libri, famiglie). Vedi [[Filone famiglia]].
+Otto ipotesi su neo genitori, nonni e famiglie, in due giri. Il bisogno c'è e molte informazioni sono davvero disperse (rette e scadenze dei nidi in PDF e albi comunali; la mappa INPS è dietro SPID). Ma la parte che si paga è piccola: chi paga sono strutture private, enti, o famiglie (per un oggetto stampato o, per i genitori separati, un abbonamento). Con un modello leggero (prodotto automatizzato, poche ore) i volumi necessari per un reddito extra vanno da poche decine di clienti (enti) a qualche migliaio (libri). Vedi [[Filone famiglia]].
 
 ## 5. Anche i giochi sono quasi chiusi per questo profilo
 - Portali web: un gioco recente fa in mediana ~44-57 mila partite; i portali filtrano su qualità di game design. Vedi [[H10 Giochi web su portali]].
@@ -39,7 +39,7 @@ Otto ipotesi su neo genitori, nonni e famiglie, in due giri. Il bisogno c'è e m
 ## 6. Dove restano soldi
 - **Al primo giro** le idee migliori vendevano a piccole imprese attraverso uno store di piattaforma (Shopify, WooCommerce) o risolvevano problemi di dati di catalogo e prezzi senza codici standard.
 - **Il secondo giro le ha ridimensionate:** i portali dei grossisti vietano i bot; il monitoraggio prezzi coincide con l'attività del datore e ha già concorrenti in italiano.
-- **Per il reddito extra la strada più solida è comprare un software già redditizio,** se c'è il capitale. Con poco capitale non c'è una strada solida: le opzioni meno deboli senza autorizzazione del datore sono nel filone famiglia (libro del primo anno via WhatsApp, servizio sui nidi per comune); più deboli le app in revenue share e i quiz per testate locali. Per "costruisci e vendi" non c'è una strada senza autorizzazione del datore: comprare e rivendere non regge ai multipli realizzati. Vedi [[Classifica per obiettivo]].
+- **Per il reddito extra la strada più solida è comprare un software già redditizio,** se c'è il capitale. Con poco capitale non c'è una strada solida: le opzioni meno deboli senza autorizzazione del datore sono nel filone famiglia (libro del primo anno via WhatsApp, servizio sui nidi per comune); più deboli i quiz per testate locali e, con un capitale intermedio, le app in revenue share. Per "costruisci e vendi" non c'è una strada senza autorizzazione del datore: comprare e rivendere non regge ai multipli realizzati. Vedi [[Classifica per obiettivo]].
 
 ## 7. Le distribuzioni contano più dei casi di successo
 In ogni area i giudici hanno trovato mediane molto basse (Apify: ~30 $/mese per sviluppatore; piccoli software in abbonamento: 68% nella fascia 0-1 k$ di ricavi (TrustMRR, metrica non dichiarata); app: ~72 $/mese). I casi celebri sono l'eccezione.

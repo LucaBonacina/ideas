@@ -79,6 +79,11 @@ Termini e sigle usati nella wiki.
 | **MVP** | Prima versione minima del prodotto, per provarlo con utenti veri. |
 | **Stampa on demand** | Stampa del singolo pezzo solo quando viene ordinato. |
 | **IRES / IRAP** | Imposte sul reddito delle società. |
+| **Scraping** | Raccolta automatica di dati dalle pagine web. |
+| **SIP** | Società italiana di pediatria. |
+| **App IO** | App pubblica per i servizi della pubblica amministrazione. |
+| **GDPR** | Regolamento europeo sulla protezione dei dati personali. |
+| **Regola "senza evidenza al massimo 2"** | Regola del [[Protocollo di discovery]]: un criterio senza fonte non può ricevere più di 2 su 5. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |

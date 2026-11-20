@@ -10,10 +10,10 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 ## In breve
 - **Nessuna idea ha una probabilità alta:** le migliori stanno nella fascia 5-15%.
 - **Reddito extra (1-2 k€/mese netti), con capitale (~100-290 k€):** la strada più solida è comprare un piccolo software già redditizio.
-- **Reddito extra con poco capitale:** non c'è una strada solida. Le opzioni meno deboli, senza autorizzazione del datore, sono nel filone famiglia: un libro del primo anno costruito via WhatsApp (5-15 k€ di avvio, probabilità al limite tra bassa e media) e un servizio sui nidi per comune pagato dai nidi privati (3-10 k€, il punteggio più alto del filone). Più deboli: app prese in gestione in revenue share e quiz per testate locali.
+- **Reddito extra con poco capitale:** non c'è una strada solida. Le opzioni meno deboli, senza autorizzazione del datore, sono nel filone famiglia: un libro del primo anno costruito via WhatsApp (5-15 k€ di avvio, probabilità al limite tra bassa e media) e un servizio sui nidi per comune pagato dai nidi privati (3-10 k€, il punteggio più alto del filone). Più debole: quiz per testate locali; con un capitale intermedio (fino a ~40-60 k€) anche app prese in gestione in revenue share.
 - **Costruisci e vendi:** nessuna strada senza autorizzazione del datore.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
-- **Filone famiglia** (neo genitori, nonni, famiglie che si allargano): otto ipotesi in due giri, sette idee piccole vive. Con il modello leggero (prodotto automatizzato, poche ore) i volumi richiesti per 1-2 k€/mese vanno da poche decine di clienti (enti) a qualche migliaio (libri, famiglie). Vedi [[Filone famiglia]].
+- **Filone famiglia** (neo genitori, nonni, famiglie che si allargano): otto ipotesi in due giri, sette idee piccole vive. Con il modello leggero (prodotto automatizzato, poche ore) i volumi richiesti per 1-2 k€/mese vanno da poche decine di clienti (enti) a qualche migliaio (libri). Vedi [[Filone famiglia]].
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
 
 ## Da leggere per primo
@@ -53,7 +53,7 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 | Famiglia | [[H18 Roadmap personalizzata per neo genitori]] | **confutata** | 3% |
 | | [[H19 Archetipi di genitori e fiducia nelle fonti]] | **confutata** | 3% |
 | | [[H20 Nonni e famiglia allargata come utenti]] | **confutata** | 3% |
-| | [[H20b Famiglia allargata dove i nonni sono già]] | parziale | 3% |
+| | [[H20b Famiglia allargata dove i nonni sono già]] | **confutata** | 3% |
 | | [[H21 Lista regali governata dai genitori]] | **confutata** | 2% |
 | | [[H22 Ricerca di luoghi servizi norme e bonus per genitori]] | parziale | 2% |
 | | [[H22b Un unico punto di accesso a informazioni disperse]] | parziale | 2% |
