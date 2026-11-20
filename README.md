@@ -9,5 +9,6 @@ Obiettivo: scegliere con metodo i top 3-5 portali, siti o prodotti esistenti da 
 | [docs/02-long-list.md](docs/02-long-list.md) | Long list dei candidati con ipotesi | v1, non ancora valutata |
 | [docs/03-screening.md](docs/03-screening.md) | Esito dei gate, primo giro | fatto (con limiti) |
 | [docs/04-b2c-generazione.md](docs/04-b2c-generazione.md) | Nuova generazione focalizzata sul B2C | v1 |
-| docs/05-scoring.md | Punteggi con evidenze e fonti | da fare |
-| docs/06-shortlist.md | Top X + esperimento di validazione per ciascuno | da fare |
+| [docs/05-screening-b2c.md](docs/05-screening-b2c.md) | Screening B2C, sintesi | fatto |
+| docs/06-scoring.md | Punteggi con evidenze e fonti | da fare |
+| docs/07-shortlist.md | Top X + esperimento di validazione per ciascuno | da fare |
