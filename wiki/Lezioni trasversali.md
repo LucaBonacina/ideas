@@ -23,6 +23,11 @@ Con un lavoro a tempo pieno, il modello regge solo se c'è una persona a tempo p
 - Regole per chi viaggia: confutata (affiliazione turistica a 0,02-0,28 $ per clic). Vedi [[H13 Regole e disponibilità locali per chi si muove]].
 - Sopravvivono solo servizi **transazionali** legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]], [[I-H15-1 Contestazione maxi-bollette a successo]].
 
+## 4b. Anche i giochi sono quasi chiusi per questo profilo
+- Portali web: mediana ~44 mila partite per gioco, filtri di qualità che richiedono game design. Vedi [[H10 Giochi web su portali]].
+- Steam e mobile: il 65,9% dei giochi incassa meno di 1.000 $; un team delegato costa ~165-185 k€/anno. Vedi [[H12 Giochi indie su Steam o mobile]].
+- Giochi daily su dati: non monetizzano in B2C; i grandi editori li fanno in casa. Resta una nicchia di quiz per testate locali. Vedi [[H11 Giochi quotidiani basati su dati]].
+
 ## 5. Dove restano soldi: B2B con distribuzione integrata
 Le idee migliori vendono a piccole imprese **attraverso uno store di piattaforma** (Shopify, WooCommerce) o risolvono un problema di **dati di catalogo e prezzi senza codici standard**. La distribuzione arriva dallo store, il vantaggio dal matching difficile.
 

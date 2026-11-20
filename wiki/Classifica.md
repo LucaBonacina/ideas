@@ -22,6 +22,7 @@ Le altre penalità (piattaforme, legali) restano quelle decise dai giudici.
 | 4 | [[I-H06-1 Disdetta digitale per l'Italia]] | 64 | −6 | 0 | **58** | 58 | 3 | 15-30 k€ |
 | 5 | [[I-H01-1 Portafoglio di actor su target difficili non personali]] | 72 | −6 | −8 | **58** | 64 | 4 | 15-30 k€ |
 | 6 | [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]] | 65 | −1 | −8 | **56** | 58 | 4 | 25-45 k€ |
+| 6b | [[I-H11-1 Quiz locali automatici per testate]] | 56 | 0 | 0 | **56** | 56 | — | — |
 | 7 | [[I-H05-2 App utility trovate via scraping degli store]] | 64 | −8 | −1 | **55** | 56 | 4 | 10-60 k€ per app |
 | 8 | [[I-H07-1 Intelligence OTA per operatori di tour]] | 62 | −5 | −2 | **55** | 57 | 5 | 30-50 k€ |
 | 9 | [[I-H07-2 Rate shopper per autonoleggi]] | 61 | −5 | −2 | **54** | 56 | 5 | 30-45 k€ |
@@ -30,7 +31,7 @@ Le altre penalità (piattaforme, legali) restano quelle decise dai giudici.
 | 12 | [[I-H15-1 Contestazione maxi-bollette a successo]] | 52 | −7 | 0 | **45** | 45 | 4 | 25-40 k€ |
 | 13 | [[I-H02-1 Feed Italia in tempo reale per assistenti di viaggio]] | 54 | −3 | −8 | **43** | 49 | 4 | 15-25 k€ |
 
-Giochi: in arrivo dalla sessione S4.
+Giochi: H10 e H12 confutate; da H11 sopravvive solo [[I-H11-1 Quiz locali automatici per testate]] (tetto in Italia basso, circa 30-90 k€/anno).
 
 ## Come leggere i numeri
 - **Nessuna idea supera 70.** Sono opportunità "discrete", non evidenti.
