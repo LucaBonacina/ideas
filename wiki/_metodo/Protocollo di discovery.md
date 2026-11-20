@@ -44,3 +44,6 @@ Punteggio = Σ(punteggio × peso) / 5, scala 0-100. Penalità fino a −10 per r
 - Ipotesi: `wiki/Ipotesi/Hxx Titolo.md`, template [[Template ipotesi]].
 - Idee: `wiki/Idee/I-Hxx-n Titolo.md`, template [[Template idea]].
 - Collegamenti tra note con `[[...]]`. Frontmatter YAML obbligatorio.
+
+## Decisioni registrate dopo la discovery
+- 2026-11-20: l'utente chiarisce che **non ha una soglia di successo**: vanno bene reddito extra (1-2 k€/mese), business a lungo termine e "costruisci e vendi". La soglia del registro (50 k€/anno entro 24 mesi) era stata fissata da Claude. Le idee sono rivalutate sui tre obiettivi in [[Classifica per obiettivo]], con le stesse evidenze; il registro delle ipotesi non viene modificato.

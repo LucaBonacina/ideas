@@ -8,6 +8,8 @@ aggiornato: 2026-11-20
 ## In una riga
 **Oggi non investirei in nessuna delle idee trovate.** È un risultato utile, non un fallimento: la discovery ha smentito con evidenze 7 ipotesi su 17, e le idee sopravvissute hanno, dopo il secondo giro, probabilità di successo stimate dal 3% al 7% con le tue condizioni (lavoro a tempo pieno, gestione delegata, ≥ 50 k€/anno di margine entro 24 mesi). Vedi [[Classifica]].
 
+> **Aggiornamento 2026-11-20.** La frase sopra vale per l'obiettivo "business da almeno 50 k€/anno". Non avendo una soglia, contano anche reddito extra e "costruisci e vendi": lì ci sono opzioni realistiche, soprattutto **comprare un piccolo software già redditizio** e i **quiz per testate locali**. Vedi [[Classifica per obiettivo]].
+
 ## Perché, in tre punti
 1. **Il vincolo più forte è il contratto di lavoro, non il mercato.** Le idee dove la tua competenza pesa di più (vendere dati o servizi di scraping) sono le stesse che rischiano di violare l'obbligo di fedeltà (art. 2105 c.c.; per Cass. 19096/2013 basta preparare l'attività). Vedi [[H16 Founder a tempo parziale]].
 2. **Lo scraping da solo non è più un vantaggio.** Resta tale solo dentro pipeline continue su molte fonti; non basta a creare un prodotto. Vedi [[H17 Vantaggio dello scraping]].
@@ -43,5 +45,5 @@ Confutate con evidenze, da non riaprire senza fatti nuovi: SEO programmatica con
 
 ## Domande per te
 1. Sei disposto a parlarne con il datore, o il progetto deve restare del tutto separato?
-2. Qual è il capitale massimo che metteresti a rischio? Cambia molto la valutazione di [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]].
+2. Qual è il capitale massimo che metteresti a rischio? Dopo il chiarimento sugli obiettivi è **la domanda più importante**: decide se la strategia "comprare" è percorribile.
 3. Nella tua rete ci sono settori dove conosci clienti con un problema di dati? Lì il nodo della distribuzione sarebbe già risolto.

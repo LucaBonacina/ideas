@@ -8,12 +8,13 @@ aggiornato: 2026-11-20
 Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scraping, **senza lasciare il lavoro** e affidando la gestione a persone di fiducia.
 
 ## In breve
-Dopo due giri di verifica, **nessuna idea supera 52 punti su 100** e le probabilità di successo stimate sono tra il 3% e il 7%. La raccomandazione è prima sciogliere il nodo del contratto di lavoro, poi al massimo un esperimento a costo quasi zero. Vedi [[Raccomandazione]].
+Dopo due giri di verifica, **nessuna idea supera 52 punti su 100** e le probabilità di successo stimate sono tra il 3% e il 7%. Con un obiettivo di reddito extra (1-2 k€/mese) il quadro migliora: vedi [[Classifica per obiettivo]]. La raccomandazione è prima sciogliere il nodo del contratto di lavoro, poi al massimo un esperimento a costo quasi zero. Vedi [[Raccomandazione]].
 
 ## Da leggere per primo
 1. [[Raccomandazione]] — cosa farei, in che ordine, e perché
-2. [[Classifica]] — tutte le idee con punteggio confrontabile
-3. [[Lezioni trasversali]] — cosa dicono insieme le 17 ipotesi
+2. [[Classifica per obiettivo]] — le idee valutate per reddito extra, business e "costruisci e vendi"
+3. [[Classifica]] — tutte le idee con punteggio confrontabile
+4. [[Lezioni trasversali]] — cosa dicono insieme le 17 ipotesi
 
 ## Come è stata fatta
 - [[Profilo e vincoli]] · [[Protocollo di discovery]] · [[Registro delle ipotesi]] (pre-registrato prima della ricerca)
