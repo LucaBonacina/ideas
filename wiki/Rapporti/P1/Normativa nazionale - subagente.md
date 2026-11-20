@@ -6,7 +6,7 @@ tags: [progetto, nidi, rapporto]
 ---
 # Normativa nazionale sui servizi educativi 0-6: rapporto del subagente
 
-Collegamenti: [[Progetto nidi]]
+Collegamenti: [[Home progetto]]
 
 ## Sintesi
 
