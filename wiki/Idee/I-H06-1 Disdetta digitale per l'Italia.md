@@ -23,7 +23,7 @@ Il modello Volders/Aboalarm applicato all'Italia. Una pagina per ogni fornitore 
 - **Chi paga:** il consumatore, che deve disdire un contratto con procedura formale (pay TV, palestre, telepedaggio, allarmi, telefonia fissa, riviste) e vuole certezza e prova dell'invio.
 - **[fatto] Germania:** Volders e Aboalarm fanno circa 10 M€ di ricavi, in utile, con prezzi di 4,99-12,99 € a disdetta e 100-150 mila disdette al mese. È un dato dell'azienda (OMR, 2023).
 - **[fatto] Italia:**
-  - Disdettaonline.it costava 9,95-13,95 € (nel secondo giro risulta diventato gratuito), Disdettalegale.it parte da 13,90 €, Comedisdire costava 26,50 € ogni 4 settimane nel 2024 (39,95 € ogni 4 settimane secondo il secondo giro). Altroconsumo li giudica tutti "da evitare" (20/3/2024).
+  - Disdettaonline.it costava 9,95-13,95 € (nel secondo giro risulta diventato gratuito), Disdettalegale.it parte da 13,90 €, Comedisdire costava 26,50 € ogni 4 settimane nel 2024 (39,95 € ogni 4 settimane secondo l'approfondimento). Altroconsumo li giudica tutti "da evitare" (20/3/2024).
   - Altroconsumo sostiene anche che disdire da soli è "piuttosto semplice". È il dubbio principale sulla disponibilità a pagare.
 - **[stima] Soglia:** circa 1.000 disdette al mese a 7 € (circa 5 € di margine dopo PEC o raccomandata e pagamenti) danno circa 60 k€ di margine l'anno, cioè l'1% dei volumi tedeschi.
 
@@ -162,7 +162,7 @@ Rapporti integrali: [[I-H06-1 Entusiasta]] (17 ricerche web) e [[I-H06-1 Bucator
 | Affermazione decisiva | Chi la sostiene | Esito | Fonte |
 |---|---|---|---|
 | Il principale servizio italiano a pagamento è diventato gratuito | Bucatore (l'Entusiasta lo nota come "sembra") | **Confermata.** Home: "Il download dei moduli disponibili è gratuito con account". Il segnale va contro la disponibilità a pagare italiana, anche se le ragioni del cambio non sono note | https://www.disdettaonline.it/ |
-| Con la raccomandata online il margine a 6,99 € è nullo | Entrambi | **Confermata.** Listino Poste (ed. maggio 2026), raccomandata online nazionale Consumer e PMI, 1 foglio: "4,52" senza e "5,37" con avviso di ricevimento. Su 6,99 € IVA inclusa (5,73 € netti) il margine resta sotto 1,2 € prima di pagamenti e assistenza. Regge solo la PEC | https://www.media.poste.it/93dc336c-6a17-4111-ac4c-81a8b074489e/web/prodotti-servizio-universale-listino |
+| Con la raccomandata online il margine a 6,99 € è nullo | Entrambi | **Confermata.** Listino Poste (ed. maggio 2026), raccomandata online nazionale Consumer e PMI, 1 foglio: "4,52" senza e "5,37" con avviso di ricevimento. Su 6,99 € IVA inclusa (5,73 € netti) il margine resta di circa 1,2 € prima di pagamenti e assistenza. Regge solo la PEC | https://www.media.poste.it/93dc336c-6a17-4111-ac4c-81a8b074489e/web/prodotti-servizio-universale-listino |
 | Una disdetta inviata da un terzo regge solo con delega e documento d'identità | Entrambi (con casi diversi) | **Confermata.** Corecom Toscana, delibera 76 del 24/9/2025: l'operatore ha respinto tre PEC di avvocati "a causa della mancanza di documentazione inerente alla delega/procura e il documento di identità dell'istante"; istanza rigettata. Il servizio **deve** quindi raccogliere e trattare documenti d'identità (costo GDPR e attrito di conversione) | https://www.agcom.it/sites/default/files/documenti/audizioni_parlamentari/Delibera_76_24settembre_2025_XXX%20vs%20WIND%20TRE.pdf |
 
 ### Punteggio v2 ricalcolato (pesi invariati)

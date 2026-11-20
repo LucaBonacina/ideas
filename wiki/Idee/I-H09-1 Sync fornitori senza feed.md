@@ -151,7 +151,7 @@ Rapporti integrali: [[I-H09-1 Entusiasta]] (17 ricerche web) e [[I-H09-1 Bucator
 ### Esperimento di 30 giorni (affinato, soglie decise ora)
 Unisce le proposte dei due ruoli. **Basta un criterio di arresto per archiviare.**
 
-**Passo 0, cancello:** autorizzazione scritta del datore o parere sul contratto ([[I-H16-1 Autorizzazione scritta e veicolo societario]]).
+**Passo 0, cancello:** autorizzazione scritta del datore o parere favorevole di un avvocato del lavoro sul contratto ([[I-H16-1 Autorizzazione scritta e veicolo societario]]).
 
 **Settimana 1: censimento di 40 grossisti** (ferramenta, cosmetica professionale, ricambi moto e bici). Si classificano in tre classi:
 - **A:** feed, API o CSV a un link;
@@ -163,9 +163,10 @@ Per ogni grossista si annotano 2FA/CAPTCHA e le clausole dei termini d'uso. Poi 
 - Arresto se **≥ 50%** fornisce un feed su richiesta.
 
 **Settimane 1-2: grossisti.** Proposta "vi facciamo da feed" ai grossisti di classe C.
-- Arresto se **0 su 10** autorizzano per iscritto o si dicono interessati.
+- Arresto se **nessuno su 10** autorizza l'accesso per iscritto.
 
 **Settimane 1-2: legale.** Parere di un penalista e di un civilista (≤ 1.500 €) sull'uso delle credenziali per mandato.
+- Arresto se il parere è negativo.
 
 **Settimane 1-3: domanda.** 20 pagine "Sincronizza [Grossista] con Shopify/WooCommerce/PrestaShop", con il campo obbligatorio "grossista", più 300 € di Google Ads e risposte nelle community.
 - Successo: **≥ 25 iscrizioni** a **≤ 20 € ciascuna**.

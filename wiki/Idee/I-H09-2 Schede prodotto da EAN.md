@@ -12,7 +12,7 @@ tags: [idea, S3]
 
 > **Attenzione.** Condivide motore e canali con [[I-H09-1 Sync fornitori senza feed]], che nel secondo giro ha perso il canale dei grossisti e parte della delegabilità (lo store resta). Questo punteggio non è stato ricalibrato: probabilmente scenderebbe.
 
-> **Gate aggiornato.** Questa idea vende dati raccolti con lo scraping: serve l'**autorizzazione scritta del datore prima di qualunque esperimento**, anche preparatorio (vedi [[Raccomandazione]], punto 4, e [[I-H16-1 Autorizzazione scritta e veicolo societario]]). Prevale su eventuali passi più leggeri indicati sotto.
+> **Gate aggiornato.** Questa idea vende dati raccolti con lo scraping: serve l'**autorizzazione scritta del datore prima di qualunque esperimento**, anche preparatorio, con parere di un avvocato del lavoro (vedi [[Raccomandazione]], punto 4, e [[I-H16-1 Autorizzazione scritta e veicolo societario]]). Prevale su eventuali passi più leggeri indicati sotto.
 
 > **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
 

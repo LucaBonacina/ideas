@@ -78,7 +78,7 @@ Rapporto integrale: [[H08 Bucatore]].
 
 ### Verdetto
 - **Stato: confutata** come strategia generale ("app utility o AI in abbonamento"): entrambi i pezzi del criterio sono soddisfatti per la popolazione.
-- Resta una sacca residua: **app di dati freschi raccolti con lo scraping, con paywall rigido e prezzo ≥ 50 €/anno, in nicchie trovabili con la ricerca**. Il suo valore viene dal dato, non dal formato app, quindi non è stata esaminata come idea a sé (vedi la nota di coerenza in [[H13 Regole e disponibilità locali per chi si muove]]), non qui.
+- Resta una sacca residua: **app di dati freschi raccolti con lo scraping, con paywall rigido e prezzo ≥ 50 €/anno, in nicchie trovabili con la ricerca**. Il suo valore viene dal dato, non dal formato app, quindi non è stata esaminata come idea a sé (vedi la nota di coerenza in [[H13 Regole e disponibilità locali per chi si muove]]).
 - **Fiducia: alta.** Fonti primarie con oltre 115 mila app, verificate.
 - **Probabilità di successo: circa 5%** [stima]. Il 4,6% delle app nuove arriva a 10 k$ di MRR in 2 anni, e 10 k$ è appena la soglia necessaria. Il vantaggio sui dati compensa in parte la mancanza di pubblico e di spesa pubblicitaria.
 

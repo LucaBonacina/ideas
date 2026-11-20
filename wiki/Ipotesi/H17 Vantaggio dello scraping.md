@@ -10,7 +10,7 @@ tags: [ipotesi, trasversale]
 ---
 # H17 — Lo scraping come vantaggio competitivo nel 2026
 
-> **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata non è quella di un business a sé: per H16 è la probabilità che il modello "founder a tempo parziale con team" regga (nel secondo giro applicata come dimezzamento delle probabilità delle idee); per H17 è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Sigle nel [[Glossario]].
+> **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata non è quella di un business a sé: per H16 è la probabilità che un progetto avviato con il modello "founder a tempo parziale con team" arrivi a 50 k€ di margine, tasso base compreso (il fattore da applicare alle singole idee è circa 0,5); per H17 è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Sigle nel [[Glossario]].
 
 ## Ipotesi (pre-registrata)
 Le competenze di scraping sono un vantaggio competitivo reale nel 2026 (dal [[Registro delle ipotesi]]).
@@ -71,7 +71,7 @@ Rapporto integrale: [[H17 Bucatore]] (19 ricerche web).
 |---|---|---|---|
 | Sui siti protetti le API gestite falliscono spesso (vantaggio residuo per l'esperto) | Entusiasta; il Bucatore la concede ma la legge come nicchia | **Confermata, ma taglia in due direzioni.** "Four providers (Zyte, Decodo, Oxylabs, and ScrapingBee) managed to open them over 80% of the time"; "Shein, G2, and Hyatt gave our participants the most trouble". Quindi anche i target protetti si aprono per lo più comprando un'API: il vantaggio dell'esperto si riduce a pochi target molto difesi | Proxyway, Web Scraping API Report 2025 (2026-11-20) |
 | I non esperti, con gli LLM, fanno scraping di siti complessi | Bucatore (l'Entusiasta la riporta come controevidenza, sottolineando che i siti sono pochi e in parte demo) | **Confermata nel claim degli autori.** Abstract: "current LLM-based workflows allow novice users to scrape complex websites that would otherwise be inaccessible", su 35 siti in cinque livelli di sicurezza (autenticazione, anti-bot, CAPTCHA). Campione piccolo ma direzione chiara | arXiv 2601.06301 (2026-11-20) |
-| Quanto paga l'ecosistema Apify agli sviluppatori (domanda e tetto delle idee "marketplace") | Bucatore 2 M$/mese; Entusiasta circa 0,96 M€ nel 2024 | (Vedi anche la "Nota sui numeri di Apify" in fondo.) **Entrambe le cifre esistono, e sono incoerenti.** La pagina Apify dichiara "$2M paid out last month", 7.500 sviluppatori e 126.812 Actor. Lupa.cz (26/02/2025) riporta da dati ufficiali 24 M CZK (circa 1 M€) pagati in tutto il **2024**, cioè circa 80 k€ al mese. Passare a 2 M$ al mese vorrebbe dire ×25 in meno di due anni: dato di marketing non verificabile. In entrambi i casi la media per sviluppatore è bassa (da circa 11 a 267 $ al mese) e la distribuzione non è pubblica | apify.com/partners/actor-developers; lupa.cz (2026-11-20) |
+| Quanto paga l'ecosistema Apify agli sviluppatori (domanda e tetto delle idee "marketplace") | Bucatore 2 M$/mese; Entusiasta circa 0,96 M€ nel 2024 | (Vedi anche la "Nota sui numeri di Apify" in fondo.) **Entrambe le cifre esistono, e sono incoerenti.** La pagina Apify dichiara "$2M paid out last month", 7.500 sviluppatori e 126.812 Actor. Lupa.cz (26/02/2025) riporta da dati ufficiali 24 M CZK (circa 1 M€) pagati in tutto il **2024**, cioè circa 80 k€ al mese. Passare a 2 M$ al mese vorrebbe dire ×25 in meno di due anni: dato dichiarato da Apify e non verificabile (la Nota in fondo spiega perché la crescita lo rende comunque plausibile). In entrambi i casi la media per sviluppatore è bassa (da circa 11 a 267 $ al mese) e la distribuzione non è pubblica | apify.com/partners/actor-developers; lupa.cz (2026-11-20) |
 
 ### Applicazione del criterio
 Il criterio chiede se lo scraping è diventato una commodity "al punto che il vantaggio non si misura più nei casi rilevanti". Il verdetto va dato per strato:
@@ -97,6 +97,7 @@ Il criterio chiede se lo scraping è diventato una commodity "al punto che il va
 - marketplace con media per sviluppatore sotto 300 $ al mese;
 - API gestite e incumbent molto capitalizzati;
 - penalità di conflitto (H16).
+
 Per idee in cui lo scraping è un mezzo dentro un prodotto di dominio, la probabilità dipende dall'idea e non da H17.
 
 ### Raccomandazioni operative (nel verdetto)
@@ -128,6 +129,6 @@ Tutte accedute il 2026-11-20. Elenco completo nei rapporti [[H17 Entusiasta]] e 
 ## Nota sui numeri di Apify
 Le note H01 e H17 citano numeri diversi su Apify, perché misurano cose diverse:
 - **Numero di actor:** ~124-127 mila è il totale dichiarato da Apify; ~14 mila (13.948) sono gli actor pubblici restituiti dall'API dello Store, scaricati dal giudice di H01.
-- **Numero di sviluppatori:** 1.656 (H01) e ~7.500 (H17) vengono da fonti e definizioni diverse (sviluppatori con actor a pagamento contro tutti i creatori); non sono state riconciliate.
+- **Numero di sviluppatori:** 1.656 (H01) e ~7.500 (H17) vengono da fonti e definizioni diverse (sviluppatori della community con utenti contro tutti i creatori); non sono state riconciliate.
 - **Pagamenti agli sviluppatori:** la crescita riportata in H01 (0,5 → 1 → 2 M$/mese) rende plausibili i 2 M$/mese, ma restano un dato dichiarato da Apify e non verificato in modo indipendente (H17). La conclusione non cambia: lo sviluppatore tipico incassa ~30 $/mese.
 

@@ -7,12 +7,12 @@ punteggio_v2_r1: 60
 verdetto_r2: "ridimensionata: capitale reale 1,5x, leva di prezzo bloccata su Shopify, trasferimento a discrezione della piattaforma"
 modello_ricavo: "abbonamenti B2B di un SaaS acquisito (20-200 $/mese a cliente)"
 tempo_founder_h_sett: 5 # 5-8 durante la ricerca dei deal
-investimento_iniziale_eur: "obiettivo B: 350-475 k€ dopo il secondo giro (150-300 k€ al primo); obiettivo A: ~165-380 k€ (vedi Raccomandazione) [stima]"
+investimento_iniziale_eur: "obiettivo B: 350-475 k€ dopo il secondo giro (150-300 k€ al primo); obiettivo A: ~165-285 k€ (vedi Raccomandazione) [stima]"
 tags: [idea, S2, R2]
 ---
 # I-H05-1 — Micro-SaaS B2B trascurato con leva di prezzo
 
-> **Superata in parte dal secondo giro.** Punteggio 60 → **49** (48 in [[Classifica]]), probabilità ~7% per l'obiettivo B. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; le cifre del primo giro qui sotto restano per traccia. Cambiamenti principali: per l'obiettivo B il capitale reale è 350-475 k€, a seconda che l'operatore sia part-time (0,6-1 persona, 45-65 k€/anno) o a tempo pieno (60-75 k€/anno, vedi [[H16 Founder a tempo parziale]]); su Shopify non si possono alzare i prezzi agli abbonati esistenti. **Per l'obiettivo A (reddito extra)** capitale e soglie sono nella [[Raccomandazione]] (punti 1 e 2).
+> **Superata in parte dal secondo giro.** Punteggio 60 → **49** (48 in [[Classifica]]), probabilità ~7% per l'obiettivo B. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; le cifre del primo giro qui sotto restano per traccia. Cambiamenti principali: per l'obiettivo B il capitale reale è 350-475 k€: circa 350 k€ con un operatore a 0,6-1 persona (45-65 k€/anno), fino a ~420-475 k€ con un operatore a tempo pieno (60-75 k€/anno, vedi [[H16 Founder a tempo parziale]]). Le soglie dell'esperimento del secondo giro (operatore a 35 k€) e del verdetto (portafoglio ≥ 110 k€ prima dell'operatore) si riferiscono a scenari diversi; su Shopify non si possono alzare i prezzi agli abbonati esistenti. **Per l'obiettivo A (reddito extra)** capitale e soglie sono nella [[Raccomandazione]] (punti 1 e 2).
 
 > **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
 

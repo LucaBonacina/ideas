@@ -16,6 +16,8 @@ tags: [ipotesi, giochi]
 Giochi indie su Steam o mobile (premium o free-to-play), sviluppati da un team delegato. Il [[Registro delle ipotesi]] riporta solo titolo e criteri di confutazione; la descrizione è del giudice.
 
 ## Criteri di confutazione (pre-registrati)
+
+> Il [[Registro delle ipotesi]] formula due criteri: il primo unisce i punti 1 e 2 qui sotto (ricavi mediani trascurabili **e** successo dipendente da marketing e fortuna), il secondo corrisponde al punto 3. Il giudice li ha divisi in tre. Letto come congiunzione, il primo criterio è soddisfatto solo in parte (il punto 2 lo è in parte); la confutazione regge sul secondo criterio, soddisfatto, e sui ricavi mediani.
 Confutata se:
 1. i ricavi mediani su Steam e degli indie mobile sono trascurabili;
 2. il successo dipende da marketing e fortuna più che da esecuzione;

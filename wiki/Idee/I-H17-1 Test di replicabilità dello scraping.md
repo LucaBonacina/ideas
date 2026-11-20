@@ -48,7 +48,7 @@ Interamente: lo esegue il team su una specifica scritta dal founder (1 ora per i
 ## Esperimento di validazione (≤ 30 giorni, soglia di successo decisa prima)
 - **Azione:** applicare il test alle 3 idee finaliste con il C4 più alto nelle altre sessioni.
 - **Ipotesi da validare:** il test discrimina, cioè dà esiti diversi tra idee.
-- **Soglia di successo (decisa ora):** almeno 1 delle 3 idee scende di 2 o più punti di C4 rispetto alla stima a tavolino, oppure almeno 1 resta ≥ 4 con evidenza misurata. Se tutte e 3 restano invariate entro ±1, il test non aggiunge informazione e si torna alla stima a tavolino.
+- **Soglia di successo (decisa ora):** almeno 1 delle 3 idee scende di 2 o più punti di C4 rispetto alla stima a tavolino, oppure almeno 1 sale ad almeno 4 con evidenza misurata. Se tutte e 3 restano invariate entro ±1, il test non aggiunge informazione e si torna alla stima a tavolino.
 
 ## Fonti
 Accedute il 2026-11-20.

@@ -8,14 +8,14 @@ aggiornato: 2026-11-20
 Organizzata per obiettivo: **A** reddito extra (1-2 k€/mese netti), **B** business da almeno 50 k€/anno, **C** costruisci e vendi. Vedi [[Classifica per obiettivo]] e il [[Glossario]].
 
 ## In sintesi
-- **A. Reddito extra:** con capitale (~165-380 k€), **comprare un piccolo software già redditizio** ([[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]]): probabilità discreta (15-30%). Con poco capitale (~15-30 k€), **quiz automatici per testate locali** ([[I-H11-1 Quiz locali automatici per testate]]): probabilità media (5-15%), perché servono quasi tutte le testate raggiungibili in Italia. Nessuna delle due richiede l'autorizzazione del datore, salvo obblighi di comunicazione previsti dal contratto.
+- **A. Reddito extra:** con capitale (~165-285 k€), **comprare un piccolo software già redditizio** ([[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]]): probabilità discreta (15-30%). Con poco capitale (~15-30 k€), **quiz automatici per testate locali** ([[I-H11-1 Quiz locali automatici per testate]]): probabilità media (5-15%), perché servono quasi tutte le testate raggiungibili in Italia. Nessuna delle due richiede l'autorizzazione del datore, salvo obblighi di comunicazione previsti dal contratto.
 - **C. Costruisci e vendi:** comprare, migliorare e rivendere.
 - **B. Business:** nessuna idea è promettente (3-7% per le idee approfondite). Oggi non ci investirei.
 
 ## Il quadro che vale per tutti gli obiettivi
 1. **Le idee più vicine alla tua competenza sono quelle più esposte al contratto di lavoro.** Vendere dati o servizi di scraping rischia di violare l'obbligo di fedeltà (art. 2105 c.c.). Le due strade indicate sopra non vendono dati né scraping. Vedi [[H16 Founder a tempo parziale]].
 2. **Lo scraping da solo non è più un vantaggio.** Conta dentro flussi continui su molte fonti, oppure come strumento per trovare opportunità (es. software da comprare). Vedi [[H17 Vantaggio dello scraping]].
-3. **Il costo della delega dipende dall'obiettivo.** Per B serve un operatore a tempo pieno pagato a mercato, quindi ~120-160 k€ di margine lordo [stima]. Per A Claude ipotizza che bastino collaboratori part-time pagati a mercato: è una stima, non verificata dalla discovery (H16 sostiene il contrario per un business vero).
+3. **Il costo della delega dipende dall'obiettivo.** Per B serve un operatore a tempo pieno pagato a mercato, quindi ~120-160 k€ di margine lordo, cioè prima del costo dell'operatore, della società e dell'infrastruttura [stima]. Per A Claude ipotizza che bastino collaboratori part-time pagati a mercato: è una stima, non verificata dalla discovery (H16 sostiene il contrario per un business vero).
 
 ## Cosa farei, in ordine
 
@@ -24,11 +24,11 @@ Da questa scelta dipende la strada per l'obiettivo A.
 
 | Situazione | Strada |
 |---|---|
-| Hai **~165-380 k€** da rischiare [stima] | **Comprare** un software con SDE di ~55-95 k€/anno (utile prima del compenso del proprietario), a 3-4 volte l'SDE (multiplo indicato dal giudice di [[H05 Comprare e rifare meglio]]). Il conto: 20-40 k€ di margine per avere 1-2 k€/mese netti, più 30-38 k€/anno per un operatore part-time pagato a mercato, più 4-15 k€/anno di costi fissi della società. Se è un'app Atlassian ancora su Connect, aggiungere 20-60 k€ di migrazione a Forge. |
+| Hai **~165-285 k€** da rischiare [stima] | **Comprare** un software con SDE di ~55-95 k€/anno (utile prima del compenso del proprietario), a circa 3 volte l'SDE: sotto il multiplo medio di 3-4 volte indicato dal giudice di [[H05 Comprare e rifare meglio]], per comprare bene (è anche la soglia di prezzo della settimana 4). Il conto: 20-40 k€ di margine per avere 1-2 k€/mese netti, più 30-38 k€/anno per un operatore part-time (circa mezza persona) pagato a mercato, secondo il Bucatore del secondo giro, più 4-15 k€/anno di costi fissi della società. Se è un'app Atlassian ancora su Connect, aggiungere 20-60 k€ di migrazione a Forge. |
 | Hai **~15-30 k€** | **Costruire** i quiz per testate locali. |
 | Hai il capitale **e vuoi partire subito** | Avviare l'esperimento sui quiz (30 giorni) mentre si cerca il software da comprare. |
 
-I 350-475 k€ citati nella nota di [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] valgono per l'obiettivo B (da un operatore part-time a uno a tempo pieno pagato 60-75 k€/anno), non per A.
+I 350-475 k€ citati nella nota di [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] valgono per l'obiettivo B, non per A: circa 350 k€ con un operatore a 0,6-1 persona (45-65 k€/anno, stima dell'Entusiasta del secondo giro), fino a ~420-475 k€ con un operatore a tempo pieno (60-75 k€/anno, vedi [[H16 Founder a tempo parziale]]).
 
 ### 2. Strada "comprare": primo mese
 Riprende l'esperimento del secondo giro nella nota dell'idea, con le soglie adattate all'obiettivo A.

@@ -23,7 +23,7 @@ Le altre penalità (legali, di piattaforma) restano quelle dei giudici. Il proto
 |---|---|---|---|---|
 | [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] | 64 | **52** | ~4% | Ferma senza autorizzazione scritta del datore; NetPricer fa già matching per codice OEM nei ricambi auto, in italiano |
 | [[I-H09-1 Sync fornitori senza feed]] | 67 | **50** | ~5% | I portali B2B vietano bot e cessione delle credenziali; regge solo con grossisti che autorizzano |
-| [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 59 | **48** | ~7% | Conflitto con il lavoro trascurabile; per l'obiettivo B servono 350-475 k€ di capitale (~165-380 k€ per il reddito extra, vedi [[Raccomandazione]]) |
+| [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 59 | **48** | ~7% | Conflitto con il lavoro trascurabile; per l'obiettivo B servono 350-475 k€ di capitale (~165-285 k€ per il reddito extra, vedi [[Raccomandazione]]) |
 | [[I-H06-1 Disdetta digitale per l'Italia]] | 56 | **41** | ~3% | Concorrente diventato gratuito; margine nullo con la raccomandata online |
 
 **Perché sono scesi:** sia per due correzioni di metodo (il costo di un operatore pagato a mercato, da [[H16 Founder a tempo parziale]]; il vantaggio dello scraping ricalibrato, da [[H17 Vantaggio dello scraping]]), sia per fatti nuovi verificati (concorrenti, termini d'uso dei portali, vincoli di piattaforma).
@@ -36,8 +36,8 @@ Il test pratico previsto in [[I-H17-1 Test di replicabilità dello scraping]] no
 | # | Idea | Lordo | Altre penalità | Conflitto | **Punteggio** | Nella nota | Ore founder/sett | Investimento iniziale [stima] |
 |---|---|---|---|---|---|---|---|---|
 | 1 | [[I-H09-1 Sync fornitori senza feed]] | 74 | −5 | −2 | **67** | 69 | 4 (10 nei primi 3 mesi) | 25-40 k€ (55-75 k€ dopo il secondo giro) |
-| 2 | [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] | 73 | −1 | −8 | **64** | 66 | 4 | 30-50 k€ |
-| 3 | [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 66 | −6 | −1 | **59** | 60 | 5 (5-8 durante la ricerca) | 150-300 k€ (350-475 k€ dopo il secondo giro per l'obiettivo B; ~165-380 k€ per l'obiettivo A) |
+| 2 | [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] | 73 | −1 | −8 | **64** | 66 | 4 | 30-50 k€ (non ricalcolato nel secondo giro; team a regime 145-180 k€/anno) |
+| 3 | [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 66 | −6 | −1 | **59** | 60 | 5 (5-8 durante la ricerca) | 150-300 k€ (350-475 k€ dopo il secondo giro per l'obiettivo B; ~165-285 k€ per l'obiettivo A) |
 | 4 | [[I-H01-1 Portafoglio di actor su target difficili non personali]] | 72 | −6 | −8 | **58** | 64 | 4 | 15-30 k€ |
 | 5 | [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]] | 65 | −1 | −8 | **56** | 58 | 4 | 25-45 k€ |
 | 5 | [[I-H06-1 Disdetta digitale per l'Italia]] | 64 | −6 | −2 | **56** | 58 | 3 | 15-30 k€ |

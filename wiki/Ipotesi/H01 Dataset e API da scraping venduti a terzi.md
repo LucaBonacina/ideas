@@ -113,6 +113,6 @@ Le altre fonti sono elencate nei rapporti integrali [[H01 Entusiasta]] e [[H01 B
 ## Nota sui numeri di Apify
 Le note H01 e H17 citano numeri diversi su Apify, perché misurano cose diverse:
 - **Numero di actor:** ~124-127 mila è il totale dichiarato da Apify; ~14 mila (13.948) sono gli actor pubblici restituiti dall'API dello Store, scaricati dal giudice di H01.
-- **Numero di sviluppatori:** 1.656 (H01) e ~7.500 (H17) vengono da fonti e definizioni diverse (sviluppatori con actor a pagamento contro tutti i creatori); non sono state riconciliate.
+- **Numero di sviluppatori:** 1.656 (H01) e ~7.500 (H17) vengono da fonti e definizioni diverse (sviluppatori della community con utenti contro tutti i creatori); non sono state riconciliate.
 - **Pagamenti agli sviluppatori:** la crescita riportata in H01 (0,5 → 1 → 2 M$/mese) rende plausibili i 2 M$/mese, ma restano un dato dichiarato da Apify e non verificato in modo indipendente (H17). La conclusione non cambia: lo sviluppatore tipico incassa ~30 $/mese.
 

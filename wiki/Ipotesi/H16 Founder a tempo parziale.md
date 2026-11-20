@@ -10,7 +10,7 @@ tags: [ipotesi, trasversale]
 ---
 # H16 — Founder a tempo parziale + team di fiducia
 
-> **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata non è quella di un business a sé: per H16 è la probabilità che il modello "founder a tempo parziale con team" regga (nel secondo giro applicata come dimezzamento delle probabilità delle idee); per H17 è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Sigle nel [[Glossario]].
+> **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata non è quella di un business a sé: per H16 è la probabilità che un progetto avviato con il modello "founder a tempo parziale con team" arrivi a 50 k€ di margine, tasso base compreso (il fattore da applicare alle singole idee è circa 0,5); per H17 è la probabilità di successo di un'idea il cui vantaggio principale è solo lo scraping. Sigle nel [[Glossario]].
 
 ## Ipotesi (pre-registrata)
 Il modello "founder a tempo parziale + team di fiducia" è sostenibile (dal [[Registro delle ipotesi]]).
@@ -39,7 +39,7 @@ Rapporto integrale: [[H16 Bucatore]] (23 ricerche web).
   - Con un manager esterno i costi di agenzia sono più alti (Ang, Cole & Lin 2000).
   - YC chiede founder a tempo pieno.
   - Lo studio ROI di Empire Flippers e alcuni aneddoti mostrano asset digitali in calo con proprietari passivi (evidenza debole).
-- **Economia.** Un operatore senior costa all'azienda circa 60-75 k€. Per lasciare 50 k€ al founder servono quindi circa 120-160 k€ di margine lordo [stima].
+- **Economia.** Un operatore senior costa all'azienda circa 60-75 k€. Per lasciare 50 k€ al founder, aggiungendo costi fissi della società (4-15 k€) e infrastruttura (5-20 k€), servono quindi circa 120-160 k€ di margine lordo [stima].
 - **Fisco e veicolo.** Forfettario precluso sopra 35 k€ (30 k€ dal 2027 salvo proroghe). Una SRL costa 4-15 k€/anno di costi fissi. Una società estera diretta dall'Italia è residente in Italia.
 - **Raccomandazioni attaccate.** GM pagato in equity (diventa un co-founder, con stallo e agenzia), SRL da socio di capitale (non protegge dall'art. 2105), forfettario, società estera. L'unico scudo vero è l'autorizzazione scritta del datore con perimetro definito.
 - **Controtendenza.** Cass. 19377/2025 richiede proporzionalità per la giusta causa. È letta solo in estratto.
@@ -69,7 +69,8 @@ Rapporto integrale: [[H16 Bucatore]] (23 ricerche web).
 - base rate di successo di un nuovo prodotto a 24 mesi: circa 20-30%;
 - moltiplicata per la probabilità di trovare e trattenere un operatore capace: circa 60%;
 - e per la probabilità di ottenere il via libera del datore o di scegliere un dominio a basso rischio: circa 80-90%.
-È un fattore moltiplicativo da applicare alle probabilità delle singole idee nelle altre sessioni, non un business a sé.
+
+Il 15% è quindi la probabilità che un progetto avviato con questo modello arrivi a 50 k€ di margine, tasso base compreso. Il fattore da applicare alle singole idee, escluso il tasso base, è circa 0,5 (60% × 80-90%). È un fattore moltiplicativo da applicare alle probabilità delle singole idee nelle altre sessioni, non un business a sé.
 
 ### Raccomandazioni operative (nel verdetto, non azionabili come idea di business)
 - Usare C10 come **filtro eliminatorio** nelle altre sessioni: scartare le idee che richiedono il giudizio tecnico del founder ogni settimana.

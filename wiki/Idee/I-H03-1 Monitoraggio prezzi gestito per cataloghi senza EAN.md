@@ -7,7 +7,7 @@ punteggio_v2_r1: 66
 verdetto_r2: "declassata: cancello eliminatorio sull'autorizzazione del datore; incumbent italiano diretto"
 modello_ricavo: "setup (matching iniziale) + canone mensile con SLA; vendita diretta e white-label tramite partner"
 tempo_founder_h_sett: 4
-investimento_iniziale_eur: "30-50 k€ il primo anno (sviluppatore, commerciale part-time, infrastruttura) [stima]"
+investimento_iniziale_eur: "30-50 k€ il primo anno (stima del primo giro, non ricalcolata nel secondo, dove il team a regime costa 145-180 k€/anno) [stima]"
 tags: [idea, S1, R2]
 ---
 # I-H03-1 — Monitoraggio prezzi gestito per cataloghi senza EAN

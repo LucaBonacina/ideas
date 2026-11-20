@@ -60,7 +60,7 @@ Sintesi del rapporto integrale: [[H06 Bucatore]]. Posizione: **confutata nella f
   - Per arrivarci con la stessa penetrazione, l'originale USA dovrebbe fare circa 1 M$ l'anno, e a quella scala si localizza da solo.
   - Gumroad: mediana di 70 $ l'anno per creator.
 - **Le idee ovvie falliscono tutte:** clone di micro-SaaS, fatturazione, "AI in italiano", app consumer, template, directory, marketplace.
-- **Unica variante che resiste:** l'arbitraggio normativo. Ma è materia di H07, attenta agli ambiti esclusi.
+- **Unica variante che resiste:** l'arbitraggio normativo. Ma va valutata in H07, con attenzione agli ambiti esclusi.
 
 ## Verdetto — Giudice
 

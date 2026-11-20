@@ -42,7 +42,12 @@ Termini e sigle usati nella wiki.
 | **Subagenti** | Gli agenti di ricerca (Entusiasta e Bucatore) avviati dal Giudice di ogni sessione. |
 | **Round 2** | Secondo giro. |
 | **Bot / anti-bot** | Programma automatico che visita i siti / protezioni dei siti contro i programmi automatici. |
-| **Margine / margine lordo** | Margine: quanto resta dopo tutti i costi, prima delle tasse. Margine lordo: prima del costo dell'operatore o del founder. |
+| **Margine / margine lordo** | Margine: quanto resta dopo tutti i costi, prima delle tasse. Margine lordo: prima del costo dell'operatore, dei costi fissi della società e dell'infrastruttura. |
+| **AI** | Intelligenza artificiale. |
+| **Ranking** | Posizione in una classifica (es. di un'offerta su un'agenzia online). |
+| **Back office** | Lavoro amministrativo e di gestione delle pratiche. |
+| **Regole di separazione** | Precauzioni per tenere il progetto separato dal lavoro: codice scritto da zero, infrastruttura propria, nessun ex collega senza parere (passo 5 di [[I-H16-1 Autorizzazione scritta e veicolo societario]]). |
+| **Zona grigia** | Esito intermedio di un esperimento: né successo né stop; si ripete prima di investire. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |

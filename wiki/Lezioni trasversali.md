@@ -17,7 +17,7 @@ Due sessioni di ricerca indipendenti sono arrivate alla stessa conclusione. Per 
 L'accesso ai siti si compra (servizi che superano le protezioni anti-bot) e l'estrazione la fanno anche i non esperti con un modello linguistico. Il vantaggio resta solo nei **flussi continui su molte fonti diverse** (freschezza, riconoscimento degli stessi prodotti, storico, qualità) e nell'uso dello scraping per **trovare opportunità**. Vedi [[H17 Vantaggio dello scraping]].
 
 ## 3. Il costo della delega dipende dall'obiettivo
-- **Per un business da almeno 50 k€/anno** serve una persona a tempo pieno, pagata a mercato e con quote: l'attività deve arrivare a ~120-160 k€ di margine lordo, cioè prima del costo dell'operatore [stima].
+- **Per un business da almeno 50 k€/anno** serve una persona a tempo pieno, pagata a mercato e con quote: l'attività deve arrivare a ~120-160 k€ di margine lordo, cioè prima del costo dell'operatore, della società e dell'infrastruttura [stima].
 - **Per un reddito extra di 1-2 k€/mese netti** Claude ipotizza che bastino collaboratori part-time pagati a mercato (stima non verificata dalla discovery).
 Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 
@@ -36,7 +36,7 @@ Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 ## 6. Dove restano soldi
 - **Al primo giro** le idee migliori vendevano a piccole imprese attraverso uno store di piattaforma (Shopify, WooCommerce) o risolvevano problemi di dati di catalogo e prezzi senza codici standard.
 - **Il secondo giro le ha ridimensionate:** i portali dei grossisti vietano i bot; il monitoraggio prezzi coincide con l'attività del datore e ha già concorrenti in italiano.
-- **Le due strade preferite per il reddito extra:** comprare un software già redditizio (la più solida, se c'è il capitale) e i quiz per testate locali (le uniche senza autorizzazione del datore né pareri legali specifici). Per "costruisci e vendi" la strada migliore è comprare. Vedi [[Classifica per obiettivo]].
+- **Le due strade preferite per il reddito extra:** comprare un software già redditizio (la più solida, se c'è il capitale) e i quiz per testate locali (l'unica idea da costruire senza autorizzazione del datore né pareri legali specifici). Per "costruisci e vendi" la strada migliore è comprare. Vedi [[Classifica per obiettivo]].
 
 ## 7. Le distribuzioni contano più dei casi di successo
-In ogni area i giudici hanno trovato mediane molto basse (Apify: ~30 $/mese per sviluppatore; piccoli software in abbonamento: 68% sotto 1 k$/mese; app: ~72 $/mese). I casi celebri sono l'eccezione.
+In ogni area i giudici hanno trovato mediane molto basse (Apify: ~30 $/mese per sviluppatore; piccoli software in abbonamento: 68% nella fascia 0-1 k$ di ricavi (TrustMRR, metrica non dichiarata); app: ~72 $/mese). I casi celebri sono l'eccezione.

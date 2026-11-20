@@ -10,7 +10,7 @@ tags: [idea, S3]
 ---
 # I-H07-1 — Intelligence OTA per operatori di tour
 
-> **Gate aggiornato.** Questa idea vende dati raccolti con lo scraping: serve l'**autorizzazione scritta del datore prima di qualunque esperimento**, anche preparatorio (vedi [[Raccomandazione]], punto 4, e [[I-H16-1 Autorizzazione scritta e veicolo societario]]). Prevale su eventuali passi più leggeri indicati sotto.
+> **Gate aggiornato.** Questa idea vende dati raccolti con lo scraping: serve l'**autorizzazione scritta del datore prima di qualunque esperimento**, anche preparatorio, con parere di un avvocato del lavoro (vedi [[Raccomandazione]], punto 4, e [[I-H16-1 Autorizzazione scritta e veicolo societario]]). Prevale su eventuali passi più leggeri indicati sotto.
 
 > **Prezzo.** Il giudice di [[H07 Micro-SaaS B2B verticale]] fa sopravvivere solo i verticali con prezzo di almeno 100 €/mese: il prezzo di 79 € proposto sotto (anche nell'esperimento) va portato ad almeno 100 €.
 
