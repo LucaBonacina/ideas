@@ -24,7 +24,7 @@ tags: [regione, centro]
 - **Misura FSE+:** gli atti di riparto ai comuni (DGR 943/2025) potrebbero contenere l'elenco dei comuni beneficiari, non dei servizi; non letti.
 
 ## Misure regionali per le famiglie
-- **Programmazione 0-6 2025:** 7,5 milioni (5,5 Fondo nazionale 0-6, 2 FSE+). Con il FSE+ la Regione rimborsa ai comuni una quota forfettaria (5.700 euro secondo l'estratto della DGR 943/2025, da riverificare) per ogni **azzeramento totale della retta** 0-3 concesso a una famiglia per l'anno 2025/26. La famiglia non presenta domanda alla Regione; requisiti ISEE e domanda sono comunali. Edizione 2026 non trovata. Vedi [[Regione Marche - Programmazione 0-6 e abbattimento rette FSE+]].
+- **Programmazione 0-6 2025:** 7,5 milioni (5,5 Fondo nazionale 0-6, 2 FSE+). Con il FSE+ la Regione rimborsa ai comuni una quota forfettaria (5.700 euro secondo l'estratto della DGR 943/2025, da riverificare) per ogni **azzeramento totale della retta** 0-3 concesso a una famiglia per l'anno 2025/26. La famiglia non presenta domanda alla Regione; requisiti ISEE e domanda sono comunali. Edizione 2026 non trovata. Vedi [[Regione Marche - Programmazione 0-6 e abbattimento rette FSE plus]].
 
 ## Comuni capoluogo
 **Ancona (capoluogo di regione):** ultimo elenco trovato 2024/25: 13 nidi comunali (9 in affidamento, 500 posti) e 1 sezione primavera (20 posti); rette in note informative annuali (2024/25); niente sui privati; sito comunale protetto da verifica anti-bot. Vedi [[Comune di Ancona - Nidi comunali e rette]].

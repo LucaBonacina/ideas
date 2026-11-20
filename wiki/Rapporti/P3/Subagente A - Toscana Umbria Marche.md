@@ -9,7 +9,7 @@ tags: [rapporto, nidi, toscana, umbria, marche]
 
 ## Cosa ho fatto
 - Note regione: [[Toscana]], [[Umbria]], [[Marche]].
-- Note fonte (11): [[Regione Toscana - Open data servizi educativi prima infanzia]], [[Regione Toscana - Nidi gratis elenco servizi e comuni aderenti]], [[Regione Toscana - SIRIA sistema informativo regionale infanzia]], [[Comune di Firenze - Elenco servizi educativi 0-3]], [[Comune di Firenze - Iscrizioni e tariffe nidi]], [[Comune di Livorno - Open data nidi dinfanzia]], [[Comune di Prato - Open data asili nido]], [[Regione Umbria - Avviso rette servizi educativi FSE+]], [[Comune di Perugia - Iscrizioni nidi e convenzionamenti]], [[Regione Marche - Programmazione 0-6 e abbattimento rette FSE+]], [[Comune di Ancona - Nidi comunali e rette]].
+- Note fonte (11): [[Regione Toscana - Open data servizi educativi prima infanzia]], [[Regione Toscana - Nidi gratis elenco servizi e comuni aderenti]], [[Regione Toscana - SIRIA sistema informativo regionale infanzia]], [[Comune di Firenze - Elenco servizi educativi 0-3]], [[Comune di Firenze - Iscrizioni e tariffe nidi]], [[Comune di Livorno - Open data nidi dinfanzia]], [[Comune di Prato - Open data asili nido]], [[Regione Umbria - Avviso rette servizi educativi FSE plus]], [[Comune di Perugia - Iscrizioni nidi e convenzionamenti]], [[Regione Marche - Programmazione 0-6 e abbattimento rette FSE plus]], [[Comune di Ancona - Nidi comunali e rette]].
 - **Commit e push non eseguiti:** il coordinatore ha chiesto di fare commit e push su `claude/nidi-p3` dopo ogni nota; il classificatore dei permessi ha negato il comando git. Non ho cercato vie alternative. I file sono scritti e non committati.
 
 ## Risultato per regione

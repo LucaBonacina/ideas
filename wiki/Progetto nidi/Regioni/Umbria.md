@@ -24,7 +24,7 @@ tags: [regione, centro]
 - **Chi ha i dati:** i comuni (autorizzano e accreditano) e la Regione (sistema informativo, art. 23). Nessuna nota fonte regionale di registro creata perché non esiste una fonte pubblica da descrivere.
 
 ## Misure regionali per le famiglie
-- **Avviso rette 2025/26 (FSE+, 4 milioni di euro)** per minori fino a 6 anni: esistenza e importo da documento ufficiale; date (23/02-30/03/2026) da riverificare; nessuna edizione 2026/27 trovata. Vedi [[Regione Umbria - Avviso rette servizi educativi FSE+]].
+- **Avviso rette 2025/26 (FSE+, 4 milioni di euro)** per minori fino a 6 anni: esistenza e importo da documento ufficiale; date (23/02-30/03/2026) da riverificare; nessuna edizione 2026/27 trovata. Vedi [[Regione Umbria - Avviso rette servizi educativi FSE plus]].
 - **Lato offerta:** fondi FSE+ ai comuni per 260 nuovi posti nido (2026/27-2027/28), elenco dei 21 comuni in un articolo di stampa.
 - Nessun elenco regionale di servizi aderenti trovato.
 
