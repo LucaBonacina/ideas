@@ -3,7 +3,7 @@ tipo: ipotesi
 id: H20b
 titolo: "Un prodotto per la famiglia allargata che vive dove i nonni sono già"
 sessione: S10
-stato: "parziale"
+stato: "confutata"
 fiducia: "media"
 probabilita_successo: "3%"
 tags: [ipotesi, famiglia]
@@ -102,7 +102,7 @@ Non verificato dal Giudice: il tasso di completamento d'uso di un libro di 12 me
   - **Non scatta per l'oggetto prepagato:** margine positivo (~32-49 € a libro) incassato in anticipo, nessun churn. I costi fissi del modello leggero (3-10 k€/anno) si coprono con ~90-300 libri all'anno. Che si vendano non è dimostrato.
 
 ### Verdetto
-**Parziale, fiducia media.**
+**Confutata** nella forma registrata (esito allineato a H20: l'idea che sopravvive è un prodotto di ricordi nato da una riformulazione, non una forma ristretta del coordinamento), fiducia media.
 - **Confutata nella forma registrata:** un prodotto di *coordinamento* della famiglia allargata (aggiornamenti, regali, turni, cose da sapere) che vive in WhatsApp. Il coordinamento è coperto gratis (a), il bot nel gruppo è vietato (b), l'abbonamento digitale non si ripaga (c).
 - **Sopravvive un frammento ristretto: "WhatsApp in entrata, carta in uscita".** Il genitore manda foto e vocali a un numero (o carica l'export della chat), i nonni ricevono un link nel gruppo esistente, e si paga un **oggetto**: il libro del primo anno o il libro della chat di famiglia. È la stessa lezione di H20 (paga l'oggetto, non l'app), con il canale giusto per l'Italia. Va detto chiaramente: è un prodotto di **ricordi**, non di coordinamento. Lo "spazio non colto dalle app dedicate" esiste solo in questa forma.
 - **Correzione di S8.** In S8 il criterio (a) di H20 era scattato per i nonni digitali anche per "FamilyAlbum gratuita, 30 M utenti". In Italia FamilyAlbum quasi non c'è (1.192 valutazioni, nessuna localizzazione). La copertura italiana la danno WhatsApp e Google Foto, non le app dedicate. La conclusione non cambia per la condivisione digitale, ma lascia libero lo spazio dell'oggetto.
@@ -110,7 +110,7 @@ Non verificato dal Giudice: il tasso di completamento d'uso di un libro di 12 me
 **Probabilità di successo (obiettivo B): 3%** [stima]. Con un margine di ~32-49 € a libro, per 120-160 k€ di margine lordo servono ~2.500-5.000 libri all'anno (0,7-1,4% dei nati), senza pubblico, in una categoria in cui perfino il leader quotato ammette di non riuscire ad acquisire genitori.
 
 **Obiettivo A** (fasce per idea nelle note):
-- **Modello leggero:** 24-53 k€ di margine di contribuzione, cioè **~500-1.650 libri all'anno**. È il bersaglio più basso trovato nel filone famiglia, ma non c'è una prova di domanda.
+- **Modello leggero:** 24-53 k€ di margine di contribuzione, cioè **~500-1.650 libri all'anno**. Era il bersaglio più basso trovato nel filone famiglia, ma non c'è una prova di domanda.
 - **Modello con collaboratori:** 60-116 k€, cioè **~1.250-3.600 libri all'anno**.
 
 **Lente di utilità** [stima]:
@@ -128,11 +128,11 @@ Non verificato dal Giudice: il tasso di completamento d'uso di un libro di 12 me
 - **Bot dentro il gruppo di famiglia:** vietato (gruppo esistente) o limitato a 8 persone con OBA (gruppi aziendali). Criterio (b).
 - **Bot-album e diario in abbonamento:** 1.200-3.100 paganti contro Google Foto via link e il gruppo stesso; il benchmark (Qeepsake) è piccolo e il leader è in difficoltà.
 - **Web app a link per regali, turni e "cose da sapere":** già confutata in H21 e H23; WhatsApp ha eventi, sondaggi e messaggi fissati. La scheda "cose da sapere" resta al più una funzione gratuita delle idee sopravvissute.
-- **Prodotto per nidi:** è il conto più facile (40-90 nidi), ma il pagatore cambia (B2B, vendita porta a porta, fuori dal modello leggero). Kindertap ha un piano gratuito con condivisione ai familiari e può copiare l'invio via WhatsApp. Il Garante sanziona i nidi sulle foto. Non è più un prodotto per la famiglia allargata.
+- **Prodotto per nidi:** è il conto più facile (40-90 nidi), ma il pagatore cambia (B2B, vendita diretta ai nidi; la sessione S11 la ritiene comunque fattibile con un collaboratore occasionale, vedi [[I-H22b-1 Nidi e agevolazioni per comune pagato dai nidi privati]]; fuori dal modello leggero). Kindertap ha un piano gratuito con condivisione ai familiari e può copiare l'invio via WhatsApp. Il Garante sanziona i nidi sulle foto. Non è più un prodotto per la famiglia allargata.
 - **Estensione internazionale (Spagna, America Latina):** non è un'idea a sé; è il passo successivo di I-H20b-1 se l'Italia funziona.
 
 ## Fonti
-Tutte con accesso il 2026-11-20. Elenco completo nei rapporti [[H20b Entusiasta]] e [[H20b Bucatore]]; brief in [[_brief-comune]] (S10).
+Tutte con accesso il 2026-11-20. Elenco completo nei rapporti [[H20b Entusiasta]] e [[H20b Bucatore]]; brief in [[Rapporti/S10/_brief-comune|_brief-comune]] (S10).
 - Meta, Groups API: https://developers.facebook.com/docs/whatsapp/cloud-api/groups · prezzi gruppi: https://developers.facebook.com/documentation/business-messaging/whatsapp/groups/pricing
 - Meta, prezzi WhatsApp Business Platform (rate card EUR): https://developers.facebook.com/docs/whatsapp/pricing/
 - Meta, AI providers: https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/ai-providers · Termini della Business Platform: https://www.facebook.com/legal/Meta-Terms-for-WhatsApp-Business-Platform

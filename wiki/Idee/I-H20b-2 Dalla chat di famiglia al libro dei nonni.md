@@ -8,6 +8,7 @@ tempo_founder_h_sett: 2
 investimento_iniziale_eur: "3-10 k€ (parser dell'export, selezione foto con AI, impaginazione, stampa on demand, DPIA) [stima]"
 obiettivo_A: "bassa"
 obiettivo_B: "2%"
+utilita: "piccola"
 obiettivo_C: "bassa"
 tags: [idea, famiglia, S10]
 ---
@@ -106,7 +107,7 @@ Zapptales stampa la chat così com'è: qui il valore sta nella pulizia. Resta co
 
 **Soglie decise ora:**
 - **≥ 40 export caricati** per l'anteprima;
-- **≥ 12 ordini pagati a 45 €** con ≤ 300 € di pubblicità (costo per cliente ≤ 25 €);
+- **≥ 20-30 ordini pagati a 45 €** con ≤ 300 € di pubblicità (costo per cliente ≤ 10-15 €, perché il margine è 17-21 € a libro);
 - **≥ 70% delle anteprime** senza errori gravi di selezione (verifica manuale).
 
 **Esito:**

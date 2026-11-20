@@ -86,7 +86,7 @@ Non verificato dal Giudice: il prezzo che le RSA italiane pagherebbero (la pagin
 ### Verdetto
 > **Esito aggiornato: confutata.** La gazzetta cartacea non è una forma ristretta dell'ipotesi registrata (nonni come utenti, magari paganti) ma un suo rovesciamento (nonni come destinatari, paga la famiglia): è un'idea nata da una riformulazione, come gli spunti di H18.
 
-**Parziale, fiducia media.**
+**Confutata** (esito aggiornato, vedi il riquadro sopra), fiducia media.
 - Nella forma registrata ("i nonni come utenti di un prodotto, magari paganti") l'ipotesi è **confutata**: due criteri scattano pieni (b, c) e il terzo scatta per tutto il segmento digitale.
 - Sopravvive una **variante stretta**: i nonni non digitali come *destinatari* di un prodotto fisico pagato da figli o strutture. È provata in Francia (circa 14 M€) e assente in Italia.
 - Per questo profilo però la variante è debole: lo scraping non dà vantaggio (al più per costruire la lista delle strutture), il margine per famiglia è di 21-35 €/anno, e il business è fatto di stampa, poste, assistenza e vendita alle RSA. Famileo, redditizia e già in 5 lingue, può entrare in Italia quando vuole.
@@ -117,3 +117,6 @@ Tutte con accesso il 2026-11-20. Elenco completo nei rapporti [[H20 Entusiasta]]
 - Garante privacy, sharenting: https://www.garanteprivacy.it/it/temi/minori/sharenting
 - Poste Italiane, listino servizi universali maggio 2026: https://www.media.poste.it/93dc336c-6a17-4111-ac4c-81a8b074489e/web/prodotti-servizio-universale-listino
 - Autocompletamento Google (hl=it, gl=it), interrogato dal Giudice via suggestqueries.google.com
+
+## Nota di coerenza
+Il secondo giro ([[H20b Famiglia allargata dove i nonni sono già]]) corregge due punti di questa nota: in Italia FamilyAlbum è quasi assente (la copertura viene da WhatsApp e Google Foto), e i nonni usano molto lo smartphone; quello che non fanno è installare app nuove.

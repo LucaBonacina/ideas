@@ -139,3 +139,6 @@ Tutte con accesso del 2026-11-20; elenco completo nei rapporti [[H22 Entusiasta]
 
 ## Nota di coerenza
 L'idea sopravvissuta ([[I-H22-1 Directory feste e corsi per bambini con abbonamento strutture]]) vende visibilità a strutture locali, la strada confutata in [[H14 Lead e visibilità a strutture locali]]. La nota dell'idea spiega quali fatti nuovi la tengono aperta e perché resta a probabilità bassa.
+
+## Correzione dal secondo giro
+[[H22b Un unico punto di accesso a informazioni disperse]] ha verificato direttamente la mappa INPS dei nidi: è dietro SPID, contiene solo dati identificativi e per il 2026/27 l'INPS rinvia agli elenchi comunali. Le affermazioni di questa nota sulla mappa ("online", "F1 peggiora", criterio (a) scattato per i nidi) valgono solo per l'elenco delle strutture, non per rette, scadenze e agevolazioni.

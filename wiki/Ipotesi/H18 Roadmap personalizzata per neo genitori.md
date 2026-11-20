@@ -93,3 +93,6 @@ Accesso 2026-11-20. Elenchi completi in [[H18 Entusiasta]] e [[H18 Bucatore]].
 - https://www.regione.toscana.it/-/happymamma
 - https://developer.apple.com/app-store/review/guidelines/
 - `docs/05-screening-b2c.md` (scarto F2)
+
+## Nota di coerenza
+Il riferimento al calendario dei nidi "già scartato come F1" è superato: il secondo giro del filone ([[H22b Un unico punto di accesso a informazioni disperse]]) ha riaperto i nidi come [[I-H22b-1 Nidi e agevolazioni per comune pagato dai nidi privati]].

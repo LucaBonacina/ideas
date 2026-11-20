@@ -13,7 +13,7 @@ Termini e sigle usati nella wiki.
 | **C1-C11** | I criteri della scala: C1 bisogno, C2 domanda, C3 monetizzazione, C4 vantaggio delle competenze, C5 distribuzione senza pubblico, C6 resistenza all'AI generalista, C7 difendibilità, C8 debolezza dei concorrenti, C9 tempo al primo euro, C10 delegabilità, C11 tetto di ricavo a 24 mesi. |
 | **Lordo** | Punteggio prima delle penalità. |
 | **Penalità di conflitto** | Sottrazione per il rischio di conflitto con il lavoro attuale: −8 se l'idea vende dati o servizi di scraping a terzi, −2 se lo scraping è uno strumento interno, −1 se serve solo a trovare opportunità, 0 se non c'entra. Vedi [[Classifica]]. |
-| **Primo giro / secondo giro** | Primo giro: ogni ipotesi esaminata da Entusiasta, Bucatore e Giudice. Secondo giro: approfondimento delle 4 idee scelte, con un nuovo confronto. |
+| **Primo giro / secondo giro** | Primo giro: ogni ipotesi esaminata da Entusiasta, Bucatore e Giudice. Secondo giro: approfondimento delle 4 idee scelte, con un nuovo confronto. Nel [[Filone famiglia]] "secondo giro" indica invece le ipotesi riformulate H20b e H22b. |
 | **Entusiasta / Bucatore di palloncini / Giudice** | I tre ruoli della discovery: chi costruisce il caso a favore, chi cerca di smentirlo, chi verifica e decide. |
 | **Obiettivi A, B, C** | A = reddito extra di 1-2 k€/mese netti (~21-43 k€/anno di margine prima delle tasse); B = business da almeno 50 k€/anno di margine entro 24 mesi, con il founder a non più di 5 ore/settimana dopo l'avvio; C = costruire (o comprare e migliorare) un asset e venderlo entro 12-18 mesi dall'avvio. Vedi [[Classifica per obiettivo]]. |
 | **Gate** (nelle note anche **cancello**) | Condizione da superare prima di tutto (es. autorizzazione del datore, parere legale, capitale): senza, l'idea è ferma. |
@@ -64,10 +64,21 @@ Termini e sigle usati nella wiki.
 | **Co-parenting** | Gestione condivisa dei figli tra genitori separati. |
 | **Protocollo anti-bias** | Regole per evitare che le preferenze dell'utente influenzino la valutazione (vedi [[Protocollo di discovery]]). |
 | **F1-F5, C1 (screening B2C)** | Codici dei candidati dello screening B2C (es. F1 nidi, C1 trova-bonus); da non confondere con i criteri C1-C11 della scala. |
-| **Modello leggero** | Ipotesi di costo per l'obiettivo A: prodotto automatizzato, seguito dal founder con poche ore; 23-51 k€/anno da coprire. Vedi [[Filone famiglia]]. |
+| **Modello leggero** | Ipotesi di costo per l'obiettivo A: prodotto automatizzato, seguito dal founder con poche ore; 23-51 k€/anno da coprire (società 0-5 k€, infrastruttura e servizi 2-3 k€). Vedi [[Filone famiglia]]. |
 | **Lente di utilità** | Stima di quante famiglie un'idea aiuta e quanto tempo o denaro fa risparmiare; affianca il punteggio senza cambiarne i pesi. |
 | **Ambiti / Centri per le famiglie** | Enti pubblici locali che gestiscono servizi sociali e di sostegno alle famiglie. |
 | **DPIA** | Valutazione d'impatto sulla protezione dei dati prevista dal GDPR. |
+| **SPID** | Identità digitale per accedere ai servizi pubblici online. |
+| **ISEE** | Indicatore della situazione economica della famiglia, usato per bonus e rette. |
+| **Bonus nido / Nidi Gratis Plus / Assegno unico** | Agevolazioni per le famiglie: contributo INPS per le rette del nido; misura della Regione Lombardia che azzera le rette; assegno mensile per i figli. |
+| **Albo pretorio** | Sezione del sito di un comune dove si pubblicano atti e avvisi. |
+| **Open data / PDND** | Dati pubblici riutilizzabili / piattaforma con cui le amministrazioni si scambiano dati. |
+| **WhatsApp Business (Cloud API, Groups API, OBA, Click to WhatsApp)** | Strumenti con cui un'azienda usa WhatsApp: interfaccia per i messaggi, gestione di gruppi creati dall'azienda, account aziendale verificato, annunci che aprono una chat. |
+| **Offboarding** | Esclusione di un'azienda da una piattaforma. |
+| **Churn** | Quota di clienti che smettono di pagare in un periodo. |
+| **MVP** | Prima versione minima del prodotto, per provarlo con utenti veri. |
+| **Stampa on demand** | Stampa del singolo pezzo solo quando viene ordinato. |
+| **IRES / IRAP** | Imposte sul reddito delle società. |
 | **SDE** | *Seller's Discretionary Earnings*: utile di un piccolo business prima del compenso del proprietario che lo gestisce. È la base su cui si calcola il prezzo di acquisto. |
 | **Multiplo** | Prezzo di acquisto diviso per l'utile annuo (o per l'SDE). "3x" = tre anni di utile. |
 | **ARR / MRR** | Ricavi ricorrenti annui / mensili. |

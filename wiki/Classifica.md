@@ -51,20 +51,20 @@ Il test pratico previsto in [[I-H17-1 Test di replicabilità dello scraping]] no
 | 14 | [[I-H02-1 Feed Italia in tempo reale per assistenti di viaggio]] | 54 | −3 | −8 | **43** | 49 | 4 | 15-25 k€ |
 
 ### Filone famiglia (stessa scala, stessa regola sul conflitto)
-| Idea | Lordo | Altre penalità | Conflitto | **Punteggio** | Nella nota | Ore founder/sett | Investimento iniziale [stima] |
-|---|---|---|---|---|---|---|---|
-| [[I-H22b-1 Nidi e agevolazioni per comune pagato dai nidi privati]] | 57 | −1 | −2 | **54** | 54 | 3 | 3-10 k€ (modello leggero) |
-| [[I-H20b-1 Libro del primo anno via WhatsApp]] | 52 | −3 | 0 | **49** | 49 | 3 | 5-15 k€ |
-| [[I-H22b-2 Guida 0-6 in white label per Ambiti e Centri per le famiglie]] | 50 | 0 | −2 | **48** | 48 | 4 | +2-5 k€ sul motore di I-H22b-1 |
-| [[I-H20b-2 Dalla chat di famiglia al libro dei nonni]] | 52 | −5 | 0 | **47** | 47 | 2 | 3-10 k€ |
-| [[I-H23-1 Spese straordinarie e calendario per genitori separati]] | 54 | −5 | −2 | **47** | 47 | 3 | 25-50 k€ |
-| [[I-H20-1 Gazzetta cartacea per nonni non digitali]] | 50 | −3 | −1 | **46** | 46 | 4 (8-10 nei primi 3 mesi) | 20-40 k€ |
-| [[I-H22-1 Directory feste e corsi per bambini con abbonamento strutture]] | 49 | −1 | −2 | **46** | 46 | 3 | 20-40 k€ |
+| Idea | Lordo | Altre penalità | Conflitto | **Punteggio** | Nella nota | Ore founder/sett | Investimento iniziale [stima] | Utilità |
+|---|---|---|---|---|---|---|---|---|
+| [[I-H22b-1 Nidi e agevolazioni per comune pagato dai nidi privati]] | 57 | −1 | −2 | **54** | 54 | 3 | 3-10 k€ (modello leggero) | media |
+| [[I-H20b-1 Libro del primo anno via WhatsApp]] | 52 | −3 | 0 | **49** | 49 | 3 | 5-15 k€ | piccola |
+| [[I-H22b-2 Guida 0-6 in white label per Ambiti e Centri per le famiglie]] | 50 | 0 | −2 | **48** | 48 | 4 | +2-5 k€ sul motore di I-H22b-1 | alta per le famiglie raggiunte |
+| [[I-H20b-2 Dalla chat di famiglia al libro dei nonni]] | 52 | −5 | 0 | **47** | 47 | 2 | 3-10 k€ | piccola |
+| [[I-H23-1 Spese straordinarie e calendario per genitori separati]] | 54 | −5 | −2 | **47** | 47 | 3 | 25-50 k€ | media per chi la usa |
+| [[I-H20-1 Gazzetta cartacea per nonni non digitali]] | 50 | −3 | −1 | **46** | 46 | 4 (8-10 nei primi 3 mesi) | 20-40 k€ | media per i nonni non digitali |
+| [[I-H22-1 Directory feste e corsi per bambini con abbonamento strutture]] | 49 | −1 | −2 | **46** | 46 | 3 | 20-40 k€ | piccola |
 
-Le prime quattro vengono dal secondo giro del filone. I-H20-1 e I-H22-1 sono a pari merito. Anche queste note assegnano 3-4 a criteri senza fonte (o con sola stima), contro la regola "senza evidenza al massimo 2": applicandola i punteggi scenderebbero a circa 40-43. Vedi [[Filone famiglia]].
+Le prime quattro vengono dal secondo giro del filone. I-H20-1 e I-H22-1 sono a pari merito. Anche queste note assegnano 3-4 a criteri senza fonte (o con sola stima), contro la regola "senza evidenza al massimo 2": applicandola i punteggi scenderebbero a circa 37-52 (dettaglio in [[Filone famiglia]]). Vedi [[Filone famiglia]].
 
 Perché alcune idee hanno −8 pur non sembrando "vendita di dati": [[I-H07-1 Intelligence OTA per operatori di tour]] vende ranking e prezzi raccolti dalle agenzie online, [[I-H07-2 Rate shopper per autonoleggi]] vende le tariffe dei concorrenti (è monitoraggio prezzi), [[I-H09-2 Schede prodotto da EAN]] vende contenuti raccolti dai siti dei produttori. Per tutte e tre serve quindi l'autorizzazione del datore.
 
 ## Come leggere i numeri
-- **Nessuna idea supera 67 al primo giro, e nessuna supera 52 dopo il secondo.** Non è emersa un'opportunità evidente per l'obiettivo B.
-- Le probabilità di successo delle ipotesi di business stimate dai giudici vanno dal 2% al 12%. Per le singole idee esistono le 4 stime del secondo giro (3-7%) e quelle del filone famiglia (2-3%).
+- **Nessuna idea supera 67 al primo giro, e nessuna delle 4 idee approfondite supera 52 dopo il loro secondo giro** (le idee del filone famiglia arrivano a 54). Non è emersa un'opportunità evidente per l'obiettivo B.
+- Le probabilità di successo delle ipotesi di business stimate dai giudici vanno dal 2% al 12%. Per le singole idee esistono le 4 stime del secondo giro (3-7%) e quelle del filone famiglia (1-3%).

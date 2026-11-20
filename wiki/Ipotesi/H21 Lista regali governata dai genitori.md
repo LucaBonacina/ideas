@@ -105,3 +105,6 @@ Tutte con accesso il 2026-11-20. Elenco completo nei rapporti [[H21 Entusiasta]]
 - Il Post: https://www.ilpost.it/2023/12/05/cavallo-regali-natale-insegnanti/ · Domani: https://www.editorialedomani.it/idee/cultura/collette-scolastiche-amplificatori-di-disuguaglianze-o-volano-di-comunita-e0nqqyv6
 - Leetchi: https://www.francetransactions.com/actus/news-banques/leetchi-est-en-vente-la-cagnotte-en-ligne-payante-perd-de-l-argent.html
 - Autocompletamento Google (hl=it, gl=it), interrogato dal Giudice via suggestqueries.google.com
+
+## Nota di coerenza
+Il conto sui negozi indipendenti usa il modello con collaboratori (60-116 k€). Con il modello leggero introdotto dopo (23-51 k€, vedi [[Filone famiglia]]) 100 negozi a 49 €/mese basterebbero: lo scarto regge solo per l'assenza di evidenze di domanda.

@@ -179,3 +179,7 @@ Accesso 2026-11-20. Elenco completo nei rapporti [[H22b Entusiasta]] e [[H22b Bu
 - BonusX: https://bonusx.it/corporate/ · sitemap di bonusx.it
 - Childcare Act 2006, s.12: https://www.legislation.gov.uk/ukpga/2006/21/section/12
 - Benefits Data Trust (chiusura): whyy.org, citato in [[H22b Bucatore]]
+
+## Precisazioni di coerenza
+- La mappa INPS non chiude lo spazio su rette, scadenze e agevolazioni; per l'elenco delle strutture sì (criterio 3 scattato per l'elenco).
+- Il criterio (5) confuta solo l'abbonamento dei genitori; per I-H22b-1 non è dimostrato né in un senso né nell'altro.

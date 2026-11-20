@@ -97,3 +97,6 @@ Tutte con accesso il 2026-11-20.
 - https://www.istat.it/comunicato-stampa/le-strutture-residenziali-socio-assistenziali-e-socio-sanitarie-al-1-gennaio-2024/
 - https://www.garanteprivacy.it/it/temi/minori/sharenting
 - Rapporti: [[H20 Entusiasta]], [[H20 Bucatore]]
+
+## Nota di coerenza
+Secondo il secondo giro ([[H20b Famiglia allargata dove i nonni sono già]]) in Italia FamilyAlbum è quasi assente: per i nonni digitali la copertura viene da WhatsApp e Google Foto.

@@ -10,10 +10,10 @@ Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scrapi
 ## In breve
 - **Nessuna idea ha una probabilità alta:** le migliori stanno nella fascia 5-15%.
 - **Reddito extra (1-2 k€/mese netti), con capitale (~100-290 k€):** la strada più solida è comprare un piccolo software già redditizio.
-- **Reddito extra con poco capitale:** non c'è una strada solida; le opzioni meno deboli sono prendere app in gestione in revenue share o costruire quiz automatici per testate locali.
+- **Reddito extra con poco capitale:** non c'è una strada solida. Le opzioni meno deboli, senza autorizzazione del datore, sono nel filone famiglia: un libro del primo anno costruito via WhatsApp (5-15 k€ di avvio, probabilità al limite tra bassa e media) e un servizio sui nidi per comune pagato dai nidi privati (3-10 k€, il punteggio più alto del filone). Più deboli: app prese in gestione in revenue share e quiz per testate locali.
 - **Costruisci e vendi:** nessuna strada senza autorizzazione del datore.
 - **Business da almeno 50 k€/anno:** nessuna idea è promettente (3-7% di probabilità per le idee approfondite).
-- **Filone famiglia** (neo genitori, nonni, famiglie che si allargano): otto ipotesi in due giri; sette idee piccole vive. Con il modello leggero (prodotto automatizzato, poche ore) per 1-2 k€/mese bastano centinaia di clienti; le più interessanti sono un servizio sui nidi per comune pagato dai nidi privati e un libro del primo anno costruito via WhatsApp. Vedi [[Filone famiglia]].
+- **Filone famiglia** (neo genitori, nonni, famiglie che si allargano): otto ipotesi in due giri, sette idee piccole vive. Con il modello leggero (prodotto automatizzato, poche ore) i volumi richiesti per 1-2 k€/mese vanno da poche decine di clienti (enti) a qualche migliaio (libri, famiglie). Vedi [[Filone famiglia]].
 - **Prima domanda da sciogliere:** quanto capitale vuoi rischiare.
 
 ## Da leggere per primo

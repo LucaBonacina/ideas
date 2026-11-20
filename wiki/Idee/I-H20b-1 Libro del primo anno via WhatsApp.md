@@ -8,6 +8,7 @@ tempo_founder_h_sett: 3
 investimento_iniziale_eur: "5-15 k€ (MVP costruito con l'AI, integrazione Cloud API e stampa on demand, DPIA e parere privacy, primi test pubblicitari) [stima]"
 obiettivo_A: "bassa (al limite della media nel modello leggero)"
 obiettivo_B: "3%"
+utilita: "piccola: conserva ricordi e coinvolge i nonni"
 obiettivo_C: "bassa"
 tags: [idea, famiglia, S10]
 ---
@@ -118,7 +119,7 @@ Il genitore compra (o riceve in regalo dai nonni) un pacchetto prepagato. Per 12
   | Leggero (21-43 k€ + 3-10 k€ di costi fissi) | 24-53 k€ | ~500-1.650 | 0,14-0,46% |
   | Con collaboratori | 60-116 k€ | ~1.250-3.600 | — |
 
-  È il bersaglio più basso del filone famiglia, ma manca qualunque prova di domanda e di costo di acquisizione. Se l'esperimento passa le soglie, la fascia del modello leggero sale a media.
+  Era il bersaglio più basso del filone al momento della sessione S10 (poi I-H22b-1 e I-H22b-2 richiedono volumi più bassi), ma manca qualunque prova di domanda e di costo di acquisizione. Se l'esperimento passa le soglie, la fascia del modello leggero sale a media.
 - **B. Business: 3%.** Servono ~2.500-5.000 libri all'anno per 120-160 k€.
 - **C. Costruisci e vendi: bassa.** Ricavi una tantum e stagionali, poco trasferibili; un compratore possibile (Tinybeans, Famileo) esiste, ma a multipli bassi.
 
@@ -135,7 +136,7 @@ Il genitore compra (o riceve in regalo dai nonni) un pacchetto prepagato. Per 12
    - 15 famiglie pilota gratuite, che inoltrano foto per 4 settimane e ricevono il link settimanale.
 
 **Soglie decise ora:**
-- **≥ 15 prevendite pagate** con ≤ 300 € di pubblicità (costo per cliente ≤ 20 €, cioè meno della metà del margine);
+- **≥ 20-25 prevendite pagate** con ≤ 300 € di pubblicità (costo per cliente ≤ 12-15 €, circa metà del margine a 89 €);
 - **≥ 10 delle 15 famiglie pilota** inoltrano foto anche nella quarta settimana;
 - **≥ 50%** delle famiglie pilota dichiara che almeno un nonno ha aperto il link.
 
