@@ -7,6 +7,9 @@ aggiornato: 2026-11-20
 
 Domanda: come guadagnare creando qualcosa che sfrutti sviluppo software e scraping, **senza lasciare il lavoro** e affidando la gestione a persone di fiducia.
 
+## In breve
+Dopo due giri di verifica, **nessuna idea supera 52 punti su 100** e le probabilità di successo stimate sono tra il 3% e il 7%. La raccomandazione è prima sciogliere il nodo del contratto di lavoro, poi al massimo un esperimento a costo quasi zero. Vedi [[Raccomandazione]].
+
 ## Da leggere per primo
 1. [[Raccomandazione]] — cosa farei, in che ordine, e perché
 2. [[Classifica]] — tutte le idee con punteggio confrontabile

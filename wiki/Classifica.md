@@ -13,6 +13,18 @@ Scala unica v2 (vedi [[Protocollo di discovery]]). Le sessioni hanno applicato l
 
 Le altre penalità (piattaforme, legali) restano quelle decise dai giudici.
 
+## Dopo il secondo giro (approfondimento)
+Le 4 idee migliori sono state riesaminate con un nuovo confronto Entusiasta contro Bucatore. **Tutti i punteggi sono scesi**, perché applicando [[H16 Founder a tempo parziale]] (operatore pagato a mercato) e [[H17 Vantaggio dello scraping]] (vantaggio dello scraping ricalibrato) serve molto più ricavo per arrivare alla soglia.
+
+| Idea | Round 1 (armonizzato) | **Round 2** | Prob. di successo | Stato |
+|---|---|---|---|---|
+| [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] | 64 | **52** | ~4% | Bloccata senza autorizzazione scritta del datore; NetPricer fa già matching OEM nei ricambi auto |
+| [[I-H09-1 Sync fornitori senza feed]] | 67 | **49** | ~5% | I portali B2B vietano bot e cessione delle credenziali; regge solo con grossisti che autorizzano |
+| [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] | 59 | **49** | ~7% | Unica con conflitto trascurabile; capitale reale 350-475 k€ |
+| [[I-H06-1 Disdetta digitale per l'Italia]] | 58 | **42** | ~3% | Concorrente diventato gratuito, margine nullo con la raccomandata online |
+
+Dettagli nella sezione "Approfondimento (round 2)" di ogni nota e nei rapporti in `Rapporti/R2/`.
+
 ## Classifica armonizzata (round 1)
 | # | Idea | Lordo | Altre penalità | Conflitto | **v2 armonizzato** | v2 della sessione | Founder h/sett | Investimento iniziale [stima] |
 |---|---|---|---|---|---|---|---|---|
@@ -34,7 +46,7 @@ Le altre penalità (piattaforme, legali) restano quelle decise dai giudici.
 Giochi: H10 e H12 confutate; da H11 sopravvive solo [[I-H11-1 Quiz locali automatici per testate]] (tetto in Italia basso, circa 30-90 k€/anno).
 
 ## Come leggere i numeri
-- **Nessuna idea supera 70.** Sono opportunità "discrete", non evidenti.
+- **Nessuna idea supera 70 al primo giro, e nessuna supera 52 dopo il secondo.** Non è emersa un'opportunità evidente.
 - Le probabilità di successo stimate dai giudici per le ipotesi madri vanno dal 4% al 15%. Successo = ≥ 50 k€/anno di margine entro 24 mesi con il founder a ≤ 5 ore/settimana.
 - Le prime due idee appartengono alla stessa famiglia: **dati di catalogo e prezzi per e-commerce dove i codici standard (feed, EAN) mancano**. È il punto in cui lo scraping resta un vantaggio vero secondo [[H17 Vantaggio dello scraping]]: molte fonti eterogenee, matching difficile, manutenzione continua.
 - L'unica idea B2C rimasta in alto è [[I-H06-1 Disdetta digitale per l'Italia]].
