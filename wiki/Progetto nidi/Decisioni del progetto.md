@@ -11,3 +11,4 @@ tags: [progetto, nidi, decisioni]
 | 2026-11-20 | Discovery completa su scala nazionale, test di completezza in tutte le regioni | utente |
 | 2026-11-20 | Includere scuole e servizi bilingui o internazionali e servizi per bambini con bisogni speciali | utente |
 | 2026-11-20 | Le funzioni del prodotto si derivano dai bisogni documentati degli utenti, non il contrario | utente |
+| 2026-11-20 | Cercanido, MigliorAsilo (rilanciato), MyNido e Nidò non sono collegati all'utente né al progetto: vanno trattati come concorrenti indipendenti | utente |
