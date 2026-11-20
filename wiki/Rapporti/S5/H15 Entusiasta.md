@@ -109,7 +109,7 @@ tags: [rapporto, H15, entusiasta]
 
 ### Idee scartate dall'Entusiasta stesso
 - **Telefonia ConciliaWeb B2C:** 5,6 M€ di indennizzi su decine di migliaia di pratiche (AGCOM). Ticket troppo piccolo.
-- **Treni:** importi di pochi euro e automazione in arrivo (già documentato in [[05-screening-b2c-b]], #31).
+- **Treni:** importi di pochi euro e automazione in arrivo (già documentato in [[05 Screening B2C]], #31).
 - **Rimborsi su cessione del quinto e prestiti (Lexitor, ABF):** grandi volumi, ma la controparte sono intermediari finanziari. Rischio di **conflitto con il lavoro attuale** (clienti istituti finanziari): escluso dal profilo.
 - **Pagamento immediato (Sofortentschädiger):** rischio art. 106 TUB e capitale circolante. Escluso.
 
