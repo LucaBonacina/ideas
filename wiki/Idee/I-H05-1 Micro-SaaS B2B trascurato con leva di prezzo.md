@@ -2,11 +2,13 @@
 tipo: idea
 id: I-H05-1
 ipotesi: "[[H05 Comprare e rifare meglio]]"
-punteggio_v2: 60
+punteggio_v2: 49
+punteggio_v2_r1: 60
+verdetto_r2: "ridimensionata: capitale reale 1,5x, leva di prezzo bloccata su Shopify, trasferimento a discrezione della piattaforma"
 modello_ricavo: "abbonamenti B2B di un SaaS acquisito (20-200 $/mese a cliente)"
 tempo_founder_h_sett: 5
 investimento_iniziale_eur: "150-300 k€ (di cui 20-30% differito o earn-out) + 15-25 k€/anno di operatore e sviluppo"
-tags: [idea, S2]
+tags: [idea, S2, R2]
 ---
 # I-H05-1 — Micro-SaaS B2B trascurato con leva di prezzo
 
@@ -108,3 +110,102 @@ Accesso a tutte le fonti: 2026-11-20.
 4. FE International, *SaaS Valuation Multiples in 2026*: https://www.feinternational.com/blog/saas-valuation-multiples
 5. Studio Pizzano, avviamento deducibile in 1/18: https://www.studiopizzano.it/avviamento-prontuario-bilancio/
 6. UserJot, benchmark sul churn dei SaaS: https://userjot.com/blog/saas-churn-rate-benchmarks
+
+## Approfondimento (round 2)
+Rapporti integrali: [[I-H05-1 Entusiasta]] (16 ricerche web) e [[I-H05-1 Bucatore]] (20 ricerche web), in `wiki/Rapporti/R2/`.
+
+### Sintesi dell'Entusiasta
+- **I target sono elencabili da API pubbliche** (misure proprie del 2026-11-20, solo dati aggregati):
+  - WordPress.org: 510 plugin con ≥ 5.000 installazioni fermi da oltre 12 mesi, 338 dei quali con una homepage esterna, usata come indizio di un Pro (stima di 100-170 Pro veri);
+  - Atlassian: 173 app cloud a pagamento con ≥ 50 installazioni ferme da 12 mesi, 128 su Connect;
+  - Shopify: circa 460 app "spente" con ≥ 50 recensioni, da un campione di 400.
+  In totale circa 700-1.000 target.
+- **I clienti restano anche con un prodotto abbandonato.** Lo mostrano le recensioni: "I don't know of an alternative so we stick with it"; un plugin con 60.000 installazioni fermo dal 2024 e una licenza Pro ormai inutile.
+- **Angolo migliore: Atlassian.** La fine del supporto a Connect (31/01/2027) e la fine vita dei Data Center (2029) creano venditori costretti a scegliere tra migrare e vendere, e la migrazione a Forge è il lavoro in cui il profilo è forte.
+- **Prove contrarie riportate:**
+  - su Shopify non si possono aumentare i prezzi degli abbonamenti esistenti;
+  - WP Fusion ha alzato i prezzi del 20%, ottenendo +10% di valore medio dell'ordine ma −9,4% di ricavo dai nuovi clienti;
+  - c'è concorrenza di acquirenti finanziati (Shop Circle).
+- **Economia.** Con un operatore pagato a mercato servono circa 110-140 k€ di SDE acquistato, cioè **350-500 k€ di prezzo**: circa 1,5 volte il capitale della nota.
+- **Punteggio proposto:** circa 60, invariato (C8 a 4, penalità a −7).
+
+### Sintesi del Bucatore
+- **La leva di prezzo è bloccata sul canale principale.** Su Shopify ogni aumento agli esistenti richiede un nuovo abbonamento approvato dal merchant, quindi diventa un evento di churn. SendOwl ha cambiato i prezzi dopo 15 anni: 26% di recensioni a 1 stella, con commenti come "737% price increase is just greedy".
+- **Il trasferimento non è garantito.**
+  - Shopify: consenso scritto "in Shopify's sole discretion", anche per cambio di controllo.
+  - Atlassian: Connect con revenue share al 25% e fine supporto; Data Center chiuso ai nuovi clienti.
+  - WordPress.org: la FAQ sconsiglia agli sviluppatori di rispondere alle offerte di acquisto. Dopo il caso Essential Plugin (comprato su Flippa, poi backdoor) chi compra è sospetto.
+- **Il filtro seleziona prodotti in declino.** Il primo target verificato (GrowthHero, 102 recensioni) è dichiarato "abandoned" e non funziona. Il funnel off-market documentato è brutale: 700 contatti, 4 LOI e 0 chiusure in 9 mesi. Solo il 48% dei search fund arriva a comprare.
+- **Economia.** Lo SDE include il lavoro del venditore. Con un SDE di 60 k€ e un operatore a mercato restano 10-25 k€. Per 50 k€ servono 315-475 k€ di prezzo. Sotto 300 k$ i multipli realizzati sono 1,8-2,9x, ma per buone ragioni di rischio. Le tasse lasciano circa 28 k€ netti su 50 k€ di margine.
+- **Conflitto con il lavoro:** basso (0/−1), escludendo gli asset di dati, lead o scraping.
+- **Punteggio proposto:** circa 48.
+
+### Verifiche del Giudice (fonti aperte il 2026-11-20)
+| Affermazione decisiva | Chi la sostiene | Esito | Fonte |
+|---|---|---|---|
+| Su Shopify non si possono aumentare i prezzi degli abbonamenti esistenti | Entrambi (per il Bucatore è decisiva, per l'Entusiasta restringe l'idea) | **Confermata.** Staff Shopify: "You currently can not update existing recurring subscriptions with new prices"; "Current users won't see a price change as they will keep their existing subscriptions". La leva vale solo sui nuovi clienti o tramite una nuova approvazione | https://community.shopify.dev/t/how-to-grandfather-users/23749 |
+| Il trasferimento di un'app Shopify dipende dal consenso discrezionale di Shopify | Bucatore | **Confermata.** PPA §9.7: "without Shopify's prior written consent, to be given or withheld in Shopify's sole discretion. Transfer can include acquisition, merger, change of control". Si gestisce con una condizione sospensiva nel contratto, ma è un rischio reale di closing | https://www.shopify.com/partners/terms |
+| Su Atlassian e WordPress.org ci sono venditori forzati o target accessibili | Entusiasta (opportunità); Bucatore (pool quasi nullo e ostile) | **Confermata nei fatti, con lettura mista.** Connect: fine supporto il 31/01/2027; revenue share "20% -> 25% Oct 1, 2026" contro il 17% di Forge. È un vero motivo di vendita, ma ogni app Connect comprata porta con sé una migrazione obbligata (stima di 20-60 k€). WordPress.org: "Many developers receive unsolicited emails or offers to purchase their plugin. We have found the vast majority of these to be fraudulent and do not recommend you follow up with them". Il contatto a freddo su WordPress partirà con un tasso di risposta basso | https://community.developer.atlassian.com/t/connect-end-of-support-extended-to-january-31-2027/102002 ; https://www.atlassian.com/blog/developer/extended-timelines-for-marketplace-revenue-share-changes ; https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/ |
+
+### Punteggio v2 ricalcolato (pesi invariati)
+| Criterio (peso) | R1 | R2 | Motivo della variazione |
+|---|---|---|---|
+| C1 Bisogno (10) | 4 | **3** | I clienti pagano, ma il filtro "manutenzione ferma + recensioni" seleziona prodotti in declino (GrowthHero, recensioni di abbandono) |
+| C2 Domanda (10) | 3 | 3 | Universo misurato: centinaia di target, imbuto stretto dopo i filtri |
+| C3 Monetizzazione (15) | 4 | **3** | Leva di prezzo bloccata sugli abbonamenti Shopify esistenti (verificato); caso WP Fusion contrario; leva possibile solo su Atlassian e licenze proprie |
+| C4 Vantaggio competenze (15) | 3 | 3 | Lo scraping per il sourcing è banale (API pubbliche, H17); vantaggio reale nella due diligence sui payout e nella migrazione Connect→Forge |
+| C5 Distribuzione (15) | 4 | **3** | Canale ereditato, ma trasferimento a discrezione di Shopify (verificato), tramonto di Connect e Data Center, WordPress.org ostile ai compratori (verificato) |
+| C6 AI generalista (5) | 2 | 2 | — |
+| C7 Difendibilità (5) | 3 | 3 | — |
+| C8 Incumbent (5) | 3 | 3 | Venditori forzati su Atlassian, ma l'asset comprato richiede una migrazione; aggregatori finanziati presenti |
+| C9 Primo euro (5) | 4 | **3** | Cassa dalla firma, ma la ricerca dura 6-12 mesi (caso documentato: 9 mesi e 0 chiusure) |
+| C10 Delegabilità (10) | 2 | 2 | Confermato da entrambi |
+| C11 Tetto a 24 mesi (5) | 3 | **2** | Con un operatore a mercato servono 350-475 k€ di capitale per 50 k€ di margine, oltre i 150-300 k€ previsti |
+| **Lordo** | 66 | **56** | (30+30+45+45+45+10+15+15+15+20+10)/5 |
+| Penalità | −6 | **−7** | Capitale a rischio circa 1,5 volte quello stimato; consenso al trasferimento discrezionale; fiscalità (avviamento in 18 anni, circa 44% di prelievo fino al founder). Conflitto con il lavoro trascurabile se si escludono gli asset di dati, lead e scraping |
+| **Totale** | 60 | **49** | |
+
+### Verdetto aggiornato
+**Ridimensionata.** I due ruoli concordano su più punti di quanto i punteggi lascino pensare:
+- i target sono elencabili;
+- il conflitto con il lavoro è basso;
+- il capitale reale, con un operatore a mercato, è di 350-475 k€.
+
+La divergenza sta sulla qualità dei target. Le verifiche danno ragione al Bucatore sui vincoli di piattaforma: prezzi Shopify, consenso al trasferimento, ostilità di WordPress.org.
+
+**Versione che sopravvive:**
+- app Atlassian cloud con una migrazione a Forge prezzata nel deal, oppure app Shopify con payout verificabili e leva solo sui nuovi piani;
+- SDE di portafoglio ≥ 110 k€ dopo l'operatore;
+- condizione sospensiva sul consenso della piattaforma.
+
+Resta l'unica delle quattro idee con il conflitto con il lavoro trascurabile, ed è un punto a suo favore non catturato dal punteggio lordo.
+
+**Probabilità di successo** (50 k€ di margine in 24 mesi, founder ≤ 5 h/sett.): **circa 7%** [stima]. Probabilità di chiudere almeno un deal valido in 12 mesi circa 35%, per circa 40% di tenuta dei ricavi e della leva, per circa 50% di capitale e operatore sufficienti.
+
+### Esperimento di 30 giorni (affinato, soglie decise ora)
+Unisce le due versioni.
+- **Budget:** 1,5-3 k€ per un analista a ore.
+- **Ore del founder:** ≤ 20 nel mese.
+- **Esclusioni:** asset di dati aziendali, lead o scraping; asset con più del 50% dei clienti dalla ricerca organica.
+
+**Settimana 1: censimento.** Tre liste da API e pagine pubbliche: Atlassian cloud con priorità a Connect, Shopify, e WordPress con Pro verificato (solo come lista secondaria). I filtri della nota si integrano con:
+- **velocità delle recensioni** negli ultimi 12 mesi ≥ 40% di quella dei 12 precedenti;
+- quota di **recensioni a 1-2 stelle** negli ultimi 12 mesi ≤ 25%.
+
+Kill se restano meno di **60 target**.
+
+**Settimana 1: trasferibilità.** Quesito generico scritto al supporto Partner di Shopify e ad Atlassian su procedura, tempi e criteri del trasferimento. Kill se Shopify non indica una procedura praticabile.
+
+**Settimane 2-3: contatto.** 150 contatti tramite i canali aziendali pubblici del prodotto.
+- Successo: risposte **≥ 8%**, e almeno **5 venditori** che condividono l'export dei payout della piattaforma degli ultimi 24 mesi.
+- Kill: risposte **< 4%**, oppure meno di 3 export.
+
+**Settimana 4: analisi.** Il successo richiede almeno **2 target** che soddisfano tutte queste condizioni:
+- ricavi a 12 mesi in calo non oltre il 10%;
+- churn di ricavo ≤ 3% al mese;
+- **SDE dopo un operatore a 35 k€ ≥ 40 k€**;
+- prezzo chiesto ≤ 3x SDE;
+- pagamento differito o earn-out ≥ 20%;
+- costo di migrazione Forge stimato e incluso nel prezzo, se l'app è su Connect.
+
+È anche un test sul valore dello scraping nel sourcing: la mediana dei multipli chiesti off-market deve stare almeno 0,5x sotto quella di 30 annunci pubblici schedati. Kill se nessun target soddisfa tutte le condizioni.
