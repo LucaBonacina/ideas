@@ -19,7 +19,7 @@ tags: [regione, nidi]
 - Conclusione: **nessun registro regionale pubblico scaricabile** dei servizi 0-3 trovato. [fatto per le ricerche svolte]
 
 ## Misure regionali per le famiglie
-- [[Regione Liguria - Nidi Gratis (FILSE)]]: voucher fino a 500 euro/mese (ed. 2025, ISEE fino a 40.000); edizione 2026 con DGR 155/2026, domande 21/5-22/6/2026, graduatoria e scorrimenti pubblicati da FILSE. Ammessi servizi DGR 222/2015 pubblici o privati autorizzati/accreditati/parificati. Nessun elenco strutture. [fatto]
+- [[Regione Liguria - Nidi Gratis FILSE]]: voucher fino a 500 euro/mese (ed. 2025, ISEE fino a 40.000); edizione 2026 con DGR 155/2026, domande 21/5-22/6/2026, graduatoria e scorrimenti pubblicati da FILSE. Ammessi servizi DGR 222/2015 pubblici o privati autorizzati/accreditati/parificati. Nessun elenco strutture. [fatto]
 
 ## Comuni capoluogo
 | Comune | Cosa pubblica |

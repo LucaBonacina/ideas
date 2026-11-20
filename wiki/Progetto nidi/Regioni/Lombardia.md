@@ -48,6 +48,8 @@ tags: [regione, nidi]
 ## Per essere completi
 Registro regionale (0-3 autorizzati) + anagrafe nazionale scuole dell'infanzia e paritarie (sezioni primavera e 3-6) + atti comunali di accreditamento/convenzione e Nidi Gratis Plus + siti comunali per rette e iscrizioni. Copertura stimata del registro sui servizi 0-3 a norma: **90-95%** [stima: è l'elenco amministrativo delle CPE aggiornato mensilmente; mancano sperimentali, integrativi non UdOS e attività non dichiarate]. Copertura sullo 0-6 complessivo: molto più bassa, perché mancano sezioni primavera e infanzia [stima].
 
+**Confronto con ISTAT (verifica del coordinatore).** Al 31/12/2023 ISTAT conta in Lombardia 3.040 servizi 0-3 attivi, di cui **688 sezioni primavera** e 306 servizi integrativi [fatto, tavole 1.7 segue (b), 1.8 e 1.9, https://www.istat.it/wp-content/uploads/2026/02/tavole_nidi_2023.xlsx, accesso 2026-11-20]. Senza sezioni primavera restano 2.352 servizi: il registro (2.707 unità a novembre 2026) è quindi completo o quasi su nidi, micronidi, nidi famiglia e centri prima infanzia. Sul totale 0-3 con le sezioni primavera copre circa l'80% [stima: 2.707 / (2.707 + 688)]. Le sezioni primavera sono il buco principale.
+
 ## Fonti
 - https://www.regione.lombardia.it/politiche-sociali-e-abitative/unita-offerta-sociale-udos (accesso 2026-11-20)
 - https://www.dati.lombardia.it/api/views/metadata/v1/pej5-wp65 (accesso 2026-11-20)

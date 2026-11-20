@@ -34,6 +34,8 @@ tags: [regione, nidi]
 ## Per essere completi
 Registro regionale + MIM per infanzia e sezioni primavera. Copertura stimata dei servizi 0-3: **~95%** [stima: registro obbligatorio legato a SCIA e accreditamento; restano fuori servizi non registrati o ricreativi].
 
+**Confronto con ISTAT (verifica del coordinatore).** Al 31/12/2023 ISTAT conta in FVG 362 servizi 0-3 attivi, di cui **68 sezioni primavera** [fatto, tavole 1.7 segue (b) e 1.9, https://www.istat.it/wp-content/uploads/2026/02/tavole_nidi_2023.xlsx, accesso 2026-11-20]. Il registro (341 servizi a novembre 2026) non ha la tipologia sezione primavera: sui 294 servizi non-primavera è completo o quasi; sul totale 0-3 con le sezioni primavera la copertura scende a circa l'83% [stima: 341 / (341 + 68)].
+
 ## Fonti
 - https://www.regione.fvg.it/rafvg/cms/RAFVG/famiglia-casa/politiche-famiglia/FOGLIA12/ (2026-11-20)
 - https://www.regione.fvg.it/rafvg/cms/RAFVG/famiglia-casa/politiche-famiglia/FOGLIA27/ (2026-11-20)

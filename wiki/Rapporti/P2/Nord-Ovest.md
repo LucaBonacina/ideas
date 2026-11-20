@@ -13,7 +13,7 @@ tags: [rapporto, nidi, P2]
 
 ## Note create
 - Regioni: [[Lombardia]], [[Piemonte]], [[Liguria]], [[Valle d Aosta]]
-- Fonti: [[Regione Lombardia - Strutture di offerta sociale prima infanzia]] (già committata dal coordinatore), [[Regione Lombardia - Nidi Gratis Plus]], [[Comune di Milano - Open data nidi e scuole infanzia]], [[Regione Piemonte - Anagrafe servizi prima infanzia]], [[Comune di Torino - Nidi d infanzia open data e iscrizioni]], [[Regione Liguria - Nidi Gratis (FILSE)]], [[Comune di Genova - Anagrafica scuole e nidi open data]], [[Regione Valle d Aosta - Annuario statistico posti prima infanzia]]
+- Fonti: [[Regione Lombardia - Strutture di offerta sociale prima infanzia]] (già committata dal coordinatore), [[Regione Lombardia - Nidi Gratis Plus]], [[Comune di Milano - Open data nidi e scuole infanzia]], [[Regione Piemonte - Anagrafe servizi prima infanzia]], [[Comune di Torino - Nidi d infanzia open data e iscrizioni]], [[Regione Liguria - Nidi Gratis FILSE]], [[Comune di Genova - Anagrafica scuole e nidi open data]], [[Regione Valle d Aosta - Annuario statistico posti prima infanzia]]
 
 ## Ricerche web usate (13 su 25)
 1. Regione Lombardia DGR requisiti unità d'offerta sociali prima infanzia ... 2020

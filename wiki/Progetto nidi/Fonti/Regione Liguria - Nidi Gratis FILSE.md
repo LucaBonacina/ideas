@@ -15,7 +15,7 @@ verificato_il: "2026-11-20"
 affidabilita: "alta per le regole; nessun elenco di strutture pubblicato"
 tags: [fonte, liguria, misura, rette]
 ---
-# Regione Liguria - Nidi Gratis (FILSE)
+# Regione Liguria - Nidi Gratis FILSE
 
 Voucher regionale alle famiglie per la retta dei servizi 0-3, FSE+ 2021-2027, gestito da FILSE (finanziaria regionale). [fatto]
 
