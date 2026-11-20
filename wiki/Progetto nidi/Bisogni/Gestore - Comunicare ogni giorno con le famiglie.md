@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G09
+id: GS09
 utente: gestore
 fase: "vita del servizio"
 frequenza: 4
@@ -12,7 +12,7 @@ segmenti: ["tutti"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G09 — Comunicare ogni giorno con le famiglie
+# GS09 — Comunicare ogni giorno con le famiglie
 
 > Il gestore vuole informare le famiglie su giornata, pasti, sonno, foto e avvisi senza togliere tempo agli educatori.
 

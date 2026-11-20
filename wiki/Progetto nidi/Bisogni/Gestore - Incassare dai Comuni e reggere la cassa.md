@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G06
+id: GS06
 utente: gestore
 fase: "adempimenti"
 frequenza: 2
@@ -12,7 +12,7 @@ segmenti: ["privati convenzionati", "cooperative sociali"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G06 — Incassare dai Comuni e reggere la cassa
+# GS06 — Incassare dai Comuni e reggere la cassa
 
 > Il gestore convenzionato deve reggere i ritardi di pagamento dei Comuni su posti convenzionati, voucher e contributi.
 

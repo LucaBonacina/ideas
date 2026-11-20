@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G10
+id: GS10
 utente: gestore
 fase: "farsi trovare"
 frequenza: 3
@@ -12,7 +12,7 @@ segmenti: ["tutti"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G10 — Mostrare il nido e curare la reputazione
+# GS10 — Mostrare il nido e curare la reputazione
 
 > Il gestore vuole mostrare gli spazi e il progetto educativo a chi sceglie, senza pubblicare foto dei bambini e difendendosi da recensioni negative.
 

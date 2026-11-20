@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G08
+id: GS08
 utente: gestore
 fase: "iscrizioni e pagamenti"
 frequenza: 3
@@ -12,7 +12,7 @@ segmenti: ["nidi privati non convenzionati"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G08 — Gestire contratti rette ritiri e morosita
+# GS08 — Gestire contratti rette ritiri e morosita
 
 > Il gestore vuole contratti chiari (quota di iscrizione, ritiro, pro-rata), rette calcolate bene per età e orario e un recupero ordinato delle rette non pagate.
 

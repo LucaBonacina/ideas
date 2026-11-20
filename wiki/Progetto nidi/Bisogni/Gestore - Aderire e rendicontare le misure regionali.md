@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G05
+id: GS05
 utente: gestore
 fase: "adempimenti"
 frequenza: 4
@@ -12,7 +12,7 @@ segmenti: ["nidi privati di Lombardia Toscana Lazio Puglia Sardegna Liguria Emil
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G05 — Aderire e rendicontare le misure regionali
+# GS05 — Aderire e rendicontare le misure regionali
 
 > Il gestore deve entrare nelle misure regionali di riduzione della retta (convenzione, accreditamento, catalogo), dividere la retta tra INPS, Regione e famiglia, anticipare la quota regionale e spiegare tutto alle famiglie.
 

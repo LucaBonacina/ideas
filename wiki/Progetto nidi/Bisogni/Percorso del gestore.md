@@ -10,18 +10,18 @@ aggiornato: 2026-11-20
 
 ## Tre tipi di gestore privato
 Le fasi sono le stesse, ma i blocchi cambiano.
-- **Privato convenzionato o accreditato:** circa il 46% dei servizi privati è convenzionato con il Comune (ISTAT). Molti posti arrivano dalla graduatoria comunale. Il problema è la cassa più che i posti (G06).
-- **Privato non convenzionato:** si riempie da solo, con passaparola, open day e Google. Qui stanno i posti vuoti (G01) e il bisogno di spiegare la retta netta (G11). È il pagatore ipotizzato in [[I-H22b-1 Nidi e agevolazioni per comune pagato dai nidi privati]].
+- **Privato convenzionato o accreditato:** circa il 46% dei servizi privati è convenzionato con il Comune (ISTAT). Molti posti arrivano dalla graduatoria comunale. Il problema è la cassa più che i posti (GS06).
+- **Privato non convenzionato:** si riempie da solo, con passaparola, open day e Google. Qui stanno i posti vuoti (GS01) e il bisogno di spiegare la retta netta (GS11). È il pagatore ipotizzato in [[I-H22b-1 Nidi e agevolazioni per comune pagato dai nidi privati]].
 - **Scuola dell'infanzia paritaria (spesso FISM):** è la più colpita dal calo delle nascite (chiusure a Cento, allarme FISM Padova). Ha rette basse e riceve contributi statali e comunali.
 
 ## Calendario dell'anno [stima, da verificare in intervista]
 | Periodo | Cosa succede | Bisogni |
 |---|---|---|
-| Gennaio-maggio | Le famiglie scelgono: iscrizioni comunali e statali (a gennaio per l'infanzia), open day dei privati, domande ai nidi | G01, G10, G11 |
-| Maggio-luglio | Graduatorie comunali, rinunce, conferme; contratti e quote di iscrizione; adesione alle misure regionali; ricerca di educatori per settembre | G02, G05, G08, G03 |
-| Entro l'1 settembre | Il Comune comunica all'INPS l'elenco dei servizi abilitati (Agenda asili nido) | G04 |
-| Settembre-dicembre | Inserimenti, istruttorie delle misure (quote regionali non incassabili fino all'esito), scorrimento delle graduatorie fino a dicembre | G05, G02, G07 |
-| Tutto l'anno | Comunicazione quotidiana, rette e solleciti, sostituzioni del personale, ritiri e posti che si liberano | G09, G08, G03, G01 |
+| Gennaio-maggio | Le famiglie scelgono: iscrizioni comunali e statali (a gennaio per l'infanzia), open day dei privati, domande ai nidi | GS01, GS10, GS11 |
+| Maggio-luglio | Graduatorie comunali, rinunce, conferme; contratti e quote di iscrizione; adesione alle misure regionali; ricerca di educatori per settembre | GS02, GS05, GS08, GS03 |
+| Entro l'1 settembre | Il Comune comunica all'INPS l'elenco dei servizi abilitati (Agenda asili nido) | GS04 |
+| Settembre-dicembre | Inserimenti, istruttorie delle misure (quote regionali non incassabili fino all'esito), scorrimento delle graduatorie fino a dicembre | GS05, GS02, GS07 |
+| Tutto l'anno | Comunicazione quotidiana, rette e solleciti, sostituzioni del personale, ritiri e posti che si liberano | GS09, GS08, GS03, GS01 |
 
 ## Fasi
 

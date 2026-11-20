@@ -43,3 +43,6 @@ Fonti di dettaglio: [[Ricerca bisogni speciali, aziendali, domiciliari e altri]]
 - Minoranze linguistiche: elenchi e numeri.
 - Centri bambini e famiglie: dettaglio.
 - Altri segmenti possibili non esplorati: servizi in zone montane e piccole isole (pluriclassi, sezioni con pochi bambini), servizi per famiglie migranti con mediazione culturale, servizi stagionali (località turistiche).
+
+## Aggiornamento sessione P7
+Gli orari atipici e le famiglie straniere hanno ora una nota propria: [[Orari di lavoro atipici]] e [[Famiglie straniere]]. Bisogni in [[Bisogni genitori - sintesi]].

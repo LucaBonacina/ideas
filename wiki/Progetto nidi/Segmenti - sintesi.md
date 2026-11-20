@@ -42,3 +42,7 @@ Sessione P5, 2026-11-20. Note di segmento in `Segmenti/`, fonti in `Fonti/`, rap
 - Elenchi dei domiciliari in tutte le regioni oltre Trento e Lombardia; DOMUS non più online.
 - Regole regionali e comunali su sostegno al nido ed esenzioni; siti delle associazioni (FISH, ANFFAS, AIPD, ANGSA); Scuola in Chiaro/Unica sull'inclusione.
 - Bisogni delle famiglie dei segmenti da interviste e forum (nessuna testimonianza diretta raccolta).
+
+## Aggiornamento sessione P7 (bisogni delle famiglie)
+- Nuove note di segmento: [[Orari di lavoro atipici]] e [[Famiglie straniere]].
+- Testimonianze dirette e bisogni per segmento: [[Segmenti - voce delle famiglie]]; note bisogno `SD`, `SB`, `SP`, `SO`, `SS` in `Bisogni/`; priorità in [[Bisogni genitori - sintesi]].

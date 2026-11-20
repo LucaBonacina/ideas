@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G07
+id: GS07
 utente: gestore
 fase: "rette e pagamenti"
 frequenza: 3
@@ -12,7 +12,7 @@ segmenti: ["nidi privati", "esenti IVA"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G07 — Emettere ricevute valide per Bonus nido e 730
+# GS07 — Emettere ricevute valide per Bonus nido e 730
 
 > Il gestore deve emettere ricevute e fatture con tutti i dati richiesti dall'INPS e per la detrazione, così che il rimborso delle famiglie non venga respinto.
 

@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G03
+id: GS03
 utente: gestore
 fase: "personale"
 frequenza: 2
@@ -12,7 +12,7 @@ segmenti: ["tutti", "Lombardia e Liguria", "paritarie FISM"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G03 — Trovare e sostituire educatori
+# GS03 — Trovare e sostituire educatori
 
 > Il gestore deve assumere educatori con il titolo richiesto (laurea L-19 o equivalente) e trovare in fretta sostituti per maternità e malattie, per rispettare il rapporto numerico.
 

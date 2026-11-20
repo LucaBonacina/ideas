@@ -12,3 +12,6 @@ Sintesi con tabella per punteggio di opportunità: [[Bisogni gestori - sintesi]]
 
 ## Concorrenti (P6, 2026-11-20)
 Analisi completata: [[Concorrenti - matrice delle funzioni]], con una nota per concorrente in `Concorrenti/` (a partire da [[Winnie]]).
+
+## Bisogni dei genitori (sessione P7)
+Catalogo e priorità in [[Bisogni genitori - sintesi]]; percorso in [[Percorso del genitore 0-6]]; traccia di intervista in [[Traccia di intervista genitori]]. Resta da fare: elenco delle funzioni collegate ai bisogni e alle fonti dei dati. I codici dei bisogni dei gestori iniziano con GS (es. GS03), quelli dei genitori con G, SD, SB, SP, SO, SS.

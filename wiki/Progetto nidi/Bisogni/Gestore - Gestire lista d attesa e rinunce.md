@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G02
+id: GS02
 utente: gestore
 fase: "richieste e iscrizioni"
 frequenza: 3
@@ -12,7 +12,7 @@ segmenti: ["nidi privati con lista d attesa", "privati convenzionati"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G02 — Gestire lista d attesa e rinunce
+# GS02 — Gestire lista d attesa e rinunce
 
 > Il gestore deve sapere quali famiglie in lista sono ancora interessate e riempire subito i posti lasciati da rinunce e ritiri.
 
@@ -34,7 +34,7 @@ tags: [bisogno, gestore, nidi]
 - **Soddisfazione attuale:** 2,5: i gestionali coprono la lista interna; manca la conoscenza delle iscrizioni multiple e dell'esito delle graduatorie comunali, che arriva tardi.
 
 ## Per il prodotto
-Collegato a G01: la rinuncia dopo la graduatoria comunale è il momento in cui un nido pieno si ritrova con un posto libero.
+Collegato a GS01: la rinuncia dopo la graduatoria comunale è il momento in cui un nido pieno si ritrova con un posto libero.
 
 ## Da verificare in intervista
 Vedi [[Traccia di intervista gestori]].

@@ -42,3 +42,6 @@ Conteggi in Italia:
 - Elenchi USR delle altre regioni (Lombardia in particolare).
 - Una definizione operativa di "bilingue" per il prodotto (es. ore settimanali in L2, personale madrelingua) da raccogliere dai gestori.
 - Scuole delle minoranze linguistiche (tedesche e ladine in Alto Adige, slovene in Friuli-Venezia Giulia, Valle d'Aosta bilingue): sono scuole pubbliche ordinarie, ma rilevanti per le famiglie; vedi [[Altri segmenti]].
+
+## Bisogni delle famiglie: testimonianze (sessione P7)
+Raccolte in [[Segmenti - voce delle famiglie]]: [[SB1 Sapere quanta lingua straniera davvero e a che costo]], [[SB2 Trovare posto arrivando dall estero]], [[SP3 Conciliare approccio pedagogico con costi orari e continuita]], [[SS4 Capire e farsi capire con il servizio]]. Il segmento "bilingue" è guidato soprattutto da famiglie italiane; gli expat cercano poco e in inglese quasi nulla ([[Autocompletamento Google]]). Le famiglie migranti sono in [[Famiglie straniere]]. Priorità in [[Bisogni genitori - sintesi]].

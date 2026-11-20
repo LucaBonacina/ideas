@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G01
+id: GS01
 utente: gestore
 fase: "farsi trovare"
 frequenza: 3
@@ -12,7 +12,7 @@ segmenti: ["nidi privati non convenzionati", "scuole dell infanzia paritarie", "
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G01 — Riempire i posti vuoti
+# GS01 — Riempire i posti vuoti
 
 > Il gestore con posti liberi vuole raggiungere le famiglie della sua zona quando ha un posto, anche in corso d'anno e fuori dalle finestre delle iscrizioni comunali.
 

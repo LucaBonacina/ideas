@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G11
+id: GS11
 utente: gestore
 fase: "richieste e visite"
 frequenza: 3
@@ -12,7 +12,7 @@ segmenti: ["tutti", "bisogni speciali"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G11 — Spiegare alle famiglie agevolazioni e regole
+# GS11 — Spiegare alle famiglie agevolazioni e regole
 
 > Il gestore deve rispondere alle domande delle famiglie su Bonus nido, misure regionali, contributi comunali e percorsi per la disabilità, prima e dopo l'iscrizione.
 

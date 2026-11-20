@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G04
+id: GS04
 utente: gestore
 fase: "adempimenti"
 frequenza: 3
@@ -12,7 +12,7 @@ segmenti: ["nidi privati non convenzionati", "micronidi", "servizi domiciliari",
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G04 — Risultare negli elenchi per il Bonus nido
+# GS04 — Risultare negli elenchi per il Bonus nido
 
 > Il gestore deve risultare negli elenchi che l'INPS usa per il Bonus nido (Agenda asili nido, con titolo abilitativo, albo o accreditamento comunale), altrimenti le sue famiglie non ricevono il bonus.
 

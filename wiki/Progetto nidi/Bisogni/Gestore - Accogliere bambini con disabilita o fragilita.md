@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G12
+id: GS12
 utente: gestore
 fase: "inserimenti"
 frequenza: 1
@@ -12,7 +12,7 @@ segmenti: ["bisogni speciali"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G12 — Accogliere bambini con disabilita o fragilita
+# GS12 — Accogliere bambini con disabilita o fragilita
 
 > Il gestore deve formare il personale e costruire piani individuali per bambini con disabilità o fragilità, sempre più richiesti.
 

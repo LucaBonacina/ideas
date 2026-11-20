@@ -44,3 +44,6 @@ Non esiste un marchio o un accreditamento "inclusivo". Indicatori possibili, ogg
 - Siti di FISH, ANFFAS, AIPD, ANGSA e Scuola in Chiaro/Unica: non verificati come fonti di informazione per scuola.
 - Elenco delle scuole speciali residue e dei centri riabilitativi con attività educative 0-6: non trovato.
 - Bisogni delle famiglie da testimonianze dirette (forum, associazioni, interviste): non raccolti in questa sessione.
+
+## Bisogni delle famiglie: testimonianze (sessione P7)
+Le testimonianze dirette mancanti qui sopra sono state raccolte in P7 ([[Segmenti - voce delle famiglie]]): [[SD1 Avere il sostegno al nido anche privato o fuori termine]], [[SD2 Avere sostegno e assistente all infanzia dal primo giorno]], [[SD3 Frequentare a orario pieno senza uscite anticipate imposte]], [[SD4 Riconoscere i segnali e rispettare i tempi di certificazione]], [[SD5 Coprire estate e chiusure con un bambino con disabilita]]. Bonus nido "domiciliare" per gravi patologie: 572 beneficiari nel 2024 (INPS, rapporto P7), nessuna testimonianza. Priorità in [[Bisogni genitori - sintesi]].

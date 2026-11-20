@@ -1,6 +1,6 @@
 ---
 tipo: bisogno
-id: G13
+id: GS13
 utente: gestore
 fase: "vita del servizio"
 frequenza: 3
@@ -12,7 +12,7 @@ segmenti: ["micronidi", "nidi famiglia"]
 verificato_il: 2026-11-20
 tags: [bisogno, gestore, nidi]
 ---
-# G13 — Avere strumenti digitali semplici ed economici
+# GS13 — Avere strumenti digitali semplici ed economici
 
 > Il gestore vuole strumenti gestionali che costino poco e non richiedano tempo per essere imparati.
 
