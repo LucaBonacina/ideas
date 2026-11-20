@@ -15,6 +15,7 @@ tags: [regione, nidi]
 ## Registro o elenco
 - La Regione tiene l'**anagrafe SPI-ER** dei servizi 0-3 e dei gestori, alimentata da comuni e gestori (pubblici e privati, convenzionati e non) [fatto]. **Non è pubblica come elenco**: si pubblicano solo tavole per comune e report → [[Regione Emilia-Romagna - SPI-ER tavole servizi 0-3 per comune]].
 - Conteggio 2022-23: **1.207 servizi 0-3, 40.680 posti** (661 pubblici, 546 privati) [fatto].
+- **Informafamiglie** (portale regionale per le famiglie, pagine per distretto) non è un registro: la pagina `/servizi` è caricata in JavaScript e non espone un elenco leggibile dei nidi (verifica del coordinatore, curl 2026-11-20, https://www.informafamiglie.it/servizi). La sessione S11 ha trovato un distretto assente (Imola) e pagine ferme a maggio 2025 ([[H22b Entusiasta]], E14).
 - Il portale `dati.emilia-romagna.it` non era raggiungibile (blocco proxy e poi HTTP 503): **non verificato**. Su dati.gov.it, l'organizzazione "Regione Emilia Romagna" ripubblica dataset comunali (Reggio Emilia, Ferrara) [fatto].
 
 ## Misure regionali per le famiglie
