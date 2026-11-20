@@ -10,6 +10,8 @@ tags: [ipotesi, S1]
 ---
 # H03 — Servizio di scraping "a prodotto" per clienti non finanziari
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 Rapporti integrali: [[H03 Entusiasta]] · [[H03 Bucatore]]. Metodo: [[Protocollo di discovery]]. Profilo: [[Profilo e vincoli]].
 
 ## Ipotesi (pre-registrata)
@@ -91,7 +93,7 @@ Non verificato: l'annuncio Flippa con margine del 56% e meno di 2 h/giorno rispo
 **Prima azione per qualunque idea di S1:** leggere il contratto e chiedere un parere giuslavoristico (1-2 ore). Se il datore vende scraping a terzi, serve un'autorizzazione scritta, che è anche la mitigazione indicata dall'Entusiasta.
 
 ## Idee concrete che sopravvivono
-- [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]]: punteggio v2 **66**.
+- [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]]: punteggio v2 **52** dopo il secondo giro (66 al primo).
 - [[I-H03-2 Monitoraggio rivenditori e prezzi minimi per brand italiani]]: punteggio v2 **58**.
 
 Scartate:

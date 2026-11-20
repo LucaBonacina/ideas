@@ -10,6 +10,8 @@ tags: [idea, giochi, b2b, editoria]
 ---
 # I-H11-1 — Quiz locali automatici per testate
 
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Ogni settimana, per ogni testata locale cliente, un feed *done-for-you* di quiz e mini-giochi in italiano generati in automatico dagli articoli della testata e da dati freschi del territorio (prezzi dei carburanti per provincia, meteo, dati comunali). È embeddabile, ha classifica locale e raccoglie registrazioni.
 

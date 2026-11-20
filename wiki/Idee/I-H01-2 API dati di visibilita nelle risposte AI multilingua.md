@@ -10,6 +10,8 @@ tags: [idea, S1]
 ---
 # I-H01-2 — API di dati sulla visibilità nelle risposte AI, in più lingue
 
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Raccogliere in modo sistematico, per insiemi di domande in italiano, spagnolo, francese e tedesco e per paese, cosa rispondono ChatGPT, Perplexity, Gemini e le AI Overview/AI Mode di Google: marchi citati, fonti, posizione, sentiment. I dati si vendono come API e dataset agli strumenti GEO e alle agenzie SEO europee.
 

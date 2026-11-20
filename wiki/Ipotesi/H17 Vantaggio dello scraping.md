@@ -10,6 +10,8 @@ tags: [ipotesi, trasversale]
 ---
 # H17 — Lo scraping come vantaggio competitivo nel 2026
 
+> **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata è un fattore di correzione da applicare alle altre idee, non la probabilità di un business a sé. Sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Le competenze di scraping sono un vantaggio competitivo reale nel 2026 (dal [[Registro delle ipotesi]]).
 
@@ -86,7 +88,7 @@ Il criterio chiede se lo scraping è diventato una commodity "al punto che il va
 
 ### Verdetto
 **Parziale.** È confutata la forma forte "so fare scraping, quindi ho un vantaggio": l'accesso e l'estrazione sono commodity o si comprano. Regge una forma ridotta e riformulata: **il vantaggio è saper costruire e mantenere a basso costo una pipeline affidabile su fonti frammentate e mutevoli, con dati puliti, storicizzati e legalmente difendibili.** Due conseguenze:
-1. **Il vantaggio è più piccolo di quanto il profilo presuppone.** In C4 non vale più "5 di default".
+1. **Il vantaggio è più piccolo di quanto il profilo presuppone.** In C4 (vantaggio delle competenze) non vale più "5 di default".
 2. **Il vantaggio residuo coincide in larga parte con ciò che fa il datore attuale.** Questo rafforza il conflitto segnalato in [[H16 Founder a tempo parziale]] per le idee che vendono dati.
 
 **Fiducia: media.** I benchmark (Proxyway, arXiv) sono verificati e i listini sono letti direttamente. Mancano serie storiche dei prezzi, la distribuzione dei guadagni su Apify, e benchmark sugli agenti con modelli di fine 2026, probabilmente migliori di quelli misurati. Il trend va contro l'ipotesi.
@@ -104,7 +106,7 @@ Per idee in cui lo scraping è un mezzo dentro un prodotto di dominio, la probab
   - 1-2 se basta una API gestita più un LLM.
   Il test pratico è in [[I-H17-1 Test di replicabilità dello scraping]].
 - **Non costruire idee sul "so aggirare gli anti-bot"**: rischio legale (Reddit contro SerpApi e Oxylabs, art. 171 L. 633/1941) e manutenzione non delegabile.
-- **Comprare l'accesso, costruire il resto.** Usare Zyte, Bright Data o Oxylabs come fornitori per l'accesso, così il team delegato non deve mantenere l'infrastruttura anti-bot. Il budget va su matching, controllo qualità e prodotto. Questo migliora anche C10.
+- **Comprare l'accesso, costruire il resto.** Usare Zyte, Bright Data o Oxylabs come fornitori per l'accesso, così il team delegato non deve mantenere l'infrastruttura anti-bot. Il budget va su matching, controllo qualità e prodotto. Questo migliora anche C10 (delegabilità).
 - **Apify Store solo come test di domanda a basso costo**, non come business: media per sviluppatore bassa, distribuzione non pubblica, dipendenza dalla piattaforma.
 - Le idee concrete proposte dall'Entusiasta (monitoraggio prezzi B2B tecnico con matching EAN/MPN; brand protection per le PMI) non sono idee "di H17": vanno valutate dentro H03 (servizio di scraping a prodotto), con la penalità di conflitto di [[H16 Founder a tempo parziale]].
 
@@ -122,3 +124,10 @@ Tutte accedute il 2026-11-20. Elenco completo nei rapporti [[H17 Entusiasta]] e 
 - Listini: https://apify.com/pricing e quelli citati in [[H17 Bucatore]]
 - Apify, case study su 98 Actor: https://blog.apify.com/building-98-actors-on-apify-store/
 - dev.to, primo Actor dopo 3 mesi: https://dev.to/boo_n/3-months-shipping-my-first-apify-actor-64-users-200mo-and-everything-i-got-wrong-52i7
+
+## Nota sui numeri di Apify
+Le note H01 e H17 citano numeri diversi su Apify, perché misurano cose diverse:
+- **Numero di actor:** ~124-127 mila è il totale dichiarato da Apify; ~14 mila (13.948) sono gli actor pubblici restituiti dall'API dello Store, scaricati dal giudice di H01.
+- **Numero di sviluppatori:** 1.656 (H01) e ~7.500 (H17) vengono da fonti e definizioni diverse (sviluppatori con actor a pagamento contro tutti i creatori); non sono state riconciliate.
+- **Pagamenti agli sviluppatori:** la crescita riportata in H01 (0,5 → 1 → 2 M$/mese) rende plausibili i 2 M$/mese, ma restano un dato dichiarato da Apify e non verificato in modo indipendente (H17). La conclusione non cambia: lo sviluppatore tipico incassa ~30 $/mese.
+

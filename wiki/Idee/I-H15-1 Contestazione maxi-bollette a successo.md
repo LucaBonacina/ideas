@@ -10,6 +10,8 @@ tags: [idea]
 ---
 # I-H15-1 — Contestazione maxi-bollette a successo
 
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 L'utente carica una bolletta di conguaglio (luce, gas, acqua). Il sistema:
 1. estrae periodi, letture e date;
@@ -39,7 +41,7 @@ Si paga solo in caso di esito positivo.
 3. **Partner elencabili via scraping:** amministratori di condominio per le bollette idriche, CAF, sportelli. Rev-share.
 
 ## Perché queste competenze danno un vantaggio
-Vantaggio moderato (C4 = 2):
+Vantaggio moderato (C4, vantaggio delle competenze: 2):
 - parsing delle bollette di centinaia di venditori in formati diversi;
 - raccolta di delibere ARERA, provvedimenti AGCM e condizioni contrattuali;
 - un **dataset proprietario degli esiti** (quale venditore cede, dopo quanto, con quale argomento) che migliora i template e permette di prezzare le pratiche.

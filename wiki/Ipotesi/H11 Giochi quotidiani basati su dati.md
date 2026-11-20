@@ -10,6 +10,8 @@ tags: [ipotesi, giochi]
 ---
 # H11 — Giochi quotidiani basati su dati, anche venduti a editori
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Giochi daily e data-driven (prezzo della spesa, semantico in italiano, giochi su dati reali), monetizzati con pubblicità o abbonamento **oppure in licenza B2B a testate ed editori**. Testo dal [[Registro delle ipotesi]].
 

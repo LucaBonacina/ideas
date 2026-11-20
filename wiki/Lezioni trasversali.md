@@ -1,37 +1,41 @@
 ---
 tipo: sintesi
 tags: [sintesi]
+aggiornato: 2026-11-20
 ---
 # Lezioni trasversali
 
-Cosa dicono insieme le 17 ipotesi, al di là delle singole idee.
+Cosa dicono insieme le 17 ipotesi, al di là delle singole idee. Termini tecnici nel [[Glossario]].
 
-## 1. Il vincolo più forte è il tuo contratto, non il mercato
-Due sessioni indipendenti (S1 e S6) sono arrivate alla stessa conclusione. Per la Cassazione (n. 19096/2013, testo verificato) viola l'obbligo di fedeltà (art. 2105 c.c.) anche solo **preparare** un'attività concorrente, per esempio costituendo una società. Il tuo datore fa scraping, quindi **vendere dati o servizi di scraping** è esposto anche fuori dagli ambiti già esclusi. Vedi [[H16 Founder a tempo parziale]] e [[I-H16-1 Autorizzazione scritta e veicolo societario]].
-→ Prima di qualunque esperimento: rileggere il contratto e chiedere un parere a un avvocato del lavoro, poi un'autorizzazione scritta.
+## 1. Il vincolo più forte è il contratto di lavoro
+Due sessioni di ricerca indipendenti sono arrivate alla stessa conclusione. Per la Cassazione (sent. 19096/2013, testo verificato) viola l'obbligo di fedeltà (art. 2105 c.c.) anche solo **preparare** un'attività concorrente, per esempio costituendo una società. Il tuo datore fa scraping, quindi **vendere dati o servizi di scraping** è esposto anche fuori dagli ambiti già esclusi. Vedi [[H16 Founder a tempo parziale]] e [[I-H16-1 Autorizzazione scritta e veicolo societario]].
+- **Per le idee che vendono dati o servizi di scraping:** lettura del contratto, parere di un avvocato del lavoro e autorizzazione scritta prima di qualunque esperimento.
+- **Per le altre:** basta una lettura del contratto prima di costituire una società (vedi [[Raccomandazione]], punto 4).
 
 ## 2. Lo scraping da solo non è più un vantaggio
-L'accesso ai siti si compra (API gestite che superano le protezioni) e l'estrazione la fanno anche i non esperti con un LLM. Il vantaggio resta solo nelle **pipeline continue su molte fonti eterogenee**: freschezza, matching, storico, qualità. Vedi [[H17 Vantaggio dello scraping]].
+L'accesso ai siti si compra (servizi che superano le protezioni anti-bot) e l'estrazione la fanno anche i non esperti con un modello linguistico. Il vantaggio resta solo nei **flussi continui su molte fonti diverse** (freschezza, riconoscimento degli stessi prodotti, storico, qualità) e nell'uso dello scraping per **trovare opportunità**. Vedi [[H17 Vantaggio dello scraping]].
 
-## 3. Delegare funziona solo con un operatore vero
-Con un lavoro a tempo pieno, il modello regge solo se c'è una persona a tempo pieno, pagata a mercato e con quote. Ne segue che l'attività deve arrivare a ~120-160 k€ di margine lordo perché restino 50 k€ al founder [stima]. Vedi [[H16 Founder a tempo parziale]].
+## 3. Il costo della delega dipende dall'obiettivo
+- **Per un business da almeno 50 k€/anno** serve una persona a tempo pieno, pagata a mercato e con quote: l'attività deve arrivare a ~120-160 k€ di margine lordo [stima].
+- **Per un reddito extra di 1-2 k€/mese** bastano collaboratori part-time.
+Vedi [[H16 Founder a tempo parziale]] e [[Classifica per obiettivo]].
 
 ## 4. Il B2C informativo italiano è quasi chiuso
-- SEO + affiliazione: confutata (risposte AI nei motori, aggiornamenti di Google 2026, nessun successo verificato dopo il 2024). Vedi [[H04 SEO programmatica + affiliazione]].
-- Lead e visibilità a strutture locali: confutata (servono venditori sul territorio). Vedi [[H14 Lead e visibilità a strutture locali]].
-- App in abbonamento: confutata (ricavo mediano ~72 $/mese, costo di acquisizione superiore al valore). Vedi [[H08 App mobile B2C in abbonamento]].
-- Regole per chi viaggia: confutata (affiliazione turistica a 0,02-0,28 $ per clic). Vedi [[H13 Regole e disponibilità locali per chi si muove]].
-- Sopravvivono solo servizi **transazionali** legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]], [[I-H15-1 Contestazione maxi-bollette a successo]].
+- Siti SEO con affiliazione: smentita (risposte AI nei motori di ricerca, aggiornamenti di Google 2026, nessun successo verificato dopo il 2024). Vedi [[H04 SEO programmatica + affiliazione]].
+- Contatti e visibilità venduti a strutture locali: smentita (servono venditori sul territorio). Vedi [[H14 Lead e visibilità a strutture locali]].
+- App in abbonamento: smentita (ricavo tipico ~72 $/mese, costo di acquisizione superiore al valore). Vedi [[H08 App mobile B2C in abbonamento]].
+- Regole e accessi per chi viaggia: smentita (affiliazione turistica a 0,02-0,28 $ per clic). Vedi [[H13 Regole e disponibilità locali per chi si muove]].
+- Servizi B2C legati a una procedura: [[I-H06-1 Disdetta digitale per l'Italia]] è stata declassata nel secondo giro; resta aperta solo [[I-H15-1 Contestazione maxi-bollette a successo]], subordinata a un parere legale.
 
-## 4b. Anche i giochi sono quasi chiusi per questo profilo
-- Portali web: mediana ~44 mila partite per gioco, filtri di qualità che richiedono game design. Vedi [[H10 Giochi web su portali]].
+## 5. Anche i giochi sono quasi chiusi per questo profilo
+- Portali web: un gioco recente fa in mediana ~44 mila partite; i portali filtrano su qualità di game design. Vedi [[H10 Giochi web su portali]].
 - Steam e mobile: il 65,9% dei giochi incassa meno di 1.000 $; un team delegato costa ~165-185 k€/anno. Vedi [[H12 Giochi indie su Steam o mobile]].
-- Giochi daily su dati: non monetizzano in B2C; i grandi editori li fanno in casa. Resta una nicchia di quiz per testate locali. Vedi [[H11 Giochi quotidiani basati su dati]].
+- Giochi quotidiani su dati: non monetizzano verso il pubblico; i grandi editori li fanno in casa. Resta la nicchia dei quiz per testate locali. Vedi [[H11 Giochi quotidiani basati su dati]].
 
-## 5. Dove restano soldi
+## 6. Dove restano soldi
 - **Al primo giro** le idee migliori vendevano a piccole imprese attraverso uno store di piattaforma (Shopify, WooCommerce) o risolvevano problemi di dati di catalogo e prezzi senza codici standard.
-- **Il secondo giro le ha ridimensionate:** i portali dei grossisti vietano i bot, il monitoraggio prezzi coincide con l'attività del datore e ha già concorrenti in italiano.
-- **Restano in piedi soprattutto due strade, e per obiettivi piccoli:** comprare un software già redditizio e i quiz per testate locali. Vedi [[Classifica per obiettivo]].
+- **Il secondo giro le ha ridimensionate:** i portali dei grossisti vietano i bot; il monitoraggio prezzi coincide con l'attività del datore e ha già concorrenti in italiano.
+- **Restano in piedi due strade, per obiettivi piccoli o per "costruisci e vendi":** comprare un software già redditizio e i quiz per testate locali. Vedi [[Classifica per obiettivo]].
 
-## 6. Le distribuzioni contano più dei casi di successo
-In ogni area i giudici hanno trovato mediane molto basse (Apify: ~30 $/mese per sviluppatore; micro-SaaS: 68% sotto 1 k$/mese; app: ~72 $/mese). I casi celebri sono l'eccezione.
+## 7. Le distribuzioni contano più dei casi di successo
+In ogni area i giudici hanno trovato mediane molto basse (Apify: ~30 $/mese per sviluppatore; piccoli software in abbonamento: 68% sotto 1 k$/mese; app: ~72 $/mese). I casi celebri sono l'eccezione.

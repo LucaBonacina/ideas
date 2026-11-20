@@ -6,11 +6,15 @@ punteggio_v2: 49
 punteggio_v2_r1: 69
 verdetto_r2: "condizionata: solo esperimento di arresto, nessun investimento prima"
 modello_ricavo: "abbonamento mensile tramite fatturazione dell'app store (Shopify, poi WooCommerce e PrestaShop)"
-tempo_founder_h_sett: 4
-investimento_iniziale_eur: "25-40 k€ (MVP, primi 20-30 connettori, 12 mesi di supporto part-time) [stima]"
+tempo_founder_h_sett: 4 # circa 10 nei primi 3 mesi
+investimento_iniziale_eur: "55-75 k€ dopo il secondo giro (25-40 k€ al primo) [stima]"
 tags: [idea, S3, R2]
 ---
 # I-H09-1 — Sync fornitori senza feed
+
+> **Superata in parte dal secondo giro.** Punteggio 69 → **49** (50 in [[Classifica]]), probabilità ~5%. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; le cifre del primo giro qui sotto restano per traccia. Cambiamenti principali: investimento 55-75 k€ (non 25-40 k€); i grossisti non sono un canale di vendita; delegabilità ridotta; i termini d'uso dei portali vietano i bot.
+
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
 
 ## In una frase
 App per Shopify (poi WooCommerce e PrestaShop) che si collega ai portali web B2B dei grossisti che non offrono feed né API, usando le credenziali del negozio. Sincronizza stock, prezzi con ricarico e nuovi codici da una libreria di connettori mantenuti.
@@ -109,7 +113,7 @@ Rapporti integrali: [[I-H09-1 Entusiasta]] (17 ricerche web) e [[I-H09-1 Bucator
 - **I termini d'uso dei portali vietano il meccanismo centrale.** I termini di Ingram Micro vietano gli "scripts or spiders" e la cessione delle credenziali a terzi, con chiusura dell'account "without notice". La sanzione colpisce il negozio cliente, che perde il fornitore. In Italia c'è anche l'accesso abusivo (art. 615-ter c.p.; SU 4694/2011: rileva la violazione delle prescrizioni del titolare).
 - **I grossisti si stanno spostando sui feed.** Syncee è gratis per i fornitori, Faire sincronizza con Shopify, Flxpoint ha oltre 250 integrazioni. Un grossista che "approva" tende a dare un feed, e così rende inutile l'app.
 - **Economia per connettore.** Costruzione 8-24 h e manutenzione 8-15 h/anno per connettore. Con 1 negozio a 29-79 $ il connettore non ripaga, ne servono almeno 3 per connettore. La fascia bassa è compressa da cloni a 9-29 $/mese. Churn stimato all'8-12% al mese.
-- **Delega e conflitto.** I giudizi "questo portale si può collegare?" sono tecnici e legali, frequenti, da esperto (C10). L'attività è scraping con login per conto terzi, la più vicina a quella del datore tra le idee non escluse.
+- **Delega e conflitto.** I giudizi "questo portale si può collegare?" sono tecnici e legali, frequenti, da esperto (C10, delegabilità). L'attività è scraping con login per conto terzi, la più vicina a quella del datore tra le idee non escluse.
 - **Punteggio proposto:** circa 46.
 
 ### Verifiche del Giudice (fonti aperte il 2026-11-20)
@@ -125,7 +129,7 @@ Rapporti integrali: [[I-H09-1 Entusiasta]] (17 ricerche web) e [[I-H09-1 Bucator
 | C1 Bisogno (10) | 4 | **3** | Dolore reale e verificato, ma raro. I casi italiani trovati hanno quasi sempre un file; mancano richieste con seguito |
 | C2 Domanda (10) | 3 | **2** | Il segmento "solo HTML dietro login" resta non misurato (regola: senza evidenza al massimo 2). Le app di scraping esistenti hanno 0-2 recensioni |
 | C3 Monetizzazione (15) | 4 | **3** | Una tantum di 250-1.500 € verificata. Il canone ricorrente per questo servizio non è provato, e la fascia bassa delle app di sync è a 9-29 $ |
-| C4 Vantaggio competenze (15) | 4 | **3** | Ricalibrazione H17: fonti con login, poche e mutevoli, valgono 3. Il 5 richiede una libreria di oltre 100 fonti, non dimostrata |
+| C4 Vantaggio competenze (15) | 4 | **3** | Vantaggio dello scraping ricalibrato (vedi H17): fonti con login, poche e mutevoli, valgono 3. Il 5 richiede una libreria di oltre 100 fonti, non dimostrata |
 | C5 Distribuzione (15) | 4 | **3** | Store affollato di cloni 2026. I negozi non sono elencabili per grossista. Il canale "grossista" tende a produrre un feed, non un cliente |
 | C6 AI generalista (5) | 4 | 4 | — |
 | C7 Difendibilità (5) | 4 | **3** | La libreria si accumula, ma un feed del grossista azzera il connettore |
@@ -142,7 +146,7 @@ Rapporti integrali: [[I-H09-1 Entusiasta]] (17 ricerche web) e [[I-H09-1 Bucator
 - I due ruoli concordano su tre fatti verificati: la lacuna di prodotto esiste, la domanda è sparsa, il costo vero è il team.
 - Il fatto nuovo e decisivo è che il meccanismo centrale (credenziali del negozio usate da un bot) viola clausole tipiche dei portali, e il rischio cade sul cliente. Questo rende la vendita difficile anche quando il dolore c'è.
 - **Versione che sopravvive:** connettori solo per grossisti che **autorizzano** l'accesso o forniscono un export, più i portali con export dietro login. Questa versione però riduce il vantaggio dello scraping e avvicina il prodotto ai cloni di sync da feed.
-- **Probabilità di successo** (50 k€ di margine in 24 mesi, founder ≤ 5 h/sett.): **circa 5%** [stima]. Base delle app nuove circa 20%, ×0,5 per l'adozione frenata dai termini d'uso, ×0,5 per il fattore H16.
+- **Probabilità di successo** (50 k€ di margine in 24 mesi, founder ≤ 5 h/sett.): **circa 5%** [stima]. Base delle app nuove circa 20%, ×0,5 per l'adozione frenata dai termini d'uso, ×0,5 per il fattore di correzione per la delega (vedi H16).
 
 ### Esperimento di 30 giorni (affinato, soglie decise ora)
 Unisce le proposte dei due ruoli. **Basta un criterio di arresto per archiviare.**

@@ -6,11 +6,15 @@ punteggio_v2: 49
 punteggio_v2_r1: 60
 verdetto_r2: "ridimensionata: capitale reale 1,5x, leva di prezzo bloccata su Shopify, trasferimento a discrezione della piattaforma"
 modello_ricavo: "abbonamenti B2B di un SaaS acquisito (20-200 $/mese a cliente)"
-tempo_founder_h_sett: 5
-investimento_iniziale_eur: "150-300 k€ (di cui 20-30% differito o earn-out) + 15-25 k€/anno di operatore e sviluppo"
+tempo_founder_h_sett: 5 # 5-8 durante la ricerca dei deal
+investimento_iniziale_eur: "obiettivo B: 350-475 k€ dopo il secondo giro (150-300 k€ al primo); obiettivo A: ~100-200 k€ (vedi Raccomandazione) [stima]"
 tags: [idea, S2, R2]
 ---
 # I-H05-1 — Micro-SaaS B2B trascurato con leva di prezzo
+
+> **Superata in parte dal secondo giro.** Punteggio 60 → **49** (48 in [[Classifica]]), probabilità ~7% per l'obiettivo B. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; le cifre del primo giro qui sotto restano per traccia. Cambiamenti principali: per l'obiettivo B il capitale reale è 350-475 k€ con un operatore pagato ~35 k€/anno; su Shopify non si possono alzare i prezzi agli abbonati esistenti. **Per l'obiettivo A (reddito extra)** capitale e soglie sono nella [[Raccomandazione]] (punti 1 e 2).
+
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
 
 ## In una frase
 Comprare 1-3 micro-SaaS o plugin B2B con clienti paganti, fondatore stanco e prezzi fermi da anni, distribuiti tramite marketplace di integrazioni e non tramite SEO. I target si trovano anche fuori dai marketplace di compravendita, con scraping degli store di integrazioni. Si comprano a circa 3-4x SDE con una parte differita, si riprezzano e si affidano a uno sviluppatore-operatore.
@@ -178,7 +182,7 @@ La divergenza sta sulla qualità dei target. Le verifiche danno ragione al Bucat
 - SDE di portafoglio ≥ 110 k€ dopo l'operatore;
 - condizione sospensiva sul consenso della piattaforma.
 
-Resta l'unica delle quattro idee con il conflitto con il lavoro trascurabile, ed è un punto a suo favore non catturato dal punteggio lordo.
+Resta, con [[I-H06-1 Disdetta digitale per l'Italia]], una delle due idee approfondite con il conflitto con il lavoro trascurabile, ed è un punto a suo favore non catturato dal punteggio lordo.
 
 **Probabilità di successo** (50 k€ di margine in 24 mesi, founder ≤ 5 h/sett.): **circa 7%** [stima]. Probabilità di chiudere almeno un deal valido in 12 mesi circa 35%, per circa 40% di tenuta dei ricavi e della leva, per circa 50% di capitale e operatore sufficienti.
 

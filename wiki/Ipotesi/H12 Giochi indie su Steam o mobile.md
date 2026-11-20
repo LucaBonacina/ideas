@@ -10,8 +10,10 @@ tags: [ipotesi, giochi]
 ---
 # H12 — Giochi indie su Steam o mobile
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
-Giochi indie su Steam o mobile (premium o F2P), sviluppati da un team delegato. Dal [[Registro delle ipotesi]].
+Giochi indie su Steam o mobile (premium o free-to-play), sviluppati da un team delegato. Il [[Registro delle ipotesi]] riporta solo titolo e criteri di confutazione; la descrizione è del giudice.
 
 ## Criteri di confutazione (pre-registrati)
 Confutata se:

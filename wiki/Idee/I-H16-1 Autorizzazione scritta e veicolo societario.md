@@ -3,14 +3,16 @@ tipo: idea
 id: I-H16-1
 ipotesi: "[[H16 Founder a tempo parziale]]"
 punteggio_v2: "n.a."
-modello_ricavo: "nessuno: prerequisito operativo per tutte le idee"
+modello_ricavo: "nessuno: prerequisito completo per le idee che vendono dati o scraping; per le altre almeno i passi 1 e 5"
 tempo_founder_h_sett: 2
-investimento_iniziale_eur: "500-1.500 per il parere legale; 2.000-4.000 per la costituzione e il primo anno di una SRL, solo se il test passa [stima]"
+investimento_iniziale_eur: "500-1.500 per il parere legale; costituzione di una SRL e costi fissi di 4-15 k€/anno (probabilmente vicini al minimo), solo se il test passa [stima]"
 tags: [idea, raccomandazione-operativa]
 ---
 # I-H16-1 — Autorizzazione scritta e veicolo societario
 
 > Raccomandazione operativa emersa da [[H16 Founder a tempo parziale]]. Non genera ricavi: è la condizione perché le idee delle altre sessioni siano praticabili senza mettere a rischio il posto di lavoro. Per questo il punteggio v2 non si applica.
+
+> **Ambito (allineato con la [[Raccomandazione]]).** Tutti i passi valgono per le idee che vendono dati o servizi di scraping. Per le altre idee (es. comprare un software, quiz per testate) bastano il passo 1 (audit del contratto) e il passo 5 (igiene). Se il contratto prevede l'obbligo di comunicare altre attività, anche per queste vale il passo 3 prima di costituire la società.
 
 ## In una frase
 Prima di costituire qualunque veicolo, mettere per iscritto il perimetro: verifica di contratto e CCNL, autorizzazione o comunicazione scritta al datore, poi una SRL con il founder socio di capitale non operativo e un operatore amministratore.

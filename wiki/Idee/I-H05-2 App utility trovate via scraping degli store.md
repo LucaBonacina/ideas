@@ -10,6 +10,8 @@ tags: [idea, S2]
 ---
 # I-H05-2 — App utility trovate via scraping degli store
 
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Fare scraping sistematico di App Store e Google Play per trovare app utility che hanno ancora utenti attivi, buone valutazioni, manutenzione ferma e monetizzazione debole. Poi comprarle a 1,5-2,5x il profitto, oppure prenderle in gestione con un accordo di revenue share alla MWM, aggiornarle e rifarne la monetizzazione.
 

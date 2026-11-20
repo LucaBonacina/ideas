@@ -10,6 +10,8 @@ tags: [ipotesi, trasversale]
 ---
 # H16 — Founder a tempo parziale + team di fiducia
 
+> **Come leggere questa nota.** È un'ipotesi trasversale: non descrive un business. La probabilità indicata è un fattore di correzione da applicare alle altre idee, non la probabilità di un business a sé. Sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Il modello "founder a tempo parziale + team di fiducia" è sostenibile (dal [[Registro delle ipotesi]]).
 
@@ -59,7 +61,7 @@ Rapporto integrale: [[H16 Bucatore]] (23 ricerche web).
 **Parziale.** Il modello è sostenibile solo in una forma più stretta di quella pre-registrata:
 1. un **operatore dedicato e incentivato** (non freelance coordinati la sera), quindi un business che sostenga circa 120-160 k€ di margine lordo, oppure un operatore pagato soprattutto a quota utili, con i problemi di governance segnalati;
 2. **autorizzazione scritta del datore** (o almeno comunicazione documentata) prima di costituire qualunque veicolo;
-3. idee in cui il founder non è il collo di bottiglia tecnico settimanale (C10 come filtro eliminatorio).
+3. idee in cui il founder non è il collo di bottiglia tecnico settimanale (C10, delegabilità, come filtro eliminatorio).
 
 **Fiducia: media.** Le norme e la sentenza chiave sono verificate sui testi. Mancano studi diretti sul caso "founder dipendente + operatore" e la giurisprudenza 2024-2025 è letta solo in estratto.
 

@@ -10,6 +10,8 @@ tags: [ipotesi]
 ---
 # H15 — AI che contesta, reclama e recupera soldi per i consumatori
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Servizi che compilano reclami, contestazioni e richieste di rimborso (voli, multe e spese dei noleggiatori, bollette, garanzie), pagati a percentuale sul recuperato o a pratica. Dal [[Registro delle ipotesi]].
 

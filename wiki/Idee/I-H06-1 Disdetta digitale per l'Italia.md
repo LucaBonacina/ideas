@@ -12,6 +12,10 @@ tags: [idea, S2, R2]
 ---
 # I-H06-1 — Disdetta digitale per l'Italia
 
+> **Superata dal secondo giro: da archiviare salvo esperimento.** Punteggio 58 → **42** (41 in [[Classifica]]), probabilità ~3%. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; l'esperimento del primo giro (6,99 € con raccomandata) è superato perché a margine nullo. Cambiamenti principali: Disdettaonline.it è diventato gratuito; servono ~2.800 disdette al mese, non 1.000; ComunicApp non è un concorrente.
+
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Il modello Volders/Aboalarm applicato all'Italia. Una pagina per ogni fornitore ("disdetta Sky", "disdetta palestra McFit", "disdetta Telepass") spiega la procedura aggiornata. L'utente compila un modulo, paga pochi euro e il servizio invia la disdetta con valore legale (PEC o raccomandata online), poi conserva ricevute e promemoria.
 
@@ -19,7 +23,7 @@ Il modello Volders/Aboalarm applicato all'Italia. Una pagina per ogni fornitore 
 - **Chi paga:** il consumatore, che deve disdire un contratto con procedura formale (pay TV, palestre, telepedaggio, allarmi, telefonia fissa, riviste) e vuole certezza e prova dell'invio.
 - **[fatto] Germania:** Volders e Aboalarm fanno circa 10 M€ di ricavi, in utile, con prezzi di 4,99-12,99 € a disdetta e 100-150 mila disdette al mese. È un dato dell'azienda (OMR, 2023).
 - **[fatto] Italia:**
-  - Disdettaonline.it costa 9,95-13,95 €, Disdettalegale.it parte da 13,90 €, Comedisdire costa 26,50 € ogni 4 settimane. Altroconsumo li giudica tutti "da evitare" (20/3/2024).
+  - Disdettaonline.it costava 9,95-13,95 € (nel secondo giro risulta diventato gratuito), Disdettalegale.it parte da 13,90 €, Comedisdire costava 26,50 € ogni 4 settimane nel 2024 (39,95 € ogni 4 settimane secondo il secondo giro). Altroconsumo li giudica tutti "da evitare" (20/3/2024).
   - Altroconsumo sostiene anche che disdire da soli è "piuttosto semplice". È il dubbio principale sulla disponibilità a pagare.
 - **[stima] Soglia:** circa 1.000 disdette al mese a 7 € (circa 5 € di margine dopo PEC o raccomandata e pagamenti) danno circa 60 k€ di margine l'anno, cioè l'1% dei volumi tedeschi.
 
@@ -41,7 +45,7 @@ Va raccolto da siti, condizioni generali e registri PEC, e **tenuto aggiornato**
 
 ## Concorrenti
 - **Italia:**
-  - Disdettaonline.it, Disdettalegale.it, Comedisdire.com, ComunicApp (602 valutazioni, voto 1,5);
+  - Disdettaonline.it, Disdettalegale.it, Comedisdire.com; ComunicApp (602 valutazioni, voto 1,5), che il secondo giro ha verificato **non** essere un concorrente;
   - micro-app nate nel 2026 con 0-7 valutazioni;
   - i moduli gratuiti delle associazioni dei consumatori.
 - **Possibile ingresso di Aboalarm o Volders in Italia:** finora non risulta.
@@ -132,14 +136,14 @@ Rapporti integrali: [[I-H06-1 Entusiasta]] (17 ricerche web) e [[I-H06-1 Bucator
   - servono la PEC come canale principale (7,99 €, circa 5 € di margine) e la raccomandata a 12,99 €;
   - Sky compra le query sulla disdetta, quindi Google Ads serve solo a misurare.
 - **Validità.** Una PEC di terzi senza documento può essere inefficace (Corecom Lazio 206/2023). Va inviata con lettera firmata dal consumatore e documento allegato.
-- **Volumi necessari per H16:** circa 2.800 pratiche pagate al mese.
+- **Volumi necessari con un operatore pagato a mercato (vedi H16):** circa 2.800 pratiche pagate al mese.
 - **Punteggio proposto:** 59.
 
 ### Sintesi del Bucatore
 - **In Italia il pagamento per pratica non ha retto.**
   - Disdettaonline è passato da 9,95-13,95 € a gratuito.
   - Disdettalegale ha 0 recensioni.
-  - L'unico attore attivo (Comedisdire) vive di un abbonamento da 39,95 € al mese con TrustScore 1,1.
+  - L'unico attore attivo (Comedisdire) vive di un abbonamento da 39,95 € ogni 4 settimane con TrustScore 1,1.
   - Nell'App Store ci sono oltre 20 micro-app gratuite di gestione abbonamenti, tutte senza trazione.
 - **Economia.**
   - Margine di circa 4,8 € solo via PEC; negativo via raccomandata.
@@ -167,13 +171,13 @@ Rapporti integrali: [[I-H06-1 Entusiasta]] (17 ricerche web) e [[I-H06-1 Bucator
 | C1 Bisogno (10) | 3 | 3 | Attrito documentato da AGCM e AGCOM, concentrato però su pochi gestori già sanzionati o vincolati da impegni; procedure gratuite disponibili |
 | C2 Domanda (10) | 3 | **2** | Nessun volume misurato da nessuno dei due ruoli (regola: senza evidenza al massimo 2) |
 | C3 Monetizzazione (15) | 3 | **2** | Disponibilità a pagare italiana non provata. Il servizio a pagamento principale è diventato gratuito (verificato); il margine regge solo via PEC (verificato) |
-| C4 Vantaggio competenze (15) | 3 | **2** | Il database rilevante è di circa 100-300 fornitori, già offerto gratis da Disdettaonline; ricalibrazione H17 |
+| C4 Vantaggio competenze (15) | 3 | **2** | Il database rilevante è di circa 100-300 fornitori, già offerto gratis da Disdettaonline; ricalibrazione del vantaggio dello scraping (vedi H17) |
 | C5 Distribuzione (15) | 3 | **2** | Gli stessi gestori presidiano le query a pagamento; esposizione alle AI Overview; CPC di pareggio molto basso [stima] |
 | C6 AI generalista (5) | 3 | 3 | — |
 | C7 Difendibilità (5) | 3 | **2** | Pochi fornitori rilevanti, replicabile in settimane |
 | C8 Incumbent (5) | 4 | **3** | ComunicApp non è un concorrente; la vera concorrenza è il gratuito (gestori, Disdettaonline, associazioni) |
 | C9 Primo euro (5) | 4 | 4 | — |
-| C10 Delegabilità (10) | 4 | **3** | Rifiuti, deleghe, Corecom e GDPR richiedono giudizio; team H16 da 95-130 k€ non coperto dai volumi plausibili |
+| C10 Delegabilità (10) | 4 | **3** | Rifiuti, deleghe, Corecom e GDPR richiedono giudizio; team con operatore pagato a mercato (vedi H16) da 95-130 k€ non coperto dai volumi plausibili |
 | C11 Tetto a 24 mesi (5) | 3 | **2** | Servono circa 2.800 pratiche pagate al mese contro nessun segnale di volume |
 | **Lordo** | 64 | **48** | (30+20+30+30+30+15+10+15+20+30+10)/5 |
 | Penalità | −6 | −6 | −3 legale (documenti d'identità e minimizzazione, deleghe respinte, rischio di pratica ingannevole se la gratuità non è dichiarata); −2 dipendenza da Google; −1 conflitto (basso: nessuna vendita di dati) |
@@ -184,7 +188,7 @@ Rapporti integrali: [[I-H06-1 Entusiasta]] (17 ricerche web) e [[I-H06-1 Bucator
 
 Le verifiche non danno un segnale di disponibilità a pagare in Italia. Il modello tedesco dimostra che è possibile altrove, non qui. La regola "senza evidenza al massimo 2" su domanda e monetizzazione porta il punteggio sotto tutte le altre idee del giro.
 
-Conflitto con il lavoro basso: è l'unico vero punto di forza rispetto a I-H09-1 e I-H03-1.
+Conflitto con il lavoro basso (come per [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]]): è l'unico vero punto di forza rispetto a I-H09-1 e I-H03-1.
 
 **Probabilità di successo** (50 k€ di margine in 24 mesi, founder ≤ 5 h/sett.): **circa 3%** [stima].
 

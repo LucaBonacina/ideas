@@ -10,6 +10,8 @@ tags: [idea, S1]
 ---
 # I-H01-1 — Portafoglio di actor su target difficili non personali
 
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Un portafoglio di 20-40 actor su Apify Store, mantenuti da un team, su siti con difese anti-bot serie e dati non personali: marketplace ed e-commerce europei, prezzi e cataloghi, annunci di veicoli e usato, viaggi. Lo scopo è essere il leader affidabile di ogni nicchia e non il clone economico. I clienti con volumi alti passano poi a un'API diretta.
 

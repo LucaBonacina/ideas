@@ -3,12 +3,14 @@ tipo: idea
 id: I-H17-1
 ipotesi: "[[H17 Vantaggio dello scraping]]"
 punteggio_v2: "n.a."
-modello_ricavo: "nessuno: strumento di calibrazione del criterio C4"
+modello_ricavo: "nessuno: strumento di calibrazione del criterio C4 (vantaggio delle competenze)"
 tempo_founder_h_sett: 1
 investimento_iniziale_eur: "50-200 per idea testata (crediti API e LLM) [stima]"
 tags: [idea, raccomandazione-operativa]
 ---
 # I-H17-1 — Test di replicabilità dello scraping
+
+> **Stato:** il test non è ancora stato eseguito. Nel secondo giro il vantaggio dello scraping è stato ricalibrato a tavolino con la regola di [[H17 Vantaggio dello scraping]].
 
 > Raccomandazione operativa emersa da [[H17 Vantaggio dello scraping]]. Serve a dare a C4 (vantaggio delle competenze) un valore misurato invece che presunto, per ogni idea che arriva allo scoring finale.
 

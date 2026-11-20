@@ -10,6 +10,8 @@ tags: [ipotesi, S2]
 ---
 # H05 — Comprare siti/app esistenti e rifarli meglio
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Acquisire piccoli siti, app o SaaS (Acquire.com, Flippa, Empire Flippers, trattativa diretta), migliorarli con AI e dati, e farli gestire da terzi. (da [[Registro delle ipotesi]])
 
@@ -36,7 +38,7 @@ Sintesi del rapporto integrale: [[H05 Entusiasta]]. Posizione: **favorevole con 
 - **Le leve di prezzo spostano i ricavi** (stime Appfigures su Bending Spoons):
   - Meetup: da circa 55 k$ a circa 291 k$ al mese;
   - WeTransfer: da circa 0,83 M$ a circa 4,6 M$ al mese.
-- **Casi indipendenti.** Tiny ha comprato We Work Remotely nel 2017 a 1,4 M$ e l'ha rivenduto a circa 9,8 M$, con un IRR di circa il 53% (comunicato ufficiale). MWM e Swipewipe (revenue share). 7 Minute Workout (+400%, aneddoto).
+- **Casi indipendenti.** Tiny ha comprato We Work Remotely nel 2017 a 1,4 M$ e ne ha ricavato circa 9,8 M$ in totale secondo l'Entusiasta (il giudice ha verificato 8,6 M$ di dividendi; la differenza non è stata chiarita), con un rendimento annuo (IRR) di circa il 53% (comunicato ufficiale). MWM e Swipewipe (revenue share). 7 Minute Workout (+400%, aneddoto).
 - **Vantaggio del profilo.** Il deal sourcing fuori dai marketplace via scraping (store, WordPress.org, Chrome Web Store) e la diligenza tecnica.
 - **Tesi proposte:**
   - T1: micro-SaaS B2B trascurati con prezzi da rivedere;
@@ -101,7 +103,7 @@ Sintesi del rapporto integrale: [[H05 Bucatore]]. Posizione: **sostanzialmente c
   È comunque la più promettente delle tre ipotesi della sessione.
 
 ## Idee concrete che sopravvivono
-- [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] — punteggio v2: **60**
+- [[I-H05-1 Micro-SaaS B2B trascurato con leva di prezzo]] — punteggio v2: **49** dopo il secondo giro (60 al primo)
 - [[I-H05-2 App utility trovate via scraping degli store]] — punteggio v2: **56**
 
 Scartate:

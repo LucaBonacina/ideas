@@ -10,6 +10,8 @@ tags: [idea, S1]
 ---
 # I-H02-1 — Feed "Italia in tempo reale" per assistenti di viaggio
 
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Un feed strutturato e storicizzato, con livelli di servizio, di informazioni operative italiane che cambiano spesso e sono sparse su centinaia di siti: scioperi dei trasporti, eventi locali, chiusure e aperture straordinarie di musei e siti, orari dei traghetti, ZTL. È venduto come API o MCP ad app di viaggio, tour operator digitali e costruttori di assistenti AI.
 
@@ -24,7 +26,7 @@ Un feed strutturato e storicizzato, con livelli di servizio, di informazioni ope
 ## Distribuzione: come arrivano i primi 100 clienti/utenti
 - **Outbound** verso una lista finita: OTA, app di viaggio italiane ed europee, tour operator digitali, startup di assistenti di viaggio.
 - **Actor e MCP su Apify** come vetrina a consumo.
-- **Sinergia possibile** con il prodotto B2C di [[Registro delle ipotesi]] H13 (regole locali per chi si muove in Italia), che usa gli stessi dati.
+- **Sinergia possibile** con il prodotto B2C di [[H13 Regole e disponibilità locali per chi si muove]] (regole locali per chi si muove in Italia), che usa gli stessi dati. Nota: H13 è stata poi smentita.
 
 ## Perché queste competenze danno un vantaggio
 Le fonti sono frammentate: sui portali open data solo 6 dataset regionali di eventi trovati, mentre gli avvisi dei musei (per esempio gli scioperi agli Uffizi) stanno solo sulle home page (`docs/research/05-screening-b2c-b.md`). Servono raccolta multi-fonte, normalizzazione e storicizzazione continue, cioè il lavoro del founder.

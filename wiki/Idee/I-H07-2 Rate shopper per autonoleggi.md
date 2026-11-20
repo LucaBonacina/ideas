@@ -10,6 +10,8 @@ tags: [idea, S3]
 ---
 # I-H07-2 — Rate shopper per autonoleggi
 
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Strumento che ogni giorno rileva i prezzi della concorrenza sui broker di autonoleggio (Rentalcars, DiscoverCars e simili) per aeroporto, data, durata e categoria. È pensato per autonoleggi indipendenti e in franchising del Sud Europa, con avvisi e suggerimenti di prezzo.
 

@@ -5,6 +5,8 @@ data_registrazione: 2026-11-20
 ---
 # Registro delle ipotesi (pre-registrato)
 
+> **Nota successiva (2026-11-20), il testo sotto non è stato modificato.** La soglia di "successo" (50 k€/anno entro 24 mesi) era stata fissata da Claude. L'utente non ha una soglia unica: vedi la sezione "Decisioni registrate dopo la discovery" del [[Protocollo di discovery]] e la [[Classifica per obiettivo]].
+
 Scritto **prima** della ricerca. Ogni ipotesi ha criteri di confutazione: se un criterio si verifica con evidenza, l'ipotesi è confutata o ridimensionata. "Successo" = almeno 50 k€/anno di margine entro 24 mesi, con il founder a ≤ 5 ore/settimana dopo l'avvio.
 
 ## S1 — Dati come prodotto

@@ -10,6 +10,10 @@ tags: [idea, S1]
 ---
 # I-H03-2 — Monitoraggio dei rivenditori e dei prezzi minimi per brand italiani
 
+> **Attenzione.** Il secondo giro di [[I-H03-1 Monitoraggio prezzi gestito per cataloghi senza EAN]] ha trovato concorrenti anche su questo segmento (NetPricer fa repricing e controllo dei prezzi minimi in italiano; Dealavo; Lengow NetRivals). Questo punteggio non è stato ricalibrato: probabilmente scenderebbe.
+
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Per brand produttori italiani di fascia media (bici e componenti, piccoli elettrodomestici, cosmesi, parafarmaco, outdoor, strumenti musicali), un servizio che controlla prezzi, presenza e conformità delle schede su decine di rivenditori online e marketplace. Segnala le violazioni della politica di prezzo minimo (MAP) e i rivenditori non autorizzati, con screenshot come prova.
 

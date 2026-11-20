@@ -10,6 +10,8 @@ tags: [ipotesi, S3]
 ---
 # H08 — App mobile B2C in abbonamento
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 App utility/AI in abbonamento. (Da [[Registro delle ipotesi]].)
 
@@ -81,7 +83,7 @@ Rapporto integrale: [[H08 Bucatore]].
 - **Probabilità di successo: circa 5%** [stima]. Il 4,6% delle app nuove arriva a 10 k$ di MRR in 2 anni, e 10 k$ è appena la soglia necessaria. Il vantaggio sui dati compensa in parte la mancanza di pubblico e di spesa pubblicitaria.
 
 ## Idee concrete
-**Nessuna**: l'ipotesi è confutata. Segnalo due spunti dell'Entusiasta da passare alle sessioni che esaminano H04 e H13, senza nota idea né punteggio:
+**Nessuna**: l'ipotesi è confutata. Segnalo due spunti dell'Entusiasta da passare all'esame di H13 (H04 è smentita), senza nota idea né punteggio:
 - **Allerte di disponibilità nei rifugi alpini.** Prenota Rifugi CAI non descrive liste d'attesa né notifiche; l'analogo nordamericano Campnab costa 90-270 $/anno. Contro: la categoria Travel ha la mediana più bassa (35 $/mese), la stagionalità è forte e c'è un concorrente in beta (HutScanner). Si sovrappone a H13.
 - **Prezzi delle carte collezionabili in Europa da Cardmarket.** Collectr ha 70.491 valutazioni negli USA e 1.450 in Italia. Contro: termini d'uso di Cardmarket, decine di app scanner, e il leader può localizzarsi in qualunque momento.
 

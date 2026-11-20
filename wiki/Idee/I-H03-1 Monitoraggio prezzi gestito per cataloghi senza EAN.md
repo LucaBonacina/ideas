@@ -12,6 +12,10 @@ tags: [idea, S1, R2]
 ---
 # I-H03-1 — Monitoraggio prezzi gestito per cataloghi senza EAN
 
+> **Superata in parte dal secondo giro.** Punteggio 66 → **52**, probabilità ~4%. Valgono la sezione "Approfondimento (round 2)" e il suo esperimento; le cifre del primo giro qui sotto restano per traccia. Cambiamenti principali: senza autorizzazione scritta del datore l'idea è scartata; la stima di ~91.000 e-commerce era sovrastimata; servono 26-32 clienti, non ~20; NetPricer copre già i ricambi auto in italiano.
+
+> **Come leggere questa nota.** Punteggio e probabilità misurano l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. La [[Classifica]] applica a tutte le idee una regola unica sulla penalità di conflitto con il lavoro, quindi il punteggio lì può differire di qualche punto da quello di questa nota. Sigle nel [[Glossario]].
+
 ## In una frase
 Un servizio gestito di monitoraggio dei prezzi e della disponibilità dei concorrenti per e-commerce e distributori italiani con cataloghi in cui il codice EAN/GTIN manca o non basta, come ricambi auto e moto, ferramenta e bricolage, nautica e bici. Il valore sta nell'abbinamento dei prodotti tra siti (codice produttore o OEM, attributi, confezioni), fatto da una pipeline con revisione umana.
 
@@ -97,9 +101,9 @@ Rapporti integrali: [[I-H03-1 Entusiasta]] (13 ricerche web) e [[I-H03-1 Bucator
   - 6.292 negozi italiani "Autos & Vehicles" su quattro piattaforme;
   - 1.344 negozi WooCommerce in "Parts & Services";
   - stima di 550-650 e-commerce di ricambi con almeno 1.000 SKU, e di 2.500-4.500 negozi qualificati includendo ferramenta, bici e nautica.
-- **Economia.** Canone di 800 €/mese contro 60-130 € di accesso (Zyte), meno di 10 € di LLM e 70-140 € di QA: margine di contribuzione del 63-80%. A regime H16 il team costa 155-180 k€, quindi servono **26-32 clienti**.
+- **Economia.** Canone di 800 €/mese contro 60-130 € di accesso (Zyte), meno di 10 € di LLM e 70-140 € di QA: margine di contribuzione del 63-80%. Con un operatore pagato a mercato (vedi H16) il team costa 155-180 k€, quindi servono **26-32 clienti**.
 - **Prove contrarie riportate:** NetPricer (Carpi) fa già matching OEM nei ricambi auto; nei forum non c'è domanda esplicita; il conflitto con il lavoro è eliminatorio senza autorizzazione.
-- **Proposte:** partire da ferramenta, bici o nautica invece che dall'auto. Punteggio **62** (C4 a 4, C8 a 2).
+- **Proposte:** partire da ferramenta, bici o nautica invece che dall'auto. Punteggio **62** (C4, vantaggio delle competenze, a 4; C8 a 2).
 
 ### Sintesi del Bucatore
 - **Il vuoto in Italia è già occupato.** NetPricer (dal 2020): OEM, cross-reference, AI multimodale, onboarding e referente in italiano, più repricing e MAP. Ci sono anche Dealavo (gruppo JTL, QA umano, automotive), Price2Spy (ibrido e manuale) e Lengow NetRivals (pagine in italiano).
@@ -122,7 +126,7 @@ Rapporti integrali: [[I-H03-1 Entusiasta]] (13 ricerche web) e [[I-H03-1 Bucator
 | C1 Bisogno (10) | 4 | 4 | Il bisogno è pagato (servizi di matching a listino separato, verificato), anche se manca la domanda esplicita nei forum |
 | C2 Domanda (10) | 3 | **2** | Base verificata di 1.344 negozi WooCommerce nei ricambi; il segmento con budget è di centinaia di aziende. Il dato di 91.000 e-commerce della nota sovrastimava il mercato |
 | C3 Monetizzazione (15) | 4 | 4 | Listini gestiti verificati; margine sano solo se l'accesso ai siti protetti è prezzato a parte |
-| C4 Vantaggio competenze (15) | 5 | **3** | Ricalibrazione H17: 5-10 fonti per cliente, accesso acquistabile, matching brand+MPN in gran parte automatizzabile |
+| C4 Vantaggio competenze (15) | 5 | **3** | Vantaggio dello scraping ricalibrato (vedi H17): 5-10 fonti per cliente, accesso acquistabile, matching brand+MPN in gran parte automatizzabile |
 | C5 Distribuzione (15) | 3 | 3 | Outbound su una popolazione elencabile; partner non provati |
 | C6 Resistenza all'AI (5) | 5 | **4** | Il matching AI multimodale è già il prodotto dei concorrenti |
 | C7 Difendibilità (5) | 3 | 3 | — |
@@ -136,9 +140,9 @@ Rapporti integrali: [[I-H03-1 Entusiasta]] (13 ricerche web) e [[I-H03-1 Bucator
 
 ### Verdetto aggiornato
 **Declassata.** Tra le idee del portafoglio è quella con il conflitto più forte con il lavoro, e il vuoto di mercato che la giustificava (nessuno fa matching OEM in italiano) è falso almeno per l'auto.
-- **Cancello eliminatorio, non penalità:** senza autorizzazione scritta del datore l'idea è **scartata**. L'esperimento non parte: costruire liste e contattare clienti per una futura società è già attività preparatoria (Cass. 19096/2013, come letta in H16).
+- **Cancello eliminatorio, non penalità:** senza autorizzazione scritta del datore l'idea è **scartata**. L'esperimento non parte: costruire liste e contattare clienti per una futura società è già attività preparatoria (Cass. 19096/2013, come interpretata nella nota [[H16 Founder a tempo parziale]]).
 - **Versione che sopravvive (solo con l'autorizzazione):** un verticale non auto (ferramenta/utensileria, bici, nautica) dove NetPricer non ha pagine dedicate, con l'accesso ai siti protetti prezzato a parte.
-- **Probabilità di successo** (50 k€ di margine in 24 mesi, founder ≤ 5 h/sett.): **circa 4%** [stima]. Probabilità di ottenere l'autorizzazione circa 30%, per circa 15% di successo commerciale contro incumbent con referenze, con il fattore H16 già incluso.
+- **Probabilità di successo** (50 k€ di margine in 24 mesi, founder ≤ 5 h/sett.): **circa 4%** [stima]. Probabilità di ottenere l'autorizzazione circa 30%, per circa 15% di successo commerciale contro incumbent con referenze, con il fattore di correzione per la delega (vedi H16) già incluso.
 
 ### Esperimento di 30 giorni (affinato, soglie decise ora)
 **Giorno 0, cancello:** autorizzazione scritta del datore con un perimetro definito: monitoraggio prezzi retail, nessun cliente finanziario o di business information, nessun codice o dato del datore. Senza autorizzazione: stop.

@@ -10,6 +10,8 @@ tags: [ipotesi, S3]
 ---
 # H09 — Estensioni e plugin su marketplace
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Estensioni browser e app per marketplace (Shopify, WordPress, Chrome, Figma, Atlassian…), dove la distribuzione è integrata. (Da [[Registro delle ipotesi]].)
 
@@ -73,7 +75,7 @@ Rapporto integrale: [[H09 Bucatore]].
   - il founder a 5 ore/settimana le abbassa.
 
 ## Idee concrete che sopravvivono
-- [[I-H09-1 Sync fornitori senza feed]] — punteggio v2: **69**
+- [[I-H09-1 Sync fornitori senza feed]] — punteggio v2: **49** dopo il secondo giro (69 al primo)
 - [[I-H09-2 Schede prodotto da EAN]] — punteggio v2: **56**
 
 Scartate: posizione sui comparatori (domanda debole, al massimo una funzione dell'idea 1); estensione per i rivenditori di Vinted (policy di Chrome e Vinted, nessun pagamento nativo); tutte le idee ovvie attaccate dal Bucatore.

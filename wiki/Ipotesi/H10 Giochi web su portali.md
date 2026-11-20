@@ -10,6 +10,8 @@ tags: [ipotesi, giochi]
 ---
 # H10 — Giochi web su portali
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Giochi HTML5 distribuiti su portali (Poki, CrazyGames e simili) con ricavi da revenue share pubblicitaria. Testo dal [[Registro delle ipotesi]].
 

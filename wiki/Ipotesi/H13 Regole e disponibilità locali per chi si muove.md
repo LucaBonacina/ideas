@@ -10,6 +10,8 @@ tags: [ipotesi]
 ---
 # H13 — Prodotto unico "regole e disponibilità locali per chi si muove in Italia"
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Un solo prodotto per ZTL, rifugi, mete a numero chiuso, regole per cani e spiagge, monetizzato con affiliazione turistica e premium. L'ipotesi è emersa dallo screening, vedi [[05 Screening B2C]]. Dal [[Registro delle ipotesi]].
 
@@ -131,3 +133,6 @@ Tutte con accesso 2026-11-20.
   - https://www.discovercars.com/affiliate
   - https://danielstanica.com/posts/Great-Blogging-Collapse
   - https://www.macitynet.it/google-maps-ztl/
+
+## Nota di coerenza
+La sacca residua segnalata in [[H08 App mobile B2C in abbonamento]] e [[H04 SEO programmatica + affiliazione]] (app o servizio di dati freschi con paywall, es. regole e accessi su prenotazione) **non è stata esaminata come idea a sé**: questa ipotesi è stata smentita nella forma del prodotto unico con affiliazione.

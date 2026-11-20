@@ -10,6 +10,8 @@ tags: [ipotesi, S2]
 ---
 # H06 — Arbitraggio geografico: localizzare prodotti di successo
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 ## Ipotesi (pre-registrata)
 Portare in Italia (o in altre lingue o mercati sottoserviti) prodotti digitali che funzionano altrove. (da [[Registro delle ipotesi]])
 
@@ -90,11 +92,11 @@ Ulteriore verifica (1 ricerca web): la validità di una disdetta inviata *da ter
 **Scartate:**
 - **Fattura elettronica per Francia e Polonia:** incumbent già presenti (verifica 3). Inoltre l'obbligo francese riguarda le vendite B2B, mentre per le vendite B2C ai consumatori si applica l'e-reporting: [stima] il bacino di negozi WooCommerce interessati si riduce.
 - **Crosslisting per l'usato:** Vinted e Subito non offrono API ai terzi e Crosslist ha già tolto Vinted ai nuovi utenti. Dipendenza di piattaforma e termini d'uso: penalità piena.
-- **Verifica autovelox e ricorso:** è più vicina a [[Registro delle ipotesi|H15]] (contestazioni e ricorsi), dove va valutata; c'è anche il confine con la consulenza legale.
+- **Verifica autovelox e ricorso:** è più vicina a [[H15 AI che contesta e recupera soldi per i consumatori]] (contestazioni e ricorsi), dove va valutata; c'è anche il confine con la consulenza legale.
 - **Tutte le idee ovvie** attaccate dal Bucatore.
 
 ## Idee concrete che sopravvivono
-- [[I-H06-1 Disdetta digitale per l'Italia]] — punteggio v2: **58**
+- [[I-H06-1 Disdetta digitale per l'Italia]] — punteggio v2: **42** dopo il secondo giro (58 al primo)
 
 ## Fonti
 Accesso a tutte le fonti: 2026-11-20. Gli elenchi completi sono in [[H06 Entusiasta]] e [[H06 Bucatore]].

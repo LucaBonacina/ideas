@@ -10,6 +10,8 @@ tags: [ipotesi, S1]
 ---
 # H01 — Dataset e API da scraping venduti a terzi
 
+> **Come leggere questa nota.** La probabilità di successo misura l'obiettivo B (business da almeno 50 k€/anno entro 24 mesi, con il founder a non più di 5 ore/settimana; soglia fissata da Claude, non dall'utente). Per reddito extra e "costruisci e vendi" vedi [[Classifica per obiettivo]]. Punteggi aggiornati delle idee nella [[Classifica]]; sigle nel [[Glossario]].
+
 Rapporti integrali: [[H01 Entusiasta]] · [[H01 Bucatore]]. Metodo: [[Protocollo di discovery]]. Profilo: [[Profilo e vincoli]].
 
 ## Ipotesi (pre-registrata)
@@ -90,7 +92,7 @@ Il registro dice che un criterio verificato con evidenza basta per confutare o r
 Su tutte le idee pesa un rischio trasversale: la compatibilità con il lavoro dipendente (art. 2105 c.c.). Il founder fa scraping per mestiere, e vendere dati da scraping è lo stesso settore tecnico anche con domini diversi. Va chiarito sul contratto prima di pubblicare qualunque cosa (vedi [[H03 Servizio di scraping a prodotto per clienti non finanziari]]).
 
 ## Idee concrete che sopravvivono
-- [[I-H01-1 Portafoglio di actor su target difficili non personali]]: punteggio v2 **66**.
+- [[I-H01-1 Portafoglio di actor su target difficili non personali]]: punteggio v2 **64** (58 in [[Classifica]] con la regola unica sul conflitto).
 - [[I-H01-2 API dati di visibilita nelle risposte AI multilingua]]: punteggio v2 **53**.
 
 Scartate:
@@ -107,3 +109,10 @@ Verifiche del Giudice, accesso 2026-11-20:
 - https://www.seroundtable.com/google-loses-again-against-serpapi-42508.html
 
 Le altre fonti sono elencate nei rapporti integrali [[H01 Entusiasta]] e [[H01 Bucatore]].
+
+## Nota sui numeri di Apify
+Le note H01 e H17 citano numeri diversi su Apify, perché misurano cose diverse:
+- **Numero di actor:** ~124-127 mila è il totale dichiarato da Apify; ~14 mila (13.948) sono gli actor pubblici restituiti dall'API dello Store, scaricati dal giudice di H01.
+- **Numero di sviluppatori:** 1.656 (H01) e ~7.500 (H17) vengono da fonti e definizioni diverse (sviluppatori con actor a pagamento contro tutti i creatori); non sono state riconciliate.
+- **Pagamenti agli sviluppatori:** la crescita riportata in H01 (0,5 → 1 → 2 M$/mese) rende plausibili i 2 M$/mese, ma restano un dato dichiarato da Apify e non verificato in modo indipendente (H17). La conclusione non cambia: lo sviluppatore tipico incassa ~30 $/mese.
+
