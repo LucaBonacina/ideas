@@ -80,6 +80,10 @@ Dettaglio in [[Segmenti - sintesi]]. Quasi nessun segmento ha un registro aperto
 5. **Controllo continuo:** confronto per comune con i conteggi ISTAT, per sapere sempre quanto manca e dove.
 6. **Dati per i genitori:** rette pubbliche dagli avvisi comunali; rette dei privati, posti, orari e lingua dai gestori.
 
+## Verifiche aperte
+- **SUAP (Sportello Unico per le Attività Produttive).** Per molti servizi privati l'autorizzazione o la SCIA passa dal SUAP del comune (Toscana, Calabria, Sardegna con il SUAPE, Lombardia con la comunicazione preventiva di esercizio), quindi i comuni hanno in teoria l'elenco completo delle aperture, compresi servizi oggi non trovati. Nessuna sessione ha verificato se questi elenchi sono pubblici. Da verificare su un campione di comuni: se le pratiche o le autorizzazioni sono pubbliche (albo pretorio, Amministrazione trasparente), se qualche regione ha un SUAP unico con dati aperti, se l'accesso civico ai comuni è praticabile. Programmata dopo l'azzeramento del limite settimanale (vedi [[Decisioni del progetto]]).
+- **Registro delle imprese (codice ATECO 88.91, servizi di asili nido): non usato.** Sono dati su aziende, ambito escluso per possibile conflitto con il lavoro dell'utente; inoltre sono a pagamento e non coprono associazioni e parrocchie.
+
 ## Avvertenze
 - Le stime di completezza regionali (P2-P4) e i test su un comune per regione (P9-P10) sono indicazioni, non statistiche.
 - Alcuni registri contengono **dati personali** (nomi dei legali rappresentanti, servizi domiciliari presso abitazioni): vanno trattati nel rispetto del GDPR e non ripubblicati così come sono.
