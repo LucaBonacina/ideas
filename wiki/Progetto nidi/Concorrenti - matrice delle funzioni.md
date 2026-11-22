@@ -1,7 +1,7 @@
 ---
 tipo: progetto
 tags: [progetto, nidi, concorrenti, matrice]
-aggiornato: 2026-11-20
+aggiornato: 2026-11-22
 ---
 # Concorrenti - matrice delle funzioni
 
@@ -15,10 +15,10 @@ Colonne: [[Winnie]] · [[Mappa INPS Bonus nido]] · [[Scuola in Chiaro]] · [[Po
 | Funzione | Winnie | INPS | Sc. in Chiaro | Comuni | Cercanido | MigliorAsilo | Che Scuola | Tuttitalia | Gestionali |
 |---|---|---|---|---|---|---|---|---|---|
 | **Genitori** | | | | | | | | | |
-| Copertura 0-3 (nidi pubblici e privati) | ✓ da registri licenze | ✓ autorizzati, anno transitorio | ✗ | ◐ quasi solo comunali e convenzionati (eccezioni: Milano Geoschool, Reggio E.) | ✓ 9.566, "copertura parziale" | ✓ | ◐ solo 3 città | ✗ | — |
+| Copertura 0-3 (nidi pubblici e privati) | ✓ da registri licenze | ✓ autorizzati, anno transitorio | ✗ | ◐ quasi solo comunali e convenzionati (eccezioni: Milano Geoschool, Reggio E.) | ◐ 9.560 (21/11), circa due terzi dei servizi, squilibrata tra regioni | ✓ | ◐ solo 3 città | ✗ | — |
 | Copertura 3-6 (infanzia) | ✓ preschool | ✗ | ✓ statali e paritarie (no Trento, Bolzano, Aosta) | ◐ | ✗ | ✓ | ◐ 3 città | ✓ 21.558 (dati MIM) | — |
 | Ricerca per luogo e mappa | ✓ | ✓ dietro SPID | ✓ | ◐ | ✓ | ✓ | ✓ | ◐ elenco per comune | ✗ |
-| Filtri età, orari, tipologia | ✓ | ? | ◐ tipologia | ◐ | ◐ tipologia, gestione | ◐ tipo | ◐ età | ✗ | ✗ |
+| Filtri età, orari, tipologia | ✓ | ? | ◐ tipologia | ◐ | ◐ 9 tipologie 0-3, gestione | ◐ tipo | ◐ età | ✗ | ✗ |
 | Filtri pedagogia, lingua, bisogni speciali | ◐ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ metodo, lingue, religione | ✗ | ✗ |
 | Fonte del dato dichiarata per campo | ◐ link alla licenza | ◐ ente che rilascia il titolo | ✓ dato ministeriale | ✓ dato proprio | ✓ fonte, data, licenza per campo | ◐ fonti in generale | ✗ | ✗ | — |
 | Rette | ✓ min-max dal gestore | ✗ | ✗ | ◐ solo tariffe comunali per ISEE; Reggio E. min-max | ✗ | ✗ | ✗ | ✗ | ◐ solo per le famiglie iscritte |
@@ -27,7 +27,7 @@ Colonne: [[Winnie]] · [[Mappa INPS Bonus nido]] · [[Scuola in Chiaro]] · [[Po
 | Qualità / esiti di vigilanza | ◐ stato e link alla licenza | ✗ | ◐ RAV dell'istituto, non del plesso | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | Recensioni dei genitori | ✓ | ✗ | ✗ | ✗ | ✗ per scelta | ◐ ~10 in tutta Italia | ✗ | ✗ | ✗ |
 | Confronto affiancato | ✗ | ✗ | ✓ | ✗ | ✗ | ✗ | ✓ | ✗ | ✗ |
-| Preferiti | ✓ | ✗ | ✓ | ✗ | ✓ | ✗ | ? | ✗ | ✗ |
+| Preferiti | ✓ | ✗ | ✓ | ✗ | ✓ nel browser | ✗ | ? | ✗ | ✗ |
 | Avvisi (posti, scadenze) | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | Contatto tramite piattaforma | ✓ modulo, verifica SMS | ✗ | ✗ | — | ✗ | ◐ solo chiama / sito | ✗ | ✗ | ✓ solo per gli iscritti |
 | Prenotazione della visita | ◐ testo libero | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
@@ -37,9 +37,9 @@ Colonne: [[Winnie]] · [[Mappa INPS Bonus nido]] · [[Scuola in Chiaro]] · [[Po
 | Scadenze e agevolazioni locali | ✗ | ◐ solo bonus INPS | ✗ | ◐ solo le proprie | ✗ | ✗ | ✗ | ✗ | ✗ |
 | App | ✓ iOS (Android non trovata) | ◐ app INPS 2,8/5, non cita la mappa | ◐ web app | ◐ | ✗ | ✗ | ✗ | ✗ | ✓ |
 | Consultazione senza login | ✓ | ✗ SPID | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ |
-| Dati aperti / API | ✗ | ✗ | ✓ API JSON + open data IODL | ◐ Lombardia, Toscana | ✓ API | ✗ | ✗ | ✗ | ✗ |
+| Dati aperti / API | ✗ | ✗ | ✓ API JSON + open data IODL | ◐ Lombardia, Toscana | ◐ API di sola lettura, senza licenza generale | ✗ | ✗ | ✗ | ✗ |
 | **Gestori** | | | | | | | | | |
-| Rivendicazione e modifica della scheda | ✓ gratis, rivista dalla redazione | ✗ dati dal comune | ✗ dati MIM | — | ? | ? | ◐ | ✗ | — |
+| Rivendicazione e modifica della scheda | ✓ gratis, rivista dalla redazione | ✗ dati dal comune | ✗ dati MIM | — | ✗ esclusa, solo segnalazioni via e-mail | ? | ◐ | ✗ | — |
 | Pubblicazione dei posti liberi | ✓ gratis | ✗ | ✗ | — | ✗ | ✗ | ✗ | ✗ | ✗ |
 | Ricezione richieste / lead | ✓ | ✗ | ✗ | — | ✗ | ✗ | ✗ | ✗ | ◐ preiscrizioni dal sito del nido (MyNido) |
 | Lista d'attesa, iscrizioni, CRM | ✗ | ✗ | ✗ | ✓ interno | ✗ | ✗ | ✗ | ✗ | ✓ |
@@ -120,4 +120,4 @@ Valutate su nidi e scuole dell'infanzia 0-6, sommando tutti i concorrenti italia
 - **I gestionali sono la seconda strada:** hanno già posti, rette e liste d'attesa (modello CareforKids). Costano 10-25 €/mese, quindi i nidi sono abituati a spendere poco [fatto per i listini].
 - **Le recensioni non partono da sole.** MigliorAsilo ne ha raccolte circa 10 dal 2018. Winnie e daynurseries ci arrivano con milioni di utenti o con inviti mirati del gestore.
 - **Il pagatore privato è fragile.** Winnie ha lasciato i lead per i piccoli nidi. kita.de chiede 399-579 €/mese ma in un mercato con carenza di posti dove il prezzo è possibile. In Italia nessuna directory incassa da nidi in modo visibile.
-- **Da verificare:** Cercanido, MigliorAsilo rilanciato, MyNido e Nidò sono comparsi o cambiati nel 2026 con siti di stile simile. Prima di trattarli come concorrenti esterni va escluso che siano esperimenti collegati a questo progetto.
+- **Verificato:** Cercanido, MigliorAsilo rilanciato, MyNido e Nidò non sono collegati a questo progetto (decisione del 20/11/2026, [[Decisioni del progetto]]). Colonna Cercanido aggiornata il 22/11/2026 dalla sessione P11 (vedi [[Cercanido]]).
