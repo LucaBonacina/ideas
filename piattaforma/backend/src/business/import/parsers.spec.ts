@@ -42,11 +42,15 @@ describe('parser registro Lombardia', () => {
     expect(esito.strutture).toHaveLength(3);
     expect(esito.scartate[0].motivo).toContain('tipologia sconosciuta');
     const nido = esito.strutture.find((s) => s.chiave === 'lombardia-udos:055911');
-    expect(nido).toMatchObject({ tipologia: Tipologia.NIDO, gestione: Gestione.COMUNALE, posti: 20 });
+    expect(nido).toMatchObject({
+      tipologia: Tipologia.NIDO, gestione: Gestione.COMUNALE, gestore: 'Comune Di Bergamo', posti: 20,
+    });
     expect(nido?.posizione?.coordinates).toEqual([9.6428, 45.6906]);
     expect(nido?.contatti.telefono).toBe('035399111');
     const micro = esito.strutture.find((s) => s.chiave === 'lombardia-udos:055912');
-    expect(micro).toMatchObject({ gestione: Gestione.SCONOSCIUTA, posti: undefined, posizione: undefined });
+    expect(micro).toMatchObject({
+      gestione: Gestione.PRIVATA, gestore: undefined, posti: undefined, posizione: undefined,
+    });
     expect(micro?.contatti.telefono).toBeUndefined();
   });
 

@@ -5,7 +5,9 @@ import {
 describe('regole sui dati personali', () => {
   it('scarta le email su domini di posta personale', () => {
     expect(emailPubblicabile('mario.rossi@gmail.com')).toBeUndefined();
+    expect(emailPubblicabile('scuola@gmail.it')).toBeUndefined();
     expect(emailPubblicabile('Non Disponibile')).toBeUndefined();
+    expect(emailPubblicabile('nidi@comune.bergamo.it')).toBe('nidi@comune.bergamo.it');
     expect(emailPubblicabile('CRIC80100E@istruzione.it')).toBe('cric80100e@istruzione.it');
   });
 

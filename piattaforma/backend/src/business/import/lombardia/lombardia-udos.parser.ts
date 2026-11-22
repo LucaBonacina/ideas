@@ -19,6 +19,13 @@ const TIPOLOGIE: Record<string, Tipologia> = {
   'CENTRO PRIMA INFANZIA': Tipologia.SPAZIO_GIOCO,
 };
 
+/** Forme giuridiche private riconoscibili nel nome dell'ente gestore. */
+const FORMA_PRIVATA = new RegExp([
+  '\\bS\\.?\\s?R\\.?\\s?L\\.?\\b', '\\bS\\.?\\s?N\\.?\\s?C\\.?\\b', '\\bS\\.?\\s?A\\.?\\s?S\\.?\\b', '\\bS\\.?\\s?P\\.?\\s?A\\.?\\b',
+  '\\bCOOP', '\\bSOCIET', '\\bONLUS\\b', '\\bASSOCIAZIONE\\b', '\\bFONDAZIONE\\b', '\\bPARROCCHIA\\b',
+  '\\bCONGREGAZIONE\\b', '\\bIMPRESA SOCIALE\\b', '\\bE\\.?T\\.?S\\.?\\b', '\\bA\\.?P\\.?S\\.?\\b',
+].join('|'));
+
 /** Gestione dedotta solo da evidenze nel nome dell'ente gestore; altrimenti resta sconosciuta. */
 function gestioneDa(enteGestore: string, gestorePersona: boolean): Gestione {
   if (gestorePersona) return Gestione.PRIVATA;
@@ -27,6 +34,7 @@ function gestioneDa(enteGestore: string, gestorePersona: boolean): Gestione {
   if (/^(UNIONE (DEI|DI) COMUNI|AZIENDA SPECIALE|AZIENDA SERVIZI ALLA PERSONA|ASP |CONSORZIO)/.test(nome)) {
     return Gestione.PUBBLICA_ALTRA;
   }
+  if (FORMA_PRIVATA.test(nome)) return Gestione.PRIVATA;
   return Gestione.SCONOSCIUTA;
 }
 
@@ -52,6 +60,7 @@ export function parseLombardiaUdos(contenuto: Buffer, comuni: ComuniLookup, scar
     }
     const enteGestore = pulisci(r.DENOMINAZIONE_EG) ?? '';
     const gestorePersona = isCodiceFiscalePersona(r.CODICE_FISCALE_EG);
+    const gestione = gestioneDa(enteGestore, gestorePersona);
     // Un nido famiglia si svolge in un'abitazione: niente via né coordinate, solo il comune.
     const domiciliare = tipologia === Tipologia.SERVIZIO_DOMICILIARE;
     const lat = Number(r.WGS84_Y);
@@ -67,8 +76,11 @@ export function parseLombardiaUdos(contenuto: Buffer, comuni: ComuniLookup, scar
       tipologia,
       tipologiaOriginale: tipologiaFonte,
       fascia: '0-3',
-      gestione: gestioneDa(enteGestore, gestorePersona),
-      gestore: gestorePersona || !enteGestore ? undefined : titoloLeggibile(enteGestore),
+      gestione,
+      // Il nome del gestore si mostra solo per gli enti pubblici: i nomi delle società di persone
+      // (snc, sas) e delle associazioni contengono spesso nomi di persone fisiche.
+      gestore: [Gestione.COMUNALE, Gestione.PUBBLICA_ALTRA].includes(gestione)
+        ? titoloLeggibile(enteGestore) : undefined,
       indirizzo: {
         via: domiciliare || !via ? undefined : titoloLeggibile(via),
         cap: pulisci(r.CAP),

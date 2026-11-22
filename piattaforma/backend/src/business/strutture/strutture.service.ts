@@ -40,6 +40,7 @@ export class StruttureService {
         .sort({ denominazione: 1 })
         .skip((pagina - 1) * perPagina)
         .limit(perPagina)
+        .select('-__v')
         .lean<Struttura[]>(),
     ]);
     return {
