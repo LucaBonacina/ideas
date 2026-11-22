@@ -36,12 +36,12 @@ export default async function PaginaFonti() {
       </ul>
       <h2>Quanto è completo l&apos;elenco dei servizi 0-3</h2>
       <p className="tenue">
-        Confronto con il censimento ISTAT 2024 dei servizi per la prima infanzia, comune per comune: in Italia ne mostriamo
+        Confronto con il censimento ISTAT 2024 dei servizi per la prima infanzia, comune per comune (in ogni comune contiamo al massimo quanti servizi conta ISTAT): in Italia ne copriamo
         {' '}{totNostri.toLocaleString('it-IT')} su {totIstat.toLocaleString('it-IT')} ({perc(totNostri, totIstat)}%).
       </p>
       <div className="tabella-scorrevole">
         <table>
-          <thead><tr><th>Regione</th><th>ISTAT 2024</th><th>Mostrati</th><th>Copertura</th><th>Comuni completi</th></tr></thead>
+          <thead><tr><th>Regione</th><th>ISTAT 2024</th><th>Coperti</th><th>Copertura</th><th>Comuni completi</th></tr></thead>
           <tbody>
             {completezza.map((r) => (
               <tr key={r.regione}>

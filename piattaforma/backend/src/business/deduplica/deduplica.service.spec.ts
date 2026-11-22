@@ -25,6 +25,10 @@ describe('stessa struttura in fonti diverse', () => {
     expect(stessaStruttura(s('a', 'Il Glicine', 'Via Giuseppe Lazzati, 213'), s('b', 'IL GLICINE', 'VIA G. LAZZATI 213'))).toBe(true);
   });
 
+  it('unisce un nome contenuto nell\'altro', () => {
+    expect(stessaStruttura(s('a', 'Fly Family', 'Viale Enzo Ferrari'), s('b', 'Fly Family - Soc. Coop. Orlando', 'Viale E. Ferrari C/O Aeroporto 1'))).toBe(true);
+  });
+
   it('non unisce sedi diverse con lo stesso nome', () => {
     expect(stessaStruttura(s('a', 'La Freccia Azzurra', 'Via Di Villa Lauricella, 22'), s('b', 'La Freccia Azzurra', 'Piazza Vincenzo Ceresi, 11'))).toBe(false);
   });

@@ -3,7 +3,9 @@ import { StrutturaRepository } from '../../database/struttura.repository';
 import { Struttura } from '../../database/struttura.schema';
 import { Tipologia } from '../../domain/tipologia.enum';
 import log from '../../log';
-import { chiaveIndirizzo, paroleNome, somiglianza } from './somiglianza';
+import {
+  chiaveIndirizzo, contenuto, paroleNome, somiglianza,
+} from './somiglianza';
 
 /**
  * Ordine di preferenza delle fonti quando descrivono la stessa struttura: prima i registri
@@ -12,6 +14,11 @@ import { chiaveIndirizzo, paroleNome, somiglianza } from './somiglianza';
 export const PRIORITA_FONTI = [
   'lombardia-udos', 'fvg-registro-prima-infanzia', 'piemonte-anagrafe-prima-infanzia',
   'lazio-servizi-educativi-accreditati', 'roma-capitale-elenco-servizi-0-3',
+  'toscana-nidi-gratis', 'campania-elenco-nidi-micronidi', 'napoli-nidi-privati-autorizzati',
+  'puglia-catalogo-zerosei', 'puglia-registro-strutture',
+  'trento-elenco-nidi-infanzia', 'trento-nidi-familiari-tagesmutter', 'vda-autorizzazioni-nidi',
+  'veneto-servizi-finanziati-ddr', 'veneto-nidi-in-famiglia',
+  'reggio-emilia-servizi-prima-infanzia', 'bologna-elenco-scuole', 'genova-scuole', 'ferrara-nidi-spazi-bambini',
 ];
 
 const FAMIGLIA: Record<string, string> = {
@@ -33,7 +40,9 @@ export function stessaStruttura(a: Struttura, b: Struttura): boolean {
   if (a.provenienza.fonte === b.provenienza.fonte) return false;
   if (FAMIGLIA[a.tipologia] !== FAMIGLIA[b.tipologia]) return false;
   if (a.tipologia === Tipologia.SERVIZIO_DOMICILIARE) return false;
-  const nomi = somiglianza(paroleNome(a.denominazione), paroleNome(b.denominazione));
+  const pa = paroleNome(a.denominazione);
+  const pb = paroleNome(b.denominazione);
+  const nomi = Math.max(somiglianza(pa, pb), contenuto(pa, pb) ? 0.6 : 0);
   const ia = chiaveIndirizzo(a.indirizzo.via);
   const ib = chiaveIndirizzo(b.indirizzo.via);
   // Due indirizzi completi e diversi: sedi diverse, anche con lo stesso nome (catene, più plessi).

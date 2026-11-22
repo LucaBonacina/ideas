@@ -5,6 +5,23 @@ aggiornato: 2026-11-22
 ---
 # Completezza della piattaforma
 
+## Aggiornamento del 22/11/2026, sera: 0-3 al 50%
+Dopo gli import di Lazio, Roma, Toscana, Puglia, Campania, Napoli, Trento, Valle d'Aosta e degli open data di Bologna, Ferrara, Reggio Emilia e Genova, e dopo la deduplica tra fonti, i servizi 0-3 coperti sono **7.481 su 15.049 (50%)**. In ogni comune si conta al massimo il numero ISTAT, così i doppioni non nascondono i buchi.
+
+| Regione | Coperti / ISTAT | Regione | Coperti / ISTAT |
+|---|---|---|---|
+| Puglia | 736 / 742 (99%) | Liguria | 133 / 354 (38%) |
+| Piemonte | 1.056 / 1.087 (97%) | Trentino-Alto Adige | 175 / 592 (30%) |
+| Toscana | 841 / 944 (89%) | Emilia-Romagna | 262 / 1.278 (21%) |
+| Friuli-Venezia Giulia | 309 / 377 (82%) | Veneto | 0 / 1.449: siti regionali non raggiungibili da questo ambiente |
+| Lombardia | 2.460 / 3.135 (78%) | Sicilia | 0 / 808 |
+| Valle d'Aosta | 37 / 54 (69%) | Marche | 0 / 395 |
+| Campania | 662 / 988 (67%) | Sardegna | 0 / 368 |
+| Lazio | 810 / 1.377 (59%) | Calabria, Abruzzo, Umbria, Basilicata, Molise | 0 |
+
+Note: in Puglia il registro regionale è fermo al 2023 e conta più strutture di ISTAT (centri ludici, strutture chiuse): le schede che vengono solo dal registro sono da verificare. La misura di metà giornata (28%) resta qui sotto per confronto.
+
+
 Misura del 22/11/2026: strutture nel database della piattaforma ([[Piattaforma - stato]]) confrontate con il censimento ISTAT 2024 dei servizi 0-3 per comune (dataflow `47_850`, 15.049 servizi; vedi [[ISTAT - Nidi e servizi integrativi per la prima infanzia]]). Il confronto è per conteggi: ISTAT non diffonde l'elenco nominativo.
 
 ## 0-3 anni: 4.196 servizi su 15.049 (28%)

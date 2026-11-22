@@ -6,7 +6,7 @@
 const FORNITORI_PERSONALI = new Set([
   'gmail', 'googlemail', 'libero', 'hotmail', 'yahoo', 'outlook', 'live', 'msn', 'icloud', 'me', 'alice', 'tin',
   'virgilio', 'tiscali', 'fastwebnet', 'email', 'inwind', 'katamail', 'gmx', 'protonmail', 'proton', 'aol', 'iol',
-  'teletu', 'tim', 'vodafone', 'excite', 'jumpy', 'supereva', 'mail',
+  'teletu', 'tim', 'vodafone', '191', 'tele2', 'interfree', 'freemail', 'yahoo', 'excite', 'jumpy', 'supereva', 'mail',
 ]);
 
 const VALORI_ASSENTI = new Set(['', 'non disponibile', 'n.d.', 'nd', '-', '0']);

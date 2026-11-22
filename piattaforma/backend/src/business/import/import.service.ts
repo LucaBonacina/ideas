@@ -29,6 +29,47 @@ import {
   FONTE_ROMA_NIDI, MINIMO_ROMA_NIDI, PAGINA_ROMA_NIDI, URL_ROMA_NIDI,
   dataRiferimentoRoma, linkFileRoma, parseRomaNidi, righeDaPagineRoma,
 } from './roma/roma-nidi.parser';
+import {
+  FONTE_TOSCANA_NIDI_GRATIS, MINIMO_TOSCANA_NIDI_GRATIS, PAGINA_TOSCANA_NIDI_GRATIS, URL_TOSCANA_NIDI_GRATIS,
+  linkElencoToscana, parseToscanaNidiGratis, righeDaPagineToscana,
+} from './toscana/toscana-nidi-gratis.parser';
+import {
+  FONTE_PUGLIA_REGISTRO, MINIMO_PUGLIA_REGISTRO, URL_PUGLIA_REGISTRO, parsePugliaRegistro,
+} from './puglia/puglia-registro.parser';
+import {
+  FONTE_PUGLIA_ZEROSEI, MINIMO_PUGLIA_ZEROSEI, URL_PUGLIA_ZEROSEI, parsePugliaZerosei,
+} from './puglia/puglia-zerosei.parser';
+import {
+  FONTE_CAMPANIA_NIDI, MINIMO_CAMPANIA_NIDI, URL_CAMPANIA_NIDI, parseCampaniaNidi, righeDaPagineCampania,
+} from './campania/campania-nidi.parser';
+import {
+  FONTE_NAPOLI_NIDI_PRIVATI, MINIMO_NAPOLI_NIDI_PRIVATI, PAGINA_NAPOLI_NIDI_PRIVATI, URL_NAPOLI_NIDI_PRIVATI,
+  linkElencoNapoli, parseNapoliNidiPrivati, righeDaPagineNapoli,
+} from './campania/napoli-nidi-privati.parser';
+import {
+  FONTE_TRENTO_NIDI, MINIMO_TRENTO_NIDI, URL_TRENTO_NIDI, parseTrentoNidi, righeDaPagineTrentoNidi,
+} from './trento/trento-nidi.parser';
+import {
+  FONTE_TRENTO_TAGESMUTTER, MINIMO_TRENTO_TAGESMUTTER, URL_TRENTO_TAGESMUTTER,
+  parseTagesmutter, righeDaPagineTagesmutter,
+} from './trento/trento-tagesmutter.parser';
+import {
+  FONTE_VDA, MINIMO_VDA, URL_VDA, parseVda, righeDaPagineVda,
+} from './valle-aosta/vda-nidi.parser';
+import {
+  FONTE_VENETO_DDR, MINIMO_VENETO_DDR, URL_VENETO_DDR, parseVenetoDdr, righeDaPagineVenetoDdr,
+} from './veneto/veneto-ddr.parser';
+import {
+  FONTE_VENETO_NIDI_FAMIGLIA, MINIMO_VENETO_NIDI_FAMIGLIA, URL_VENETO_NIDI_FAMIGLIA, parseNidiFamiglia,
+  righeDaPagineNidiFamiglia,
+} from './veneto/veneto-nidi-famiglia.parser';
+import { FONTE_BOLOGNA, MINIMO_BOLOGNA, URL_BOLOGNA, parseBologna } from './open-data-comunali/bologna.parser';
+import { FONTE_FERRARA, MINIMO_FERRARA, URL_FERRARA, parseFerrara } from './open-data-comunali/ferrara.parser';
+import { FONTE_GENOVA, MINIMO_GENOVA, URL_GENOVA, parseGenova } from './open-data-comunali/genova.parser';
+import {
+  FONTE_REGGIO_EMILIA, MINIMO_REGGIO_EMILIA, URL_REGGIO_EMILIA, parseReggioEmilia,
+} from './open-data-comunali/reggio-emilia.parser';
+import { IndiceMim } from './open-data-comunali/indice-mim';
 import { PosizioneEsternaRepository } from '../../database/posizione-esterna.repository';
 import { Struttura } from '../../database/struttura.schema';
 import { BenchmarkIstat } from '../../database/benchmark-istat.schema';
@@ -203,6 +244,109 @@ export class ImportService {
     const pagine = await elementiPdf(dati);
     const esito = parseRomaNidi(righeDaPagineRoma(pagine), url, comuni, data, dataRiferimentoRoma(pagine));
     return this.salva(FONTE_ROMA_NIDI, esito, MINIMO_ROMA_NIDI);
+  }
+
+  async importaToscana(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const url = offline ? URL_TOSCANA_NIDI_GRATIS
+      : await this.linkCorrente(PAGINA_TOSCANA_NIDI_GRATIS, linkElencoToscana, URL_TOSCANA_NIDI_GRATIS);
+    const { dati, data } = await this.file(FONTE_TOSCANA_NIDI_GRATIS, 'elenco-servizi.pdf', url, offline, 6);
+    const righe = righeDaPagineToscana(await elementiPdf(dati));
+    const esito = parseToscanaNidiGratis(righe, url, comuni, data);
+    return this.salva(FONTE_TOSCANA_NIDI_GRATIS, esito, MINIMO_TOSCANA_NIDI_GRATIS);
+  }
+
+  async importaPugliaRegistro(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const { dati, data } = await this.file(FONTE_PUGLIA_REGISTRO, 'registri.csv', URL_PUGLIA_REGISTRO, offline);
+    return this.salva(FONTE_PUGLIA_REGISTRO, parsePugliaRegistro(dati, comuni, data), MINIMO_PUGLIA_REGISTRO);
+  }
+
+  async importaPugliaZerosei(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const { dati, data } = await this.file(FONTE_PUGLIA_ZEROSEI, 'catalogo.csv', URL_PUGLIA_ZEROSEI, offline);
+    return this.salva(FONTE_PUGLIA_ZEROSEI, parsePugliaZerosei(dati, comuni, data), MINIMO_PUGLIA_ZEROSEI);
+  }
+
+  async importaCampania(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const { dati, data } = await this.file(FONTE_CAMPANIA_NIDI, 'elenco-nidi.pdf', URL_CAMPANIA_NIDI, offline, 6);
+    const righe = righeDaPagineCampania(await elementiPdf(dati));
+    return this.salva(FONTE_CAMPANIA_NIDI, parseCampaniaNidi(righe, comuni, data), MINIMO_CAMPANIA_NIDI);
+  }
+
+  async importaNapoli(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const url = offline ? URL_NAPOLI_NIDI_PRIVATI
+      : await this.linkCorrente(PAGINA_NAPOLI_NIDI_PRIVATI, linkElencoNapoli, URL_NAPOLI_NIDI_PRIVATI);
+    const { dati, data } = await this.file(FONTE_NAPOLI_NIDI_PRIVATI, 'nidi-privati.pdf', url, offline, 6);
+    const righe = righeDaPagineNapoli(await elementiPdf(dati));
+    const esito = parseNapoliNidiPrivati(righe, url, comuni, data);
+    return this.salva(FONTE_NAPOLI_NIDI_PRIVATI, esito, MINIMO_NAPOLI_NIDI_PRIVATI);
+  }
+
+  async importaTrento(offline = false): Promise<RapportoImport[]> {
+    const comuni = await this.lookup();
+    const n = await this.file(FONTE_TRENTO_NIDI, 'nidi.pdf', URL_TRENTO_NIDI, offline);
+    const nidi = parseTrentoNidi(righeDaPagineTrentoNidi(await elementiPdf(n.dati), comuni), comuni, n.data);
+    const t = await this.file(FONTE_TRENTO_TAGESMUTTER, 'tagesmutter.pdf', URL_TRENTO_TAGESMUTTER, offline);
+    const tagesmutter = parseTagesmutter(righeDaPagineTagesmutter(await elementiPdf(t.dati)), comuni, t.data);
+    return [
+      await this.salva(FONTE_TRENTO_NIDI, nidi, MINIMO_TRENTO_NIDI),
+      await this.salva(FONTE_TRENTO_TAGESMUTTER, tagesmutter, MINIMO_TRENTO_TAGESMUTTER),
+    ];
+  }
+
+  async importaValleAosta(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const { dati, data } = await this.file(FONTE_VDA, 'autorizzazioni.pdf', URL_VDA, offline);
+    return this.salva(FONTE_VDA, parseVda(righeDaPagineVda(await elementiPdf(dati)), comuni, data), MINIMO_VDA);
+  }
+
+  /** Non ancora verificato sui file reali: i siti della Regione Veneto non sono raggiungibili da questo ambiente. */
+  async importaVeneto(offline = false): Promise<RapportoImport[]> {
+    const comuni = await this.lookup();
+    const totale: EsitoParsing = { strutture: [], scartate: [] };
+    for (const a of ['C', 'D'] as const) {
+      const { dati, data } = await this.file(FONTE_VENETO_DDR, `allegato-${a}.pdf`, URL_VENETO_DDR[a], offline, 8);
+      const e = parseVenetoDdr(righeDaPagineVenetoDdr(await elementiPdf(dati)), a, comuni, data);
+      totale.strutture.push(...e.strutture);
+      totale.scartate.push(...e.scartate.map((x) => ({ ...x, motivo: `${a}: ${x.motivo}` })));
+    }
+    const f = await this.file(FONTE_VENETO_NIDI_FAMIGLIA, 'nidi-famiglia.pdf', URL_VENETO_NIDI_FAMIGLIA, offline, 8);
+    const famiglia = parseNidiFamiglia(righeDaPagineNidiFamiglia(await elementiPdf(f.dati)), comuni, f.data);
+    return [
+      await this.salva(FONTE_VENETO_DDR, totale, MINIMO_VENETO_DDR),
+      await this.salva(FONTE_VENETO_NIDI_FAMIGLIA, famiglia, MINIMO_VENETO_NIDI_FAMIGLIA),
+    ];
+  }
+
+  /** Open data di Bologna, Ferrara, Reggio Emilia e Genova; va eseguito dopo l'anagrafe MIM. */
+  async importaComunaliNord(offline = false): Promise<RapportoImport[]> {
+    const comuni = await this.lookup();
+    const scuole = await this.strutture.model.find(
+      { tipologia: Tipologia.SCUOLA_INFANZIA, 'indirizzo.codiceIstat': { $in: ['037006', '010025'] } },
+      { 'indirizzo.codiceIstat': 1, denominazione: 1, 'indirizzo.via': 1 },
+    ).lean<Struttura[]>();
+    const mim = new IndiceMim(scuole.map((x) => ({
+      codiceIstat: x.indirizzo.codiceIstat, denominazione: x.denominazione, via: x.indirizzo.via,
+    })));
+    const bo = await this.file(FONTE_BOLOGNA, 'elenco-delle-scuole.json', URL_BOLOGNA, offline);
+    const fe = await this.file(FONTE_FERRARA, 'nido.geojson', URL_FERRARA, offline);
+    const ge = await this.file(FONTE_GENOVA, 'scuole.jsonld', URL_GENOVA, offline);
+    const re: Record<string, { dati: Buffer; data: Date }> = {};
+    for (const k of ['comunali', 'privati', 'fism', 'geo'] as const) {
+      re[k] = await this.file(FONTE_REGGIO_EMILIA, `${k}.${k === 'geo' ? 'geojson' : 'csv'}`, URL_REGGIO_EMILIA[k], offline);
+    }
+    const reggio = parseReggioEmilia({
+      comunali: re.comunali.dati, privati: re.privati.dati, fism: re.fism.dati, geo: re.geo.dati,
+    }, comuni, re.comunali.data);
+    return [
+      await this.salva(FONTE_BOLOGNA, parseBologna(bo.dati, comuni, bo.data, mim), MINIMO_BOLOGNA),
+      await this.salva(FONTE_FERRARA, parseFerrara(fe.dati, comuni, fe.data), MINIMO_FERRARA),
+      await this.salva(FONTE_REGGIO_EMILIA, reggio, MINIMO_REGGIO_EMILIA),
+      await this.salva(FONTE_GENOVA, parseGenova(ge.dati, comuni, ge.data, mim), MINIMO_GENOVA),
+    ];
   }
 
   /**

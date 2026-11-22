@@ -8,7 +8,7 @@ import log from './log';
 
 /**
  * Esegue gli import da riga di comando:
- *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|lazio|roma|coordinate-mim|deduplica|raccolta-comuni|tutto [--offline]
+ *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|lazio|roma|toscana|puglia-zerosei|puglia-registro|campania|napoli|trento|valle-aosta|veneto|comunali-nord|coordinate-mim|deduplica|raccolta-comuni|tutto [--offline]
  * Con --offline riusa gli ultimi file grezzi salvati senza riscaricarli.
  */
 async function main(): Promise<void> {
@@ -27,7 +27,16 @@ async function main(): Promise<void> {
     piemonte: () => servizio.importaPiemonte(offline),
     lazio: () => servizio.importaLazio(offline),
     roma: () => servizio.importaRoma(offline),
+    toscana: () => servizio.importaToscana(offline),
+    'puglia-zerosei': () => servizio.importaPugliaZerosei(offline),
+    'puglia-registro': () => servizio.importaPugliaRegistro(offline),
+    campania: () => servizio.importaCampania(offline),
+    napoli: () => servizio.importaNapoli(offline),
+    trento: () => servizio.importaTrento(offline),
+    'valle-aosta': () => servizio.importaValleAosta(offline),
+    veneto: () => servizio.importaVeneto(offline),
     'coordinate-mim': () => servizio.importaCoordinateMim(offline),
+    'comunali-nord': () => servizio.importaComunaliNord(offline),
     'raccolta-comuni': () => raccolta.raccogli(limite),
     deduplica: () => app.get(DeduplicaService).esegui(),
   };

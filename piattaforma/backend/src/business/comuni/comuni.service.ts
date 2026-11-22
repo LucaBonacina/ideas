@@ -122,7 +122,8 @@ export class ComuniService {
       };
       const n = nostriDi.get(b.codiceIstat) ?? 0;
       r.istat += b.totale;
-      r.nostri += n;
+      // Un comune con più schede di quante ne conti ISTAT non compensa i buchi degli altri.
+      r.nostri += Math.min(n, b.totale);
       if (b.totale > 0) {
         r.comuniConServizi += 1;
         if (n >= b.totale) r.comuniCompleti += 1;

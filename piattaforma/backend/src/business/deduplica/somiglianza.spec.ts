@@ -9,5 +9,7 @@ describe('somiglianza tra strutture di fonti diverse', () => {
   it('riconosce lo stesso indirizzo scritto in modi diversi', () => {
     expect(chiaveIndirizzo('Via A. Meucci, 4')).toBe(chiaveIndirizzo('VIA ANTONIO MEUCCI 4/A'));
     expect(chiaveIndirizzo('Piazza Garibaldi')).toBeUndefined();
+    expect(chiaveIndirizzo('Via Beata Elia Di San Clemente, 235')).toBe(chiaveIndirizzo('Via Beata Elia Di San Clemente 235 Piano T1-2-3'));
+    expect(chiaveIndirizzo('Strada Carmine 11')).toBe(chiaveIndirizzo('Strada Carmine 11 Piano Terra'));
   });
 });

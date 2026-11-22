@@ -47,6 +47,62 @@ export const FONTI: Record<string, { nome: string; descrizione: string }> = {
     nome: 'Roma Capitale, elenco dei servizi 0-3 per le iscrizioni 2026/27',
     descrizione: 'Nidi capitolini e convenzionati, sezioni ponte e spazi gioco, municipio per municipio.',
   },
+  'toscana-nidi-gratis': {
+    nome: 'Regione Toscana, servizi aderenti a Nidi gratis 2026/27',
+    descrizione: "Elenco dei servizi 0-3 pubblici e privati aderenti alla misura, decreto dell'ottobre 2026.",
+  },
+  'puglia-catalogo-zerosei': {
+    nome: 'Regione Puglia, catalogo telematico zerosei 2026/27',
+    descrizione: 'Servizi 0-3 privati abilitati ai buoni educativi regionali.',
+  },
+  'puglia-registro-strutture': {
+    nome: 'Regione Puglia, registro delle strutture e dei servizi',
+    descrizione: 'Registro regionale delle strutture autorizzate (CC-BY 4.0), fermo al 2023: alcune strutture potrebbero aver chiuso.',
+  },
+  'campania-elenco-nidi-micronidi': {
+    nome: 'Regione Campania, elenco di nidi e micronidi',
+    descrizione: 'Elenco regionale del marzo 2024.',
+  },
+  'napoli-nidi-privati-autorizzati': {
+    nome: 'Comune di Napoli, nidi privati autorizzati',
+    descrizione: 'Elenco comunale aggiornato a novembre 2026.',
+  },
+  'trento-elenco-nidi-infanzia': {
+    nome: "Provincia di Trento, elenco dei nidi d'infanzia",
+    descrizione: "Nidi d'infanzia al 1° settembre 2025.",
+  },
+  'trento-nidi-familiari-tagesmutter': {
+    nome: 'Provincia di Trento, nidi familiari (Tagesmutter)',
+    descrizione: 'Numero di servizi domiciliari per comune al 1° settembre 2026.',
+  },
+  'vda-autorizzazioni-nidi': {
+    nome: "Regione Valle d'Aosta, autorizzazioni dei servizi per la prima infanzia",
+    descrizione: "Elenco regionale dell'agosto 2026.",
+  },
+  'veneto-servizi-finanziati-ddr': {
+    nome: 'Regione Veneto, servizi 0-3 finanziati',
+    descrizione: 'Allegati del decreto regionale di riparto.',
+  },
+  'veneto-nidi-in-famiglia': {
+    nome: 'Regione Veneto, nidi in famiglia',
+    descrizione: 'Elenco regionale dei nidi in famiglia.',
+  },
+  'bologna-elenco-scuole': {
+    nome: 'Comune di Bologna, elenco delle scuole (open data)',
+    descrizione: 'Nidi comunali, convenzionati e privati, a.e. 2026/27.',
+  },
+  'ferrara-nidi-spazi-bambini': {
+    nome: 'Comune di Ferrara, nidi e spazi bambini (open data)',
+    descrizione: 'Dati del 2021.',
+  },
+  'reggio-emilia-servizi-prima-infanzia': {
+    nome: 'Reggio Emilia, iscritti ai servizi 0-3 (open data)',
+    descrizione: 'Servizi della provincia con iscritti, a.e. 2024/25.',
+  },
+  'genova-scuole': {
+    nome: 'Comune di Genova, scuole e servizi educativi (open data)',
+    descrizione: 'Nidi, sezioni primavera e spazi gioco, dicembre 2024.',
+  },
   'mim-scuola-in-chiaro': {
     nome: 'Scuola in Chiaro (MIM)',
     descrizione: 'Coordinate e telefono delle scuole; 66 scuole dell\'infanzia non ancora presenti nell\'anagrafe open data.',

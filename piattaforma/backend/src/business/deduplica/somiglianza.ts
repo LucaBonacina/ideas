@@ -5,7 +5,8 @@ const PAROLE_VUOTE = new Set([
   'ASILO', 'ASILI', 'NIDO', 'NIDI', 'MICRONIDO', 'MICRO', 'D', 'DI', 'DEL', 'DELLA', 'DELLE', 'DEI', 'DELL', 'INFANZIA',
   'COMUNALE', 'COMUNALI', 'SCUOLA', 'IL', 'LA', 'LE', 'LO', 'I', 'GLI', 'L', 'E', 'A', 'AL', 'ALLA', 'SEZIONE', 'PRIMAVERA',
   'SPAZIO', 'GIOCO', 'CENTRO', 'SERVIZIO', 'EDUCATIVO', 'PRIMA', 'SRL', 'SNC', 'SAS', 'COOP', 'COOPERATIVA', 'SOCIALE',
-  'ONLUS', 'APS', 'ETS', 'C', 'O', 'CO', 'PRESSO', 'AZIENDALE', 'BABY', 'BIMBI', 'BAMBINI',
+  'ONLUS', 'APS', 'ETS', 'C', 'O', 'CO', 'PRESSO', 'AZIENDALE', 'BABY', 'BIMBI', 'BAMBINI', 'SOC', 'SOCIETA', 'ARL',
+  'CENTRO', 'LUDICO', 'LUDICA', 'LUDOTECA', 'PER',
 ]);
 
 export function paroleNome(nome: string): Set<string> {
@@ -27,8 +28,19 @@ const TIPI_STRADA = /^(VIA|VIALE|V LE|PIAZZA|P ZZA|PZA|CORSO|C SO|LARGO|VICOLO|V
 export function chiaveIndirizzo(via: string | undefined): string | undefined {
   if (!via) return undefined;
   const n = normalizzaNome(via).replace(TIPI_STRADA, '');
-  const civico = n.match(/\b(\d+)\b/)?.[1];
-  const parole = n.replace(/\b\d+\w?\b/g, ' ').split(' ').filter((p) => p.length > 2);
-  if (!civico || parole.length === 0) return undefined;
-  return `${parole[parole.length - 1]} ${civico}`;
+  // La via è ciò che precede il primo numero civico; quello che segue (piano, scala, interno) si ignora.
+  const m = n.match(/^(.*?)\b(\d+)/);
+  if (!m) return undefined;
+  const parole = m[1].split(' ').filter((p) => p.length > 2);
+  if (parole.length === 0) return undefined;
+  return `${parole[parole.length - 1]} ${m[2]}`;
+}
+
+/** Un nome contenuto nell'altro ("Fly Family" e "Fly Family Soc. Coop. Orlando"), con almeno due parole distintive. */
+export function contenuto(a: Set<string>, b: Set<string>): boolean {
+  const [piccolo, grande] = a.size <= b.size ? [a, b] : [b, a];
+  if (piccolo.size < 2) return false;
+  let tutti = true;
+  piccolo.forEach((p) => { if (!grande.has(p)) tutti = false; });
+  return tutti;
 }
