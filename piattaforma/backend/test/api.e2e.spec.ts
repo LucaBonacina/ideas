@@ -80,4 +80,24 @@ describe('API strutture (con MongoDB in memoria)', () => {
       expect.objectContaining({ regione: 'Lombardia', tipologia: 'SCUOLA_INFANZIA', strutture: 1 }),
     ]));
   });
+
+  it('calcola il costo netto per una struttura comunale lombarda', async () => {
+    const res = await request(app.getHttpServer()).post('/calcolatore/costo-netto').send({
+      dataNascita: '2025-03-10',
+      rettaMensile: 600,
+      iseeNeutralizzato: 15000,
+      struttura: 'lombardia-udos:055911',
+      comuneAderenteNidiGratisPlus: true,
+      genitoreOccupatoODid: true,
+    }).expect(200);
+    expect(res.body.struttura).toBe('lombardia-udos:055911');
+    expect(res.body.costoNettoAnnuo).toBe(0);
+    expect(res.body.misure.map((m: { stato: string }) => m.stato)).toEqual(['applicata', 'applicata']);
+  });
+
+  it('valida l\'input del calcolatore', async () => {
+    await request(app.getHttpServer()).post('/calcolatore/costo-netto').send({
+      dataNascita: '2025-03-10', rettaMensile: -1, iseeNeutralizzato: null, regione: 'Lombardia', tipologia: 'NIDO',
+    }).expect(400);
+  });
 });

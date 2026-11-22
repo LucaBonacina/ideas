@@ -45,6 +45,10 @@ export class Struttura {
   @Prop({ type: Posizione })
     posizione?: Posizione;
 
+  /** Fonte delle coordinate, se diversa dalla fonte del record. */
+  @Prop()
+    posizioneFonte?: string;
+
   @Prop()
     posti?: number;
 

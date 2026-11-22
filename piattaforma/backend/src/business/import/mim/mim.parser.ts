@@ -86,3 +86,18 @@ export function parseMim(contenuto: Buffer, file: FileMim, comuni: ComuniLookup,
   });
   return esito;
 }
+
+/** Codice di ogni scuola dell'infanzia -> nome della provincia come scritto dal MIM (serve a Scuola in Chiaro). */
+export function provinceInfanzia(contenuto: Buffer): Map<string, string> {
+  const righe: Record<string, string>[] = parse(contenuto.toString('utf8').replace(/^\uFEFF/, ''), {
+    columns: true, skip_empty_lines: true, relax_column_count: true,
+  });
+  const esito = new Map<string, string>();
+  for (const r of righe) {
+    const codice = pulisci(r.CODICESCUOLA);
+    if (codice && (r.DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA ?? '').includes('INFANZIA') && pulisci(r.PROVINCIA)) {
+      esito.set(codice.toUpperCase(), r.PROVINCIA.trim());
+    }
+  }
+  return esito;
+}

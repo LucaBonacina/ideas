@@ -5,6 +5,8 @@ import { Struttura, StrutturaSchema } from './struttura.schema';
 import { Comune, ComuneSchema } from './comune.schema';
 import { StrutturaRepository } from './struttura.repository';
 import { ComuneRepository } from './comune.repository';
+import { PosizioneEsterna, PosizioneEsternaSchema } from './posizione-esterna.schema';
+import { PosizioneEsternaRepository } from './posizione-esterna.repository';
 
 @Module({
   imports: [
@@ -15,9 +17,10 @@ import { ComuneRepository } from './comune.repository';
     MongooseModule.forFeature([
       { name: Struttura.name, schema: StrutturaSchema },
       { name: Comune.name, schema: ComuneSchema },
+      { name: PosizioneEsterna.name, schema: PosizioneEsternaSchema },
     ]),
   ],
-  providers: [StrutturaRepository, ComuneRepository],
-  exports: [StrutturaRepository, ComuneRepository],
+  providers: [StrutturaRepository, ComuneRepository, PosizioneEsternaRepository],
+  exports: [StrutturaRepository, ComuneRepository, PosizioneEsternaRepository],
 })
 export default class DatabaseModule {}
