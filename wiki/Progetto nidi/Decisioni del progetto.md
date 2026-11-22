@@ -14,3 +14,5 @@ tags: [progetto, nidi, decisioni]
 | 2026-11-20 | Cercanido, MigliorAsilo (rilanciato), MyNido e Nidò non sono collegati all'utente né al progetto: vanno trattati come concorrenti indipendenti | utente |
 | 2026-11-20 | Analisi aggiuntive (es. approfondimento su Cercanido) rimandate a dopo l'azzeramento del limite settimanale di utilizzo (22 novembre, 23:00 UTC); le sintesi finali scritte senza nuove sessioni | utente |
 | 2026-11-21 | Aggiungere al censimento delle fonti una verifica sui SUAP comunali (dopo l'azzeramento del limite settimanale, insieme all'approfondimento su Cercanido); escludere il Registro delle imprese (dati su aziende) | utente |
+| 2026-11-22 | Passare alla costruzione della piattaforma. Prima versione: pipeline dei dati, elenco 0-6 con mappa e scheda della struttura su tutta Italia (F01, F02), più il calcolatore del costo netto (F04) in Lombardia. Posti liberi, rivendicazione della scheda e le altre funzioni locali dopo le interviste | utente |
+| 2026-11-22 | Il codice va in un repository nuovo, separato dalla wiki; la base tecnica è un template fornito dall'utente | utente |
