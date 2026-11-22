@@ -7,11 +7,13 @@ import { StruttureController } from './strutture/strutture.controller';
 import { StruttureService } from './strutture/strutture.service';
 import { CalcolatoreController } from './calcolatore/calcolatore.controller';
 import { CalcolatoreService } from './calcolatore/calcolatore.service';
+import { ComuniController } from './comuni/comuni.controller';
+import { ComuniService } from './comuni/comuni.service';
 
 @Module({
   imports: [DatabaseModule],
-  controllers: [StruttureController, CalcolatoreController],
-  providers: [HttpFetchService, RawStoreService, ImportService, StruttureService, CalcolatoreService],
+  controllers: [StruttureController, CalcolatoreController, ComuniController],
+  providers: [HttpFetchService, RawStoreService, ImportService, StruttureService, CalcolatoreService, ComuniService],
   exports: [ImportService],
 })
 export default class BusinessModule {}

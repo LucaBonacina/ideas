@@ -3,6 +3,7 @@ import { Test } from '@nestjs/testing';
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import request from 'supertest';
 import { StrutturaRepository } from '../src/database/struttura.repository';
+import { ComuneRepository } from '../src/database/comune.repository';
 import { ComuniLookup } from '../src/business/import/comuni/comuni-lookup';
 import { parseLombardiaUdos } from '../src/business/import/lombardia/lombardia-udos.parser';
 import { parseMim } from '../src/business/import/mim/mim.parser';
@@ -28,6 +29,7 @@ describe('API strutture (con MongoDB in memoria)', () => {
     await app.init();
     repo = app.get(StrutturaRepository);
     await repo.model.syncIndexes();
+    await app.get(ComuneRepository).sostituisciTutti(COMUNI_TEST);
     await repo.sostituisciFonte('lombardia-udos', parseLombardiaUdos(Buffer.from(LOMBARDIA_UDOS), comuni, oggi).strutture);
     const mim = parseMim(Buffer.from(MIM_STATALI), {
       nome: 'f', statale: true, url: 'u', dataRiferimento: oggi,
@@ -99,5 +101,14 @@ describe('API strutture (con MongoDB in memoria)', () => {
     await request(app.getHttpServer()).post('/calcolatore/costo-netto').send({
       dataNascita: '2025-03-10', rettaMensile: -1, iseeNeutralizzato: null, regione: 'Lombardia', tipologia: 'NIDO',
     }).expect(400);
+  });
+
+  it('suggerisce i comuni e ne mostra il dettaglio', async () => {
+    const res = await request(app.getHttpServer()).get('/comuni?q=berg').expect(200);
+    expect(res.body[0]).toMatchObject({ codiceIstat: '016024', nome: 'Bergamo' });
+    const det = await request(app.getHttpServer()).get('/comuni/016024').expect(200);
+    expect(det.body.centro).toHaveLength(2);
+    expect(det.body.conteggi.length).toBeGreaterThan(0);
+    await request(app.getHttpServer()).get('/comuni/999999').expect(404);
   });
 });

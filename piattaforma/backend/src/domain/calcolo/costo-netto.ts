@@ -50,6 +50,9 @@ export interface EsitoCostoNetto {
 
 const arrotonda = (n: number): number => Math.round(n * 100) / 100;
 
+const formato = new Intl.NumberFormat('it-IT', { useGrouping: 'always', maximumFractionDigits: 2 } as unknown as Intl.NumberFormatOptions);
+const numero = (n: number): string => formato.format(n);
+
 function bonusNido(input: InputCostoNetto): EsitoMisura {
   const fascia = fasciaBonusNido(input.dataNascita, input.iseeNeutralizzato);
   const motivi: string[] = [];
@@ -75,7 +78,7 @@ function bonusNido(input: InputCostoNetto): EsitoMisura {
   }
   motivi.push(input.iseeNeutralizzato === null
     ? 'Senza ISEE spetta l\'importo minimo di 1.500 euro l\'anno.'
-    : `Fascia di ${fascia.annuo.toLocaleString('it-IT')} euro l'anno, fino a ${fascia.rata.toLocaleString('it-IT')} euro al mese e mai oltre la retta pagata.`);
+    : `Fascia di ${numero(fascia.annuo)} euro l'anno, fino a ${numero(fascia.rata)} euro al mese e mai oltre la retta pagata.`);
   return {
     misura: 'Bonus asilo nido INPS',
     stato,
