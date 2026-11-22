@@ -1,4 +1,8 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
+import { InjectModel } from '@nestjs/mongoose';
+import { Model } from 'mongoose';
+import { BenchmarkIstat } from '../../database/benchmark-istat.schema';
+import { TIPI_ISTAT } from '../import/istat/istat-benchmark.parser';
 import { ComuneRepository } from '../../database/comune.repository';
 import { StrutturaRepository } from '../../database/struttura.repository';
 import { normalizzaNome } from '../../domain/normalizza';
@@ -14,6 +18,13 @@ export interface ComuneDettaglio extends ComuneSintesi {
   /** Posizione indicativa: mediana delle strutture geolocalizzate del comune, se ce ne sono. */
   centro?: [number, number];
   conteggi: { fascia: string; tipologia: string; strutture: number }[];
+  /** Confronto con il censimento ISTAT dei servizi 0-3, per tipologia. */
+  completezza03?: {
+    anno: string;
+    istat: number;
+    nostri: number;
+    perTipo: { tipoIstat: string; istat: number; nostri: number }[];
+  };
 }
 
 function mediana(valori: number[]): number {
@@ -26,6 +37,7 @@ export class ComuniService {
   constructor(
     private readonly comuni: ComuneRepository,
     private readonly strutture: StrutturaRepository,
+    @InjectModel(BenchmarkIstat.name) private readonly benchmark: Model<BenchmarkIstat>,
   ) {}
 
   /** Suggerimenti per nome: prima i comuni che iniziano con il testo, poi quelli che lo contengono. */
@@ -64,6 +76,15 @@ export class ComuniService {
       ]),
       this.strutture.model.find({ ...filtro, posizione: { $exists: true } }, { posizione: 1 }).lean(),
     ]);
+    const b = await this.benchmark.findOne({ codiceIstat }).lean();
+    const nostriPer = (tipi: string[]) => conteggi
+      .filter((c) => tipi.includes(c.tipologia)).reduce((t, c) => t + c.strutture, 0);
+    const perTipo = Object.entries(TIPI_ISTAT).map(([tipoIstat, tipi]) => ({
+      tipoIstat, istat: b?.perTipo?.[tipoIstat] ?? 0, nostri: nostriPer(tipi),
+    }));
+    const completezza03 = b ? {
+      anno: b.anno, istat: b.totale, nostri: perTipo.reduce((t, x) => t + x.nostri, 0), perTipo,
+    } : undefined;
     const coordinate = posizioni.map((p) => p.posizione?.coordinates).filter((c): c is number[] => !!c);
     return {
       codiceIstat: comune.codiceIstat,
@@ -73,6 +94,43 @@ export class ComuniService {
       centro: coordinate.length > 0
         ? [mediana(coordinate.map((c) => c[0])), mediana(coordinate.map((c) => c[1]))] : undefined,
       conteggi,
+      completezza03,
     };
+  }
+
+  /** Completezza 0-3 per regione: nostri servizi contro il censimento ISTAT, e comuni con un buco. */
+  async completezzaRegioni(): Promise<{
+    regione: string; istat: number; nostri: number; comuniConServizi: number; comuniCompleti: number;
+  }[]> {
+    const [benchmark, comuni, nostri] = await Promise.all([
+      this.benchmark.find({}, { codiceIstat: 1, totale: 1 }).lean(),
+      this.comuni.model.find({}, { codiceIstat: 1, regione: 1 }).lean(),
+      this.strutture.model.aggregate<{ _id: string; n: number }>([
+        { $match: { attiva: true, fascia: '0-3' } },
+        { $group: { _id: '$indirizzo.codiceIstat', n: { $sum: 1 } } },
+      ]),
+    ]);
+    const regioneDi = new Map(comuni.map((c) => [c.codiceIstat, c.regione]));
+    const nostriDi = new Map(nostri.map((n) => [n._id, n.n]));
+    type Conteggi = { istat: number; nostri: number; comuniConServizi: number; comuniCompleti: number };
+    const perRegione = new Map<string, Conteggi>();
+    for (const b of benchmark) {
+      const regione = regioneDi.get(b.codiceIstat);
+      if (!regione) continue;
+      const r = perRegione.get(regione) ?? {
+        istat: 0, nostri: 0, comuniConServizi: 0, comuniCompleti: 0,
+      };
+      const n = nostriDi.get(b.codiceIstat) ?? 0;
+      r.istat += b.totale;
+      r.nostri += n;
+      if (b.totale > 0) {
+        r.comuniConServizi += 1;
+        if (n >= b.totale) r.comuniCompleti += 1;
+      }
+      perRegione.set(regione, r);
+    }
+    return [...perRegione.entries()]
+      .map(([regione, r]) => ({ regione, ...r }))
+      .sort((a, b) => a.regione.localeCompare(b.regione));
   }
 }

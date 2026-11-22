@@ -24,7 +24,7 @@ export class HttpFetchService {
     this.userAgent = config.get<string>('HTTP_USER_AGENT') || 'nidi-bot/0.1';
   }
 
-  async scarica(url: string, tentativi = HttpFetchService.TENTATIVI): Promise<Buffer> {
+  async scarica(url: string, tentativi = HttpFetchService.TENTATIVI, accept = '*/*'): Promise<Buffer> {
     const { host } = new URL(url);
     let ultimoErrore: unknown;
     for (let tentativo = 1; tentativo <= tentativi; tentativo += 1) {
@@ -32,7 +32,7 @@ export class HttpFetchService {
       try {
         const risposta = await fetch(url, {
           dispatcher: this.agente,
-          headers: { 'user-agent': this.userAgent, accept: '*/*' },
+          headers: { 'user-agent': this.userAgent, accept, 'accept-language': 'it-IT,it;q=0.9' },
         });
         if (risposta.status === 403 || risposta.status === 429) {
           throw new Error(`La fonte rifiuta l'accesso (HTTP ${risposta.status}): ci si ferma senza insistere`);

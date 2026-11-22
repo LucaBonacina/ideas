@@ -6,6 +6,7 @@ import { Comune, ComuneSchema } from './comune.schema';
 import { StrutturaRepository } from './struttura.repository';
 import { ComuneRepository } from './comune.repository';
 import { PosizioneEsterna, PosizioneEsternaSchema } from './posizione-esterna.schema';
+import { BenchmarkIstat, BenchmarkIstatSchema } from './benchmark-istat.schema';
 import { PosizioneEsternaRepository } from './posizione-esterna.repository';
 
 @Module({
@@ -18,9 +19,10 @@ import { PosizioneEsternaRepository } from './posizione-esterna.repository';
       { name: Struttura.name, schema: StrutturaSchema },
       { name: Comune.name, schema: ComuneSchema },
       { name: PosizioneEsterna.name, schema: PosizioneEsternaSchema },
+      { name: BenchmarkIstat.name, schema: BenchmarkIstatSchema },
     ]),
   ],
   providers: [StrutturaRepository, ComuneRepository, PosizioneEsternaRepository],
-  exports: [StrutturaRepository, ComuneRepository, PosizioneEsternaRepository],
+  exports: [StrutturaRepository, ComuneRepository, PosizioneEsternaRepository, MongooseModule],
 })
 export default class DatabaseModule {}

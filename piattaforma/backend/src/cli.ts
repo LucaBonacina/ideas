@@ -6,7 +6,7 @@ import log from './log';
 
 /**
  * Esegue gli import da riga di comando:
- *   npm run import -- comuni|mim|lombardia|fvg|piemonte|coordinate-mim|tutto [--offline]
+ *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|coordinate-mim|tutto [--offline]
  * Con --offline riusa gli ultimi file grezzi salvati senza riscaricarli.
  */
 async function main(): Promise<void> {
@@ -16,6 +16,7 @@ async function main(): Promise<void> {
   const servizio = app.get(ImportService);
   const passi: Record<string, () => Promise<unknown>> = {
     comuni: () => servizio.importaComuni(offline),
+    istat: () => servizio.importaBenchmarkIstat(offline),
     mim: () => servizio.importaMim(offline),
     lombardia: () => servizio.importaLombardia(offline),
     fvg: () => servizio.importaFvg(offline),

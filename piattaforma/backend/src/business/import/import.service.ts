@@ -1,4 +1,6 @@
 import { Injectable } from '@nestjs/common';
+import { InjectModel } from '@nestjs/mongoose';
+import { Model } from 'mongoose';
 import { ComuneRepository } from '../../database/comune.repository';
 import { EsitoSalvataggio, StrutturaRepository } from '../../database/struttura.repository';
 import { HttpFetchService } from '../../service/http-fetch.service';
@@ -21,6 +23,8 @@ import {
 } from './piemonte/piemonte.parser';
 import { PosizioneEsternaRepository } from '../../database/posizione-esterna.repository';
 import { Struttura } from '../../database/struttura.schema';
+import { BenchmarkIstat } from '../../database/benchmark-istat.schema';
+import { parseBenchmarkIstat, urlBenchmarkIstat } from './istat/istat-benchmark.parser';
 import { Gestione } from '../../domain/gestione.enum';
 import { Tipologia } from '../../domain/tipologia.enum';
 import { normalizzaNome, titoloLeggibile } from '../../domain/normalizza';
@@ -67,7 +71,21 @@ export class ImportService {
     private readonly strutture: StrutturaRepository,
     private readonly comuni: ComuneRepository,
     private readonly posizioni: PosizioneEsternaRepository,
+    @InjectModel(BenchmarkIstat.name) private readonly benchmark: Model<BenchmarkIstat>,
   ) {}
+
+  /** Conteggi ISTAT dei servizi 0-3 per comune: il metro della completezza. */
+  async importaBenchmarkIstat(offline = false, anno = '2024'): Promise<RapportoImport> {
+    const { dati } = await this.file('istat-47_850', `servizi-${anno}.csv`, urlBenchmarkIstat(anno), offline, 6, 'application/vnd.sdmx.data+csv');
+    const righe = parseBenchmarkIstat(dati);
+    if (righe.length < 7000) throw new Error(`Benchmark ISTAT sospetto: ${righe.length} comuni`);
+    await this.benchmark.bulkWrite(righe.map((b) => ({
+      replaceOne: { filter: { codiceIstat: b.codiceIstat }, replacement: b, upsert: true },
+    })), { ordered: false });
+    return {
+      fonte: 'istat-47_850', letti: righe.length, scartate: 0, esempiScarti: [],
+    };
+  }
 
   /** Scarica il file (o riusa l'ultimo salvato se offline) e restituisce contenuto e data. */
   private async file(
@@ -76,13 +94,14 @@ export class ImportService {
     url: string,
     offline: boolean,
     tentativi?: number,
+    accept?: string,
   ): Promise<{ dati: Buffer; data: Date }> {
     if (offline) {
       const ultimo = await this.raw.ultimo(fonte, nome);
       if (!ultimo) throw new Error(`Nessun file salvato per ${fonte}/${nome}: eseguire prima senza --offline`);
       return { dati: await this.raw.leggi(ultimo.percorso), data: ultimo.data };
     }
-    const dati = await this.http.scarica(url, tentativi);
+    const dati = await this.http.scarica(url, tentativi, accept);
     const data = new Date();
     const percorso = await this.raw.salva(fonte, nome, dati, data);
     log.info('File salvato', { fonte, percorso, byte: dati.length });

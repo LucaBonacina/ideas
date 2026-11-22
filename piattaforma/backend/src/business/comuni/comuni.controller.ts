@@ -12,6 +12,11 @@ export class ComuniController {
     return this.service.cerca(q.slice(0, 60));
   }
 
+  @Get('completezza')
+  completezza(): ReturnType<ComuniService['completezzaRegioni']> {
+    return this.service.completezzaRegioni();
+  }
+
   @Get(':codiceIstat')
   dettaglio(@Param('codiceIstat') codiceIstat: string): Promise<ComuneDettaglio> {
     return this.service.dettaglio(codiceIstat);

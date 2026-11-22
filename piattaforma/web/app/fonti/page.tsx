@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { api } from '@/lib/api';
 import { FONTI, TIPOLOGIE } from '@/lib/etichette';
-import type { RigaCopertura } from '@/lib/tipi';
+import type { CompletezzaRegione, RigaCopertura } from '@/lib/tipi';
 
 export const dynamic = 'force-dynamic';
 
@@ -16,6 +16,10 @@ export default async function PaginaFonti() {
   const tipologie = [...new Set(righe.map((r) => r.tipologia))];
   const valore = (reg: string, tip: string) => righe.filter((r) => r.regione === reg && r.tipologia === tip).reduce((t, r) => t + r.strutture, 0);
   const fontiUsate = [...new Set(righe.map((r) => r.fonte))];
+  const completezza = (await api<CompletezzaRegione[]>('/comuni/completezza', 300)) ?? [];
+  const totIstat = completezza.reduce((t, r) => t + r.istat, 0);
+  const totNostri = completezza.reduce((t, r) => t + r.nostri, 0);
+  const perc = (a: number, b: number) => (b ? Math.min(100, Math.round((100 * a) / b)) : 0);
   return (
     <>
       <h1>Fonti e copertura</h1>
@@ -30,7 +34,28 @@ export default async function PaginaFonti() {
           <li key={f}><strong>{FONTI[f]?.nome ?? f}</strong>: <span className="tenue">{FONTI[f]?.descrizione}</span></li>
         ))}
       </ul>
-      <h2>Strutture per regione</h2>
+      <h2>Quanto è completo l&apos;elenco dei servizi 0-3</h2>
+      <p className="tenue">
+        Confronto con il censimento ISTAT 2024 dei servizi per la prima infanzia, comune per comune: in Italia ne mostriamo
+        {' '}{totNostri.toLocaleString('it-IT')} su {totIstat.toLocaleString('it-IT')} ({perc(totNostri, totIstat)}%).
+      </p>
+      <div className="tabella-scorrevole">
+        <table>
+          <thead><tr><th>Regione</th><th>ISTAT 2024</th><th>Mostrati</th><th>Copertura</th><th>Comuni completi</th></tr></thead>
+          <tbody>
+            {completezza.map((r) => (
+              <tr key={r.regione}>
+                <td>{r.regione}</td>
+                <td>{r.istat.toLocaleString('it-IT')}</td>
+                <td>{r.nostri.toLocaleString('it-IT')}</td>
+                <td>{perc(r.nostri, r.istat)}%</td>
+                <td>{r.comuniCompleti} su {r.comuniConServizi}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <h2>Strutture per regione e tipologia</h2>
       <div className="tabella-scorrevole">
         <table>
           <thead>

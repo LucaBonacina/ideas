@@ -78,3 +78,12 @@ export function conteggio(n: number, tipologia: string): string {
   const [uno, molti] = TIPOLOGIE_PLURALE[tipologia] ?? [tipologia, tipologia];
   return `${n.toLocaleString('it-IT')} ${n === 1 ? uno : molti}`;
 }
+
+/** Tipologie del censimento ISTAT dei servizi 0-3. */
+export const TIPI_ISTAT: Record<string, [string, string]> = {
+  CDNUR: ['nido o micronido', 'nidi e micronidi'],
+  DNISC: ['sezione primavera', 'sezioni primavera'],
+  GUARD: ['spazio gioco', 'spazi gioco'],
+  HNUR: ['servizio domiciliare', 'servizi domiciliari'],
+  CCHP: ['centro bambini-genitori', 'centri bambini-genitori'],
+};

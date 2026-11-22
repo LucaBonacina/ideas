@@ -45,6 +45,15 @@ export interface ComuneSintesi {
 export interface ComuneDettaglio extends ComuneSintesi {
   centro?: [number, number];
   conteggi: { fascia: string; tipologia: string; strutture: number }[];
+  completezza03?: { anno: string; istat: number; nostri: number; perTipo: { tipoIstat: string; istat: number; nostri: number }[] };
+}
+
+export interface CompletezzaRegione {
+  regione: string;
+  istat: number;
+  nostri: number;
+  comuniConServizi: number;
+  comuniCompleti: number;
 }
 
 export interface RigaCopertura {

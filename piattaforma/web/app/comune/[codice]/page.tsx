@@ -6,7 +6,7 @@ import SchedaBreve from '@/components/SchedaBreve';
 import CercaComune from '@/components/CercaComune';
 import { api } from '@/lib/api';
 import { regioniCon03 } from '@/lib/copertura';
-import { conteggio as testoConteggio } from '@/lib/etichette';
+import { TIPI_ISTAT, conteggio as testoConteggio } from '@/lib/etichette';
 import type { ComuneDettaglio, Pagina, Struttura } from '@/lib/tipi';
 
 type Parametri = { params: Promise<{ codice: string }>; searchParams: Promise<{ fascia?: string; pagina?: string }> };
@@ -57,6 +57,20 @@ export default async function PaginaComune({ params, searchParams }: Parametri) 
         {conteggio() === 1 ? '1 struttura trovata' : `${conteggio()} strutture trovate`}
         {conteggio() > 0 ? `: ${comune.conteggi.map((c) => testoConteggio(c.strutture, c.tipologia)).join(', ')}.` : '.'}
       </p>
+      {comune.completezza03 && comune.completezza03.istat > 0 && (() => {
+        const c = comune.completezza03;
+        const mancanti = c.perTipo.filter((t) => t.istat > t.nostri)
+          .map((t) => `${t.istat - t.nostri} ${(TIPI_ISTAT[t.tipoIstat] ?? [t.tipoIstat, t.tipoIstat])[t.istat - t.nostri === 1 ? 0 : 1]}`);
+        const completo = c.nostri >= c.istat;
+        return (
+          <div className={completo ? 'carta' : 'avviso'} style={{ margin: '14px 0' }}>
+            <strong>Servizi 0-3: {completo ? 'elenco completo' : `ne mostriamo ${c.nostri} su ${c.istat}`}.</strong>{' '}
+            Il censimento ISTAT {c.anno} conta {c.istat} servizi per la prima infanzia a {comune.nome}.
+            {!completo && mancanti.length > 0 && <> Mancano soprattutto: {mancanti.join(', ')}.</>}
+            {completo && c.nostri > c.istat && ' Ne mostriamo di più perché le fonti regionali sono più recenti o contano i servizi in modo diverso.'}
+          </div>
+        );
+      })()}
       {!con03.has(comune.regione) && (
         <div className="avviso">
           <strong>Nidi (0-3 anni): elenco non ancora disponibile per {comune.regione}.</strong> Per ora mostriamo solo le scuole
