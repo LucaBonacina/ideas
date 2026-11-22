@@ -16,3 +16,7 @@ tags: [progetto, nidi, decisioni]
 | 2026-11-21 | Aggiungere al censimento delle fonti una verifica sui SUAP comunali (dopo l'azzeramento del limite settimanale, insieme all'approfondimento su Cercanido); escludere il Registro delle imprese (dati su aziende) | utente |
 | 2026-11-22 | Passare alla costruzione della piattaforma. Prima versione: pipeline dei dati, elenco 0-6 con mappa e scheda della struttura su tutta Italia (F01, F02), più il calcolatore del costo netto (F04) in Lombardia. Posti liberi, rivendicazione della scheda e le altre funzioni locali dopo le interviste | utente |
 | 2026-11-22 | Il codice va in un repository nuovo, separato dalla wiki; la base tecnica è un template fornito dall'utente | utente |
+| 2026-11-22 | Dal template si prendono architettura e regole (NestJS, repository, file grezzi prima del parsing, circuit breaker), non la libreria privata né il Queue Manager esterno: solo pacchetti pubblici | utente |
+| 2026-11-22 | Download dalle fonti con richieste semplici, lente e identificabili: niente browser "stealth", proxy residenziali né risoluzione di captcha | utente |
+| 2026-11-22 | Il codice sta per ora in `piattaforma/` di questo repository; si sposterà nel repository dedicato quando esisterà | utente |
+| 2026-11-22 | Privacy nei dati pubblicati: niente nomi di gestori privati (solo enti pubblici), niente email personali né cellulari, nidi famiglia senza indirizzo né coordinate | Claude, dopo il controllo sui dati reali |
