@@ -26,6 +26,6 @@ aggiornato: 2026-11-20
 ## Tutte le pagine
 - **Fonti:** [[Normativa nazionale 0-6]] · [[Fonti nazionali - sintesi]] · [[Regioni Nord - sintesi]] · [[Regioni Centro - sintesi]] · [[Regioni Sud e isole - sintesi]] · [[Segmenti - sintesi]] · [[Test di completezza - Nord e Centro]] · [[Test di completezza - Sud e isole]]
 - **Bisogni:** [[Bisogni genitori - sintesi]] · [[Bisogni gestori - sintesi]] · [[Percorso del genitore 0-6]] · [[Percorso del gestore]] · [[Traccia di intervista genitori]] · [[Traccia di intervista gestori]]
-- **Azioni:** [[Richieste di accesso civico]] (bozze pronte da inviare)
+- **Azioni:** [[Richieste di accesso civico]] (bozze pronte da inviare) · [[Piattaforma - stato]] (cosa è costruito)
 - **Metodo:** [[Metodo del progetto]] · [[Decisioni del progetto]]
 - **Cartelle:** `Fonti/` (una nota per fonte), `Regioni/` (una per regione), `Segmenti/`, `Concorrenti/`, `Bisogni/`, `Test di completezza/`. Rapporti di lavoro delle sessioni P1-P10 in `wiki/Rapporti/`.
