@@ -9,11 +9,16 @@ import { CalcolatoreController } from './calcolatore/calcolatore.controller';
 import { CalcolatoreService } from './calcolatore/calcolatore.service';
 import { ComuniController } from './comuni/comuni.controller';
 import { ComuniService } from './comuni/comuni.service';
+import { RaccoltaComuniService } from './raccolta/raccolta-comuni.service';
+import { DeduplicaService } from './deduplica/deduplica.service';
 
 @Module({
   imports: [DatabaseModule],
   controllers: [StruttureController, CalcolatoreController, ComuniController],
-  providers: [HttpFetchService, RawStoreService, ImportService, StruttureService, CalcolatoreService, ComuniService],
-  exports: [ImportService],
+  providers: [
+    HttpFetchService, RawStoreService, ImportService, StruttureService, CalcolatoreService, ComuniService,
+    RaccoltaComuniService, DeduplicaService,
+  ],
+  exports: [ImportService, RaccoltaComuniService, DeduplicaService],
 })
 export default class BusinessModule {}

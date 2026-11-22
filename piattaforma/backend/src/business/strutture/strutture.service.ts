@@ -21,7 +21,7 @@ export class StruttureService {
   constructor(private readonly repo: StrutturaRepository) {}
 
   async cerca(dto: RicercaStruttureDto): Promise<PaginaStrutture> {
-    const filtro: FilterQuery<Struttura> = { attiva: true };
+    const filtro: FilterQuery<Struttura> = { attiva: true, duplicatoDi: { $exists: false } };
     if (dto.comune) filtro['indirizzo.codiceIstat'] = dto.comune;
     if (dto.provincia) filtro['indirizzo.siglaProvincia'] = dto.provincia.toUpperCase();
     if (dto.tipologia) filtro.tipologia = dto.tipologia;
@@ -53,6 +53,8 @@ export class StruttureService {
       ? await this.repo.model.findById(id).lean<Struttura>()
       : await this.repo.model.findOne({ chiave: id }).lean<Struttura>();
     if (!trovata) throw new NotFoundException('Struttura non trovata');
+    // Una scheda duplicata rimanda alla principale, che riporta anche le altre fonti.
+    if (trovata.duplicatoDi) return this.dettaglio(trovata.duplicatoDi);
     return trovata;
   }
 
@@ -62,7 +64,7 @@ export class StruttureService {
    */
   async copertura(): Promise<Record<string, unknown>[]> {
     return this.repo.model.aggregate([
-      { $match: { attiva: true } },
+      { $match: { attiva: true, duplicatoDi: { $exists: false } } },
       {
         $group: {
           _id: { regione: '$indirizzo.regione', tipologia: '$tipologia', fonte: '$provenienza.fonte' },

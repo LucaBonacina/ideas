@@ -92,6 +92,14 @@ export class Struttura {
   @Prop({ type: Provenienza, required: true })
     provenienza!: Provenienza;
 
+  /** Chiave della scheda principale, se questa è la stessa struttura descritta da un'altra fonte. */
+  @Prop({ index: true })
+    duplicatoDi?: string;
+
+  /** Altre fonti che descrivono la stessa struttura (solo sulla scheda principale). */
+  @Prop({ type: [String], default: undefined })
+    altreFonti?: string[];
+
   /** false se la struttura non compare più nell'ultimo aggiornamento della fonte. */
   @Prop({ default: true, index: true })
     attiva!: boolean;

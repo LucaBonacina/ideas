@@ -21,6 +21,14 @@ import { elementiPdf } from './piemonte/pdf-testo';
 import {
   FONTE_PIEMONTE, URL_PIEMONTE, parsePiemonte, righeDaPagine,
 } from './piemonte/piemonte.parser';
+import {
+  FONTE_LAZIO_ACCREDITATI, MINIMO_LAZIO_ACCREDITATI, PAGINA_LAZIO_ACCREDITATI, URL_LAZIO_ACCREDITATI,
+  dataRiferimentoLazio, linkFileLazio, parseLazioAccreditati, righeDaPagineLazio,
+} from './lazio/lazio-accreditati.parser';
+import {
+  FONTE_ROMA_NIDI, MINIMO_ROMA_NIDI, PAGINA_ROMA_NIDI, URL_ROMA_NIDI,
+  dataRiferimentoRoma, linkFileRoma, parseRomaNidi, righeDaPagineRoma,
+} from './roma/roma-nidi.parser';
 import { PosizioneEsternaRepository } from '../../database/posizione-esterna.repository';
 import { Struttura } from '../../database/struttura.schema';
 import { BenchmarkIstat } from '../../database/benchmark-istat.schema';
@@ -163,6 +171,38 @@ export class ImportService {
     const { dati, data } = await this.file(FONTE_PIEMONTE, 'anagrafe.pdf', URL_PIEMONTE, offline, 8);
     const righe = righeDaPagine(await elementiPdf(dati));
     return this.salva(FONTE_PIEMONTE, parsePiemonte(righe, comuni, data), 1000);
+  }
+
+  /** Link al file corrente letto dalla pagina dell'ente (il nome del file cambia a ogni aggiornamento). */
+  private async linkCorrente(
+    pagina: string,
+    estrai: (html: string) => string | undefined,
+    predefinito: string,
+  ): Promise<string> {
+    try {
+      return estrai((await this.http.scarica(pagina)).toString('utf8')) ?? predefinito;
+    } catch {
+      return predefinito;
+    }
+  }
+
+  async importaLazio(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const url = offline ? URL_LAZIO_ACCREDITATI
+      : await this.linkCorrente(PAGINA_LAZIO_ACCREDITATI, linkFileLazio, URL_LAZIO_ACCREDITATI);
+    const { dati, data } = await this.file(FONTE_LAZIO_ACCREDITATI, 'accreditati.pdf', url, offline, 5);
+    const pagine = await elementiPdf(dati);
+    const esito = parseLazioAccreditati(righeDaPagineLazio(pagine), url, comuni, data, dataRiferimentoLazio(pagine));
+    return this.salva(FONTE_LAZIO_ACCREDITATI, esito, MINIMO_LAZIO_ACCREDITATI);
+  }
+
+  async importaRoma(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const url = offline ? URL_ROMA_NIDI : await this.linkCorrente(PAGINA_ROMA_NIDI, linkFileRoma, URL_ROMA_NIDI);
+    const { dati, data } = await this.file(FONTE_ROMA_NIDI, 'elenco-strutture.pdf', url, offline, 5);
+    const pagine = await elementiPdf(dati);
+    const esito = parseRomaNidi(righeDaPagineRoma(pagine), url, comuni, data, dataRiferimentoRoma(pagine));
+    return this.salva(FONTE_ROMA_NIDI, esito, MINIMO_ROMA_NIDI);
   }
 
   /**

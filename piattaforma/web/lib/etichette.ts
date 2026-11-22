@@ -39,6 +39,14 @@ export const FONTI: Record<string, { nome: string; descrizione: string }> = {
     nome: 'Regione Piemonte, anagrafe dei servizi per la prima infanzia',
     descrizione: 'Nidi, micronidi, sezioni primavera, spazi gioco e nidi in famiglia autorizzati, dati al 31/12/2025.',
   },
+  'lazio-servizi-educativi-accreditati': {
+    nome: 'Regione Lazio, elenco dei servizi educativi accreditati',
+    descrizione: 'Nidi, micronidi, spazi gioco e sezioni primavera accreditati, con posti; dati provvisori del 16/11/2026.',
+  },
+  'roma-capitale-elenco-servizi-0-3': {
+    nome: 'Roma Capitale, elenco dei servizi 0-3 per le iscrizioni 2026/27',
+    descrizione: 'Nidi capitolini e convenzionati, sezioni ponte e spazi gioco, municipio per municipio.',
+  },
   'mim-scuola-in-chiaro': {
     nome: 'Scuola in Chiaro (MIM)',
     descrizione: 'Coordinate e telefono delle scuole; 66 scuole dell\'infanzia non ancora presenti nell\'anagrafe open data.',

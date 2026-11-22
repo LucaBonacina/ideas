@@ -32,6 +32,7 @@ export class HttpFetchService {
       try {
         const risposta = await fetch(url, {
           dispatcher: this.agente,
+          signal: AbortSignal.timeout(45000),
           headers: { 'user-agent': this.userAgent, accept, 'accept-language': 'it-IT,it;q=0.9' },
         });
         if (risposta.status === 403 || risposta.status === 429) {

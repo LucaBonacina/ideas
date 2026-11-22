@@ -62,7 +62,7 @@ export class ComuniService {
   async dettaglio(codiceIstat: string): Promise<ComuneDettaglio> {
     const comune = await this.comuni.model.findOne({ codiceIstat }).lean();
     if (!comune) throw new NotFoundException('Comune non trovato');
-    const filtro = { 'indirizzo.codiceIstat': codiceIstat, attiva: true };
+    const filtro = { 'indirizzo.codiceIstat': codiceIstat, attiva: true, duplicatoDi: { $exists: false } };
     const [conteggi, posizioni] = await Promise.all([
       this.strutture.model.aggregate<{ fascia: string; tipologia: string; strutture: number }>([
         { $match: filtro },
@@ -106,7 +106,7 @@ export class ComuniService {
       this.benchmark.find({}, { codiceIstat: 1, totale: 1 }).lean(),
       this.comuni.model.find({}, { codiceIstat: 1, regione: 1 }).lean(),
       this.strutture.model.aggregate<{ _id: string; n: number }>([
-        { $match: { attiva: true, fascia: '0-3' } },
+        { $match: { attiva: true, fascia: '0-3', duplicatoDi: { $exists: false } } },
         { $group: { _id: '$indirizzo.codiceIstat', n: { $sum: 1 } } },
       ]),
     ]);

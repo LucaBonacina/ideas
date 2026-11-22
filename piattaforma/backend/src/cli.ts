@@ -2,11 +2,13 @@ import 'reflect-metadata';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ImportService } from './business/import/import.service';
+import { RaccoltaComuniService } from './business/raccolta/raccolta-comuni.service';
+import { DeduplicaService } from './business/deduplica/deduplica.service';
 import log from './log';
 
 /**
  * Esegue gli import da riga di comando:
- *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|coordinate-mim|tutto [--offline]
+ *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|lazio|roma|coordinate-mim|deduplica|raccolta-comuni|tutto [--offline]
  * Con --offline riusa gli ultimi file grezzi salvati senza riscaricarli.
  */
 async function main(): Promise<void> {
@@ -14,6 +16,8 @@ async function main(): Promise<void> {
   const offline = opzioni.includes('--offline');
   const app = await NestFactory.createApplicationContext(AppModule, { logger: ['error', 'warn'] });
   const servizio = app.get(ImportService);
+  const raccolta = app.get(RaccoltaComuniService);
+  const limite = Number(opzioni.find((o) => o.startsWith('--limite='))?.split('=')[1] ?? 300);
   const passi: Record<string, () => Promise<unknown>> = {
     comuni: () => servizio.importaComuni(offline),
     istat: () => servizio.importaBenchmarkIstat(offline),
@@ -21,9 +25,13 @@ async function main(): Promise<void> {
     lombardia: () => servizio.importaLombardia(offline),
     fvg: () => servizio.importaFvg(offline),
     piemonte: () => servizio.importaPiemonte(offline),
+    lazio: () => servizio.importaLazio(offline),
+    roma: () => servizio.importaRoma(offline),
     'coordinate-mim': () => servizio.importaCoordinateMim(offline),
+    'raccolta-comuni': () => raccolta.raccogli(limite),
+    deduplica: () => app.get(DeduplicaService).esegui(),
   };
-  const daEseguire = comando === 'tutto' ? Object.keys(passi) : [comando];
+  const daEseguire = comando === 'tutto' ? Object.keys(passi).filter((p) => p !== 'raccolta-comuni') : [comando];
   try {
     for (const nome of daEseguire) {
       if (!passi[nome]) throw new Error(`Import sconosciuto: ${nome}`);

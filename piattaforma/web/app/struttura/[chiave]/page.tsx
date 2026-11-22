@@ -102,6 +102,9 @@ export default async function PaginaStruttura({ params }: Parametri) {
               Scaricato il {dataBreve(s.provenienza.scaricatoIl)}<br />
               Licenza: {s.provenienza.licenza ?? 'non indicata'}
               {s.posizioneFonte && <><br />Posizione: {FONTI[s.posizioneFonte]?.nome ?? s.posizioneFonte}</>}
+              {s.altreFonti && s.altreFonti.length > 0 && (
+                <><br />Confermata anche da: {[...new Set(s.altreFonti.map((c) => FONTI[c.split(':')[0]]?.nome ?? c.split(':')[0]))].join('; ')}</>
+              )}
             </p>
           </div>
         </div>

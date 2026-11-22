@@ -21,6 +21,7 @@ export interface Struttura {
   annoIscritti?: string;
   anticipatari?: boolean;
   orari?: string[];
+  altreFonti?: string[];
   contatti?: { email?: string; pec?: string; sito?: string; telefono?: string };
   caratteristiche?: string[];
   provenienza: {
