@@ -18,7 +18,8 @@ export default function Home() {
           <h3>Fonti ufficiali, sempre citate</h3>
           <p className="tenue">
             Ogni scheda dice da quale registro viene e di quando è il dato. Le scuole dell&apos;infanzia ci sono per tutta
-            Italia; i nidi (0-3) per ora per la Lombardia, e stiamo aggiungendo le altre regioni.
+            Italia; i nidi e gli altri servizi 0-3 per ora in Lombardia, Piemonte e Friuli-Venezia Giulia, e stiamo
+            aggiungendo le altre regioni.
           </p>
           <Link href="/fonti">Vedi fonti e copertura</Link>
         </div>

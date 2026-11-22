@@ -24,10 +24,10 @@ export class HttpFetchService {
     this.userAgent = config.get<string>('HTTP_USER_AGENT') || 'nidi-bot/0.1';
   }
 
-  async scarica(url: string): Promise<Buffer> {
+  async scarica(url: string, tentativi = HttpFetchService.TENTATIVI): Promise<Buffer> {
     const { host } = new URL(url);
     let ultimoErrore: unknown;
-    for (let tentativo = 1; tentativo <= HttpFetchService.TENTATIVI; tentativo += 1) {
+    for (let tentativo = 1; tentativo <= tentativi; tentativo += 1) {
       await this.attendiTurno(host);
       try {
         const risposta = await fetch(url, {

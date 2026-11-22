@@ -52,6 +52,21 @@ export class Struttura {
   @Prop()
     posti?: number;
 
+  /** Età accolte in mesi, se dichiarate dalla fonte. */
+  @Prop()
+    etaMinimaMesi?: number;
+
+  @Prop()
+    etaMassimaMesi?: number;
+
+  /** Accreditamento regionale o comunale, se la fonte lo dice. */
+  @Prop({ enum: ['si', 'no', 'in corso'] })
+    accreditamento?: 'si' | 'no' | 'in corso';
+
+  /** Misure di riduzione delle rette a cui la struttura aderisce, secondo la fonte. */
+  @Prop({ type: [String], default: [] })
+    misureAderite!: string[];
+
   @Prop({ type: Contatti, default: {} })
     contatti!: Contatti;
 

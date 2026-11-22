@@ -15,6 +15,7 @@ export const GESTIONI: Record<string, string> = {
   STATALE: 'Statale',
   COMUNALE: 'Comunale',
   PUBBLICA_ALTRA: 'Altro ente pubblico',
+  PUBBLICA: 'Pubblica',
   PRIVATA_PARITARIA: 'Privata paritaria',
   PARITARIA: 'Paritaria (comunale o privata)',
   PRIVATA: 'Privata',
@@ -29,6 +30,14 @@ export const FONTI: Record<string, { nome: string; descrizione: string }> = {
   'lombardia-udos': {
     nome: 'Regione Lombardia, unità d\'offerta sociali per la prima infanzia',
     descrizione: 'Registro regionale di nidi, micronidi, nidi famiglia e centri prima infanzia in esercizio.',
+  },
+  'fvg-registro-prima-infanzia': {
+    nome: 'Regione Friuli-Venezia Giulia, registro dei servizi per la prima infanzia',
+    descrizione: 'Servizi 0-3 attivi, aggiornato ogni mese: età accolte, accreditamento, adesione all\'abbattimento rette. Senza indirizzi.',
+  },
+  'piemonte-anagrafe-prima-infanzia': {
+    nome: 'Regione Piemonte, anagrafe dei servizi per la prima infanzia',
+    descrizione: 'Nidi, micronidi, sezioni primavera, spazi gioco e nidi in famiglia autorizzati, dati al 31/12/2025.',
   },
   'mim-scuola-in-chiaro': {
     nome: 'Scuola in Chiaro (MIM)',

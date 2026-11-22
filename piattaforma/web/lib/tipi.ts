@@ -13,8 +13,12 @@ export interface Struttura {
   posizione?: { type: 'Point'; coordinates: [number, number] };
   posizioneFonte?: string;
   posti?: number;
-  contatti: { email?: string; pec?: string; sito?: string; telefono?: string };
-  caratteristiche: string[];
+  etaMinimaMesi?: number;
+  etaMassimaMesi?: number;
+  accreditamento?: 'si' | 'no' | 'in corso';
+  misureAderite?: string[];
+  contatti?: { email?: string; pec?: string; sito?: string; telefono?: string };
+  caratteristiche?: string[];
   provenienza: {
     fonte: string; idNellaFonte: string; url?: string; licenza?: string; dataRiferimento?: string; scaricatoIl: string;
   };

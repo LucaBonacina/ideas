@@ -6,6 +6,6 @@ const TIPOLOGIE_0_3 = new Set(['NIDO', 'MICRONIDO', 'SEZIONE_PRIMAVERA', 'SPAZIO
 
 /** Regioni in cui abbiamo almeno una fonte con servizi 0-3. */
 export async function regioniCon03(): Promise<Set<string>> {
-  const righe = (await api<RigaCopertura[]>('/strutture/copertura')) ?? [];
+  const righe = (await api<RigaCopertura[]>('/strutture/copertura', 300)) ?? [];
   return new Set(righe.filter((r) => TIPOLOGIE_0_3.has(r.tipologia)).map((r) => r.regione));
 }

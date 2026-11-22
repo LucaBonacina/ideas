@@ -10,6 +10,13 @@ import type { Struttura } from '@/lib/tipi';
 
 type Parametri = { params: Promise<{ chiave: string }> };
 
+function etaTesto(da?: number, a?: number): string {
+  const mesi = (m: number) => (m % 12 === 0 && m > 0 ? `${m / 12} ${m === 12 ? 'anno' : 'anni'}` : `${m} mesi`);
+  if (da !== undefined && a !== undefined) return `da ${mesi(da)} a ${mesi(a)}`;
+  if (da !== undefined) return `da ${mesi(da)}`;
+  return `fino a ${mesi(a as number)}`;
+}
+
 async function carica(chiave: string): Promise<Struttura | null> {
   return api<Struttura>(`/strutture/${encodeURIComponent(decodeURIComponent(chiave))}`);
 }
@@ -26,6 +33,8 @@ export async function generateMetadata({ params }: Parametri): Promise<Metadata>
 export default async function PaginaStruttura({ params }: Parametri) {
   const s = await carica((await params).chiave);
   if (!s) notFound();
+  const contatti = s.contatti ?? {};
+  const caratteristiche = s.caratteristiche ?? [];
   const fonte = FONTI[s.provenienza.fonte];
   const nido = s.fascia !== '3-6';
   const domiciliare = s.tipologia === 'SERVIZIO_DOMICILIARE';
@@ -45,19 +54,24 @@ export default async function PaginaStruttura({ params }: Parametri) {
             <dl className="scheda">
               <dt>Indirizzo</dt>
               <dd>
-                {domiciliare
-                  ? `Nel comune di ${s.indirizzo.comune} (indirizzo non pubblicato: servizio in abitazione privata)`
+                {domiciliare || !s.indirizzo.via
+                  ? domiciliare ? `Nel comune di ${s.indirizzo.comune} (indirizzo non pubblicato: servizio in abitazione privata)` : `${s.indirizzo.comune} (${s.indirizzo.siglaProvincia}); la fonte non riporta l'indirizzo`
                   : [s.indirizzo.via, [s.indirizzo.cap, s.indirizzo.comune].filter(Boolean).join(' '), `(${s.indirizzo.siglaProvincia})`].filter(Boolean).join(', ')}
               </dd>
               <dt>Tipologia nella fonte</dt>
               <dd>{s.tipologiaOriginale.toLowerCase()}</dd>
               {s.gestore && (<><dt>{s.gestione === 'STATALE' ? 'Istituto di riferimento' : 'Ente gestore'}</dt><dd>{s.gestore}</dd></>)}
               {s.posti && (<><dt>Posti autorizzati</dt><dd>{s.posti}</dd></>)}
-              {s.caratteristiche.length > 0 && (<><dt>Caratteristiche</dt><dd>{s.caratteristiche.join(', ')}</dd></>)}
-              {s.contatti.telefono && (<><dt>Telefono</dt><dd><a href={`tel:${s.contatti.telefono}`}>{s.contatti.telefono}</a></dd></>)}
-              {s.contatti.email && (<><dt>Email</dt><dd><a href={`mailto:${s.contatti.email}`}>{s.contatti.email}</a></dd></>)}
-              {s.contatti.pec && (<><dt>PEC</dt><dd>{s.contatti.pec}</dd></>)}
-              {s.contatti.sito && (<><dt>Sito</dt><dd><a href={s.contatti.sito} rel="nofollow noopener" target="_blank">{s.contatti.sito.replace(/^https?:\/\//, '')}</a></dd></>)}
+              {(s.etaMinimaMesi !== undefined || s.etaMassimaMesi !== undefined) && (
+                <><dt>Età accolte</dt><dd>{etaTesto(s.etaMinimaMesi, s.etaMassimaMesi)}</dd></>
+              )}
+              {s.accreditamento && (<><dt>Accreditamento</dt><dd>{{ si: 'Accreditata', no: 'Non accreditata', 'in corso': 'In corso di accreditamento' }[s.accreditamento]}</dd></>)}
+              {s.misureAderite && s.misureAderite.length > 0 && (<><dt>Aderisce a</dt><dd>{s.misureAderite.join(', ')}</dd></>)}
+              {caratteristiche.length > 0 && (<><dt>Caratteristiche</dt><dd>{caratteristiche.join(', ')}</dd></>)}
+              {contatti.telefono && (<><dt>Telefono</dt><dd><a href={`tel:${contatti.telefono}`}>{contatti.telefono}</a></dd></>)}
+              {contatti.email && (<><dt>Email</dt><dd><a href={`mailto:${contatti.email}`}>{contatti.email}</a></dd></>)}
+              {contatti.pec && (<><dt>PEC</dt><dd>{contatti.pec}</dd></>)}
+              {contatti.sito && (<><dt>Sito</dt><dd><a href={contatti.sito} rel="nofollow noopener" target="_blank">{contatti.sito.replace(/^https?:\/\//, '')}</a></dd></>)}
             </dl>
           </div>
           <h2>Cosa non sappiamo ancora</h2>

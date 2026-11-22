@@ -97,6 +97,7 @@ export function parseLombardiaUdos(contenuto: Buffer, comuni: ComuniLookup, scar
         sito: sitoPubblicabile(r.SITO_WEB_MAIL),
         telefono: telefonoPubblicabile(r.TELEFONO_STRUTTURA),
       },
+      misureAderite: [],
       caratteristiche: tipologiaFonte === 'CENTRO PRIMA INFANZIA' ? ['centro prima infanzia (Lombardia)'] : [],
       provenienza: {
         fonte: FONTE_LOMBARDIA_UDOS,

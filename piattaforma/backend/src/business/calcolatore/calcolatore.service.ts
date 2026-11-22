@@ -12,8 +12,8 @@ export class CalcolatoreService {
     const s = dto.struttura ? await this.strutture.dettaglio(dto.struttura) : undefined;
     // Una struttura comunale o pubblica è "pubblica" per definizione; per le private il convenzionamento
     // non è noto dalle fonti, quindi resta da chiedere alla famiglia.
-    const pubblica = s && [Gestione.COMUNALE, Gestione.PUBBLICA_ALTRA, Gestione.STATALE].includes(s.gestione)
-      ? true : undefined;
+    const pubbliche = [Gestione.COMUNALE, Gestione.PUBBLICA, Gestione.PUBBLICA_ALTRA, Gestione.STATALE];
+    const pubblica = s && pubbliche.includes(s.gestione) ? true : undefined;
     const esito = calcolaCostoNetto({
       dataNascita: dto.dataNascita,
       rettaMensile: dto.rettaMensile,
@@ -27,6 +27,9 @@ export class CalcolatoreService {
       comuneAderenteNidiGratisPlus: dto.comuneAderenteNidiGratisPlus ?? null,
       genitoreOccupatoODid: dto.genitoreOccupatoODid ?? null,
     });
+    if (s && s.misureAderite?.length) {
+      esito.avvertenze.unshift(`Secondo la fonte la struttura aderisce a: ${s.misureAderite.join(', ')}. Questa misura non è ancora inclusa nel calcolo e può ridurre ulteriormente il costo.`);
+    }
     return s ? { ...esito, struttura: s.chiave } : esito;
   }
 }

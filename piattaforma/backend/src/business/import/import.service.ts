@@ -13,6 +13,11 @@ import {
 import {
   FONTE_SCUOLA_IN_CHIARO, PAGINA_SCUOLA_IN_CHIARO, parseRispostaSic, urlRicerca,
 } from './mim/scuola-in-chiaro.parser';
+import { FONTE_FVG, PAGINA_FVG, linkFileFvg, parseFvg } from './fvg/fvg.parser';
+import { elementiPdf } from './piemonte/pdf-testo';
+import {
+  FONTE_PIEMONTE, URL_PIEMONTE, parsePiemonte, righeDaPagine,
+} from './piemonte/piemonte.parser';
 import { PosizioneEsternaRepository } from '../../database/posizione-esterna.repository';
 import { Struttura } from '../../database/struttura.schema';
 import { FONTE_LOMBARDIA_UDOS, URL_LOMBARDIA_UDOS, parseLombardiaUdos } from './lombardia/lombardia-udos.parser';
@@ -57,13 +62,14 @@ export class ImportService {
     nome: string,
     url: string,
     offline: boolean,
+    tentativi?: number,
   ): Promise<{ dati: Buffer; data: Date }> {
     if (offline) {
       const ultimo = await this.raw.ultimo(fonte, nome);
       if (!ultimo) throw new Error(`Nessun file salvato per ${fonte}/${nome}: eseguire prima senza --offline`);
       return { dati: await this.raw.leggi(ultimo.percorso), data: ultimo.data };
     }
-    const dati = await this.http.scarica(url);
+    const dati = await this.http.scarica(url, tentativi);
     const data = new Date();
     const percorso = await this.raw.salva(fonte, nome, dati, data);
     log.info('File salvato', { fonte, percorso, byte: dati.length });
@@ -100,6 +106,25 @@ export class ImportService {
     const comuni = await this.lookup();
     const { dati, data } = await this.file(FONTE_LOMBARDIA_UDOS, 'pej5-wp65.csv', URL_LOMBARDIA_UDOS, offline);
     return this.salva(FONTE_LOMBARDIA_UDOS, parseLombardiaUdos(dati, comuni, data), 2000);
+  }
+
+  async importaFvg(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    let url = '';
+    if (!offline) {
+      const pagina = (await this.http.scarica(PAGINA_FVG)).toString('utf8');
+      url = linkFileFvg(pagina) ?? '';
+      if (!url) throw new Error('Link al registro FVG non trovato nella pagina regionale');
+    }
+    const { dati, data } = await this.file(FONTE_FVG, 'registro.xlsx', url, offline);
+    return this.salva(FONTE_FVG, await parseFvg(dati, url || PAGINA_FVG, comuni, data), 250);
+  }
+
+  async importaPiemonte(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const { dati, data } = await this.file(FONTE_PIEMONTE, 'anagrafe.pdf', URL_PIEMONTE, offline, 8);
+    const righe = righeDaPagine(await elementiPdf(dati));
+    return this.salva(FONTE_PIEMONTE, parsePiemonte(righe, comuni, data), 1000);
   }
 
   /**

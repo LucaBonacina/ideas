@@ -72,6 +72,7 @@ export function parseMim(contenuto: Buffer, file: FileMim, comuni: ComuniLookup,
         pec: emailPubblicabile(r.INDIRIZZOPECSCUOLA),
         sito: sitoPubblicabile(r.SITOWEBSCUOLA),
       },
+      misureAderite: [],
       caratteristiche: caratteristica(r.DESCRIZIONECARATTERISTICASCUOLA),
       provenienza: {
         fonte: FONTE_MIM,

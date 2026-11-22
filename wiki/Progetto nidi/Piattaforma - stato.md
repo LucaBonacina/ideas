@@ -10,8 +10,8 @@ Il codice è in `piattaforma/backend/` (istruzioni nel README della cartella). D
 ## Funzioni costruite
 | Funzione | Stato | Note |
 |---|---|---|
-| F01 Elenco 0-6 per zona | parziale | 3-6 su tutta Italia (anagrafe MIM, 21.445 scuole); 0-3 solo Lombardia (registro regionale, 2.707). Ogni scheda riporta fonte, licenza e data. |
-| F02 Scheda della struttura | parziale | Anagrafica, tipologia, gestione (solo con evidenza), posti (Lombardia), contatti istituzionali. Mancano orari, età accolte, abilitazione al Bonus nido. |
+| F01 Elenco 0-6 per zona | parziale | 3-6 su tutta Italia (anagrafe MIM, 21.445 scuole); 0-3 in Lombardia (2.707), Piemonte (1.148, comprese 179 sezioni primavera) e Friuli-Venezia Giulia (341). Ogni scheda riporta fonte, licenza e data. Sito pubblico con ricerca per comune, mappa e schede. |
+| F02 Scheda della struttura | parziale | Anagrafica, tipologia, gestione (solo con evidenza), posti, contatti istituzionali; in FVG anche età accolte, accreditamento e adesione all'abbattimento rette. Mancano orari, rette, abilitazione al Bonus nido. |
 | F04 Calcolatore del costo netto | prima versione | Bonus nido INPS su tutta Italia; Nidi Gratis Plus in Lombardia. Le condizioni non note (convenzione, adesione del Comune, lavoro dei genitori) restano "da verificare" e non entrano nel costo certo. |
 
 ## Dati (import del 22/11/2026)
@@ -19,6 +19,8 @@ Il codice è in `piattaforma/backend/` (istruzioni nel README della cartella). D
 |---|---|---|
 | [[MIM - Anagrafe scuole statali e paritarie]] | 21.445 | 20.675 (96,4%) da [[MIM - Scuola in Chiaro]] |
 | [[Regione Lombardia - Strutture di offerta sociale prima infanzia]] | 2.707 | 2.414; i 291 nidi famiglia volutamente senza coordinate |
+| [[Regione Piemonte - Anagrafe servizi prima infanzia]] (PDF letto con le posizioni del testo) | 1.148 | 0: indirizzi presenti, geocodifica da fare |
+| [[Regione FVG - Registro servizi prima infanzia attivi]] | 341 | 0: la fonte non ha indirizzi |
 
 - Controllo delle coordinate: 58 scuole su 17.406 controllabili cadono a più di 25 km dalla mediana del loro comune (0,3%): da verificare, per esempio con l'archivio dei numeri civici ANNCSU.
 - 770 scuole dell'infanzia non hanno coordinate nemmeno in Scuola in Chiaro.
@@ -30,6 +32,6 @@ Il codice è in `piattaforma/backend/` (istruzioni nel README della cartella). D
 - Limite: l'elenco dei Comuni ammessi a Nidi Gratis Plus non è pubblico (vedi [[Regione Lombardia - Nidi Gratis Plus]]); il convenzionamento dei nidi privati non è nelle fonti.
 
 ## Prossimi passi
-1. Altre regioni 0-3 con dati aperti (Friuli-Venezia Giulia, Puglia, Piemonte, Toscana, Lazio, Trento, Bolzano) e comuni con open data.
+1. Altre fonti 0-3: Puglia (registro CSV del 2023 e catalogo zerosei 2026/27), Trento, Bolzano, comuni con open data (Roma, Napoli, Palermo, Bologna, Genova, Firenze…). Lazio e Toscana non hanno un elenco attuale per struttura: servono le richieste di accesso civico.
 2. Geocodifica degli indirizzi senza coordinate con l'archivio dei numeri civici (ANNCSU), dopo la verifica di licenza e accesso.
 3. Sito pubblico (proposta: Next.js con pagine per comune).

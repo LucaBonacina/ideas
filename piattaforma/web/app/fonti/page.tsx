@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default async function PaginaFonti() {
-  const righe = (await api<RigaCopertura[]>('/strutture/copertura')) ?? [];
+  const righe = (await api<RigaCopertura[]>('/strutture/copertura', 300)) ?? [];
   const regioni = [...new Set(righe.map((r) => r.regione))].sort();
   const tipologie = [...new Set(righe.map((r) => r.tipologia))];
   const valore = (reg: string, tip: string) => righe.filter((r) => r.regione === reg && r.tipologia === tip).reduce((t, r) => t + r.strutture, 0);
@@ -26,7 +26,7 @@ export default async function PaginaFonti() {
       </p>
       <h2>Fonti usate</h2>
       <ul>
-        {[...fontiUsate, 'mim-scuola-in-chiaro'].map((f) => (
+        {[...fontiUsate.sort(), 'mim-scuola-in-chiaro'].map((f) => (
           <li key={f}><strong>{FONTI[f]?.nome ?? f}</strong>: <span className="tenue">{FONTI[f]?.descrizione}</span></li>
         ))}
       </ul>
@@ -48,8 +48,8 @@ export default async function PaginaFonti() {
       </div>
       <p className="tenue">
         Un trattino nelle colonne dei nidi significa che per quella regione non abbiamo ancora un elenco 0-3, non che non ci
-        siano servizi. Mancano ancora quasi ovunque le sezioni primavera, i nidi aziendali e le scuole dell&apos;infanzia non
-        paritarie.
+        siano servizi. Le sezioni primavera ci sono per ora solo dove le elenca il registro regionale (Piemonte); mancano ancora i nidi
+        aziendali non autorizzati come nidi e le scuole dell&apos;infanzia non paritarie.
       </p>
       <h2>Privacy</h2>
       <p className="tenue">

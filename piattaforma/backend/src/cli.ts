@@ -6,7 +6,7 @@ import log from './log';
 
 /**
  * Esegue gli import da riga di comando:
- *   npm run import -- comuni|mim|lombardia|coordinate-mim|tutto [--offline]
+ *   npm run import -- comuni|mim|lombardia|fvg|piemonte|coordinate-mim|tutto [--offline]
  * Con --offline riusa gli ultimi file grezzi salvati senza riscaricarli.
  */
 async function main(): Promise<void> {
@@ -18,6 +18,8 @@ async function main(): Promise<void> {
     comuni: () => servizio.importaComuni(offline),
     mim: () => servizio.importaMim(offline),
     lombardia: () => servizio.importaLombardia(offline),
+    fvg: () => servizio.importaFvg(offline),
+    piemonte: () => servizio.importaPiemonte(offline),
     'coordinate-mim': () => servizio.importaCoordinateMim(offline),
   };
   const daEseguire = comando === 'tutto' ? Object.keys(passi) : [comando];

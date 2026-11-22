@@ -11,8 +11,9 @@ export function normalizzaNome(nome: string): string {
 /** "VIA MANZONI 98" -> "Via Manzoni 98", lasciando invariate sigle brevi come "IC". */
 export function titoloLeggibile(testo: string): string {
   return testo
+    .replace(/["“”«»]/g, ' ')
     .trim()
-    .replace(/^["'“”«»]+|["'“”«»]+$/g, '')
+    .replace(/^'+|'+$/g, '')
     .toLowerCase()
     .replace(/(^|[\s'"(/-])(\p{L})/gu, (_m, sep: string, lettera: string) => `${sep}${lettera.toUpperCase()}`)
     .replace(/\s+/g, ' ')
