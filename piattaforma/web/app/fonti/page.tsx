@@ -26,7 +26,7 @@ export default async function PaginaFonti() {
       </p>
       <h2>Fonti usate</h2>
       <ul>
-        {[...fontiUsate.sort(), 'mim-scuola-in-chiaro'].map((f) => (
+        {[...new Set([...fontiUsate.sort(), 'mim-scuola-in-chiaro'])].map((f) => (
           <li key={f}><strong>{FONTI[f]?.nome ?? f}</strong>: <span className="tenue">{FONTI[f]?.descrizione}</span></li>
         ))}
       </ul>

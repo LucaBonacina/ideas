@@ -63,6 +63,21 @@ export class Struttura {
   @Prop({ enum: ['si', 'no', 'in corso'] })
     accreditamento?: 'si' | 'no' | 'in corso';
 
+  /** Bambini iscritti e anno scolastico del dato (scuole dell'infanzia). */
+  @Prop()
+    bambiniIscritti?: number;
+
+  @Prop()
+    annoIscritti?: string;
+
+  /** Accoglie bambini sotto i 3 anni ("anticipatari"), secondo gli iscritti dell'ultimo anno disponibile. */
+  @Prop()
+    anticipatari?: boolean;
+
+  /** Orari settimanali frequentati: ridotto (25 ore), normale (40), prolungato (fino a 50). */
+  @Prop({ type: [String], default: undefined })
+    orari?: string[];
+
   /** Misure di riduzione delle rette a cui la struttura aderisce, secondo la fonte. */
   @Prop({ type: [String], default: [] })
     misureAderite!: string[];

@@ -17,6 +17,10 @@ export class PosizioneEsterna {
   @Prop({ required: true })
     fonte!: string;
 
+  /** Telefono della scuola, se la fonte esterna lo dà. */
+  @Prop()
+    telefono?: string;
+
   @Prop({ required: true })
     scaricatoIl!: Date;
 }

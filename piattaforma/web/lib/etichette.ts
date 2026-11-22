@@ -25,7 +25,7 @@ export const GESTIONI: Record<string, string> = {
 export const FONTI: Record<string, { nome: string; descrizione: string }> = {
   'mim-anagrafe': {
     nome: "Ministero dell'Istruzione e del Merito, anagrafe delle scuole",
-    descrizione: "Elenco ufficiale delle scuole dell'infanzia statali e paritarie, a.s. 2026/27.",
+    descrizione: "Elenco ufficiale delle scuole dell'infanzia statali e paritarie, a.s. 2026/27, con bambini iscritti per età e per orario (a.s. 2024/25).",
   },
   'lombardia-udos': {
     nome: 'Regione Lombardia, unità d\'offerta sociali per la prima infanzia',
@@ -41,7 +41,7 @@ export const FONTI: Record<string, { nome: string; descrizione: string }> = {
   },
   'mim-scuola-in-chiaro': {
     nome: 'Scuola in Chiaro (MIM)',
-    descrizione: 'Coordinate geografiche delle scuole.',
+    descrizione: 'Coordinate e telefono delle scuole; 66 scuole dell\'infanzia non ancora presenti nell\'anagrafe open data.',
   },
 };
 

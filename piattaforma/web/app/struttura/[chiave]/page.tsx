@@ -66,6 +66,9 @@ export default async function PaginaStruttura({ params }: Parametri) {
                 <><dt>Età accolte</dt><dd>{etaTesto(s.etaMinimaMesi, s.etaMassimaMesi)}</dd></>
               )}
               {s.accreditamento && (<><dt>Accreditamento</dt><dd>{{ si: 'Accreditata', no: 'Non accreditata', 'in corso': 'In corso di accreditamento' }[s.accreditamento]}</dd></>)}
+              {s.orari && s.orari.length > 0 && (<><dt>Orari settimanali</dt><dd>{s.orari.join('; ')}</dd></>)}
+              {s.bambiniIscritti !== undefined && (<><dt>Bambini iscritti</dt><dd>{s.bambiniIscritti}{s.annoIscritti ? ` (a.s. ${s.annoIscritti})` : ''}</dd></>)}
+              {s.anticipatari !== undefined && (<><dt>Bambini sotto i 3 anni</dt><dd>{s.anticipatari ? 'Sì, nell\'ultimo anno ha accolto anche anticipatari' : 'No, nell\'ultimo anno nessun anticipatario'}</dd></>)}
               {s.misureAderite && s.misureAderite.length > 0 && (<><dt>Aderisce a</dt><dd>{s.misureAderite.join(', ')}</dd></>)}
               {caratteristiche.length > 0 && (<><dt>Caratteristiche</dt><dd>{caratteristiche.join(', ')}</dd></>)}
               {contatti.telefono && (<><dt>Telefono</dt><dd><a href={`tel:${contatti.telefono}`}>{contatti.telefono}</a></dd></>)}
@@ -76,7 +79,7 @@ export default async function PaginaStruttura({ params }: Parametri) {
           </div>
           <h2>Cosa non sappiamo ancora</h2>
           <p className="tenue">
-            Rette, orari, età di ingresso, posti liberi e scadenze di iscrizione non sono nelle fonti pubbliche: chiedili
+            {nido ? 'Rette, orari, età di ingresso, posti liberi e scadenze di iscrizione' : 'Costo della mensa, posti liberi e criteri di accesso'} non sono nelle fonti pubbliche: chiedili
             direttamente alla struttura{s.gestione === 'COMUNALE' || s.gestione === 'STATALE' ? ' o al Comune' : ''}.
           </p>
           {nido && (

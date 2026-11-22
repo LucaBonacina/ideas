@@ -17,6 +17,10 @@ export interface Struttura {
   etaMassimaMesi?: number;
   accreditamento?: 'si' | 'no' | 'in corso';
   misureAderite?: string[];
+  bambiniIscritti?: number;
+  annoIscritti?: string;
+  anticipatari?: boolean;
+  orari?: string[];
   contatti?: { email?: string; pec?: string; sito?: string; telefono?: string };
   caratteristiche?: string[];
   provenienza: {
