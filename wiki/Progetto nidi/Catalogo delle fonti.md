@@ -1,7 +1,7 @@
 ---
 tipo: progetto
 tags: [progetto, nidi, fonti]
-aggiornato: 2026-11-20
+aggiornato: 2026-11-22
 stato: prima versione completa
 ---
 # Catalogo delle fonti
@@ -66,7 +66,7 @@ Dettaglio in [[Segmenti - sintesi]]. Quasi nessun segmento ha un registro aperto
 |---|---|---|
 | Registri regionali chiusi o non pubblicati | Toscana (SIRIA), Lazio (SIRSE), Emilia-Romagna (SPI-ER), Sardegna (SIWE), Umbria, Liguria, Bolzano, Sicilia, Veneto (elenco completo) | Richieste di accesso civico generalizzato (FOIA) |
 | Elenchi nazionali chiusi | INPS (Agenda), ISTAT (elenco delle unità di offerta), MIM (coordinate e gestore) | Richieste di accesso civico; seguire i flussi del 2027/28 |
-| Regioni senza registro | Marche, Abruzzo, Molise, Calabria, Basilicata, Campania (in parte) | Siti dei comuni (scraping), ricerche web, poi gestori |
+| Regioni senza registro | Marche, Abruzzo, Molise, Calabria, Basilicata, Campania (in parte) | Siti dei comuni (scraping), ricerche web, poi gestori; accesso civico ai comuni per l'elenco dei titoli rilasciati (pratiche SUAP non pubbliche, vedi [[SUAP comunali e regionali]]) |
 | Sezioni primavera | Tutte | Decreti ed elenchi USR e regionali di finanziamento |
 | Servizi domiciliari | Tutte (36 dei 52 servizi mancanti al Nord e Centro) | Elenchi regionali dove esistono (es. Lombardia Nidi famiglia), comuni, reti di categoria |
 | Scuole non paritarie e straniere | Tutte | Elenchi USR regione per regione |
@@ -81,7 +81,7 @@ Dettaglio in [[Segmenti - sintesi]]. Quasi nessun segmento ha un registro aperto
 6. **Dati per i genitori:** rette pubbliche dagli avvisi comunali; rette dei privati, posti, orari e lingua dai gestori.
 
 ## Verifiche aperte
-- **SUAP (Sportello Unico per le Attività Produttive).** Per molti servizi privati l'autorizzazione o la SCIA passa dal SUAP del comune (Toscana, Calabria, Sardegna con il SUAPE, Lombardia con la comunicazione preventiva di esercizio), quindi i comuni hanno in teoria l'elenco completo delle aperture, compresi servizi oggi non trovati. Nessuna sessione ha verificato se questi elenchi sono pubblici. Da verificare su un campione di comuni: se le pratiche o le autorizzazioni sono pubbliche (albo pretorio, Amministrazione trasparente), se qualche regione ha un SUAP unico con dati aperti, se l'accesso civico ai comuni è praticabile. Programmata dopo l'azzeramento del limite settimanale (vedi [[Decisioni del progetto]]).
+- **SUAP (Sportello Unico per le Attività Produttive): verificato il 22/11/2026 (sessione P11), esito negativo come fonte di massa.** Vedi [[SUAP comunali e regionali]]. In sintesi: le pratiche SUAP dei servizi 0-3 non sono pubblicate in nessun comune né piattaforma del campione (9 regioni, con e senza registro) e dal d.lgs. 97/2016 non c'è obbligo di pubblicarle; l'albo pretorio contiene solo i provvedimenti espressi, per 15 giorni, su piattaforme non interrogabili in modo automatico; nessun SUAP regionale (SUAPE Sardegna, Calabria SUAP, Umbria, Emilia-Romagna) né impresainungiorno.gov.it espone pratiche consultabili; open data SUAP solo in pochi comuni (il migliore è Cremona: elenco delle pratiche 2018-2025, 18 righe su nidi e infanzia); il SUAP non è sempre il canale (Emilia-Romagna: protocollo del comune; Sicilia: Regione). Dove c'è un registro regionale i dati SUAP vi confluiscono già. **Uso consigliato:** accesso civico mirato ai comuni (o agli ambiti) delle regioni senza registro, chiedendo l'elenco dei titoli attivi con oscuramento di persone fisiche e ditte individuali.
 - **Registro delle imprese (codice ATECO 88.91, servizi di asili nido): non usato.** Sono dati su aziende, ambito escluso per possibile conflitto con il lavoro dell'utente; inoltre sono a pagamento e non coprono associazioni e parrocchie.
 
 ## Avvertenze
