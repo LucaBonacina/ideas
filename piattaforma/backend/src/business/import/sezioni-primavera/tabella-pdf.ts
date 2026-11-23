@@ -9,9 +9,10 @@ export interface ConfigTabella {
   colonne: Record<string, [number, number]>;
   /**
    * "sopra": le celle andate a capo stanno sopra l'ancora (l'ancora è sull'ultima riga della cella);
+   * "sotto": le celle andate a capo stanno sotto l'ancora (l'ancora è sulla prima riga della cella);
    * "vicino": ogni testo va all'ancora più vicina, entro metà della distanza dalle righe accanto.
    */
-  assegnazione: 'sopra' | 'vicino';
+  assegnazione: 'sopra' | 'sotto' | 'vicino';
   /** Testi da ignorare, esatti (intestazioni ripetute in cima alle pagine). */
   ignora?: string[];
   /** Pagine da saltare se un loro testo corrisponde (es. l'elenco delle sezioni non ammesse). */
@@ -44,6 +45,9 @@ export function righeTabella(pagine: ElementoPdf[][], cfg: ConfigTabella): RigaT
       if (cfg.assegnazione === 'sopra') {
         sopra = i > 0 ? ancore[i - 1].y - 3 : a.y + 40;
         sotto = a.y - 3;
+      } else if (cfg.assegnazione === 'sotto') {
+        sopra = a.y + 3;
+        sotto = i < ancore.length - 1 ? ancore[i + 1].y + 3 : a.y - 40;
       } else {
         sopra = Math.min(i > 0 ? (ancore[i - 1].y + a.y) / 2 : a.y + 14, a.y + 14);
         sotto = Math.max(i < ancore.length - 1 ? (ancore[i + 1].y + a.y) / 2 : a.y - 14, a.y - 14);

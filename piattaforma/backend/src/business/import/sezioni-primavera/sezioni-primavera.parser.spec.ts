@@ -28,6 +28,25 @@ describe('tabelle PDF', () => {
     ]);
   });
 
+  it('assegna alla riga le celle andate a capo sotto l\'ancora', () => {
+    const pagina = [
+      e('N.', 22, 1076), e('denominazione', 194, 1076),
+      e('1', 25, 1003), e('ALPAGO', 74, 1003), e('SCUOLA INFANZIA PARITARIA MARIA', 151, 1003),
+      e('IMMACOLATA AI CADUTI', 151, 992), e('(EX SAN GIROLAMO)', 151, 982),
+      e('2', 25, 972), e('BELLUNO', 74, 972), e('SCUOLA "DON BOSCO"', 151, 972), e('1/13', 803, 39),
+    ];
+    const righe = righeTabella([pagina], {
+      ancora: { da: 18, a: 35, re: /^\d+$/ },
+      colonne: { comune: [72, 150], nome: [150, 365] },
+      assegnazione: 'sotto',
+      ignora: ['N.', 'denominazione'],
+    });
+    expect(righe).toEqual([
+      { comune: 'ALPAGO', nome: 'SCUOLA INFANZIA PARITARIA MARIA IMMACOLATA AI CADUTI (EX SAN GIROLAMO)' },
+      { comune: 'BELLUNO', nome: 'SCUOLA "DON BOSCO"' },
+    ]);
+  });
+
   it('salta le pagine escluse', () => {
     const pagina = [e('Sezioni primavera non ammesse', 300, 560), e('AG', 66, 500), e('FAVARA', 480, 500)];
     expect(righeTabella([pagina], {
