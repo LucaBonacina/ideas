@@ -40,15 +40,24 @@ export function righeDaPagineNidiFamiglia(pagine: ElementoPdf[][]): RigaNidoFami
     if (sigle.length === 0) continue;
     const xSigla = Math.min(...sigle.map((e) => e.x));
     const ancore = sigle.filter((e) => e.x <= xSigla + 10).sort((a, b) => b.y - a.y);
-    for (const a of ancore) {
+    const capPagina = elementi.filter((e) => CAP_VENETO.test(e.testo));
+    // Inizio della colonna CAP: delimita il comune anche quando il CAP di una riga manca.
+    const xCap = capPagina.length > 0 ? Math.min(...capPagina.map((e) => e.x)) : Infinity;
+    ancore.forEach((a, i) => {
       const riga = elementi.filter((e) => Math.abs(e.y - a.y) <= 3).sort((p, q) => p.x - q.x);
-      const cap = riga.find((e) => CAP_VENETO.test(e.testo) && e.x > a.x);
-      const comune = riga.filter((e) => e.x > a.x && (!cap || e.x < cap.x) && !CAP_VENETO.test(e.testo))
-        .map((e) => e.testo).join(' ').replace(/\s+/g, ' ')
+      // I comuni lunghi vanno a capo sopra e sotto la riga: si prendono le parti più vicine a questa ancora.
+      const sopra = i > 0 ? (ancore[i - 1].y + a.y) / 2 : a.y + 14;
+      const sotto = i < ancore.length - 1 ? (ancore[i + 1].y + a.y) / 2 : a.y - 14;
+      const comune = elementi
+        .filter((e) => e.x > a.x + 1 && e.x < xCap - 2 && e.y < Math.min(sopra, a.y + 14)
+          && e.y > Math.max(sotto, a.y - 14) && !CAP_VENETO.test(e.testo) && !/^(Comune|CAP)$/i.test(e.testo))
+        .sort((p, q) => (Math.abs(p.y - q.y) > 3 ? q.y - p.y : p.x - q.x))
+        .map((e) => e.testo).join(' ')
+        .replace(/\s+/g, ' ')
         .trim();
       const codice = riga.find((e) => /^ENIF\w+$/i.test(e.testo))?.testo;
       righe.push({ provincia: a.testo, comune, impronta: codice ? impronta(codice) : undefined });
-    }
+    });
   }
   return righe;
 }

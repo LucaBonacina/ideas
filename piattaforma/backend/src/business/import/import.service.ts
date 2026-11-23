@@ -303,22 +303,35 @@ export class ImportService {
     return this.salva(FONTE_VDA, parseVda(righeDaPagineVda(await elementiPdf(dati)), comuni, data), MINIMO_VDA);
   }
 
-  /** Non ancora verificato sui file reali: i siti della Regione Veneto non sono raggiungibili da questo ambiente. */
+  /**
+   * Veneto: Nidi in Famiglia (verificato sul file reale, 213/213 righe) e servizi finanziati dal DDR 58/2024
+   * (parser non ancora verificato). I siti della Regione non sono raggiungibili da questo ambiente: i file
+   * scaricati a mano vanno messi in data/raw/<fonte>/<data>/ e l'import va eseguito con --offline.
+   * Un allegato mancante non blocca gli altri.
+   */
   async importaVeneto(offline = false): Promise<RapportoImport[]> {
     const comuni = await this.lookup();
-    const totale: EsitoParsing = { strutture: [], scartate: [] };
-    for (const a of ['C', 'D'] as const) {
-      const { dati, data } = await this.file(FONTE_VENETO_DDR, `allegato-${a}.pdf`, URL_VENETO_DDR[a], offline, 8);
-      const e = parseVenetoDdr(righeDaPagineVenetoDdr(await elementiPdf(dati)), a, comuni, data);
-      totale.strutture.push(...e.strutture);
-      totale.scartate.push(...e.scartate.map((x) => ({ ...x, motivo: `${a}: ${x.motivo}` })));
+    const rapporti: RapportoImport[] = [];
+    try {
+      const f = await this.file(FONTE_VENETO_NIDI_FAMIGLIA, 'nidi-famiglia.pdf', URL_VENETO_NIDI_FAMIGLIA, offline, 8);
+      const famiglia = parseNidiFamiglia(righeDaPagineNidiFamiglia(await elementiPdf(f.dati)), comuni, f.data);
+      rapporti.push(await this.salva(FONTE_VENETO_NIDI_FAMIGLIA, famiglia, MINIMO_VENETO_NIDI_FAMIGLIA));
+    } catch (e) {
+      log.error('Veneto, Nidi in Famiglia non importati', { errore: (e as Error).message });
     }
-    const f = await this.file(FONTE_VENETO_NIDI_FAMIGLIA, 'nidi-famiglia.pdf', URL_VENETO_NIDI_FAMIGLIA, offline, 8);
-    const famiglia = parseNidiFamiglia(righeDaPagineNidiFamiglia(await elementiPdf(f.dati)), comuni, f.data);
-    return [
-      await this.salva(FONTE_VENETO_DDR, totale, MINIMO_VENETO_DDR),
-      await this.salva(FONTE_VENETO_NIDI_FAMIGLIA, famiglia, MINIMO_VENETO_NIDI_FAMIGLIA),
-    ];
+    try {
+      const totale: EsitoParsing = { strutture: [], scartate: [] };
+      for (const a of ['C', 'D'] as const) {
+        const { dati, data } = await this.file(FONTE_VENETO_DDR, `allegato-${a}.pdf`, URL_VENETO_DDR[a], offline, 8);
+        const e = parseVenetoDdr(righeDaPagineVenetoDdr(await elementiPdf(dati)), a, comuni, data);
+        totale.strutture.push(...e.strutture);
+        totale.scartate.push(...e.scartate.map((x) => ({ ...x, motivo: `${a}: ${x.motivo}` })));
+      }
+      rapporti.push(await this.salva(FONTE_VENETO_DDR, totale, MINIMO_VENETO_DDR));
+    } catch (e) {
+      log.error('Veneto, servizi finanziati (DDR 58/2024) non importati', { errore: (e as Error).message });
+    }
+    return rapporti;
   }
 
   /** Open data di Bologna, Ferrara, Reggio Emilia e Genova; va eseguito dopo l'anagrafe MIM. */
