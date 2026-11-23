@@ -5,6 +5,12 @@ import { VENETO } from './regioni/veneto';
 import { CAMPANIA } from './regioni/campania';
 import { LIGURIA } from './regioni/liguria';
 import { LAZIO } from './regioni/lazio';
+import { BASILICATA } from './regioni/basilicata';
+import { MOLISE } from './regioni/molise';
+import { TOSCANA } from './regioni/toscana';
+import { MARCHE } from './regioni/marche';
+import { PUGLIA, PUGLIA_NUOVE } from './regioni/puglia';
+import { FRIULI_VENEZIA_GIULIA } from './regioni/friuli-venezia-giulia';
 
 export { ElencoSezioniPrimavera } from './elenco';
 
@@ -16,4 +22,11 @@ export const ELENCHI_SEZIONI_PRIMAVERA: ElencoSezioniPrimavera[] = [
   CAMPANIA,
   LIGURIA,
   LAZIO,
+  BASILICATA,
+  MOLISE,
+  TOSCANA,
+  MARCHE,
+  PUGLIA,
+  PUGLIA_NUOVE,
+  FRIULI_VENEZIA_GIULIA,
 ];
