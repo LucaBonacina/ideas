@@ -14,6 +14,9 @@ export class ComuniLookup {
 
   private readonly perNomeRegione = new Map<string, Comune | null>();
 
+  /** Nome senza spazi né apostrofi: alcuni PDF perdono gli spazi ("MOTTASANT'ANASTASIA"). */
+  private readonly perNomeCompatto = new Map<string, Comune>();
+
   constructor(comuni: Comune[]) {
     for (const c of comuni) {
       this.perCatastale.set(c.codiceCatastale, c);
@@ -22,6 +25,7 @@ export class ComuniLookup {
       const chiaveRegione = `${normalizzaNome(c.nome)}|${normalizzaNome(c.regione)}`;
       // null se due comuni della stessa regione hanno lo stesso nome: in quel caso serve la provincia.
       this.perNomeRegione.set(chiaveRegione, this.perNomeRegione.has(chiaveRegione) ? null : c);
+      this.perNomeCompatto.set(`${normalizzaNome(c.nome).replace(/[^A-Z]/g, '')}|${c.siglaProvincia}`, c);
       if (c.nomeAltraLingua) {
         this.perNomeProvincia.set(`${normalizzaNome(c.nomeAltraLingua)}|${c.siglaProvincia}`, c);
       }
@@ -43,7 +47,9 @@ export class ComuniLookup {
   /** Ricerca per nome e provincia; se la provincia manca, per nome e regione (solo se il nome è univoco). */
   daNome(nome: string, siglaProvincia: string, regione?: string): Comune | undefined {
     if (siglaProvincia.trim()) {
-      return this.perNomeProvincia.get(`${normalizzaNome(nome)}|${siglaProvincia.trim().toUpperCase()}`);
+      const sigla = siglaProvincia.trim().toUpperCase();
+      return this.perNomeProvincia.get(`${normalizzaNome(nome)}|${sigla}`)
+        ?? this.perNomeCompatto.get(`${normalizzaNome(nome).replace(/[^A-Z]/g, '')}|${sigla}`);
     }
     if (!regione) return undefined;
     return this.perNomeRegione.get(`${normalizzaNome(nome)}|${normalizzaNome(regione)}`) ?? undefined;

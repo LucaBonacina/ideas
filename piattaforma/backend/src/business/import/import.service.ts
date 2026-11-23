@@ -67,6 +67,8 @@ import {
   DATA_RIFERIMENTO_VENETO_EDUCATORI, FONTE_VENETO_EDUCATORI, MINIMO_VENETO_EDUCATORI, righeDaPagineEducatori,
 } from './veneto/veneto-educatori.parser';
 import { pulisciVia, referentiVeneto } from './veneto/veneto-referenti';
+import { ELENCHI_SEZIONI_PRIMAVERA } from './sezioni-primavera/fonti';
+import { parseSezioniPrimavera } from './sezioni-primavera/sezioni-primavera.parser';
 import { FONTE_BOLOGNA, MINIMO_BOLOGNA, URL_BOLOGNA, parseBologna } from './open-data-comunali/bologna.parser';
 import { FONTE_FERRARA, MINIMO_FERRARA, URL_FERRARA, parseFerrara } from './open-data-comunali/ferrara.parser';
 import { FONTE_GENOVA, MINIMO_GENOVA, URL_GENOVA, parseGenova } from './open-data-comunali/genova.parser';
@@ -362,6 +364,32 @@ export class ImportService {
       rapporti.push(await this.salva(FONTE_VENETO_DDR, totale, MINIMO_VENETO_DDR));
     } catch (e) {
       log.error('Veneto, servizi finanziati (DDR 58/2024) non importati', { errore: (e as Error).message });
+    }
+    return rapporti;
+  }
+
+  /**
+   * Sezioni primavera dagli elenchi regionali di finanziamento (decreti USR). Va eseguito dopo l'anagrafe MIM:
+   * le sezioni con codice meccanografico prendono indirizzo e coordinate della scuola che le ospita.
+   * Un elenco che non si scarica o non si legge non blocca gli altri.
+   */
+  async importaSezioniPrimavera(offline = false): Promise<RapportoImport[]> {
+    const comuni = await this.lookup();
+    const rapporti: RapportoImport[] = [];
+    for (const elenco of ELENCHI_SEZIONI_PRIMAVERA) {
+      try {
+        const scuole = await this.strutture.model.find({
+          'provenienza.fonte': { $in: ['mim-anagrafe', 'mim-scuola-in-chiaro'] },
+          'indirizzo.regione': elenco.regione,
+        }).lean<Struttura[]>();
+        const perCodice = new Map(scuole.map((x) => [x.provenienza.idNellaFonte ?? x.chiave.split(':')[1], x]));
+        const { dati, data } = await this.file(elenco.fonte, elenco.nomeFile, elenco.url, offline, 5);
+        const righe = elenco.estrai(await elementiPdf(dati));
+        const esito = parseSezioniPrimavera(righe, elenco, comuni, perCodice, data);
+        rapporti.push(await this.salva(elenco.fonte, esito, elenco.minimo));
+      } catch (e) {
+        log.error('Sezioni primavera non importate', { fonte: elenco.fonte, errore: (e as Error).message });
+      }
     }
     return rapporti;
   }

@@ -9,7 +9,7 @@ import log from './log';
 
 /**
  * Esegue gli import da riga di comando:
- *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|lazio|roma|toscana|puglia-zerosei|puglia-registro|campania|napoli|trento|valle-aosta|veneto|comunali-nord|coordinate-mim|deduplica|geocodifica|raccolta-comuni|tutto [--offline]
+ *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|lazio|roma|toscana|puglia-zerosei|puglia-registro|campania|napoli|trento|valle-aosta|veneto|comunali-nord|sezioni-primavera|coordinate-mim|deduplica|geocodifica|raccolta-comuni|tutto [--offline]
  * Con --offline riusa gli ultimi file grezzi salvati senza riscaricarli.
  */
 async function main(): Promise<void> {
@@ -37,6 +37,7 @@ async function main(): Promise<void> {
     'valle-aosta': () => servizio.importaValleAosta(offline),
     veneto: () => servizio.importaVeneto(offline),
     'coordinate-mim': () => servizio.importaCoordinateMim(offline),
+    'sezioni-primavera': () => servizio.importaSezioniPrimavera(offline),
     'comunali-nord': () => servizio.importaComunaliNord(offline),
     'raccolta-comuni': () => raccolta.raccogli(limite),
     deduplica: () => app.get(DeduplicaService).esegui(),
