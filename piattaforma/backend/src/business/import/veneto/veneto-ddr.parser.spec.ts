@@ -54,7 +54,9 @@ describe('parser servizi finanziati Veneto (DDR)', () => {
       accreditamento: 'si',
     });
     expect(ditta.denominazione).toBe('Nido Integrato a Verona');
-    expect(JSON.stringify(esito.strutture)).not.toMatch(/ROSSI|Rossi|RSSMRA/);
+    const pubblici = esito.strutture.map(({ riservato: _riservato, ...resto }) => resto);
+    expect(JSON.stringify(pubblici)).not.toMatch(/ROSSI|Rossi|RSSMRA/);
+    expect(ditta.riservato).toMatchObject({ gestore: 'ROSSI MARIA', codiceFiscaleGestore: 'RSSMRA80A41L781X' });
   });
 
   it('pubblici: gestione comunale e gestore', () => {

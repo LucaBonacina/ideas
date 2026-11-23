@@ -5,6 +5,9 @@ aggiornato: 2026-11-22
 ---
 # Completezza della piattaforma
 
+## Aggiornamento del 23/11/2026: Veneto al 67%, 0-3 al 56%
+Con gli allegati C e D del DDR 58/2024 (802 servizi accreditati e finanziati) e l'elenco dei Nidi in Famiglia al 04/04/2025 (213), scaricati a mano dall'utente perché i siti regionali non sono raggiungibili dall'ambiente di sviluppo, il Veneto passa da 0 a **974 servizi coperti su 1.449 (67%)**. Il totale nazionale stimato sale a circa **8.455 su 15.049 (56%)**.
+
 ## Aggiornamento del 22/11/2026, sera: 0-3 al 50%
 Dopo gli import di Lazio, Roma, Toscana, Puglia, Campania, Napoli, Trento, Valle d'Aosta e degli open data di Bologna, Ferrara, Reggio Emilia e Genova, e dopo la deduplica tra fonti, i servizi 0-3 coperti sono **7.481 su 15.049 (50%)**. In ogni comune si conta al massimo il numero ISTAT, così i doppioni non nascondono i buchi.
 
@@ -13,7 +16,7 @@ Dopo gli import di Lazio, Roma, Toscana, Puglia, Campania, Napoli, Trento, Valle
 | Puglia | 736 / 742 (99%) | Liguria | 133 / 354 (38%) |
 | Piemonte | 1.056 / 1.087 (97%) | Trentino-Alto Adige | 175 / 592 (30%) |
 | Toscana | 841 / 944 (89%) | Emilia-Romagna | 262 / 1.278 (21%) |
-| Friuli-Venezia Giulia | 309 / 377 (82%) | Veneto | 0 / 1.449: siti regionali non raggiungibili da questo ambiente |
+| Friuli-Venezia Giulia | 309 / 377 (82%) | Veneto | 974 / 1.449 (67%): aggiornato il 23/11 |
 | Lombardia | 2.460 / 3.135 (78%) | Sicilia | 0 / 808 |
 | Valle d'Aosta | 37 / 54 (69%) | Marche | 0 / 395 |
 | Campania | 662 / 988 (67%) | Sardegna | 0 / 368 |

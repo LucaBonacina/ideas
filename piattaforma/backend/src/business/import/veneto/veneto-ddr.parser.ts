@@ -8,6 +8,10 @@ import { EsitoParsing } from '../esito-parsing';
 import { ElementoPdf } from '../piemonte/pdf-testo';
 import { idUnico } from '../strumenti/identificativi';
 
+// Parole dell'intestazione della tabella, ripetuta in cima a ogni pagina.
+const INTESTAZIONE = new Set(['nr.', 'prov.', 'comune', 'codice', 'meccanografico', 'codice fiscale', 'beneficiario',
+  'ente beneficiario', 'denominazione del servizio', 'contributo', 'contributo 2024']);
+
 export const FONTE_VENETO_DDR = 'veneto-servizi-finanziati-ddr';
 
 const BASE_BUR = 'https://bur.regione.veneto.it/BurvServices/Pubblica/Download.aspx';
@@ -78,7 +82,7 @@ export function righeDaPagineVenetoDdr(pagine: ElementoPdf[][]): RigaVenetoDdr[]
     const distanza = (a: ElementoPdf, y: number): number => (y <= a.y ? a.y - y : (y - a.y) * 2);
     for (const e of elementi) {
       if (CODICE.test(e.testo) || CF.test(e.testo) || IMPORTO.test(e.testo) || PROVINCE.test(e.testo)) continue;
-      if (/^\d+$|^€$/.test(e.testo)) continue;
+      if (/^\d+$|^€$/.test(e.testo) || INTESTAZIONE.has(e.testo.trim().toLowerCase())) continue;
       const i = ancore.reduce((m, a, k) => (distanza(a, e.y) < distanza(ancore[m], e.y) ? k : m), 0);
       if (distanza(ancore[i], e.y) > 20) continue;
       if (e.x < xCodice - 3) celle[i].comune.push(e);
@@ -118,7 +122,8 @@ export function tipologiaVeneto(denominazione: string): { tipologia: Tipologia; 
 /**
  * Servizi per la prima infanzia accreditati e finanziati dalla Regione del Veneto (allegati C e D del decreto
  * annuale di riparto). Nessun indirizzo, capienza o contatto. Per le ditte individuali (codice fiscale di persona)
- * il nome del servizio può contenere quello della titolare: si usa un nome generico.
+ * il nome del servizio può contenere quello della titolare: la scheda pubblica ha un nome generico, i dati reali
+ * stanno in `riservato`.
  */
 export function parseVenetoDdr(
   righe: RigaVenetoDdr[],
@@ -159,6 +164,12 @@ export function parseVenetoDdr(
       misureAderite: [],
       contatti: {},
       caratteristiche: [],
+      // Nome reale del servizio, ente e codice fiscale: conservati, la scheda pubblica decide il prodotto.
+      riservato: {
+        denominazione: r.denominazione || undefined,
+        gestore: r.ente || undefined,
+        codiceFiscaleGestore: r.codiceFiscale || undefined,
+      },
       provenienza: {
         fonte: FONTE_VENETO_DDR,
         idNellaFonte: id,

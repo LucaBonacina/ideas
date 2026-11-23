@@ -16,6 +16,13 @@ export class DatiRiservati {
   @Prop()
     cap?: string;
 
+  /** Ente gestore come scritto nella fonte, anche quando è una persona o un privato. */
+  @Prop()
+    gestore?: string;
+
+  @Prop()
+    codiceFiscaleGestore?: string;
+
   /** Codici dei referenti collegati (raccolta referenti), es. ENIF358, CRNIF22. */
   @Prop({ type: [String], default: undefined })
     referenti?: string[];
