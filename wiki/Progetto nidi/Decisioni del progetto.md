@@ -20,3 +20,5 @@ tags: [progetto, nidi, decisioni]
 | 2026-11-22 | Download dalle fonti con richieste semplici, lente e identificabili: niente browser "stealth", proxy residenziali né risoluzione di captcha | utente |
 | 2026-11-22 | Il codice sta per ora in `piattaforma/` di questo repository; si sposterà nel repository dedicato quando esisterà | utente |
 | 2026-11-22 | Privacy nei dati pubblicati: niente nomi di gestori privati (solo enti pubblici), niente email personali né cellulari, nidi famiglia senza indirizzo né coordinate | Claude, dopo il controllo sui dati reali |
+| 2026-11-23 | Le fonti si importano per intero, dati personali compresi (es. nomi, email e PEC delle educatrici dei Nidi in Famiglia del Veneto): cosa mostrare si decide nel prodotto, non nell'import. I dati non pubblici stanno in campi e raccolte che l'API non restituisce (`riservato` sulle strutture, raccolta `referenti`). Sostituisce in parte la decisione del 22/11: quella resta la regola di ciò che il sito mostra | utente |
+| 2026-11-23 | Estrazione dalle pagine dei comuni fatta da Claude nella sessione, senza chiave API, per ora | utente |

@@ -63,6 +63,10 @@ import {
   FONTE_VENETO_NIDI_FAMIGLIA, MINIMO_VENETO_NIDI_FAMIGLIA, URL_VENETO_NIDI_FAMIGLIA, parseNidiFamiglia,
   righeDaPagineNidiFamiglia,
 } from './veneto/veneto-nidi-famiglia.parser';
+import {
+  DATA_RIFERIMENTO_VENETO_EDUCATORI, FONTE_VENETO_EDUCATORI, MINIMO_VENETO_EDUCATORI, righeDaPagineEducatori,
+} from './veneto/veneto-educatori.parser';
+import { pulisciVia, referentiVeneto } from './veneto/veneto-referenti';
 import { FONTE_BOLOGNA, MINIMO_BOLOGNA, URL_BOLOGNA, parseBologna } from './open-data-comunali/bologna.parser';
 import { FONTE_FERRARA, MINIMO_FERRARA, URL_FERRARA, parseFerrara } from './open-data-comunali/ferrara.parser';
 import { FONTE_GENOVA, MINIMO_GENOVA, URL_GENOVA, parseGenova } from './open-data-comunali/genova.parser';
@@ -70,6 +74,7 @@ import {
   FONTE_REGGIO_EMILIA, MINIMO_REGGIO_EMILIA, URL_REGGIO_EMILIA, parseReggioEmilia,
 } from './open-data-comunali/reggio-emilia.parser';
 import { IndiceMim } from './open-data-comunali/indice-mim';
+import { ReferenteRepository } from '../../database/referente.repository';
 import { PosizioneEsternaRepository } from '../../database/posizione-esterna.repository';
 import { Struttura } from '../../database/struttura.schema';
 import { BenchmarkIstat } from '../../database/benchmark-istat.schema';
@@ -120,6 +125,7 @@ export class ImportService {
     private readonly strutture: StrutturaRepository,
     private readonly comuni: ComuneRepository,
     private readonly posizioni: PosizioneEsternaRepository,
+    private readonly referenti: ReferenteRepository,
     @InjectModel(BenchmarkIstat.name) private readonly benchmark: Model<BenchmarkIstat>,
   ) {}
 
@@ -314,8 +320,34 @@ export class ImportService {
     const rapporti: RapportoImport[] = [];
     try {
       const f = await this.file(FONTE_VENETO_NIDI_FAMIGLIA, 'nidi-famiglia.pdf', URL_VENETO_NIDI_FAMIGLIA, offline, 8);
-      const famiglia = parseNidiFamiglia(righeDaPagineNidiFamiglia(await elementiPdf(f.dati)), comuni, f.data);
+      const lette = righeDaPagineNidiFamiglia(await elementiPdf(f.dati));
+      // L'albo degli educatori non ha un link diretto stabile: si usa il file salvato a mano in data/raw.
+      const alboFile = await this.raw.ultimo(FONTE_VENETO_EDUCATORI, 'educatori.pdf');
+      const albo = alboFile ? righeDaPagineEducatori(await elementiPdf(await this.raw.leggi(alboFile.percorso))) : [];
+      if (!alboFile) log.warn('Veneto: albo degli educatori non trovato in data/raw, referenti senza recapiti');
+      const perCodice = new Map(albo.map((a) => [a.codice, a]));
+      const righe = lette.map((r) => ({
+        ...r, via: pulisciVia(r.via, r.codiceEducatore ? perCodice.get(r.codiceEducatore) : undefined),
+      }));
+      const famiglia = parseNidiFamiglia(righe, comuni, f.data);
       rapporti.push(await this.salva(FONTE_VENETO_NIDI_FAMIGLIA, famiglia, MINIMO_VENETO_NIDI_FAMIGLIA));
+      if (albo.length > 0 && albo.length < MINIMO_VENETO_EDUCATORI) {
+        throw new Error(`Albo educatori Veneto sospetto: ${albo.length} righe`);
+      }
+      const ref = referentiVeneto(righe, famiglia.strutture, albo, {
+        nidi: 'DDR Veneto 39/2025, allegato A', educatori: alboFile ? 'DDR Veneto 40/2025, allegato A' : undefined,
+      }, DATA_RIFERIMENTO_VENETO_EDUCATORI, f.data);
+      const ed = await this.referenti.sostituisci('Veneto', 'educatore-nido-famiglia', ref.educatori);
+      const co = await this.referenti.sostituisci('Veneto', 'coordinatore-nido-famiglia', ref.coordinatori);
+      rapporti.push({
+        fonte: FONTE_VENETO_EDUCATORI,
+        letti: ref.educatori.length + ref.coordinatori.length,
+        scartate: 0,
+        esempiScarti: [],
+        inseriti: ed.inseriti + co.inseriti,
+        aggiornati: ed.aggiornati + co.aggiornati,
+        disattivati: ed.disattivati + co.disattivati,
+      });
     } catch (e) {
       log.error('Veneto, Nidi in Famiglia non importati', { errore: (e as Error).message });
     }

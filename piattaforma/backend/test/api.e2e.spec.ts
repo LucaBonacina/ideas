@@ -111,4 +111,20 @@ describe('API strutture (con MongoDB in memoria)', () => {
     expect(det.body.conteggi.length).toBeGreaterThan(0);
     await request(app.getHttpServer()).get('/comuni/999999').expect(404);
   });
+
+  it('non restituisce mai i dati riservati', async () => {
+    const base = parseLombardiaUdos(Buffer.from(LOMBARDIA_UDOS), comuni, oggi).strutture[0];
+    await repo.model.create({
+      ...base,
+      chiave: 'prova:riservata',
+      indirizzo: { ...base.indirizzo, codiceIstat: '999999' },
+      riservato: { denominazione: 'Nome reale', via: 'Via Privata 1', referenti: ['ENIF1'] },
+    });
+    const scheda = await request(app.getHttpServer()).get('/strutture/prova:riservata').expect(200);
+    const ricerca = await request(app.getHttpServer()).get('/strutture?comune=999999').expect(200);
+    expect(ricerca.body.totale).toBe(1);
+    expect(JSON.stringify([scheda.body, ricerca.body])).not.toMatch(/riservato|Nome reale|Via Privata|ENIF1/);
+    const salvata = await repo.model.findOne({ chiave: 'prova:riservata' }).select('+riservato').lean();
+    expect(salvata?.riservato?.via).toBe('Via Privata 1');
+  });
 });

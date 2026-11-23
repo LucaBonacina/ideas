@@ -6,6 +6,7 @@ import { Gestione } from '../domain/gestione.enum';
 import { Provenienza } from './provenienza.schema';
 import { Indirizzo } from './indirizzo.schema';
 import { Contatti } from './contatti.schema';
+import { DatiRiservati } from './dati-riservati.schema';
 import { Posizione } from './posizione.schema';
 
 export {
@@ -99,6 +100,10 @@ export class Struttura {
   /** Altre fonti che descrivono la stessa struttura (solo sulla scheda principale). */
   @Prop({ type: [String], default: undefined })
     altreFonti?: string[];
+
+  /** Dati conservati ma mai restituiti dall'API: vanno chiesti esplicitamente con select('+riservato'). */
+  @Prop({ type: DatiRiservati, select: false })
+    riservato?: DatiRiservati;
 
   /** false se la struttura non compare più nell'ultimo aggiornamento della fonte. */
   @Prop({ default: true, index: true })
