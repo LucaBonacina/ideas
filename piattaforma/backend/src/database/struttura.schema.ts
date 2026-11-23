@@ -50,6 +50,10 @@ export class Struttura {
   @Prop()
     posizioneFonte?: string;
 
+  /** Precisione della coordinata geocodificata dall'indirizzo: civico, civico-vicino (stessa via), via. */
+  @Prop()
+    posizionePrecisione?: string;
+
   @Prop()
     posti?: number;
 

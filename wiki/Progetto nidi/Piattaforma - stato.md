@@ -35,3 +35,13 @@ Il codice è in `piattaforma/backend/` (istruzioni nel README della cartella). D
 1. Altre fonti 0-3: Puglia (registro CSV del 2023 e catalogo zerosei 2026/27), Trento, Bolzano, comuni con open data (Roma, Napoli, Palermo, Bologna, Genova, Firenze…). Lazio e Toscana non hanno un elenco attuale per struttura: servono le richieste di accesso civico.
 2. Geocodifica degli indirizzi senza coordinate con l'archivio dei numeri civici (ANNCSU), dopo la verifica di licenza e accesso.
 3. Sito pubblico (proposta: Next.js con pagine per comune).
+
+## Geocodifica (23/11/2026)
+Stradario dei civici fornito dall'utente (export del 23/11/2026, 107 province): ANNCSU (aggiornamento del 02/11/2026) integrato con fonti regionali e comunali (Piemonte, Torino, Toscana, Lombardia, Bari, Puglia, Sicilia, Sardegna) e con OpenStreetMap. I file restano in `data/raw/civici-utente/` e non entrano in git né nel database del sito.
+
+- Comando: `npm run import -- geocodifica`. Lavora solo sulle strutture con indirizzo e senza coordinate, esclusi i servizi domiciliari (indirizzo = abitazione di una persona).
+- Abbinamento a livelli, con la precisione salvata sulla struttura (`posizionePrecisione`): civico esatto, civico vicino sullo stesso lato della via (entro 10 numeri), oppure solo via, ma solo se la via è corta (raggio sotto i 750 m).
+- Controlli contro gli errori: tipi di via diversi solo nella stessa famiglia (via/strada, località/frazione, piazza/largo); due vie ugualmente compatibili = nessun abbinamento; punti fuori dall'area del comune scartati (in qualche comune lo stradario ha civici con coordinate in un'altra regione, es. Scillato).
+- Verifica su 2.100 scuole statali con coordinate ufficiali: distanza mediana 43 m al civico, 74 m al civico vicino, 87 m alla via. Gli scarti oltre 5 km (circa 2%) sono in buona parte errori delle coordinate ufficiali di riferimento.
+- Risultato: 5.147 strutture geocodificate su 6.456 senza coordinate (80%); strutture fisiche con coordinate dal 77% al **92%**. Restano fuori soprattutto Puglia (464), Campania (336), Toscana (120) e Lazio (101), dove lo stradario è rado in alcuni comuni, e la Valle d'Aosta, dove ha civici solo per 65 comuni.
+- **Da chiarire per la pubblicazione:** OpenStreetMap (ODbL) richiede l'attribuzione "© OpenStreetMap contributors"; vanno verificate le licenze delle fonti regionali e comunali dei civici. Ogni coordinata conserva la sua fonte (`posizioneFonte`), così la pagina delle fonti può citarle.

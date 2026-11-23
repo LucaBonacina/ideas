@@ -420,7 +420,11 @@ export class ImportService {
     for (const s of strutture) {
       const esterna = mappa.get(s.chiave);
       if (!s.posizione && esterna) {
-        Object.assign(s, { posizione: { type: 'Point', coordinates: esterna.coordinates }, posizioneFonte: esterna.fonte });
+        Object.assign(s, {
+          posizione: { type: 'Point', coordinates: esterna.coordinates },
+          posizioneFonte: esterna.fonte,
+          posizionePrecisione: esterna.precisione,
+        });
       }
       if (esterna?.telefono && !s.contatti.telefono) s.contatti.telefono = esterna.telefono;
     }

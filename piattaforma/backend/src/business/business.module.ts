@@ -11,14 +11,15 @@ import { ComuniController } from './comuni/comuni.controller';
 import { ComuniService } from './comuni/comuni.service';
 import { RaccoltaComuniService } from './raccolta/raccolta-comuni.service';
 import { DeduplicaService } from './deduplica/deduplica.service';
+import { GeocodificaService } from './geocodifica/geocodifica.service';
 
 @Module({
   imports: [DatabaseModule],
   controllers: [StruttureController, CalcolatoreController, ComuniController],
   providers: [
     HttpFetchService, RawStoreService, ImportService, StruttureService, CalcolatoreService, ComuniService,
-    RaccoltaComuniService, DeduplicaService,
+    RaccoltaComuniService, DeduplicaService, GeocodificaService,
   ],
-  exports: [ImportService, RaccoltaComuniService, DeduplicaService],
+  exports: [ImportService, RaccoltaComuniService, DeduplicaService, GeocodificaService],
 })
 export default class BusinessModule {}

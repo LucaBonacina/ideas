@@ -4,11 +4,12 @@ import { AppModule } from './app.module';
 import { ImportService } from './business/import/import.service';
 import { RaccoltaComuniService } from './business/raccolta/raccolta-comuni.service';
 import { DeduplicaService } from './business/deduplica/deduplica.service';
+import { GeocodificaService } from './business/geocodifica/geocodifica.service';
 import log from './log';
 
 /**
  * Esegue gli import da riga di comando:
- *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|lazio|roma|toscana|puglia-zerosei|puglia-registro|campania|napoli|trento|valle-aosta|veneto|comunali-nord|coordinate-mim|deduplica|raccolta-comuni|tutto [--offline]
+ *   npm run import -- comuni|istat|mim|lombardia|fvg|piemonte|lazio|roma|toscana|puglia-zerosei|puglia-registro|campania|napoli|trento|valle-aosta|veneto|comunali-nord|coordinate-mim|deduplica|geocodifica|raccolta-comuni|tutto [--offline]
  * Con --offline riusa gli ultimi file grezzi salvati senza riscaricarli.
  */
 async function main(): Promise<void> {
@@ -39,6 +40,7 @@ async function main(): Promise<void> {
     'comunali-nord': () => servizio.importaComunaliNord(offline),
     'raccolta-comuni': () => raccolta.raccogli(limite),
     deduplica: () => app.get(DeduplicaService).esegui(),
+    geocodifica: () => app.get(GeocodificaService).esegui(),
   };
   const daEseguire = comando === 'tutto' ? Object.keys(passi).filter((p) => p !== 'raccolta-comuni') : [comando];
   try {

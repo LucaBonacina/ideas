@@ -17,6 +17,10 @@ export class PosizioneEsterna {
   @Prop({ required: true })
     fonte!: string;
 
+  /** Precisione della coordinata, quando viene da una geocodifica: civico, civico-vicino, via. */
+  @Prop()
+    precisione?: string;
+
   /** Telefono della scuola, se la fonte esterna lo dà. */
   @Prop()
     telefono?: string;
