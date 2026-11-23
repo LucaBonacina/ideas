@@ -5,6 +5,28 @@ aggiornato: 2026-11-22
 ---
 # Completezza della piattaforma
 
+## Aggiornamento del 23/11/2026, sera: sezioni primavera, 0-3 al 67%
+Sezioni primavera dagli elenchi di finanziamento degli Uffici scolastici regionali (e della Regione FVG) per 17 regioni, quasi tutti dell'a.s. 2025/26. Eccezioni: Toscana, Abruzzo e Puglia sono fermi al 2024/25; la Sardegna ha solo l'elenco provvisorio; per il FVG si usa il 2026/27 perché il file del 2025/26 non ha testo. Le sezioni con codice meccanografico prendono indirizzo e coordinate della scuola dell'infanzia che le ospita. Manca la Calabria: il sito dell'USR non è raggiungibile dall'ambiente di sviluppo.
+
+- Sezioni primavera: 2.811 nel database, **2.327 coperte su 3.024 contate da ISTAT (77%)**; 196 erano già presenti da fonti regionali e sono state riconosciute come doppioni.
+- Copertura 0-3 complessiva (con tetto ISTAT per comune): **10.145 su 15.049 (67%)**, dal 56%.
+
+| Regione | Copertura | Regione | Copertura |
+|---|---|---|---|
+| Puglia | 99% | Liguria | 52% |
+| Piemonte | 97% | Basilicata | 45% |
+| Lombardia | 95% | Sicilia | 33% |
+| Toscana | 91% | Trentino-Alto Adige | 30% |
+| Friuli-Venezia Giulia | 90% | Emilia-Romagna | 24% |
+| Veneto | 89% | Molise | 22% |
+| Campania | 80% | Abruzzo | 17% |
+| Valle d'Aosta | 69% | Umbria | 13% |
+| Lazio | 66% | Sardegna | 11% |
+| | | Marche | 4% |
+| | | Calabria | 0% |
+
+Le regioni sotto il 50% non hanno un registro regionale dei nidi pubblico: si chiudono con la raccolta comune per comune o con le richieste di accesso civico.
+
 ## Aggiornamento del 23/11/2026: Veneto al 67%, 0-3 al 56%
 Con gli allegati C e D del DDR 58/2024 (802 servizi accreditati e finanziati) e l'elenco dei Nidi in Famiglia al 04/04/2025 (213), scaricati a mano dall'utente perché i siti regionali non sono raggiungibili dall'ambiente di sviluppo, il Veneto passa da 0 a **974 servizi coperti su 1.449 (67%)**. Il totale nazionale stimato sale a circa **8.455 su 15.049 (56%)**.
 

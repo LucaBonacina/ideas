@@ -11,6 +11,11 @@ import { TOSCANA } from './regioni/toscana';
 import { MARCHE } from './regioni/marche';
 import { PUGLIA, PUGLIA_NUOVE } from './regioni/puglia';
 import { FRIULI_VENEZIA_GIULIA } from './regioni/friuli-venezia-giulia';
+import { PIEMONTE } from './regioni/piemonte';
+import { SARDEGNA } from './regioni/sardegna';
+import { ABRUZZO } from './regioni/abruzzo';
+import { EMILIA_ROMAGNA } from './regioni/emilia-romagna';
+import { UMBRIA } from './regioni/umbria';
 
 export { ElencoSezioniPrimavera } from './elenco';
 
@@ -29,4 +34,9 @@ export const ELENCHI_SEZIONI_PRIMAVERA: ElencoSezioniPrimavera[] = [
   PUGLIA,
   PUGLIA_NUOVE,
   FRIULI_VENEZIA_GIULIA,
+  PIEMONTE,
+  SARDEGNA,
+  ABRUZZO,
+  EMILIA_ROMAGNA,
+  UMBRIA,
 ];
