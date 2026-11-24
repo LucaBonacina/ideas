@@ -18,6 +18,10 @@ async function main(): Promise<void> {
   const app = await NestFactory.createApplicationContext(AppModule, { logger: ['error', 'warn'] });
   const servizio = app.get(ImportService);
   const raccolta = app.get(RaccoltaComuniService);
+  const valore = (nome: string): string | undefined => opzioni.find((o) => o.startsWith(`--${nome}=`))
+    ?.slice(nome.length + 3);
+  const parallelo = Number(valore('parallelo') ?? 6);
+  const regioni = (valore('regioni') ?? '').split(',').map((r) => r.trim()).filter(Boolean);
   const limite = Number(opzioni.find((o) => o.startsWith('--limite='))?.split('=')[1] ?? 300);
   const passi: Record<string, () => Promise<unknown>> = {
     comuni: () => servizio.importaComuni(offline),
@@ -39,11 +43,13 @@ async function main(): Promise<void> {
     'coordinate-mim': () => servizio.importaCoordinateMim(offline),
     'sezioni-primavera': () => servizio.importaSezioniPrimavera(offline),
     'comunali-nord': () => servizio.importaComunaliNord(offline),
-    'raccolta-comuni': () => raccolta.raccogli(limite),
+    'raccolta-comuni': () => raccolta.raccogli(limite, parallelo, regioni, Number(valore('buco-minimo') ?? 1)),
+    'testi-comuni': () => raccolta.preparaTesti(),
+    'siti-comunali': () => servizio.importaSitiComunali(),
     deduplica: () => app.get(DeduplicaService).esegui(),
     geocodifica: () => app.get(GeocodificaService).esegui(),
   };
-  const daEseguire = comando === 'tutto' ? Object.keys(passi).filter((p) => p !== 'raccolta-comuni') : [comando];
+  const daEseguire = comando === 'tutto' ? Object.keys(passi).filter((p) => !['raccolta-comuni', 'testi-comuni'].includes(p)) : [comando];
   try {
     for (const nome of daEseguire) {
       if (!passi[nome]) throw new Error(`Import sconosciuto: ${nome}`);

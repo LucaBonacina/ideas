@@ -16,6 +16,12 @@ const PAROLE = new RegExp([
   'prima[\\s_-]*infanzia',
   '0[\\s_-]*-?[\\s_-]*3[\\s_-]*anni',
   'tagesm',
+  // Alto Adige: Kindertagesstätte, Kinderhort, Kleinkindbetreuung.
+  '(^|[/_\\s-])kitas?([/_\\s.-]|$)',
+  'kindertages',
+  'kinderhort',
+  'kleinkind',
+  'kinderbetreu',
   'ludotec',
   'baby[\\s_-]*park',
   'centr[oi][\\s_-]*(bambini',

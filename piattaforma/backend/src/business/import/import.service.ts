@@ -1,3 +1,5 @@
+import { readdir, readFile, stat } from 'fs/promises';
+import { join } from 'path';
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
@@ -69,6 +71,7 @@ import {
 import { pulisciVia, referentiVeneto } from './veneto/veneto-referenti';
 import { ELENCHI_SEZIONI_PRIMAVERA } from './sezioni-primavera/fonti';
 import { parseSezioniPrimavera } from './sezioni-primavera/sezioni-primavera.parser';
+import { EstrattoComune, FONTE_SITI_COMUNALI, parseSitiComunali } from './siti-comunali/siti-comunali.parser';
 import { FONTE_BOLOGNA, MINIMO_BOLOGNA, URL_BOLOGNA, parseBologna } from './open-data-comunali/bologna.parser';
 import { FONTE_FERRARA, MINIMO_FERRARA, URL_FERRARA, parseFerrara } from './open-data-comunali/ferrara.parser';
 import { FONTE_GENOVA, MINIMO_GENOVA, URL_GENOVA, parseGenova } from './open-data-comunali/genova.parser';
@@ -392,6 +395,27 @@ export class ImportService {
       }
     }
     return rapporti;
+  }
+
+  /**
+   * Strutture estratte dalle pagine dei siti comunali (data/raw/comuni/<istat>/estratto.json).
+   * La data di riferimento è quella della raccolta delle pagine.
+   */
+  async importaSitiComunali(): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const radice = join(process.env.DATA_DIR || join(process.cwd(), 'data'), 'raw', 'comuni');
+    const cartelle = await readdir(radice, { withFileTypes: true }).catch(() => []);
+    const estratti: EstrattoComune[] = [];
+    let raccoltoIl = new Date(0);
+    for (const d of cartelle.filter((c) => c.isDirectory())) {
+      const file = join(radice, d.name, 'estratto.json');
+      const testo = await readFile(file, 'utf8').catch(() => undefined);
+      if (!testo) continue;
+      estratti.push(JSON.parse(testo) as EstrattoComune);
+      const quando = (await stat(file)).mtime;
+      if (quando > raccoltoIl) raccoltoIl = quando;
+    }
+    return this.salva(FONTE_SITI_COMUNALI, parseSitiComunali(estratti, comuni, raccoltoIl), 0);
   }
 
   /** Open data di Bologna, Ferrara, Reggio Emilia e Genova; va eseguito dopo l'anagrafe MIM. */

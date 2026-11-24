@@ -2,17 +2,20 @@ import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { InjectModel } from '@nestjs/mongoose';
 import { createHash } from 'crypto';
-import { mkdir, writeFile, readFile } from 'fs/promises';
+import { mkdir, writeFile, readFile, readdir } from 'fs/promises';
 import { join } from 'path';
 import { Model } from 'mongoose';
 import pLimit from 'p-limit';
 import { BenchmarkIstat } from '../../database/benchmark-istat.schema';
 import { StrutturaRepository } from '../../database/struttura.repository';
+import { ComuneRepository } from '../../database/comune.repository';
 import { HttpFetchService } from '../../service/http-fetch.service';
 import log from '../../log';
 import { Robots } from './robots';
 import { linkDi, rilevante, urlDaSitemap } from './pagine-rilevanti';
 import { URL_IPA_ENTI, sitiComuni } from './siti-comuni.parser';
+import { htmlInTesto, partiRilevanti, pdfInTesto } from './testo-comune';
+import { elementiPdf } from '../import/piemonte/pdf-testo';
 
 export interface PaginaRaccolta {
   url: string;
@@ -57,6 +60,7 @@ export class RaccoltaComuniService {
     config: ConfigService,
     private readonly http: HttpFetchService,
     private readonly strutture: StrutturaRepository,
+    private readonly comuni: ComuneRepository,
     @InjectModel(BenchmarkIstat.name) private readonly benchmark: Model<BenchmarkIstat>,
   ) {
     this.cartella = join(config.get<string>('DATA_DIR') || join(process.cwd(), 'data'), 'raw', 'comuni');
@@ -78,19 +82,38 @@ export class RaccoltaComuniService {
       .sort((a, b) => b.buco - a.buco);
   }
 
-  async raccogli(limite: number, parallelo = 6): Promise<{ comuni: number; conPagine: number; pagine: number }> {
+  /**
+   * Raccoglie le pagine dei comuni con il buco più grande. Con `regioni` solo quei comuni; i comuni già raccolti
+   * (cartella con indice.json) si saltano, così la raccolta si può riprendere a lotti.
+   */
+  async raccogli(
+    limite: number,
+    parallelo = 6,
+    regioni: string[] = [],
+    bucoMinimo = 1,
+  ): Promise<{ comuni: number; conPagine: number; pagine: number }> {
     const siti = await sitiComuni(await this.http.scarica(URL_IPA_ENTI));
-    const obiettivo = (await this.comuniConBuco()).slice(0, limite);
+    const tutti = await this.comuni.tutti();
+    const regionePer = new Map(tutti.map((c) => [c.codiceIstat, c.regione]));
+    const catastalePer = new Map(tutti.map((c) => [c.codiceIstat, c.codiceCatastale]));
+    const fatti = await Promise.all((await this.comuniConBuco()).map(async (c) => ({
+      ...c,
+      fatto: await readFile(join(this.cartella, c.codiceIstat, 'indice.json')).then(() => true).catch(() => false),
+    })));
+    const obiettivo = fatti
+      .filter((c) => !c.fatto && c.buco >= bucoMinimo && (regioni.length === 0 || regioni.includes(regionePer.get(c.codiceIstat) ?? '')))
+      .slice(0, limite);
     const coda = pLimit(parallelo);
     const esiti = await Promise.all(obiettivo.map((c) => coda(async () => {
-      const esito = await this.raccogliComune(c.codiceIstat, siti.get(c.codiceIstat), c.buco);
+      const esito = await this.raccogliComune(c.codiceIstat, siti.get(catastalePer.get(c.codiceIstat) ?? ''), c.buco)
+        .catch((e: Error) => ({
+          codiceIstat: c.codiceIstat, buco: c.buco, pagine: [], errore: e.message,
+        } as EsitoComune));
       log.info('Comune raccolto', {
         codiceIstat: c.codiceIstat, buco: c.buco, pagine: esito.pagine.length, errore: esito.errore,
       });
       return esito;
     })));
-    await mkdir(this.cartella, { recursive: true });
-    await writeFile(join(this.cartella, 'indice.json'), JSON.stringify(esiti, null, 1));
     return {
       comuni: esiti.length,
       conPagine: esiti.filter((e) => e.pagine.length > 0).length,
@@ -115,9 +138,9 @@ export class RaccoltaComuniService {
     const esito: EsitoComune = {
       codiceIstat, sito, buco, pagine: [],
     };
-    if (!sito) return { ...esito, errore: 'sito istituzionale non presente in IPA' };
+    if (!sito) return this.chiudi({ ...esito, errore: 'sito istituzionale non presente in IPA' });
     let base: URL;
-    try { base = new URL(sito); } catch { return { ...esito, errore: `sito non valido: ${sito}` }; }
+    try { base = new URL(sito); } catch { return this.chiudi({ ...esito, errore: `sito non valido: ${sito}` }); }
     const robots = new Robots((await this.testo(new URL('/robots.txt', base).toString())) ?? '');
     const stessoSito = (u: string) => {
       try {
@@ -150,7 +173,9 @@ export class RaccoltaComuniService {
     // 2. Senza sitemap utile: home page e sezioni "scuola / servizi alla persona".
     if (candidati.size < 3) {
       const home = await this.testo(base.toString());
-      if (!home && candidati.size === 0) return { ...esito, errore: 'sito non raggiungibile o rifiuta i client automatici' };
+      if (!home && candidati.size === 0) {
+        return this.chiudi({ ...esito, errore: 'sito non raggiungibile o rifiuta i client automatici' });
+      }
       if (home) {
         const link = linkDi(home ?? '', base.toString()).filter((l) => stessoSito(l.url));
         link.filter((l) => rilevante(l.url, l.testo)).forEach((l) => candidati.set(l.url, l.testo));
@@ -192,7 +217,52 @@ export class RaccoltaComuniService {
     return esito;
   }
 
-  async indice(): Promise<EsitoComune[]> {
-    return JSON.parse(await readFile(join(this.cartella, 'indice.json'), 'utf8')) as EsitoComune[];
+  /**
+   * Per ogni comune raccolto scrive testo.txt: le parti delle pagine e dei PDF che parlano di servizi 0-3,
+   * con l'URL di provenienza. È il materiale da cui si estraggono le strutture.
+   */
+  async preparaTesti(massimoPerComune = 24000): Promise<{ comuni: number; conTesto: number }> {
+    const cartelle = (await readdir(this.cartella, { withFileTypes: true })).filter((d) => d.isDirectory());
+    let conTesto = 0;
+    for (const d of cartelle) {
+      const dir = join(this.cartella, d.name);
+      const esito = await readFile(join(dir, 'indice.json'), 'utf8').then((t) => JSON.parse(t) as EsitoComune)
+        .catch(() => undefined);
+      if (!esito || esito.pagine.length === 0) continue;
+      const parti: string[] = [];
+      let totale = 0;
+      // Prima le pagine che descrivono strutture (luoghi, elenchi, PDF), per ultime notizie e comunicati.
+      const peso = (u: string): number => {
+        if (/notizi|news|comunicat|event[io]|stampa/i.test(u)) return 3;
+        if (/luog|struttur|elenco|sedi|nidi|asil|infanzia/i.test(u)) return 0;
+        return /\.pdf/i.test(u) ? 1 : 2;
+      };
+      for (const p of [...esito.pagine].sort((a, b) => peso(a.url) - peso(b.url))) {
+        if (totale > massimoPerComune) break;
+        let testo = '';
+        try {
+          const dati = await readFile(join(dir, p.file));
+          testo = p.tipo === 'pdf' ? pdfInTesto(await elementiPdf(dati)) : htmlInTesto(dati.toString('utf8'));
+        } catch {
+          continue;
+        }
+        const rilevanti = partiRilevanti(testo);
+        if (!rilevanti) continue;
+        parti.push(`=== ${p.url}\n${rilevanti}`);
+        totale += rilevanti.length;
+      }
+      if (parti.length === 0) continue;
+      await writeFile(join(dir, 'testo.txt'), parti.join('\n\n').slice(0, massimoPerComune));
+      conTesto += 1;
+    }
+    return { comuni: cartelle.length, conTesto };
+  }
+
+  /** Salva l'esito di un comune anche quando non ci sono pagine: così non si riprova al giro dopo. */
+  private async chiudi(esito: EsitoComune): Promise<EsitoComune> {
+    const cartella = join(this.cartella, esito.codiceIstat);
+    await mkdir(cartella, { recursive: true });
+    await writeFile(join(cartella, 'indice.json'), JSON.stringify(esito, null, 1));
+    return esito;
   }
 }
