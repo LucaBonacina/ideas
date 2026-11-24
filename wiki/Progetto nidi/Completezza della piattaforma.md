@@ -5,6 +5,9 @@ aggiornato: 2026-11-22
 ---
 # Completezza della piattaforma
 
+## Aggiornamento del 24/11/2026, secondo giro: 0-3 al 79%
+Secondo giro della raccolta comunale sui comuni con un solo servizio mancante (803 comuni visitati, 279 con pagine pertinenti) ed estrazione su 274 comuni: 193 strutture nuove. Copertura 0-3: **11.879 su 15.049 (78,9%)**. La resa marginale è ormai bassa: in circa metà dei comuni piccoli le pagine non nominano nessuna struttura (solo bonus, voucher, iscrizioni o pagine indice). Per salire ancora servono gli elenchi regionali di Liguria e Alto Adige (download manuale), l'elenco delle sezioni primavera della Calabria e, come ultima risorsa, l'accesso civico.
+
 ## Aggiornamento del 24/11/2026: 0-3 al 78%
 Nuove fonti scaricabili e raccolta comune per comune (gli accessi civici restano l'ultima risorsa, per decisione dell'utente).
 
