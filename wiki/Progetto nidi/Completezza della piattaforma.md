@@ -5,6 +5,31 @@ aggiornato: 2026-11-22
 ---
 # Completezza della piattaforma
 
+## Aggiornamento del 24/11/2026: 0-3 al 78%
+Nuove fonti scaricabili e raccolta comune per comune (gli accessi civici restano l'ultima risorsa, per decisione dell'utente).
+
+- **Emilia-Romagna**: elenchi regionali dei servizi educativi autorizzati al funzionamento (art. 19 L.R. 19/2016, SPiER, aggiornati al 17/02/2026): 1.244 servizi. Regione dal 24% al 96%.
+- **Sicilia**: albo regionale L.R. 22/1986, sezione Minori (aggiornato a settembre 2026), solo le tipologie 0-3: 309 servizi. Regione dal 33% al 68%.
+- **Reggio Calabria**: registro comunale dei micronidi autorizzati e accreditati (L.R. 24/2024): 28.
+- **Siti comunali**: raccolta automatica delle pagine (sitemap e sezioni sui servizi, robots.txt rispettato, client identificabile) in 595 comuni delle regioni scoperte con almeno 2 servizi mancanti; 296 con pagine pertinenti. Estrazione fatta da Claude nella sessione (senza chiave API), con URL e citazione della pagina per ogni struttura: 534 strutture in 236 comuni, 71 già presenti da altre fonti. Revisione: escluse 9 strutture la cui prova indica lavori, arredi o apertura non confermata.
+- Resa: buona dove il comune pubblica un elenco o schede dei luoghi (Pescara, Foligno, Pesaro, Latina, Assemini); nulla dove ci sono solo pagine su bonus, graduatorie o iscrizioni (Merano, La Spezia, Messina, Roma). I privati sono quasi sempre citati senza nome.
+- Copertura 0-3: **11.714 su 15.049 (77,8%)**, dal 67%.
+
+| Regione | Copertura | Regione | Copertura |
+|---|---|---|---|
+| Puglia | 99% | Lazio | 67% |
+| Piemonte | 97% | Liguria | 59% |
+| Emilia-Romagna | 96% | Basilicata | 49% |
+| Lombardia | 95% | Trentino-Alto Adige | 37% |
+| Toscana | 91% | Abruzzo | 36% |
+| Friuli-Venezia Giulia | 90% | Umbria | 32% |
+| Veneto | 89% | Molise | 26% |
+| Campania | 81% | Marche | 24% |
+| Valle d'Aosta | 69% | Sardegna | 20% |
+| Sicilia | 68% | Calabria | 14% |
+
+Fonti individuate ma non scaricabili da qui: elenchi della Regione Liguria (robots.txt vieta tutti i client automatici) e elenco delle microstrutture della Provincia di Bolzano (pagina che carica i dati da un servizio esterno). Servono un download manuale dell'utente.
+
 ## Aggiornamento del 23/11/2026, sera: sezioni primavera, 0-3 al 67%
 Sezioni primavera dagli elenchi di finanziamento degli Uffici scolastici regionali (e della Regione FVG) per 17 regioni, quasi tutti dell'a.s. 2025/26. Eccezioni: Toscana, Abruzzo e Puglia sono fermi al 2024/25; la Sardegna ha solo l'elenco provvisorio; per il FVG si usa il 2026/27 perché il file del 2025/26 non ha testo. Le sezioni con codice meccanografico prendono indirizzo e coordinate della scuola dell'infanzia che le ospita. Manca la Calabria: il sito dell'USR non è raggiungibile dall'ambiente di sviluppo.
 
