@@ -40,6 +40,8 @@ async function main(): Promise<void> {
     trento: () => servizio.importaTrento(offline),
     'valle-aosta': () => servizio.importaValleAosta(offline),
     veneto: () => servizio.importaVeneto(offline),
+    'emilia-romagna': () => servizio.importaEmiliaRomagna(offline),
+    'sicilia-albo': () => servizio.importaSiciliaAlbo(offline),
     'coordinate-mim': () => servizio.importaCoordinateMim(offline),
     'sezioni-primavera': () => servizio.importaSezioniPrimavera(offline),
     'comunali-nord': () => servizio.importaComunaliNord(offline),

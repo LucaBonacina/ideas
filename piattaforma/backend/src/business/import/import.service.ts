@@ -71,6 +71,12 @@ import {
 import { pulisciVia, referentiVeneto } from './veneto/veneto-referenti';
 import { ELENCHI_SEZIONI_PRIMAVERA } from './sezioni-primavera/fonti';
 import { parseSezioniPrimavera } from './sezioni-primavera/sezioni-primavera.parser';
+import {
+  FONTE_ER, MINIMO_ER, URL_ER, parseEr, righeDaPagineEr,
+} from './emilia-romagna/er-servizi.parser';
+import {
+  FONTE_SICILIA_ALBO, MINIMO_SICILIA_ALBO, URL_SICILIA_ALBO, parseAlboSicilia, righeDaPagineAlboSicilia,
+} from './sicilia/albo-minori.parser';
 import { EstrattoComune, FONTE_SITI_COMUNALI, parseSitiComunali } from './siti-comunali/siti-comunali.parser';
 import { FONTE_BOLOGNA, MINIMO_BOLOGNA, URL_BOLOGNA, parseBologna } from './open-data-comunali/bologna.parser';
 import { FONTE_FERRARA, MINIMO_FERRARA, URL_FERRARA, parseFerrara } from './open-data-comunali/ferrara.parser';
@@ -416,6 +422,30 @@ export class ImportService {
       if (quando > raccoltoIl) raccoltoIl = quando;
     }
     return this.salva(FONTE_SITI_COMUNALI, parseSitiComunali(estratti, comuni, raccoltoIl), 0);
+  }
+
+  /** Emilia-Romagna: elenchi regionali dei servizi autorizzati al funzionamento (pubblici diretti, privati). */
+  async importaEmiliaRomagna(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const totale: EsitoParsing = { strutture: [], scartate: [] };
+    for (const elenco of ['diretta', 'privata'] as const) {
+      const { dati, data } = await this.file(FONTE_ER, `${elenco}.pdf`, URL_ER[elenco], offline, 5);
+      const e = parseEr(righeDaPagineEr(await elementiPdf(dati)), elenco, comuni, data);
+      if (e.strutture.length < MINIMO_ER[elenco]) {
+        throw new Error(`Emilia-Romagna ${elenco}: ${e.strutture.length} servizi, attesi almeno ${MINIMO_ER[elenco]}`);
+      }
+      totale.strutture.push(...e.strutture);
+      totale.scartate.push(...e.scartate);
+    }
+    return this.salva(FONTE_ER, totale, MINIMO_ER.diretta + MINIMO_ER.privata);
+  }
+
+  /** Sicilia: albo regionale L.R. 22/1986, sezione Minori, solo le tipologie 0-3. */
+  async importaSiciliaAlbo(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const { dati, data } = await this.file(FONTE_SICILIA_ALBO, 'minori.pdf', URL_SICILIA_ALBO, offline, 5);
+    const esito = parseAlboSicilia(righeDaPagineAlboSicilia(await elementiPdf(dati)), comuni, data);
+    return this.salva(FONTE_SICILIA_ALBO, esito, MINIMO_SICILIA_ALBO);
   }
 
   /** Open data di Bologna, Ferrara, Reggio Emilia e Genova; va eseguito dopo l'anagrafe MIM. */
