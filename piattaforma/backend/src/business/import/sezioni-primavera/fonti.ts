@@ -16,6 +16,7 @@ import { SARDEGNA } from './regioni/sardegna';
 import { ABRUZZO } from './regioni/abruzzo';
 import { EMILIA_ROMAGNA } from './regioni/emilia-romagna';
 import { UMBRIA } from './regioni/umbria';
+import { CALABRIA } from './regioni/calabria';
 
 export { ElencoSezioniPrimavera } from './elenco';
 
@@ -39,4 +40,5 @@ export const ELENCHI_SEZIONI_PRIMAVERA: ElencoSezioniPrimavera[] = [
   ABRUZZO,
   EMILIA_ROMAGNA,
   UMBRIA,
+  CALABRIA,
 ];
