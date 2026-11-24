@@ -404,7 +404,7 @@ export class ImportService {
   }
 
   /**
-   * Strutture estratte dalle pagine dei siti comunali (data/raw/comuni/<istat>/estratto.json).
+   * Strutture estratte dalle pagine dei siti comunali (data/raw/comuni/<istat>/estratto*.json).
    * La data di riferimento è quella della raccolta delle pagine.
    */
   async importaSitiComunali(): Promise<RapportoImport> {
@@ -414,12 +414,14 @@ export class ImportService {
     const estratti: EstrattoComune[] = [];
     let raccoltoIl = new Date(0);
     for (const d of cartelle.filter((c) => c.isDirectory())) {
-      const file = join(radice, d.name, 'estratto.json');
-      const testo = await readFile(file, 'utf8').catch(() => undefined);
-      if (!testo) continue;
-      estratti.push(JSON.parse(testo) as EstrattoComune);
-      const quando = (await stat(file)).mtime;
-      if (quando > raccoltoIl) raccoltoIl = quando;
+      // estratto.json dalle pagine del sito; estratto-<altro>.json da elenchi comunali trascritti (es. registri).
+      const file = (await readdir(join(radice, d.name))).filter((f) => /^estratto(-[\w-]+)?\.json$/.test(f));
+      for (const f of file) {
+        const percorso = join(radice, d.name, f);
+        estratti.push(JSON.parse(await readFile(percorso, 'utf8')) as EstrattoComune);
+        const quando = (await stat(percorso)).mtime;
+        if (quando > raccoltoIl) raccoltoIl = quando;
+      }
     }
     return this.salva(FONTE_SITI_COMUNALI, parseSitiComunali(estratti, comuni, raccoltoIl), 0);
   }
