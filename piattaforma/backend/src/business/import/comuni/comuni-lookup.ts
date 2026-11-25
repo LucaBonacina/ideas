@@ -17,7 +17,10 @@ export class ComuniLookup {
   /** Nome senza spazi né apostrofi: alcuni PDF perdono gli spazi ("MOTTASANT'ANASTASIA"). */
   private readonly perNomeCompatto = new Map<string, Comune>();
 
+  private readonly tutti: Comune[];
+
   constructor(comuni: Comune[]) {
+    this.tutti = comuni;
     for (const c of comuni) {
       this.perCatastale.set(c.codiceCatastale, c);
       this.perIstat.set(c.codiceIstat, c);
@@ -53,5 +56,17 @@ export class ComuniLookup {
     }
     if (!regione) return undefined;
     return this.perNomeRegione.get(`${normalizzaNome(nome)}|${normalizzaNome(regione)}`) ?? undefined;
+  }
+
+  /**
+   * Comune della provincia il cui nome comincia con quello dato ("Appiano" -> "Appiano sulla strada del vino"),
+   * solo se è uno solo.
+   */
+  daInizioNome(nome: string, siglaProvincia: string): Comune | undefined {
+    const n = normalizzaNome(nome);
+    if (n.length < 3) return undefined;
+    const trovati = this.tutti.filter((c) => c.siglaProvincia === siglaProvincia
+      && [c.nome, c.nomeAltraLingua].some((x) => x && normalizzaNome(x).startsWith(`${n} `)));
+    return trovati.length === 1 ? trovati[0] : undefined;
   }
 }

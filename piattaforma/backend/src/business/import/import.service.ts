@@ -80,6 +80,9 @@ import {
 import {
   ELENCHI_LIGURIA, ElencoLiguria, FONTE_LIGURIA_ALBO, MINIMO_LIGURIA, parseLiguria, righeLiguria,
 } from './liguria/albo-liguria.parser';
+import {
+  FONTE_BZ_MICROSTRUTTURE, MINIMO_BZ_MICROSTRUTTURE, URL_BZ_MICROSTRUTTURE, parseMicrostrutture, righeMicrostrutture,
+} from './bolzano/microstrutture.parser';
 import { EstrattoComune, FONTE_SITI_COMUNALI, parseSitiComunali } from './siti-comunali/siti-comunali.parser';
 import { FONTE_BOLOGNA, MINIMO_BOLOGNA, URL_BOLOGNA, parseBologna } from './open-data-comunali/bologna.parser';
 import { FONTE_FERRARA, MINIMO_FERRARA, URL_FERRARA, parseFerrara } from './open-data-comunali/ferrara.parser';
@@ -464,6 +467,17 @@ export class ImportService {
       totale.scartate.push(...e.scartate);
     }
     return this.salva(FONTE_LIGURIA_ALBO, totale, MINIMO_LIGURIA);
+  }
+
+  /**
+   * Alto Adige: elenco delle microstrutture per la prima infanzia (Agenzia per la famiglia). La pagina carica i dati
+   * con JavaScript: va salvata dal browser in data/raw/<fonte>/<data>/pagina.html e importata con --offline.
+   */
+  async importaBolzano(offline = true): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const { dati, data } = await this.file(FONTE_BZ_MICROSTRUTTURE, 'pagina.html', URL_BZ_MICROSTRUTTURE, offline);
+    const esito = parseMicrostrutture(righeMicrostrutture(dati.toString('utf8')), comuni, data);
+    return this.salva(FONTE_BZ_MICROSTRUTTURE, esito, MINIMO_BZ_MICROSTRUTTURE);
   }
 
   /** Open data di Bologna, Ferrara, Reggio Emilia e Genova; va eseguito dopo l'anagrafe MIM. */

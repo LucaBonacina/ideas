@@ -43,6 +43,7 @@ async function main(): Promise<void> {
     'emilia-romagna': () => servizio.importaEmiliaRomagna(offline),
     'sicilia-albo': () => servizio.importaSiciliaAlbo(offline),
     liguria: () => servizio.importaLiguria(offline),
+    bolzano: () => servizio.importaBolzano(true),
     'coordinate-mim': () => servizio.importaCoordinateMim(offline),
     'sezioni-primavera': () => servizio.importaSezioniPrimavera(offline),
     'comunali-nord': () => servizio.importaComunaliNord(offline),
