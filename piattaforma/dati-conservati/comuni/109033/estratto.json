@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "109033",
+  "strutture": [
+    {
+      "nome": "Nido d'infanzia comunale Piccoli passi",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.portosangiorgio.fm.it/it/news/nido-dinfanzia-aperte-le-iscrizioni",
+      "citazione": "Sono aperte le iscrizioni al nido d’infanzia comunale “Piccoli passi”. Riguardano i bambini che al 1 settembre 2024 avranno compiuto il terzo mese di età e non compiuto i tre anni",
+      "anno": "2025/26"
+    }
+  ],
+  "note": "Un solo nido comunale. Altri nidi/micronidi privati accreditati citati solo genericamente (bonus nidi gratis), senza nomi. Ludoteca 'Gli amici di Lucignolo' e CreArea non 0-3 / non verificati."
+}

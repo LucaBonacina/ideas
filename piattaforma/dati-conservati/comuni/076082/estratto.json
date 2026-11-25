@@ -1,0 +1,28 @@
+{
+ "codiceIstat": "076082",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale (Sasso di Castalda)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Istituto scolastico, aule adiacenti alla Scuola dell'infanzia",
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 24,
+   "url": "https://www.comune.sassodicastalda.pz.it/it/novita/page/avviso-iscrizioni-all-asilo-nido-primavera-comunale",
+   "citazione": "Sono aperte le iscrizioni per i bambini che frequentano e/o frequenteranno l’asilo nido-primavera anno 2026-2027. Asilo Nido (12—24 mesi)",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione primavera comunale (Sasso di Castalda)",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "indirizzo": "Istituto scolastico, aule adiacenti alla Scuola dell'infanzia",
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.sassodicastalda.pz.it/it/novita/page/avviso-iscrizioni-all-asilo-nido-primavera-comunale",
+   "citazione": "Sezione primavera (24—36 mesi) Part-time € 230,00 Full—time € 360,00 più buono pasto",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Probabilmente un unico servizio nido/primavera nello stesso edificio (aule adiacenti alla scuola dell'infanzia), diviso per fascia d'età in due righe."
+}

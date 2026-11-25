@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "060074",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Il nodo dei sogni A. Santucci",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "telefono": "0776 828034",
+      "email": "settoreservizisociali@comune.sora.fr.it",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.sora.fr.it/servizi/servizio-dettaglio/3397448",
+      "citazione": "presso asilo nido comunale \"il nodo dei sogni A. Santucci\". A chi è rivolto: Bambini di età compresa tra 3 mesi e 3 anni.",
+      "anno": "2026"
+    }
+  ]
+}

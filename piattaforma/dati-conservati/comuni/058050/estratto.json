@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "058050",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale di Lanuvio",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Salvo D'Acquisto 20",
+      "posti": 44,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.lanuvio.rm.it/servizi/richiedere-iscrizione-allasilo-nido",
+      "citazione": "L’asilo nido comunale di Lanuvio è sito in via Salvo D’Acquisto n. 20. Stante la capienza del nido pari a n. 44 posti al massimo",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Un solo nido con sezioni Lattanti, Divezzi e Sezione Primavera (25-36 mesi) interna al nido, non struttura separata."
+}

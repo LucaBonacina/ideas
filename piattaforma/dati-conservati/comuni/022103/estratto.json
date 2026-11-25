@@ -1,0 +1,31 @@
+{
+ "codiceIstat": "022103",
+ "strutture": [
+  {
+   "nome": "Nido Il Trenino dei bambini",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Paganella",
+   "url": "https://www.comune.lavis.tn.it/it/news/nido-lavis-raggiunge-il-100-per-cento-della-copertura",
+   "citazione": "Il “Trenino dei bambini”, in via Paganella, è la sede principale del nido di Lavis: ha aperto nel 2014 in area Felti",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido Bolle di sapone (Pressano)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.lavis.tn.it/it/news/nido-lavis-raggiunge-il-100-per-cento-della-copertura",
+   "citazione": "C’è un nido anche a Pressano, frazione di Lavis che ha meno di mille abitanti: si chiama “Bolle di sapone”.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido Piccoli Passi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.lavis.tn.it/it/news/nido-lavis-raggiunge-il-100-per-cento-della-copertura",
+   "citazione": "“Piccoli Passi” è la terza sede del nido di Lavis, inaugurata nel 2024 proprio per garantire una maggiore copertura del servizio. Si trova sempre in area Felti",
+   "anno": "2026"
+  }
+ ],
+ "note": "Tre sedi comunali del nido (112 posti totali, gestione in appalto a cooperativa). Tagesmutter citate solo come contributi, senza strutture nominate."
+}

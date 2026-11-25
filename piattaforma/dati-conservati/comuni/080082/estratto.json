@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "080082",
+  "strutture": [
+    {
+      "nome": "Micronido comunale",
+      "tipologia": "MICRONIDO",
+      "gestione": "COMUNALE",
+      "posti": 22,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2026/27",
+      "url": "https://comune.santilariodelloionio.rc.it/it/news/iscrizioni-asilo-nido-comunale-per-la-e-2026-2027",
+      "citazione": "Si informa che sono aperte le iscrizioni al micronido comunale per l'anno educativo 2026/2027. Il servizio è rivolto ai bambini di età compresa tra 3 e 36 mesi. I posti disponibili sono n. 22."
+    }
+  ]
+}

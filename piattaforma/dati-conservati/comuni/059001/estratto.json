@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "059001",
+  "strutture": [
+    {
+      "nome": "Nido comunale Domenico D'Alessio",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Giustiniano snc",
+      "telefono": "06 92018258",
+      "email": "nidoaprilia@orizzontealtricolori.it",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.aprilia.lt.it/servizi/iscrizione-al-nido-comunale",
+      "citazione": "Il Comune di Aprilia, in via Giustiniano, ha realizzato il nido comunale denominato “Domenico D’Alessio, il cui servizio è stato avviato in data 08/09/2016.",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Un solo nido comunale (gestione esternalizzata, email del gestore Orizzonte Altri Colori). Il sito cita nidi/micronidi privati autorizzati e una 'Convenzione con nidi privati per riserva posti' (det. 649/2026) senza mai nominarli: il buco di 10 resta scoperto. Il telefono 06 92018258 e' di un ufficio comunale."
+}

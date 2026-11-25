@@ -1,0 +1,19 @@
+{
+ "codiceIstat": "021012",
+ "strutture": [
+  {
+   "nome": "Casa Bimbo - Microstruttura Tagesmutter",
+   "tipologia": "MICRONIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Aquila Nera 18",
+   "telefono": "+39 0471 953348",
+   "posti": 16,
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.bronzolo.bz.it/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/Casa_Bimbo_Tagesmutter",
+   "citazione": "Casa Bimbo è un servizio di assistenza all'infanzia che offre accoglienza e cura a bambini in età dai zero ai tre anni. La microstruttura dispone di 16 posti.",
+   "anno": "2025"
+  }
+ ],
+ "note": "Dati dall'html originale (testo.txt conteneva solo il titolo). Gestita da cooperativa sociale con sede a Bolzano. Tipologia scelta MICRONIDO (microstruttura)."
+}

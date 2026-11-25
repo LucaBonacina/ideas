@@ -1,0 +1,26 @@
+{
+ "codiceIstat": "081018",
+ "strutture": [
+  {
+   "nome": "Micronido comunale Piccoli Passi",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.salemi.trapani.it/it/news/avviso-utenza-beneficiaria-dei-micronidi-comunali",
+   "citazione": "le attività educative dei Micronidi Comunali “Piccoli Passi” e “Colibrì” riprenderanno regolarmente.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Micronido comunale Colibrì",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.salemi.trapani.it/it/news/avviso-utenza-beneficiaria-dei-micronidi-comunali",
+   "citazione": "le attività educative dei Micronidi Comunali “Piccoli Passi” e “Colibrì” riprenderanno regolarmente.",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Indirizzi non indicati nel testo."
+}

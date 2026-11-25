@@ -1,0 +1,95 @@
+{
+ "codiceIstat": "043023",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia Topolino",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Cassiano da Fabriano, 62100 Macerata",
+   "telefono": "0733 32865",
+   "email": "asilo.topolino@comune.macerata.it",
+   "posti": 28,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 24,
+   "url": "https://www.comune.macerata.it/scuole-cms/nido-dinfanzia-topolino/",
+   "citazione": "Nido d'infanzia Topolino. Il nido accoglie 28 bambini, 10 piccolissimi (3-12 mesi) e 18 grandi (12-24 mesi). Proprietà comunale",
+   "anno": "2025"
+  },
+  {
+   "nome": "Nido d'infanzia Mi e Ma",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Tibaldi 19, 62100 Macerata",
+   "telefono": "0733 32057",
+   "posti": 30,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.macerata.it/scuole-cms/nido-dinfanzia-mi-e-ma/",
+   "citazione": "I nido accoglie 30 bambini, 10 piccolissimi (3-12 mesi) e 20 grandi (12-36 mesi). Il nido, gestito in convenzione con la Cooperativa Mi e Ma",
+   "anno": "2025"
+  },
+  {
+   "nome": "Nido d'infanzia Grande Albero",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Beniamino Gigli 2, 62100 Macerata",
+   "telefono": "0733 1970062",
+   "posti": 14,
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.macerata.it/scuole-cms/nido-dinfanzia-grande-albero/",
+   "citazione": "Il nido accoglie 14 bambini grandi (12-36 mesi). È ospitato all'interno della casa di riposo dell'IRCR, immersa nel verde del parco di Villa Cozza.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Nido d'infanzia Gian Burrasca",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Luigi Bertelli, 62100 Macerata (Polo Bertelli, Vallebona)",
+   "telefono": "0733 258 5846",
+   "email": "asilo.vallebona@comune.macerata.it",
+   "posti": 21,
+   "url": "https://www.comune.macerata.it/scuole-cms/nido-dinfanzia-gian-burrasca/",
+   "citazione": "Il nido accoglie 21 bambini: 5 piccolissimi, 16 grandi. Il nido è situato all'interno del Polo Didattico \"L. Bertelli\" e gestito in convenzione con l'Università degli Studi di Macerata.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Nido d'infanzia Arcobaleno",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Natali snc, 62100 Macerata (Sforzacosta)",
+   "telefono": "0733 33271",
+   "email": "asilo.arcobaleno@comune.macerata.it",
+   "posti": 18,
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.macerata.it/scuole-cms/nido-dinfanzia-arcobaleno/",
+   "citazione": "Il nido accoglie 18 bambini grandi compresi tra i 12 e 36 mesi.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Nido d'infanzia Aquilone",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Bartolomeo Eustacchio 1, 62100 Macerata",
+   "telefono": "0733 240 258",
+   "email": "asilo.aquilone@comune.macerata.it",
+   "posti": 31,
+   "url": "https://www.comune.macerata.it/scuole-cms/nido-dinfanzia-aquilone/",
+   "citazione": "Il nido accoglie 31 bambini: 15 piccolissimi e 16 grandi.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Villaggio per Crescere Semi d'acero",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Via Beniamino Gigli 2, 62100 Macerata (Parco di Villa Cozza)",
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 72,
+   "url": "https://www.comune.macerata.it/novita/dal-1-giugno-al-via-le-domande-di-iscrizione-ai-nidi-comunali-e-nidi-aperti-2/",
+   "citazione": "Villaggio per Crescere Semi d'acero, uno spazio gioco ad accesso libero e gratuito per bambini e bambine da 0 a 6 anni accompagnati da un adulto di riferimento",
+   "anno": "2026"
+  }
+ ],
+ "note": "Sei nidi comunali (alcuni in convenzione con coop/Universita'/IRCR) piu' lo spazio gioco Semi d'acero. Dubbio: Semi d'acero e' fisicamente presso il nido Grande Albero (stesso indirizzo, dedotto), 0-6 anni, gestione non indicata. Eta' per Gian Burrasca e Aquilone non indicate (solo 'piccolissimi/grandi')."
+}

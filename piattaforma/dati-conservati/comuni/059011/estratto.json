@@ -1,0 +1,210 @@
+{
+ "codiceIstat": "059011",
+ "strutture": [
+  {
+   "nome": "Asilo Nido Babylandia",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Bachelet 3",
+   "url": "https://www.comune.latina.it/home/vivere/luoghi/Luogo-25.html",
+   "citazione": "Asili nido Babylandia - Via Bachelet 3",
+   "anno": "2026/27",
+   "telefono": "0773621388",
+   "email": "info.nidoinfanzia@comune.latina.it",
+   "posti": 60,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36
+  },
+  {
+   "nome": "Asilo Nido Allegra Brigata",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Budapest 7",
+   "url": "https://www.comune.latina.it/home/vivere/luoghi/Luogo-26.html",
+   "citazione": "Asili nido Allegra Brigata - Via Budapest 7",
+   "anno": "2026/27",
+   "telefono": "0773620868",
+   "email": "info.nidoinfanzia@comune.latina.it",
+   "posti": 42,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36
+  },
+  {
+   "nome": "Asilo Nido Piccolo Mondo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via degli Aurunci",
+   "url": "https://www.comune.latina.it/home/servizi/servizio/Servizio-3.html",
+   "citazione": "La famiglia può richiedere all’atto dell’iscrizione l’orario 7:40 - 14:10 oppure 7:40 - 17:20 presso: Asilo Nido Piccolo Mondo via degli Aurunci",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo Nido Il Trenino",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via della Stazione",
+   "url": "https://www.comune.latina.it/home/servizi/servizio/Servizio-3.html",
+   "citazione": "La famiglia può richiedere all’atto dell’iscrizione l’orario 7:40 - 14:10 oppure 7:40 - 17:20 presso: Asilo Nido Il Trenino via della Stazione",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo Nido Piccolo Principe",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Aniene",
+   "url": "https://www.comune.latina.it/home/servizi/servizio/Servizio-3.html",
+   "citazione": "La famiglia può richiedere all’atto dell’iscrizione l’orario 7:40 - 14:10 oppure 7:40 - 17:20 presso: Asilo Nido Piccolo Principe via Aniene",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo Nido La Giostra",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Gran Sasso",
+   "url": "https://www.comune.latina.it/home/servizi/servizio/Servizio-3.html",
+   "citazione": "La famiglia può richiedere all’atto dell’iscrizione l’orario 7:40 - 14:10 oppure 7:40 - 17:20 presso: Asilo Nido La Giostra via Gran Sasso",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Piccole Pesti",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Largo Cavalli, 10",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Piccole Pesti, Largo Cavalli, 10",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Piccole Pesti",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Ferraris, 26",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Piccole Pesti, Via Ferraris, 26",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Bimbi e Coccole",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "B.go Podgora",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Bimbi e Coccole, B.go Podgora",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Pinocchio",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Zanetti, 15",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Pinocchio, Via Zanetti, 15",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Pinocchio",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Capograssa",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Pinocchio, Via Capograssa",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Pianeta Bimbi",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "B.go S. Michele",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Pianeta Bimbi, B.go S. Michele",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido La Cantastorie",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via del Mare 123",
+   "telefono": "0773 1762280",
+   "email": "info@la-cantastorie.it",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: La Cantastorie, Via del Mare 123",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Il Giardino d’Infanzia",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Lazio, 43",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Il Giardino d’Infanzia, Via Lazio, 43",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Il Campanellino",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via dei Volsini, 42/44",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Il Campanellino, Via dei Volsini, 42/44",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Goccia d’Oro",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Strada Frassoneto, 108",
+   "email": "info@asilogocciadoro.it",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Goccia d’Oro, Strada Frassoneto, 108",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo Fantasia",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Viale dello Statuto, 55",
+   "telefono": "0773 1995836",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Asilo Fantasia, Viale dello Statuto, 55",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Magico Mondo",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Isonzo, 75",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Magico Mondo, Via Isonzo, 75",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Marsupio - Smile",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via San Francesco, 71",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Marsupio - Smile, Via San Francesco, 71",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Babylalla",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Piemonte snc",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: Babylalla, Via Piemonte snc",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido L’isola che non c’è",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Lunga, 36",
+   "telefono": "0773 336165",
+   "url": "https://www.comune.latina.it/dam/jcr:5da9e515-c87d-467e-ab14-6f151162cdbd/Albo%20Nidi%20convenzionati.pdf",
+   "citazione": "ALBO DEGLI ASILI NIDO PRIVATI CONVENZIONATI PER L’ANNO EDUCATIVO 2026/2027: L’isola che non c’è, Via Lunga, 36",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "6 nidi comunali (solo 2 con scheda dettagliata) + albo nidi privati convenzionati 2026/27 (13 nidi, 15 sedi: Piccole Pesti e Pinocchio con due indirizzi ciascuno, interpretazione dell'impaginazione del PDF). Citato anche un nido comunale a Latina Scalo, non nominato."
+}

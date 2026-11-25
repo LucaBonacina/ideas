@@ -1,0 +1,15 @@
+{
+  "codiceIstat": "091035",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Milano",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.jerzu.og.it/it/servizi/page/richiedere-iscrizione-all-asilo-nido",
+      "citazione": "L'Asilo Nido di Jerzu è ubicato in Via Milano presso uno stabile di proprietà comunale. La struttura ha una superficie di circa 150 metri quadri, suddivisa in due sezioni"
+    }
+  ]
+}

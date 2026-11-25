@@ -1,0 +1,15 @@
+{
+  "codiceIstat": "091024",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 0,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.fonni.nu.it/documenti/3086256/regolamento-asilo-nido-comunale",
+      "citazione": "Regolamento Asilo Nido Comunale. L'asilo nido è un servizio socio educativo rivolto a tutti i bambini di età compresa tra 0 e 3 anni"
+    }
+  ],
+  "note": "Esistenza dedotta dal regolamento comunale del nido (nessun indirizzo/nome proprio)."
+}

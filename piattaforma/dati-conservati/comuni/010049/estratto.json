@@ -1,0 +1,16 @@
+{
+ "codiceIstat": "010049",
+ "strutture": [
+  {
+   "nome": "Asilo nido La Carica dei 100 e 1",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.roncoscrivia.ge.it/servizio/richiesta-iscrizione-asilo-nido/",
+   "citazione": "All'interno dell'asilo nido La Carica dei 100 e 1 è presente la cucina, per il servizio di refezione.",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Gestione COMUNALE dedotta: il Comune stabilisce la retta e riceve le domande."
+}

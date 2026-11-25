@@ -1,0 +1,15 @@
+{
+ "codiceIstat": "054023",
+ "strutture": [
+  {
+   "nome": "Nido d'Infanzia comunale Peter Pan",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://mycity.s3.sbg.io.cloud.ovh.net/3778646/Dichiarazione-sostitutiva-riammissione-nido-dopo-5-gg.pdf",
+   "citazione": "il Nido d’Infanzia Comunale “Peter Pan” di Gualdo Tadino",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36
+  }
+ ],
+ "note": "Unico nido nominato (Peter Pan). I regolamenti sono generici (nidi, spazi gioco, centri) senza strutture nominate."
+}

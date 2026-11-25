@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "057070",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale I Fijoli",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Porta Ternana 8, Torri in Sabina",
+      "telefono": "0765 62004",
+      "email": "protocollo@comune.torriinsabina.ri.it",
+      "citazione": "La sede dell'asilo \"I Fijoli\" è sita in via Porta Ternana, 8 a Torri in Sabina ed è gestita dal personale della cooperativa CU.L.T. di Monterotondo.",
+      "url": "https://comune.torriinsabina.ri.it/documenti/2104741/asilo-nido-comunale-fijoli"
+    }
+  ],
+  "note": "Telefono e email sono quelli del comune (la pagina riporta un cellulare per le visite, omesso)."
+}

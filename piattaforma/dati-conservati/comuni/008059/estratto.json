@@ -1,0 +1,15 @@
+{
+ "codiceIstat": "008059",
+ "strutture": [
+  {
+   "nome": "Nido comunale Girotondo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.taggia.im.it/Luoghi?ID=3305",
+   "citazione": "Comune di Taggia - Nido Comunale \"Girotondo\""
+  }
+ ],
+ "note": "Testo molto scarno: pagina luogo con solo il titolo, più regolamento servizi prima infanzia generico."
+}

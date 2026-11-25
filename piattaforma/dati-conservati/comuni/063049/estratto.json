@@ -1,0 +1,78 @@
+{
+ "codiceIstat": "063049",
+ "strutture": [
+  {
+   "nome": "Nido Novelli con Sezione Primavera",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Vicinale Palazziello 86, 80126 Napoli",
+   "telefono": "081 7955989",
+   "email": "infanzia.novelli@comune.napoli.it",
+   "posti": 28,
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.napoli.it/vivere-il-comune/luoghi/nido-novelli/",
+   "citazione": "Il nido Novelli è aperto a Divezzi e Semidivezzi ovvero bambini da 12 a 36 mesi. Bambini Ammessi alla frequenza Nido+Sez.Primavera: 28"
+  },
+  {
+   "nome": "Nido Anna Della Monica de Conciliis ex Giovanni XXIII",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Corso Chiaiano 50/E, 80145 Napoli",
+   "telefono": "081 7955657",
+   "email": "asilonido.giovanni23@comune.napoli.it",
+   "etaMinimaMesi": 13,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.napoli.it/vivere-il-comune/luoghi/nido-della-monica-de-conciliis-giovanni-xxiii/",
+   "citazione": "Asilo nido per bambini da 13 a 36 mesi in Sezioni Semidivezzi e Divezzi"
+  },
+  {
+   "nome": "Asilo nido Rocco Jemma con Sezione Primavera",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via G. Appulo 16/18, 80136 Napoli",
+   "telefono": "081 7955607",
+   "email": "asilonido.jemma@comune.napoli.it",
+   "posti": 54,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.napoli.it/vivere-il-comune/luoghi/asili-nido-rocco-jemma/",
+   "citazione": "Asilo nido per bambini dai 3 ai 36 mesi in sezioni Lattanti, Semidivezzi e Divezzi. La struttura può ospitare fino a 54 bambini"
+  },
+  {
+   "nome": "Nido d'Infanzia presso ex Polifunzionale Vico Valente",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Vico Vincenzo Valente (accesso da via del Ponte), 80145 Napoli",
+   "telefono": "081 7956955",
+   "email": "municipalita7.scuolemiano@comune.napoli.it",
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.napoli.it/vivere-il-comune/luoghi/nido-dinfanzia-vico-valente/",
+   "citazione": "Il Nido d'Infanzia di Vico V.Valente accoglie bambine e bambini Divezzi e Semidivezzi da 12 a 36 mesi di età"
+  },
+  {
+   "nome": "Asilo nido Maria Cristina di Savoia con Sezione Primavera",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Sergio De Simone, 80131 Napoli",
+   "telefono": "081 7955774",
+   "email": "infanzia.mariacristinasavoia@comune.napoli.it",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.napoli.it/vivere-il-comune/luoghi/asilo-nido-maria-cristina-di-savoia/",
+   "citazione": "Nido per bambini da 3 a 36 mesi in Sezioni Lattanti, Semidivezzi e Divezzi"
+  },
+  {
+   "nome": "Asilo Nido Martinelli",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Tarsia 41, 80135 Napoli",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.napoli.it/vivere-il-comune/luoghi/asilo-nido-martinelli/",
+   "citazione": "Nido comunale a Gestione Indiretta. Il Nido accoglie i bambini da 3 a 36 mesi suddivisi in Lattanti, Semidivezzi e Divezzi"
+  }
+ ],
+ "note": "6 nidi comunali (alcuni con sezione primavera, un'unica riga per sede). Il nido Jemma è temporaneamente in via Amato da Montecassino 4 per lavori PNRR (indirizzo indicato: sede storica). Martinelli è a gestione indiretta (titolare comune). Il testo è limitato a 6 pagine su 147 servizi censiti."
+}

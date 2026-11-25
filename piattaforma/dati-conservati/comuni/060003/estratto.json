@@ -1,0 +1,26 @@
+{
+ "codiceIstat": "060003",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Babalù",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Martiri Ungheresi",
+   "posti": 35,
+   "url": "https://www.comune.alatri.fr.it/it/novita/page/avviso-pubblico-iscrizioni-asili-nido-comunali-anno-educativo-2023-2024",
+   "citazione": "sono aperte le iscrizioni per l’anno educativo 2023-2024 agli Asili Nido Comunali “Babalù” sito in Via Martiri Ungheresi e “Siamo piccoli ma cresceremo” sito in via Italia, località Tecchiena.",
+   "anno": "2023/24"
+  },
+  {
+   "nome": "Asilo nido comunale Siamo piccoli ma cresceremo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Italia, località Tecchiena",
+   "posti": 50,
+   "url": "https://www.comune.alatri.fr.it/it/novita/page/avviso-pubblico-iscrizioni-asili-nido-comunali-anno-educativo-2023-2024",
+   "citazione": "sono aperte le iscrizioni per l’anno educativo 2023-2024 agli Asili Nido Comunali “Babalù” sito in Via Martiri Ungheresi e “Siamo piccoli ma cresceremo” sito in via Italia, località Tecchiena.",
+   "anno": "2023/24"
+  }
+ ],
+ "note": "Babalù e Siamo piccoli ma cresceremo confermati da graduatorie fino al 2025/26 (gestiti da concessionario). Gli ultimi due sono nuovi nidi PNRR in fase di allestimento (avviso feb 2026): dubbio se già operativi. | Revisione 24/11/2026: escluse perché la prova indica lavori, arredi o apertura non confermata: Nuovo asilo nido via della Sanità (ex Giardino dello Sport); Nuovo asilo nido Felice Cataldi"
+}

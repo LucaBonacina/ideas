@@ -1,0 +1,26 @@
+{
+ "codiceIstat": "082071",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Generale Carlo Alberto dalla Chiesa",
+   "telefono": "091 8619765",
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.terrasini.pa.it/asilo-nido/",
+   "citazione": "Asilo Nido Via Generale Carlo Alberto dalla Chiesa - Tel. 0918619765. E' il servizio rivolto ai bambini di età compresa tra zero e i tre anni",
+   "anno": "2023"
+  },
+  {
+   "nome": "Spazio Gioco presso l'asilo nido comunale",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.terrasini.pa.it/asilo-nido/",
+   "citazione": "Avviso- \"Spazio Gioco\" Asilo Nido Comunale",
+   "anno": "2026"
+  }
+ ],
+ "note": "Dubbio: lo Spazio Gioco compare solo come titolo di un avviso nella pagina del nido (nessun dettaglio)."
+}

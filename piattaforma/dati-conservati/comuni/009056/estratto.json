@@ -1,0 +1,71 @@
+{
+ "codiceIstat": "009056",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Aquilone",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Francesco Crispi 20",
+   "telefono": "019 827200",
+   "posti": 48,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.savona.it/it/vivere/asilo-nido-aquilone",
+   "citazione": "Asilo nido \"Aquilone\" - L'asilo nido è un servizio socio educativo, volto a favorire la crescita dei bambini dai 3 mesi ai 3 anni di vita",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido comunale Arcobaleno",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Lorenzo Moizo 1",
+   "telefono": "019 809478",
+   "posti": 42,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.savona.it/it/vivere/asilo-nido-arcobaleno",
+   "citazione": "Asilo nido \"Arcobaleno\" - L'asilo nido è un servizio socio educativo, volto a favorire la crescita dei bambini dai 3 mesi ai 3 anni di vita",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido comunale Stella Marina",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via A. Brilla 1",
+   "telefono": "019 884482",
+   "posti": 36,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.savona.it/it/vivere/asilo-nido-stella-marina",
+   "citazione": "Asilo nido \"Stella Marina\" - L'asilo nido è un servizio socio educativo, volto a favorire la crescita dei bambini dai 3 mesi ai 3 anni di vita",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido comunale Piramidi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Corso Giuseppe Mazzini 27",
+   "telefono": "019 854297",
+   "posti": 48,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.savona.it/it/vivere/asilo-nido-piramidi",
+   "citazione": "Asilo nido \"Piramidi\" - L'asilo nido è un servizio socio educativo, volto a favorire la crescita dei bambini dai 3 mesi ai 3 anni di vita",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido comunale Quadrifoglio",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Chiappino",
+   "telefono": "019 860002",
+   "posti": 48,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.savona.it/it/vivere/asilo-nido-quadrifoglio",
+   "citazione": "Asilo nido \"Quadrifoglio\" - L'asilo nido è un servizio socio educativo, volto a favorire la crescita dei bambini dai 3 mesi ai 3 anni di vita",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "5 nidi comunali; posti = capienza massima autorizzata dai criteri organizzativi 2026/27. Nessun nido privato citato."
+}

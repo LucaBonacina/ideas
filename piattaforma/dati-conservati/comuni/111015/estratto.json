@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "111015",
+  "strutture": [
+    {
+      "nome": "Servizio Prima Infanzia",
+      "tipologia": "SPAZIO_GIOCO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Primo piano dell'edificio scolastico, retro piazza Is Argiolas",
+      "telefono": "070 9235015",
+      "etaMinimaMesi": 12,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.domusdemaria.ca.it/it/news/avviso-avvio-servizi-estivi-per-minori-e-servizio-alla-prima-infanzia-2026",
+      "citazione": "il servizio alla prima infanzia per i bambini dai 12 ai 36 mesi avra' regolare avvio a partire da mercoledi' 24 giugno 2026 presso i locali dedicati alla prima infanzia ubicati al primo piano dell'edificio scolastico",
+      "anno": "2026"
+    }
+  ],
+  "note": "Dubbio: servizio comunale 12-36 mesi, 4 ore/giorno, attivato solo con almeno 5 iscritti, probabilmente stagionale (da giugno); tipologia SPAZIO_GIOCO scelta per approssimazione."
+}

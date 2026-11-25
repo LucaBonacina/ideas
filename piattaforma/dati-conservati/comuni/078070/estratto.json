@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "078070",
+ "strutture": [
+  {
+   "nome": "Micro Nido comunale - Sezione Primavera",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via S. Leo",
+   "posti": 10,
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comunediluzzi.it/s3/3723/allegati/avviso-bando-micro-nido-2024-2025.pdf",
+   "citazione": "possibile presentare domanda di iscrizione al Micro Nido comunale “Sezione Primavera” ubicato Via S. Leo per l’anno socio educativo 2024/2025",
+   "anno": "2024/25"
+  }
+ ],
+ "note": "Micro nido comunale 'Sezione Primavera' (24-36 mesi, 10 posti elevabili a 12); tipologia incerta tra MICRONIDO e SEZIONE_PRIMAVERA. La ludoteca comunale (6-14 anni) esclusa."
+}

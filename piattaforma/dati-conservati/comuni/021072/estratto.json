@@ -1,0 +1,91 @@
+{
+ "codiceIstat": "021072",
+ "strutture": [
+  {
+   "nome": "Asilo nido Renon (Auna di Sotto)",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Santa Lucia 8, Auna di Sotto",
+   "telefono": "0471 401110",
+   "email": "info@coccinellabz.it",
+   "posti": 18,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.ritten.eu/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/Asilo_nido_Auna_di_Sotto",
+   "citazione": "Il 02 agosto 2021 è stato aperto il nuovo asilo nido Renon al piano terra dell’edificio della scuola materna di Auna di Sotto. La nuova microstruttura offre posti per 15 – 18 bambini dai 3 ai 36 mesi.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Asilo nido Collalbo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via alla Stazione 2/C, Collalbo",
+   "telefono": "0471 401110",
+   "email": "info@coccinellabz.it",
+   "posti": 24,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.ritten.eu/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/Asilo_nido_Collalbo_1",
+   "citazione": "Il 01 luglio 2025 è stato aperto il nuovo asilo nido a Collalbo. La nuova struttura offre posti per 24 bambini dai 3 ai 36 mesi.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Servizio educativo domiciliare Tagesmutter, Soprabolzano (1)",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "telefono": "0471 982821",
+   "sito": "https://www.tagesmutter-bz.it/it/tagesmutter.html",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.ritten.eu/it/Vivere_il_comune/Salute_e_sociale/Assistenza_alla_prima_infanzia_sul_Renon_Cooperativa_sociale_Tagesmuetter_",
+   "citazione": "Anche sul Renon (Soprabolzano) due mamme offrono questo servizio. Ci sono ancora posti liberi.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Servizio educativo domiciliare Tagesmutter, Soprabolzano (2)",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "telefono": "0471 982821",
+   "sito": "https://www.tagesmutter-bz.it/it/tagesmutter.html",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.ritten.eu/it/Vivere_il_comune/Salute_e_sociale/Assistenza_alla_prima_infanzia_sul_Renon_Cooperativa_sociale_Tagesmuetter_",
+   "citazione": "Anche sul Renon (Soprabolzano) due mamme offrono questo servizio. Ci sono ancora posti liberi.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Servizio educativo domiciliare sul maso, Monte di Mezzo",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "telefono": "0471 999366",
+   "email": "info@baeuerinnen.it",
+   "sito": "https://www.baeuerinnen.it/it.html",
+   "url": "https://www.ritten.eu/it/Vivere_il_comune/Salute_e_sociale/Assistenza_alla_prima_infanzia_sul_maso_sul_Renon",
+   "citazione": "Anche sul Renon tre contadine (a Monte di Mezzo, Vanga ed Auna di Sotto) offrono questo servizio. Ci sono ancora posti liberi.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Servizio educativo domiciliare sul maso, Vanga",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "telefono": "0471 999366",
+   "email": "info@baeuerinnen.it",
+   "sito": "https://www.baeuerinnen.it/it.html",
+   "url": "https://www.ritten.eu/it/Vivere_il_comune/Salute_e_sociale/Assistenza_alla_prima_infanzia_sul_maso_sul_Renon",
+   "citazione": "Anche sul Renon tre contadine (a Monte di Mezzo, Vanga ed Auna di Sotto) offrono questo servizio. Ci sono ancora posti liberi.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Servizio educativo domiciliare sul maso, Auna di Sotto",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "telefono": "0471 999366",
+   "email": "info@baeuerinnen.it",
+   "sito": "https://www.baeuerinnen.it/it.html",
+   "url": "https://www.ritten.eu/it/Vivere_il_comune/Salute_e_sociale/Assistenza_alla_prima_infanzia_sul_maso_sul_Renon",
+   "citazione": "Anche sul Renon tre contadine (a Monte di Mezzo, Vanga ed Auna di Sotto) offrono questo servizio. Ci sono ancora posti liberi.",
+   "anno": "2025"
+  }
+ ],
+ "note": "2 nidi (gestiti dalla coop La Coccinella, gestione COMUNALE dedotta) + servizi domiciliari: 2 Tagesmütter a Soprabolzano e 3 contadine (coop 'imparare-crescere-vivere con le contadine': servizio di assistenza all'infanzia sul maso, anche baby sitter/estate: dubbio se sia 0-3 in senso stretto). Righe domiciliari senza indirizzo ne nomi; contatti della cooperativa. Totale 7 = buco ISTAT."
+}

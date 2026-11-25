@@ -1,0 +1,51 @@
+{
+  "codiceIstat": "037021",
+  "strutture": [
+    {
+      "nome": "Asilo nido Piccolo Blu",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Amendola 4, Castenaso",
+      "telefono": "051 6059246",
+      "email": "scuola@comune.castenaso.bo.it",
+      "etaMinimaMesi": 6,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.castenaso.bo.it/it-it/vivere-il-comune/scuole/asilo-nido-piccolo-blu-47750-1-e84442ad83c50681fb77e64497a0be9b",
+      "citazione": "Asilo Nido \"Piccolo Blu\" Asilo nido comunale. Via Amendola, 4 Castenaso. Gestore: Nido comunale gestito in appalto. Età Bambini accolti: 6/36 mesi"
+    },
+    {
+      "nome": "Asilo nido Piccolo Giallo",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Bargello 6, Castenaso",
+      "telefono": "051 6059246",
+      "email": "scuola@comune.castenaso.bo.it",
+      "etaMinimaMesi": 9,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.castenaso.bo.it/it-it/vivere-il-comune/scuole/asilo-nido-piccolo-giallo-47751-1-727cef4391c51ca7871b03e739c4dd04",
+      "citazione": "Asilo Nido \"Piccolo Giallo\" Asilo nido comunale. Via Bargello, 6 Castenaso. Gestore: Nido comunale gestito in appalto. Età Bambini accolti: 9/36 mesi"
+    },
+    {
+      "nome": "Asilo nido Piccolo Nido",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via G. Deledda 8, Villanova di Castenaso",
+      "telefono": "051 6059246",
+      "email": "scuola@comune.castenaso.bo.it",
+      "etaMinimaMesi": 9,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.castenaso.bo.it/it-it/vivere-il-comune/scuole/asilo-nido-piccolo-nido-47752-1-a7761bbbed05a9f45a2672ca56127615",
+      "citazione": "Asilo Nido \"Piccolo Nido\" Asilo nido comunale. Via G. Deledda 8, 40055 Villanova di Castenaso (BO). Gestore: Comune di Castenaso. Età 9/36 mesi"
+    },
+    {
+      "nome": "Centro Giochi L'Oblò",
+      "tipologia": "CENTRO_BAMBINI_FAMIGLIE",
+      "gestione": "COMUNALE",
+      "telefono": "051 6059246",
+      "email": "scuola@comune.castenaso.bo.it",
+      "url": "https://www.comune.castenaso.bo.it/it-it/amministrazione/uffici/u-o-servizi-educativi-e-scolastici-5791-1-6969187fba7c13286e60361e3829c53a",
+      "citazione": "Il Centro Giochi L’Oblò è un Centro per bambini e genitori che prevede momenti di condivisione"
+    }
+  ],
+  "note": "Il sito cita anche 'nidi privati del territorio' senza nomi (rapporti/convenzioni). Centro Giochi L'Oblo' classificato come centro bambini e famiglie (gestione diretta o appalto)."
+}

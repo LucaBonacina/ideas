@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "044054",
+  "strutture": [
+    {
+      "nome": "Nido d'infanzia La Baia di Peter Pan (Polo per l'Infanzia)",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 6,
+      "etaMassimaMesi": 36,
+      "telefono": "0736 888707",
+      "url": "https://www.comune.offida.ap.it/it/documenti_pubblici/regolamento-per-la-gestione-nido-d-infanzia-la-baia-di-peter-pan",
+      "citazione": "Questo servizio educativo è destinato ai bambini ed alle bambine di età compresa tra 6 e 36 mesi, gestito direttamente o affidato a terzi.",
+      "anno": "2025/26"
+    }
+  ],
+  "note": "Un solo nido comunale; il nome 'La Baia di Peter Pan' deriva dallo slug dell'URL del regolamento, non dal testo. Telefono dell'ufficio servizi educativi."
+}

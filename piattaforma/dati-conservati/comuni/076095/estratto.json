@@ -1,0 +1,28 @@
+{
+ "codiceIstat": "076095",
+ "strutture": [
+  {
+   "nome": "Asilo nido Istituto Suore del Sacro Costato",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Calvario 1",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.venosa.pz.it/page/asilo-nido-2026-2027-disponibili-16-posti-convenzi",
+   "citazione": "I posti saranno disponibili presso le strutture “Istituto Suore del Sacro Costato”, con sede in Via Calvario n. 1, e “L’Orsetto Bianco”, con sede in Via T. Mommsen n. 11.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido L'Orsetto Bianco",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via T. Mommsen 11",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.venosa.pz.it/page/asilo-nido-2026-2027-disponibili-16-posti-convenzi",
+   "citazione": "I posti saranno disponibili presso le strutture “Istituto Suore del Sacro Costato”, con sede in Via Calvario n. 1, e “L’Orsetto Bianco”, con sede in Via T. Mommsen n. 11.",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Dati dall'HTML originale (testo.txt di soli 296 byte). Strutture private autorizzate con 16 posti convenzionati in totale (non per struttura). Nessun nido comunale citato."
+}

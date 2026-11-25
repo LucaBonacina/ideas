@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "043033",
+ "strutture": [
+  {
+   "nome": "Asilo Nido comunale La Casa dei Folletti",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via XXV Aprile",
+   "posti": 28,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.morrovalle.mc.it/novita/open-day-nido-dinfanzia-comunale-la-casa-dei-folletti/",
+   "citazione": "Visite presso l'Asilo Nido Comunale (Via XXV Aprile) [...] il personale educativo dell’Asilo Nido Comunale “La casa dei Folletti” sarà a disposizione per visitare gli ambienti",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Un solo nido comunale. Posti 28 dall'avviso 2026/27 (PDF AVVISO-NIDO-2026-2027, testo spezzato: '2 8', 14 pieno + 14 parziale)."
+}

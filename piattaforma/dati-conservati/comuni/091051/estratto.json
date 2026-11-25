@@ -1,0 +1,33 @@
+{
+ "codiceIstat": "091051",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale Primi Passi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Viale Trieste 45",
+   "url": "https://www.comune.nuoro.it/it/novita/page/open-day-2026-nidi-d-infanzia-comunali",
+   "citazione": "Nido Primi Passi - Viale Trieste 45 Open Day 22 aprile 2026",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale Mariposa",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via della Pietà 41",
+   "url": "https://www.comune.nuoro.it/it/novita/page/open-day-2026-nidi-d-infanzia-comunali",
+   "citazione": "Nido Mariposa - Via della Pietà 41 Open Day 23 aprile 2026, dalle 09:30 alle 13:30",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale Filastrocca",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Tempio 3",
+   "url": "https://www.comune.nuoro.it/it/novita/page/open-day-2026-nidi-d-infanzia-comunali",
+   "citazione": "Nido Filastrocca - Via Tempio 3 Open Day 24 aprile 2026, dalle 09:30 alle ore 13:30 e dalle 15:30 alle 18:00",
+   "anno": "2026"
+  }
+ ],
+ "note": "3 nidi comunali (Primi Passi, Mariposa, Filastrocca). Testo troncato a 24KB; nessuna struttura privata/convenzionata nominata trovata."
+}

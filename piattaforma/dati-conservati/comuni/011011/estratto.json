@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "011011",
+  "strutture": [
+    {
+      "nome": "Nido d'infanzia comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2025",
+      "url": "https://comune.castelnuovomagra.sp.it/it-it/servizi/educazione-e-formazione/richiedere-iscrizione-all-asilo-nido-357-43553-1-90c2909dc585122380532f8c6b730834",
+      "citazione": "Il servizio consente di iscrivere all'asilo nido comunale il proprio figlio di età compresa tra i 3 mesi e i 3 anni."
+    }
+  ],
+  "note": "Pagina aggiornata 26/05/2025; nome e indirizzo del nido non indicati."
+}

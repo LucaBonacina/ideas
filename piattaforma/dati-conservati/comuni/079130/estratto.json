@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "079130",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2023/24",
+      "url": "https://comune.sersale.cz.it/servizio/iscrizione-allasilo-nido/",
+      "citazione": "L'iscrizione al nido comunale 2023-2024 è riservata ai minori nati dal 1° gennaio 2021 al 31 maggio 2023 che siano residenti nel Comune"
+    }
+  ],
+  "note": "Pagina datata (2023/24, aggiornata 17/12/2024)."
+}

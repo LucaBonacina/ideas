@@ -1,0 +1,26 @@
+{
+  "codiceIstat": "111028",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 12,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.giba.su.it/it/news/servizio-asilo-nido-e-sezione-primavera-del-comune-di-giba-a-s-2026-2027",
+      "citazione": "Graduatoria Definitiva degli ammessi al Servizio di Asilo Nido Comunale e Sezione Primavera per l'Anno Scolastico 2026/2027",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Sezione Primavera comunale",
+      "tipologia": "SEZIONE_PRIMAVERA",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 12,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.giba.su.it/it/news/servizio-asilo-nido-e-sezione-primavera-del-comune-di-giba-a-s-2026-2027",
+      "citazione": "Graduatoria Definitiva degli ammessi al Servizio di Asilo Nido Comunale e Sezione Primavera per l'Anno Scolastico 2026/2027",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Dubbio: nido e sezione primavera sempre citati insieme come 'Servizi Prima Infanzia' con eta 12-36 mesi; potrebbero essere un'unica sede. Riserva di posti per comuni vicini."
+}

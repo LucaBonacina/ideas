@@ -1,0 +1,37 @@
+{
+ "codiceIstat": "038027",
+ "strutture": [
+  {
+   "nome": "Asilo Nido 8 Marzo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0533 654150",
+   "url": "https://www.comune.fiscaglia.fe.it/dam/jcr:4c12c99d-872c-40c0-905f-71dc81ffc7f3/Avviso%20Apertura%20Iscrizioni%20Asilo%20Nido%208%20Marzo%20AS%202025%202026.pdf",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "citazione": "sono aperte le iscrizioni alla frequenza dell’Asilo Nido “8 Marzo” per i bambini di età compresa tra i 3 mesi e i 3 anni.",
+   "anno": "2025/26"
+  },
+  {
+   "nome": "Nido Arcobaleno",
+   "tipologia": "NIDO",
+   "gestione": "PUBBLICA_ALTRA",
+   "indirizzo": "Via Lidi Ferraresi 13, Migliarino",
+   "telefono": "0533 681118",
+   "url": "https://www.comune.fiscaglia.fe.it/home/servizi/servizio/Servizio-3.html",
+   "citazione": "Nido “Arcobaleno” Gestito dal Comune di Ostellato Sede: Via Lidi Ferraresi n. 13 - loc. Migliarino - 44027 Fiscaglia Tel. 0533.681118",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Centro Bambini e Famiglie La Tana dei Leoncini",
+   "tipologia": "CENTRO_BAMBINI_FAMIGLIE",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Giacomo Matteotti 121-123, Migliaro",
+   "telefono": "0533 654150",
+   "url": "https://www.comune.fiscaglia.fe.it/home/servizi/servizio/Servizio-6.html",
+   "citazione": "Il Centro Bambini e Famiglie è sito in Fiscaglia in via Giacomo Matteotti 121 e 123 Loc. Migliaro, regolato dalla L. R. n. 19/2016.",
+   "anno": "2026"
+  }
+ ],
+ "note": "Nido Arcobaleno gestito dal Comune di Ostellato (4 posti riservati a Fiscaglia). Indirizzo del nido 8 Marzo non nel testo. Centro bambini accoglie 0-6 anni."
+}

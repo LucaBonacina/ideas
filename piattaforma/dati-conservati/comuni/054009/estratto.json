@@ -1,0 +1,32 @@
+{
+ "codiceIstat": "054009",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale I Cuccioli",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via F.lli Rosselli, Castiglione del Lago",
+   "url": "https://www.comune.castiglione-del-lago.pg.it/it/news/pubblicazione-graduatoria-definitiva-nidi-d-infanzia-comunali",
+   "citazione": "graduatoria definitiva degli ammessi ai Nidi d'Infanzia Comunali \"L'Officina dei Sogni\" e \"i Cuccioli\".",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia comunale L'Officina dei Sogni",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.castiglione-del-lago.pg.it/it/news/pubblicazione-graduatoria-definitiva-nidi-d-infanzia-comunali",
+   "citazione": "graduatoria definitiva degli ammessi ai Nidi d'Infanzia Comunali \"L'Officina dei Sogni\" e \"i Cuccioli\".",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido comunale Il Girasole",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Loc. Colonnetta",
+   "url": "https://www.comune.castiglione-del-lago.pg.it/it/page/apertura-iscrizioni-e-conferme-asili-nidi-comunali-anno-educativo-2023-2024",
+   "citazione": "Asilo Nido Comunale Il Girasole sito in Loc. Colonnetta e all’Asilo Nido Comunale I Cuccioli sito in Via F.lli Rosselli a Castiglione del Lago",
+   "anno": "2023/24"
+  }
+ ],
+ "note": "Dubbio: 'Il Girasole' (Loc. Colonnetta, 2023/24) potrebbe essere lo stesso nido poi chiamato 'L'Officina dei Sogni' (2026/27): ai due nidi attuali (Cuccioli + Officina) corrisponde il buco ISTAT di 3 solo se Girasole è distinto. Da verificare."
+}

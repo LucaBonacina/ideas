@@ -1,0 +1,62 @@
+{
+ "codiceIstat": "010059",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale Mario Lodi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via XX Settembre 39",
+   "telefono": "0185 478515",
+   "email": "asilonido@comune.sestri-levante.ge.it",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.sestri-levante.ge.it/vivere-il-comune/scuole-e-nidi-nidi-dinfanzia/",
+   "citazione": "SERVIZIO EDUCATIVO COMUNALE Nido d’infanzia comunale “Mario Lodi” via XX Settembre 39 tel.0185 478515"
+  },
+  {
+   "nome": "Micronido Bianconiglio",
+   "tipologia": "MICRONIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Nazionale 619/A",
+   "url": "https://www.comune.sestri-levante.ge.it/vivere-il-comune/scuole-e-nidi-nidi-dinfanzia/",
+   "citazione": "SERVIZI EDUCATIVI PRIVATI Micronido Bianconiglio Via Nazionale 619/A – Sestri Levante"
+  },
+  {
+   "nome": "Micronido Bidibibodibibu (Micronido parrocchiale S. Bartolomeo della Ginestra)",
+   "tipologia": "MICRONIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Mons. Vattuone 84",
+   "telefono": "0185 42789",
+   "url": "https://www.comune.sestri-levante.ge.it/vivere-il-comune/scuole-e-nidi-nidi-dinfanzia/",
+   "citazione": "Micronido “Bidibibodibibu” (Micronido Parrocchiale “S. Bartolomeo della Ginestra” convenzionato con il Distretto Socio sanitario n. 16) Via Mons. Vattuone 84 – Sestri Levante"
+  },
+  {
+   "nome": "Micronido Istituto Suore della Presentazione",
+   "tipologia": "MICRONIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Educandato 1",
+   "telefono": "0185 41035",
+   "url": "https://www.comune.sestri-levante.ge.it/vivere-il-comune/scuole-e-nidi-nidi-dinfanzia/",
+   "citazione": "Micronido Istituto “Suore della Presentazione” (convenzionato con il Distretto Socio sanitario n. 16) Via Educandato 1 – Sestri Levante"
+  },
+  {
+   "nome": "Sezione Primavera Scuola materna paritaria Don Giovanni Stagnaro",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "PARITARIA",
+   "indirizzo": "Via Mons. Vattuone 84",
+   "telefono": "0185 42789",
+   "url": "https://www.comune.sestri-levante.ge.it/vivere-il-comune/scuole-e-nidi-scuole-dellinfanzia-primaria-e-secondaria/",
+   "citazione": "Sezioni Primavera paritarie: Scuola materna paritaria Don Giovanni Stagnaro Via Mons. Vattuone 84 – Sestri Levante"
+  },
+  {
+   "nome": "Sezione Primavera Scuola materna paritaria Santa Teresa del Bambin Gesù",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "PARITARIA",
+   "indirizzo": "Via Educandato 1",
+   "telefono": "0185 41035",
+   "url": "https://www.comune.sestri-levante.ge.it/vivere-il-comune/scuole-e-nidi-scuole-dellinfanzia-primaria-e-secondaria/",
+   "citazione": "Sezioni Primavera paritarie: [...] Scuola materna paritaria Santa Teresa del Bambin Gesù Via Educandato 1 – Sestri Levante"
+  }
+ ],
+ "note": "Le sezioni primavera paritarie hanno stesso indirizzo dei micronidi convenzionati (stesse scuole/istituti): possibile sovrapposizione con le righe MICRONIDO. Omesso cellulare del Bianconiglio. Nido estivo è servizio del Lodi, non duplicato."
+}

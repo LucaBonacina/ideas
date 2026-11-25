@@ -1,0 +1,67 @@
+{
+ "codiceIstat": "007003",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale di via Roma",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Roma",
+   "posti": 50,
+   "etaMinimaMesi": 6,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.aosta.it/it/news/entro-il-31-luglio-iscrizioni-al-servizio-dei-nidi-dinfanzia-per-lanno-2024-25",
+   "citazione": "I nidi d'infanzia comunali sono il nido di via Roma (50 posti) il nido \"Massimo Berra\" (36 posti) e il nido di viale Europa (40 posti) a cui si aggiungono 24 posti in convenzione del nido privato \"La Farfavola\".",
+   "anno": "2024/25"
+  },
+  {
+   "nome": "Nido d'infanzia comunale di viale Europa",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Viale Europa",
+   "posti": 40,
+   "etaMinimaMesi": 6,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.aosta.it/it/news/entro-il-31-luglio-iscrizioni-al-servizio-dei-nidi-dinfanzia-per-lanno-2024-25",
+   "citazione": "I nidi d'infanzia comunali sono il nido di via Roma (50 posti) il nido \"Massimo Berra\" (36 posti) e il nido di viale Europa (40 posti) a cui si aggiungono 24 posti in convenzione del nido privato \"La Farfavola\".",
+   "anno": "2024/25"
+  },
+  {
+   "nome": "Nido d'infanzia Massimo Berra",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Reg. Crou 21/B",
+   "telefono": "0165 554466",
+   "posti": 36,
+   "etaMinimaMesi": 6,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.aosta.it/it/page/nido-di-infanzia-m-berra",
+   "citazione": "Il nido d'infanzia si trova in zona collinare molto tranquilla e soleggiata, ospita 36 bambini. Indirizzo: Reg. Crou, 21/B tel.: 0165/554466 Gestore: Leone Rosso S.C.S",
+   "anno": "2024/25"
+  },
+  {
+   "nome": "Nido d'infanzia La Farfavola",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Pollio Salimbeni 7",
+   "posti": 24,
+   "etaMinimaMesi": 6,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.aosta.it/it/page/nido-di-infanzia-la-farfavola",
+   "citazione": "Il nido d'infanzia si trova nel cuore del Quartiere Cogne e ospita 24 bambini. Indirizzo: Via Pollio Salimbeni, 7 Gestore: La Sorgente S.C.S.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia del quartiere Dora",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Piazza Battaglione Cervino 1",
+   "posti": 24,
+   "etaMinimaMesi": 6,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.aosta.it/it/news/dal-3-marzo-apertura-del-nido-d-infanzia-del-quartiere-dora",
+   "citazione": "Aprirà lunedì 3 marzo, con l'inserimento dei primi 13 tra bambini e bambine a partire dai sei mesi di età, il nuovo nido d'infanzia di piazza Battaglione Cervino, nel quartiere Dora",
+   "anno": "2025"
+  }
+ ],
+ "note": "Le pagine singole di via Roma e viale Europa nell'html sono vuote: dati solo dalla notizia 2024/25 (posti). Farfavola: nido privato con 24 posti in convenzione, affidamento rinnovato fino a settembre 2028 (notizia 14/09/2026). Dora: nido PNRR in concessione a Leone Rosso, aperto 3/3/2025. Nome ufficiale nidi via Roma/viale Europa non riportato."
+}

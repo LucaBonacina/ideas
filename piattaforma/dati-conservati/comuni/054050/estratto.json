@@ -1,0 +1,28 @@
+{
+ "codiceIstat": "054050",
+ "strutture": [
+  {
+   "nome": "Asilo nido L'Albero Magico",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Viale Poeta",
+   "posti": 20,
+   "etaMinimaMesi": 18,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.spello.pg.it/servizio/asilo-nido-convenzionato-iscrizione-al-servizio-2/",
+   "citazione": "n. 20 Posti presso il servizio socio educativo per la Prima Infanzia Asilo Nido sito in Viale Poeta denominato “L’Albero Magico”."
+  },
+  {
+   "nome": "Asilo nido La Stella dell'Orsa",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Viale delle Regioni, Loc. Capitan Loreto",
+   "posti": 20,
+   "etaMinimaMesi": 18,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.spello.pg.it/servizio/asilo-nido-convenzionato-iscrizione-al-servizio-2/",
+   "citazione": "n. 20 Posti presso il servizio socio educativo per la Prima Infanzia Asilo Nido sito in Viale delle Regioni Loc. Capitan Loreto denominato “La Stella dell’Orsa”."
+  }
+ ],
+ "note": "Nidi privati autorizzati in convenzione; i 20 posti sono quelli convenzionati (fascia 18-36 mesi), non necessariamente l'intera capienza."
+}

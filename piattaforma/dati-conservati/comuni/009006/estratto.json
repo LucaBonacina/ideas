@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "009006",
+  "strutture": [
+    {
+      "nome": "Asilo nido Belli e Monelli",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Molineri",
+      "telefono": "0182 80420",
+      "posti": 32,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.andora.sv.it/it/page/asilo-nido-4",
+      "citazione": "L'Asilo Nido \"Belli e Monelli\" ... può accogliere fino a trentadue bambini da tre a trentasei mesi.",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Descritto come nido interaziendale nell'area Molino Nuovo; moduli lo chiamano 'asilo nido comunale'."
+}

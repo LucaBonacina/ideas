@@ -1,0 +1,319 @@
+{
+ "codiceIstat": "068028",
+ "strutture": [
+  {
+   "nome": "I Nanetti di Nina - nido in famiglia",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Cesare Battisti 237, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Domiciliare | Pescara(PE),Via Cesare Battisti 237",
+   "anno": "2026"
+  },
+  {
+   "nome": "Villa Villacolle - servizio domiciliare",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Sella di Corno 67, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Domiciliare | Pescara(PE),Via Sella di Corno 67",
+   "anno": "2026"
+  },
+  {
+   "nome": "Micronido via Paolo De Cecco (Educazione Nuovi Orizzonti Educativi)",
+   "tipologia": "MICRONIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Paolo De Cecco 52, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Micro Nido | Pescara(PE),Via Paolo De Cecco 52 | EDUCAZIONE NUOVI ORIZZONTI EDUCATIVI SOCIETA' COOPERATIVA SOCIALE A R.L.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Lucy & Company (nido e sezione primavera)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Nenni 18, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Nenni 18",
+   "anno": "2026"
+  },
+  {
+   "nome": "L'Impronta (nido e sezione primavera)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Tirino 431, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Tirino 431 | L'IMPRONTA SOCIETA' COOPERATIVA SOCIALE",
+   "anno": "2026"
+  },
+  {
+   "nome": "Arci Dadino",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Strada Colle Renazzo 42/7, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Strada Colle Renazzo 42/7 | ARCI DADINO APS",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido corso Vittorio Emanuele II (Educazione Nuovi Orizzonti Educativi)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Corso V. Emanuele II 138, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Corso V. Emanuele II 138 | EDUCAZIONE NUOVI ORIZZONTI EDUCATIVI SOCIETA' COOPERATIVA SOCIALE A R.L.",
+   "anno": "2026"
+  },
+  {
+   "nome": "L'Angolo di Felicità",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Monte Petroso 6, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Monte Petroso 6",
+   "anno": "2026"
+  },
+  {
+   "nome": "Felicittà",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Strada Prati 2, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Strada Prati 2",
+   "anno": "2026"
+  },
+  {
+   "nome": "Le Piccole Pesti",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via di Sotto 65, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via di Sotto 65 | LE PICCOLE PESTI - SOCIETA' COOPERATIVA SOCIALE A R.L.",
+   "anno": "2026"
+  },
+  {
+   "nome": "L'Albero della Vita",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via G. d'Annunzio 137, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via G. d'Annunzio 137 | L'ALBERO DELLA VITA S.R.L.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido privato via Spaventa",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Spaventa 38, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Spaventa 38",
+   "anno": "2026"
+  },
+  {
+   "nome": "Il Paese delle Meraviglie",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via di Sotto 127, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via di Sotto 127",
+   "anno": "2026"
+  },
+  {
+   "nome": "Il Palloncino",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via della Polveriera 8, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via della Polveriera 8",
+   "anno": "2026"
+  },
+  {
+   "nome": "Asilo nido Le Fate Bianche",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via B. N. Sulprizio 27, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via B. N. Sulprizio 27",
+   "anno": "2026"
+  },
+  {
+   "nome": "Monelli Monellosi",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via delle Casette 8, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via delle Casette 8",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido via Rigopiano 66/1 (C.A.M.U.S.)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Rigopiano 66/1, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Rigopiano 66/1",
+   "anno": "2026"
+  },
+  {
+   "nome": "Il Filo Rosso",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Cavour 46, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Cavour 46",
+   "anno": "2026"
+  },
+  {
+   "nome": "Rainbow",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Pisacane 67, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Pisacane 67 | RAINBOW SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido Istituto Ravasco",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Ravasco 5, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Ravasco 5 | CONGREGAZIONE DELLE FIGLIE DEI SACRI CUORI DI GESU' E MARIA - ISTITUTO RAVASCO",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido Istituto Ravasco (sede via Italica)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Italica 46, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Italica 46 | CONGREGAZIONE DELLE FIGLIE DEI SACRI CUORI DI GESU' E MARIA - ISTITUTO RAVASCO",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via Vespucci",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Vespucci 154/158, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Vespucci 154/158 | COMUNE DI PESCARA",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via Croce",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Croce 69, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Croce 69 | COMUNE DI PESCARA",
+   "anno": "2026",
+   "telefono": "085 6922138"
+  },
+  {
+   "nome": "Il Nido dei Sogni",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Strada vicinale delle Casette 8, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Strada vicinale delle Casette 8",
+   "anno": "2026"
+  },
+  {
+   "nome": "BA.PA",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Montanara 37, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Montanara 37",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via Rubicone",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Rubicone Snc, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Rubicone Snc | COMUNE DI PESCARA",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via della Fornace Bizzarri",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via della Fornace Bizzarri Snc, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via della Fornace Bizzarri Snc | COMUNE DI PESCARA",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via Santina Campana",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Santina Campana Snc, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Santina Campana Snc | COMUNE DI PESCARA",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via Lago Isoletta",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Lago Isoletta Snc, Pescara",
+   "url": "https://www.comune.pescara.it/elenchi-delle-strutture-autorizzate-per-i-servizi-prima-infanzia-bimbi-0-3-anni-presenti-sul-territorio-di-pescara-montesilvano-e-spoltore/",
+   "citazione": "Nido | Pescara(PE),Via Lago Isoletta Snc | COMUNE DI PESCARA",
+   "anno": "2026"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via Colle Marino, 125/1",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Colle Marino, 125/1, Pescara",
+   "telefono": "085 77855",
+   "url": "https://www.comune.pescara.it/app/uploads/2025/11/Elenco-nidi-dinfanzia.pdf",
+   "citazione": "ELENCO NIDI D'INFANZIA COMUNALI A GESTIONE DIRETTA: Via Colle Marino, 125/1, tel. 085 77855",
+   "anno": "2025/26"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via C.A. Dalla Chiesa, 54",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via C.A. Dalla Chiesa, 54, Pescara",
+   "telefono": "085 77913",
+   "url": "https://www.comune.pescara.it/app/uploads/2025/11/Elenco-nidi-dinfanzia.pdf",
+   "citazione": "ELENCO NIDI D'INFANZIA COMUNALI A GESTIONE DIRETTA: Via C.A. Dalla Chiesa, 54, tel. 085 77913",
+   "anno": "2025/26"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via del Santuario, 176",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via del Santuario, 176, Pescara",
+   "telefono": "085 4170081",
+   "url": "https://www.comune.pescara.it/app/uploads/2025/11/Elenco-nidi-dinfanzia.pdf",
+   "citazione": "ELENCO NIDI D'INFANZIA COMUNALI A GESTIONE DIRETTA: Via del Santuario, 176, tel. 085 4170081",
+   "anno": "2025/26"
+  },
+  {
+   "nome": "Nido d'infanzia comunale via Cecco Angiolieri",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Cecco Angiolieri, Pescara",
+   "telefono": "085 6922374",
+   "url": "https://www.comune.pescara.it/app/uploads/2025/11/Elenco-nidi-dinfanzia.pdf",
+   "citazione": "ELENCO NIDI D'INFANZIA COMUNALI A GESTIONE DIRETTA: Via Cecco Angiolieri, tel. 085 6922374",
+   "anno": "2025/26"
+  },
+  {
+   "nome": "Nido d'infanzia comunale Il Bruco",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Rigopiano, 90, Pescara",
+   "telefono": "085 4170092",
+   "sito": "www.nidoilbruco.it",
+   "url": "https://www.comune.pescara.it/app/uploads/2025/11/Elenco-nidi-dinfanzia.pdf",
+   "citazione": "NIDO D'INFANZIA COMUNALE A GESTIONE INDIRETTA. Servizio di Supporto affidato al Consorzio PARSIFAL - Orizzonte Cooperativa Sociale. Via Rigopiano, 90 tel. 085/4170092 www.nidoilbruco.it",
+   "anno": "2025/26"
+  }
+ ],
+ "note": "Elenco regionale autorizzati: esclusi Montesilvano e Spoltore. Nidi con sezione primavera (Lucy & Company, L'Impronta, De Cecco) uniti in una riga. DUBBIO: il PDF 'Elenco nidi comunali' (6 a gestione diretta + Il Bruco) riporta indirizzi diversi dall'elenco autorizzati (solo via Vespucci e via Croce coincidono per strada); i 4 nidi PDF (Colle Marino, Dalla Chiesa, Santuario, Angiolieri) potrebbero coincidere con i 4 'Snc' comunali (Rubicone, Fornace Bizzarri, S. Campana, Lago Isoletta) = possibili duplicati. Il Bruco (via Rigopiano 90) potrebbe coincidere con il nido C.A.M.U.S. di via Rigopiano 66/1. Nomi commerciali dei nidi privati non sempre indicati: usate ragioni sociali senza nomi di persona."
+}

@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "111011",
+  "strutture": [
+    {
+      "nome": "Micronido comunale",
+      "tipologia": "MICRONIDO",
+      "gestione": "COMUNALE",
+      "telefono": "070 99450324",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2025/26",
+      "url": "https://www.comune.castiadas.su.it/it/news/graduatoria-micronido_anno-educativo-2025-2026",
+      "citazione": "Si avvisano le famiglie che è stata pubblicata la graduatoria contenente l'elenco dei minori ammessi al servizio Micronido comunale per l'annualità 2025/2026."
+    }
+  ],
+  "note": "Telefono dell'ufficio comunale competente."
+}

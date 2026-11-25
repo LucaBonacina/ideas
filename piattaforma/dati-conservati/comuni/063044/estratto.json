@@ -1,0 +1,22 @@
+{
+  "codiceIstat": "063044",
+  "strutture": [
+    {
+      "nome": "Asilo nido A Piccoli Passi",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "citazione": "la chiusura della Casa Comunale, degli impianti sportivi comunali e dei seguenti istituti comprensivi, asili nido e servizi: ... Asilo Nido “A Piccoli Passi”",
+      "anno": "2024",
+      "url": "https://www.comune.massalubrense.na.it/it/news/disservizio-idrico-ordinanza-sindacale-di-chiusura-della-casa-comunale-impianti-sportivi-comunali-e-istituti-comprensivi-asili-nido-e-servizio-colonia"
+    },
+    {
+      "nome": "Asilo nido Le Coccole",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "citazione": "la chiusura della Casa Comunale, degli impianti sportivi comunali e dei seguenti istituti comprensivi, asili nido e servizi: ... Asilo Nido “Le Coccole”",
+      "anno": "2024",
+      "url": "https://www.comune.massalubrense.na.it/it/news/disservizio-idrico-ordinanza-sindacale-di-chiusura-della-casa-comunale-impianti-sportivi-comunali-e-istituti-comprensivi-asili-nido-e-servizio-colonia"
+    }
+  ],
+  "note": "Nidi citati solo in ordinanze di chiusura del luglio 2024."
+}

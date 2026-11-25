@@ -1,0 +1,19 @@
+{
+ "codiceIstat": "021076",
+ "strutture": [
+  {
+   "nome": "Casa Bimbo - Tagesmutter",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Asilo 4",
+   "telefono": "0471 953348",
+   "email": "info@casabimbo.it",
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.salorno.bz.it/it/Vivere_il_comune/Luoghi/Scuola_formazione_e_cultura/Casa_Bimbo_-_Tagesmutter",
+   "citazione": "La struttura offre assistenza all'infanzia per bambini da 0 a 3 anni. Casa Bimbo Tagesmutter è stata fondata nel 1995",
+   "anno": "pagina aggiornata 18/09/2025"
+  }
+ ],
+ "note": "Dati dall'HTML originale. Tipologia assunta SERVIZIO_DOMICILIARE (Tagesmutter), ma la pagina la classifica 'asilo nido': dubbio."
+}

@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "062043",
+  "strutture": [
+    {
+      "nome": "Asilo nido \"Il Cucciolo\"",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via E. De Filippo",
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.montesarchio.bn.it/it/novita/page/avvio-servizio-asili-nido-anno-educativo-2026-2027",
+      "citazione": "l’avvio effettivo delle attività educative presso l’asilo nido “Cucciolo” sito in Via E. De Filippo è previsto per lunedì 21 settembre 2026.",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Nido gestito in forma associata dall'Ambito B3 (marcato COMUNALE: la pagina servizi lo chiama 'asilo nido comunale'). Gli altri nidi dell'ambito (Gongolo ad Airola, Pisolo a Bucciano, Mammolo a Moiano) sono in altri comuni."
+}

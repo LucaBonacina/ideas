@@ -1,0 +1,15 @@
+{
+  "codiceIstat": "080025",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "citazione": "Servizio per richiedere l’ammissione alla frequenza dell’asilo nido nido comunale, per i bambini di età compresa da 0 a 3 anni.",
+      "url": "https://www.comune.caulonia.rc.it/servizio/richiedere-iscrizione-allasilo-nido/"
+    }
+  ],
+  "note": "Nome e indirizzo non indicati."
+}

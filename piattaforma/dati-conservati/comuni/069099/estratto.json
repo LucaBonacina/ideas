@@ -1,0 +1,33 @@
+{
+ "codiceIstat": "069099",
+ "strutture": [
+  {
+   "nome": "Asilo nido San Paolo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via A. De Gasperi",
+   "url": "https://www.comune.vasto.ch.it/it/news/aperte-le-iscrizioni-agli-asili-nido-comunali",
+   "citazione": "Le strutture interessate sono tre: il nido \"San Paolo\" (Via De Gasperi), \"La Tana dei Cuccioli\" (Via Incoronata) e lo \"Stella Maris\" (Viale Dalmazia, in concessione).",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido La Tana dei Cuccioli",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Incoronata 230/X",
+   "url": "https://www.comune.vasto.ch.it/it/news/aperte-le-iscrizioni-agli-asili-nido-comunali",
+   "citazione": "Le strutture interessate sono tre: il nido \"San Paolo\" (Via De Gasperi), \"La Tana dei Cuccioli\" (Via Incoronata) e lo \"Stella Maris\" (Viale Dalmazia, in concessione).",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido Stella Maris",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Viale Dalmazia",
+   "url": "https://www.comune.vasto.ch.it/it/news/aperte-le-iscrizioni-agli-asili-nido-comunali",
+   "citazione": "Le strutture interessate sono tre: il nido \"San Paolo\" (Via De Gasperi), \"La Tana dei Cuccioli\" (Via Incoronata) e lo \"Stella Maris\" (Viale Dalmazia, in concessione).",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Stella Maris: comunale in gestione in concessione dal 2022. Altri nidi privati non nominati."
+}

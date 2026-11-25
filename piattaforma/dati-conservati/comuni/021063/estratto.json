@@ -1,0 +1,17 @@
+{
+ "codiceIstat": "021063",
+ "strutture": [
+  {
+   "nome": "Asilo nido Perca (microstruttura)",
+   "tipologia": "MICRONIDO",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Via Römer 27, Vila di Sotto",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.perca.bz.it/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/Asilo_nido_Perca",
+   "citazione": "L'asilo nido di lingua tedesca si trova a Vila di Sotto. Le microstrutture per l‘infanzia sono strutture sociopedagogiche per l'assistenza dei bambini tra i tre mesi e i tre anni compiuti",
+   "anno": "pagina aggiornata 19/09/2025"
+  }
+ ],
+ "note": "Dati dall'HTML originale. Iscrizioni presso Kinderfreunde Südtirol (nuovo nido di Perca) ma gestione non esplicita; tipologia MICRONIDO assunta dalla descrizione 'microstrutture'. Dubbio se Perca abbia un solo nido."
+}

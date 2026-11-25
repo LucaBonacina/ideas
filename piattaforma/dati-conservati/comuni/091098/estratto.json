@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "091098",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "posti": 30,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2026/27",
+      "url": "https://www.comune.ulassai.nu.it/it/servizi/page/richiedere-l-iscrizione-all-asilo-nido",
+      "citazione": "Il nido potrà accogliere un numero massimo di 30 bambini di età compresa tra i 3 e i 36 mesi per un totale di 11 mesi l'anno."
+    }
+  ],
+  "note": "Nido comunale PNRR con graduatorie 2026/27 pubblicate; pagine 2024 parlano di 'micronido comunale' (probabilmente la stessa struttura)."
+}

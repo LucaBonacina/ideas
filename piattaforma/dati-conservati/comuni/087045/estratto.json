@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "087045",
+ "strutture": [
+  {
+   "nome": "Asilo Nido Comunale",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Antonino Marletta 12",
+   "telefono": "095 6095334",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.sant-agata-li-battiati.ct.it/it/vivere/asilo-nido-comunale",
+   "citazione": "Asilo Nido Comunale. Struttura adibita ad Asilo Nido Comunale. Via Antonino Marletta, 12, 95030 Sant'Agata Li Battiati CT",
+   "anno": "2025"
+  }
+ ],
+ "note": "Solo il nido comunale (telefono dell'ufficio amministrativo)."
+}

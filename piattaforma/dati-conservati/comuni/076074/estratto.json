@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "076074",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "telefono": "0973 631003",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.sanchiricoraparo.pz.it/it/novita/page/asilo-nido-iscrizioni-2026-2026",
+      "citazione": "Aperte le iscrizioni per l'inserimento all’asilo nido comunale per i bambini di età compresa tra i tre mesi e i tre anni.",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Telefono = centralino del comune."
+}

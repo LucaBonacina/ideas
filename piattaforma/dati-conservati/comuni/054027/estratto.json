@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "054027",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale Gianni Rodari",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Orvietana",
+   "posti": 48,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2024/25",
+   "url": "https://www.comune.marsciano.pg.it/it/vivere/nido-comunale-g-rodari",
+   "citazione": "Nido Comunale \"G. Rodari\" - Sede del Asilo Nido del Comune di Marsciano - V. Orvietana, 06055 Marsciano PG"
+  }
+ ],
+ "note": "Un solo nido (posti 32+16 dall'avviso 2024/25). Sede provvisoria in piazza Mazzini (ex scuola Satolli) da gennaio 2025 per lavori sismici in via Orvietana; avviso iscrizioni 2026/27 ancora attivo. Nessuna altra struttura 0-3 nominata (buco 6: probabili privati non citati)."
+}

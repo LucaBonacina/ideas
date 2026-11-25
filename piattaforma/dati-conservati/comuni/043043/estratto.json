@@ -1,0 +1,28 @@
+{
+  "codiceIstat": "043043",
+  "strutture": [
+    {
+      "nome": "Asilo nido La Cicogna",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Potenza Picena",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.potenza-picena.mc.it/novita/apertura-iscrizioni-per-il-servizio-nidi-dinfanzia/",
+      "citazione": "nidi d’infanzia comunali: – Asilo Nido “La Cicogna” di Potenza Picena – Asilo Nido “L’aquilone” di Porto Potenza Picena",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido L'Aquilone",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Porto Potenza Picena",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.potenza-picena.mc.it/novita/apertura-iscrizioni-per-il-servizio-nidi-dinfanzia/",
+      "citazione": "nidi d’infanzia comunali: – Asilo Nido “La Cicogna” di Potenza Picena – Asilo Nido “L’aquilone” di Porto Potenza Picena",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Gestione affidata con gara europea; 'indirizzo' e' solo la localita'."
+}

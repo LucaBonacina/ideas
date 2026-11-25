@@ -1,0 +1,53 @@
+{
+ "codiceIstat": "043044",
+ "strutture": [
+  {
+   "nome": "Nido comunale Nidotondo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Vogel",
+   "telefono": "071 7576037",
+   "url": "https://www.comune.recanati.mc.it/it/page/asili-nido-2d4119b5-24f0-4b99-aff4-f25afb3f7668",
+   "citazione": "\" NIDOTONDO \" (nido comunale) Via Vogel Telefono: 071 7576037",
+   "anno": "pagina aggiornata 29/02/2024"
+  },
+  {
+   "nome": "Il Mondo delle Fiabe",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Amendola 1",
+   "telefono": "071 7575923",
+   "url": "https://www.comune.recanati.mc.it/it/page/asili-nido-2d4119b5-24f0-4b99-aff4-f25afb3f7668",
+   "citazione": "\"IL MONDO DELLE FIABE\" ( nido privato) Via Amendola, 1 Telefono: 071 7575923",
+   "anno": "pagina aggiornata 29/02/2024"
+  },
+  {
+   "nome": "Servizio educativo domiciliare (Via Ghetti 43)",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Ghetti 43",
+   "url": "https://www.comune.recanati.mc.it/it/page/asili-nido-2d4119b5-24f0-4b99-aff4-f25afb3f7668",
+   "citazione": "Nidi domiciliari \"LA CASA DI GIADA \" Via Ghetti, 43",
+   "anno": "pagina aggiornata 29/02/2024"
+  },
+  {
+   "nome": "Servizio educativo domiciliare (Via Ghetti 9/A)",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Ghetti 9/A",
+   "url": "https://www.comune.recanati.mc.it/it/page/asili-nido-2d4119b5-24f0-4b99-aff4-f25afb3f7668",
+   "citazione": "Nidi domiciliari \"LA CASA DI ELE \" Via Ghetti, 9/A",
+   "anno": "pagina aggiornata 29/02/2024"
+  },
+  {
+   "nome": "Servizio educativo domiciliare (Via Politi 7)",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Politi 7",
+   "url": "https://www.comune.recanati.mc.it/it/page/asili-nido-2d4119b5-24f0-4b99-aff4-f25afb3f7668",
+   "citazione": "Nidi domiciliari \"SCARABOCCHIANDO A CASA DI TANIA \" Via Politi, 7",
+   "anno": "pagina aggiornata 29/02/2024"
+  }
+ ],
+ "note": "Nomi dei nidi domiciliari resi generici perché contengono nomi propri delle titolari; telefoni cellulari omessi."
+}

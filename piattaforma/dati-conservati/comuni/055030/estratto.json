@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "055030",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Stella Nascente",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Gorizia 4",
+      "posti": 10,
+      "etaMinimaMesi": 11,
+      "etaMassimaMesi": 36,
+      "anno": "2026/27",
+      "url": "https://www.comune.sanvenanzo.tr.it/2026/07/08/bando-per-liscrizione-al-nido-stella-nascente-anno-educativo-2026-2027/",
+      "citazione": "Sono aperte le iscrizioni per l'anno educativo 2026/2027, per il NIDO, ubicato a San Venanzo in via Gorizia n. 4, avente una capienza massima di n. 10 posti."
+    }
+  ],
+  "note": "Inaugurato il 4/9/2026, quindi aperto."
+}

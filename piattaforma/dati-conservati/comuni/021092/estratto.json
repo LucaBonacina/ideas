@@ -1,0 +1,15 @@
+{
+  "codiceIstat": "021092",
+  "strutture": [
+    {
+      "nome": "Asilo nido Sesto (Kita Sexten)",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "indirizzo": "Via Campo Tennis 6, Sesto",
+      "email": "kita-sexten@kinderfreunde.it",
+      "citazione": "Asilo nido Sesto",
+      "url": "https://www.sesto.eu/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/Asilo_nido_Sesto"
+    }
+  ],
+  "note": "Dati di indirizzo/email dall'html della pagina; la citazione nel testo è solo il titolo."
+}

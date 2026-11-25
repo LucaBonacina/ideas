@@ -1,0 +1,22 @@
+{
+  "codiceIstat": "083005",
+  "strutture": [
+    {
+      "nome": "Asilo nido Panteini",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "url": "https://www.comune.barcellona-pozzo-di-gotto.me.it/novita/avviso-graduatorie-bambini-e-ammessi-agli-asili-nido-panteini-e-s-antonino-anno-educativo-2026-2027/",
+      "citazione": "Pubblicazione delle graduatorie bambini/e ammessi agli asili nido Panteini e S. Antonino anno educativo 2026/2027",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido S. Antonino",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "url": "https://www.comune.barcellona-pozzo-di-gotto.me.it/novita/avviso-graduatorie-bambini-e-ammessi-agli-asili-nido-panteini-e-s-antonino-anno-educativo-2026-2027/",
+      "citazione": "Pubblicazione delle graduatorie bambini/e ammessi agli asili nido Panteini e S. Antonino anno educativo 2026/2027",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Nidi desunti da avviso graduatorie; gestione non indicata (probabilmente comunali)."
+}

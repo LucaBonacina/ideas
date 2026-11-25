@@ -1,0 +1,24 @@
+{
+  "codiceIstat": "082063",
+  "strutture": [
+    {
+      "nome": "Nido comunale L'Isola dei Bambini",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "posti": 27,
+      "anno": "2026/27",
+      "url": "https://www.comune.sancipirello.pa.it/wp-content/uploads/2026/08/graduatoria-asilo-nido-2026-2027.pdf",
+      "citazione": "GRADUATORIA NIDO COMUNALE L'ISOLA DEI BAMBINI ANNO 2026/2027 CAPACITA' RICETTIVA ASILO NIDO N. 27"
+    },
+    {
+      "nome": "Spazio giochi comunale",
+      "tipologia": "SPAZIO_GIOCO",
+      "gestione": "COMUNALE",
+      "posti": 20,
+      "anno": "2026/27",
+      "url": "https://www.comune.sancipirello.pa.it/wp-content/uploads/2026/08/graduatoria-asilo-nido-2026-2027.pdf",
+      "citazione": "CAPACITA' RICETTIVA SPAZIO GIOCHI N. 20"
+    }
+  ],
+  "note": "Spazio giochi collegato al nido (graduatoria unica nido e spazio giochi); nome proprio dello spazio non indicato."
+}

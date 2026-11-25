@@ -1,0 +1,17 @@
+{
+ "codiceIstat": "021087",
+ "strutture": [
+  {
+   "nome": "Kita Scena",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Via al Castello 20",
+   "telefono": "0473 861395",
+   "email": "kitas-schenna@tagesmutter-bz.it",
+   "url": "https://www.comune.scena.bz.it/it/Vivere_il_comune/Luoghi/Centro_per_la_cultura/Kita_Scena",
+   "citazione": "A Scena è presente un asilo nido centrale (Kita), ospitato in un moderno complesso edilizio insieme alla scuola dell’infanzia",
+   "anno": "pagina aggiornata 15/07/2025"
+  }
+ ],
+ "note": "Dati dall'HTML originale. Iscrizioni tramite tagesmutter-bz: gestione non esplicita. Buco ISTAT 2 ma il sito cita solo un nido."
+}

@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "058107",
+  "strutture": [
+    {
+      "nome": "Asilo Nido Comunale \"Peter Pan\"",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Carlo Alberto Dalla Chiesa",
+      "telefono": "06 999120207",
+      "posti": 37,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.trevignanoromano.rm.it/servizi/asilo-nido-comunale-peter-pan",
+      "citazione": "L’ Asilo Nido Comunale “Peter Pan” è attualmente svolto presso un'area dedicata della scuola dell'infanzia, in Via Carlo Alberto Dalla Chiesa ... Il nido può ospitare un massimo di 37 bambini",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Sede provvisoria in Via Dalla Chiesa fino al completamento della sede originaria in Via del Monticello 19. Telefono = centralino del comune."
+}

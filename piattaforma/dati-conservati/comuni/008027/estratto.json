@@ -1,0 +1,20 @@
+{
+ "codiceIstat": "008027",
+ "strutture": [
+  {
+   "nome": "Asilo Nido comunale Sbirulino",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Gioachino Rossini 11/12",
+   "telefono": "0183 490276",
+   "email": "servizisociali@comune.dianomarina.im.it",
+   "posti": 40,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.dianomarina.im.it/novita/news/asilo-nido-comunale-rossini-apertura-iscrizioni-ae-20262027",
+   "citazione": "Il nido d'infanzia si sposterà ... nella nuova struttura di via G. Rossini, progettata per accogliere fino a 40 bambini di età compresa tra i 3 e i 36 mesi. L'asilo nido aprirà lunedì 21 settembre 2026.",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Il nuovo nido di via Rossini (lavori ultimati 26/02/2026, apertura 21/09/2026, open day 14/11/2026) sostituisce il vecchio nido \"La Casetta\" di Villa Scasella: contato una sola volta. Servizio affidato a terzi (concessionario)."
+}

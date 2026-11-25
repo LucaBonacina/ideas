@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "010054",
+  "strutture": [
+    {
+      "nome": "Nido d'infanzia comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Madonnetta 19/A, 16038 Santa Margherita Ligure",
+      "telefono": "0185 289645",
+      "posti": 38,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.santa-margherita-ligure.ge.it/it/unita_organizzative/nido-d-infanzia",
+      "citazione": "Nel comune di Santa Margherita Ligure i posti disponibili sono in totale 38: 36 posti riservati a bambini residenti ... 2 posti a bambini residenti nel Comune di Portofino.",
+      "anno": "2025/26"
+    }
+  ],
+  "note": "Un solo nido comunale (gestito da cooperativa in appalto, 3 sezioni; autorizzato per 36 posti secondo il regolamento 2026, 38 posti secondo la pagina). La ludoteca 'L'isola che non c'e'' (3-12 anni) e' stata esclusa."
+}

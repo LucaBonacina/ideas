@@ -1,0 +1,47 @@
+{
+ "codiceIstat": "055004",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale (Amelia)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "posti": 30,
+   "url": "https://www.comune.amelia.tr.it/it/page/iscrizione-all-asilo-nido",
+   "citazione": "si ricevono le richieste di iscrizione al servizio asilo nido presso l'Ufficio Scolastico [...] Il servizio può ospitare n. 18 bambini grandi (dai 18 ai 36 mesi) e n.12 piccoli (dai 3 ai 18 mesi).",
+   "anno": "2022"
+  },
+  {
+   "nome": "Nido d'infanzia Girandole a Colori",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://cloud.municipiumapp.it/s3/215/allegati/graduatoria_bando_nidi_26-27_rettifica.pdf",
+   "citazione": "15165 06/08/2026 3.846,91 8,00-16,30 GIRANDOLE A COLORI SETTEMBRE AGOSTO 420,00 € AMMESSA - FINANZIABILE",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia La Coccinella",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://cloud.municipiumapp.it/s3/215/allegati/graduatoria_bando_nidi_26-27_rettifica.pdf",
+   "citazione": "15854 19/08/2026 8.675,65 8,00-13,30 LA COCCINELLA SETTEMBRE AGOSTO 380,00 € AMMESSA - FINANZIABILE",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Latte e Biscotti",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://cloud.municipiumapp.it/s3/215/allegati/graduatoria_bando_nidi_26-27_rettifica.pdf",
+   "citazione": "14914 04/08/2026 10.992,80 8,00-16,30 LATTE E BISCOTTI SETTEMBRE AGOSTO 420,00 € AMMESSA - FINANZIABILE",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Un Mondo di Coccole",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://cloud.municipiumapp.it/s3/215/allegati/graduatoria_bando_nidi_26-27_rettifica.pdf",
+   "citazione": "BANDO ASILI NIDO A.E. 2026/2027 ESITO ISTANZE PERVENUTE - colonna NIDO D'INFANZIA RICHIESTO: UN MONDO DI COCCOLE SETTEMBRE AGOSTO",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "DUBBIO: i 4 nidi con nome sono dedotti dalla colonna 'nido d'infanzia richiesto' della graduatoria del bando rette 2026/27 (verosimilmente privati, gestione non dichiarata; nessun indirizzo). Un Mondo di Coccole compare solo nel PDF eee1f07c5c0c.pdf (stessa graduatoria, versione non rettificata) con citazione composta. Il nido comunale è generico e la pagina è del 2022."
+}

@@ -1,0 +1,82 @@
+{
+ "codiceIstat": "067041",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia Coccinella (Piano Solare)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Piano Solare",
+   "url": "https://www.comune.teramo.it/it/news/open-day-servizi-educativi-due-giornate-per-conoscere-i-nostri-nidi-dinfanzia-e-le-sezioni-primavera",
+   "citazione": "Nido d’infanzia “Coccinella” – Piano Solare",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Girasole",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Diaz",
+   "url": "https://www.comune.teramo.it/it/news/open-day-servizi-educativi-due-giornate-per-conoscere-i-nostri-nidi-dinfanzia-e-le-sezioni-primavera",
+   "citazione": "Nido d’infanzia “Girasole” – Via Diaz",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Pinocchio A. Ferrante",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Matteotti",
+   "url": "https://www.comune.teramo.it/it/news/open-day-servizi-educativi-due-giornate-per-conoscere-i-nostri-nidi-dinfanzia-e-le-sezioni-primavera",
+   "citazione": "Nido d’infanzia “Pinocchio A. Ferrante” – Via Matteotti",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia La Casetta sul Fiume",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Parco Fluviale",
+   "url": "https://www.comune.teramo.it/it/news/open-day-servizi-educativi-due-giornate-per-conoscere-i-nostri-nidi-dinfanzia-e-le-sezioni-primavera",
+   "citazione": "Nido d’infanzia “La Casetta sul Fiume” – Parco Fluviale",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Accademia di Pollicino",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Colleatterrato",
+   "url": "https://www.comune.teramo.it/it/news/open-day-servizi-educativi-due-giornate-per-conoscere-i-nostri-nidi-dinfanzia-e-le-sezioni-primavera",
+   "citazione": "Nido d’infanzia “Accademia di Pollicino” – Colleatterrato",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Il Gatto con gli Stivali",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "San Nicolò, Via Galilei",
+   "url": "https://www.comune.teramo.it/it/news/open-day-servizi-educativi-due-giornate-per-conoscere-i-nostri-nidi-dinfanzia-e-le-sezioni-primavera",
+   "citazione": "Nido d’infanzia “Il Gatto con gli Stivali” – San Nicolò Via Galilei",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione primavera Villa Ripa",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "indirizzo": "presso la Scuola dell'Infanzia di Villa Ripa",
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.teramo.it/it/news/open-day-servizi-educativi-due-giornate-per-conoscere-i-nostri-nidi-dinfanzia-e-le-sezioni-primavera",
+   "citazione": "Open Day Sezioni Primavera 9 giugno 2026 ... presso la Scuola dell’Infanzia di Villa Ripa",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione primavera Villa Vomano",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "indirizzo": "presso la Scuola dell'Infanzia di Villa Vomano",
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.teramo.it/it/news/open-day-servizi-educativi-due-giornate-per-conoscere-i-nostri-nidi-dinfanzia-e-le-sezioni-primavera",
+   "citazione": "Open Day Sezioni Primavera 9 giugno 2026 ... presso la Scuola dell’Infanzia di Villa Vomano",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "6 nidi comunali + 2 sezioni primavera (nelle scuole infanzia di Villa Ripa e Villa Vomano, assunte gestione comunale). Nido Coccinella con ordinanza di chiusura segnalata in una news."
+}

@@ -1,0 +1,25 @@
+{
+ "codiceIstat": "090033",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia CoroCreo",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://www.comune.ittiri.ss.it/it/news/open-day-nido-d-infanzia-corocreo",
+   "citazione": "La Cooperativa Sociale La Gaia Scienza invita tutte le famiglie a partecipare all' Open Day del Nido d'Infanzia CoroCreo di Ittiri",
+   "anno": "2026"
+  },
+  {
+   "nome": "Sezione Primavera presso asilo infantile Divina Provvidenza",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Via Porcheddu",
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.ittiri.ss.it/it/news/per-lerogazione-di-contributi-economici-a-sostegno-delle-famiglie-con-minori-da-24-a-36-mesi-frequentanti-la-sezione-primavera",
+   "citazione": "contributi economici a sostegno delle famiglie con minori da 24 a 36 mesi frequentanti la Sezione Primavera presso l'asilo infantile Divina Provvidenza sito in via Porcheddu ad Ittiri",
+   "anno": "2025"
+  }
+ ],
+ "note": "CoroCreo gestito dalla Cooperativa La Gaia Scienza (titolarita' non chiara, forse convenzione comunale). Sezione primavera: probabile paritaria/privata, non esplicitato."
+}

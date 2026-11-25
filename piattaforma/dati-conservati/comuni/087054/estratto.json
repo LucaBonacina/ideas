@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "087054",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale N. Green",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "posti": 30,
+      "etaMinimaMesi": 0,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.vizzini.ct.it/home/amministrazione/documenti/Documento-43.html",
+      "citazione": "Regolamento per la gestione dell'Asilo Nido Comunale \"N. Green\""
+    }
+  ],
+  "note": "Indirizzo nel regolamento OCR (probabile via Berlinguer 4) non affidabile, omesso; capienza 30 da PDF."
+}

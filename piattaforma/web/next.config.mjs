@@ -7,6 +7,8 @@ const nextConfig = {
     return [{ source: '/api/:path*', destination: `${API_URL}/:path*` }];
   },
   poweredByHeader: false,
+  // Immagine Docker minima per Cloud Run (server.js con le sole dipendenze necessarie).
+  output: 'standalone',
 };
 
 export default nextConfig;

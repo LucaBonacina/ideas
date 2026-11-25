@@ -1,0 +1,17 @@
+{
+ "codiceIstat": "060056",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale di Pontecorvo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0776 760910",
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.pontecorvo.fr.it/servizio/iscrizione-asilo-nido/",
+   "citazione": "All’asilo nido sono ammessi bambini da 0 a 3 anni residenti nel comune di Pontecorvo. Il servizio è gestito dalla “A.S.M. PONTECORVO” titolare del relativo contratto di servizio.",
+   "anno": "2025"
+  }
+ ],
+ "note": "Un nido, gestito da Azienda Speciale Multiservizi (contatti ASM), senza nome ne indirizzo."
+}

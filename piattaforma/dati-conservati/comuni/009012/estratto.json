@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "009012",
+  "strutture": [
+    {
+      "nome": "Nido d'Infanzia F.lli Rosselli \"Seconda Stella a destra\"",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Milano 2",
+      "telefono": "0182 970000",
+      "email": "servizisociali@comune.borghettosantospirito.sv.it",
+      "posti": 33,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.borghettosantospirito.sv.it/servizio/nido-dinfanzia-f-lli-rosselli-seconda-stella-a-destra-2/",
+      "citazione": "Il Nido è rivolto alle famiglie dei bambini e delle bambine di età comprese tra i 3 mesi e i 3 anni ed offre una disponibilità di 33 posti di cui 3 per casi sociali.",
+      "anno": "2026/27"
+    }
+  ]
+}

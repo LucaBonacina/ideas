@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "042019",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale La Coccinella",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Contrada S. Lorenzo 10",
+      "telefono": "071 7220779",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.filottrano.an.it/it/vivere/asilo-nido",
+      "citazione": "L'asilo nido o nido d'infanzia è un servizio educativo e sociale di interesse pubblico, aperto a tutte le bambine e i bambini in età compresa tra i 3 e i 36 mesi. Contrada S. Lorenzo, 10",
+      "anno": "2026/27"
+    }
+  ]
+}

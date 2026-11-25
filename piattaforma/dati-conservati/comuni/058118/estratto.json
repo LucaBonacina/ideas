@@ -1,0 +1,41 @@
+{
+  "codiceIstat": "058118",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Axel",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Isonzo",
+      "posti": 58,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.ciampino.roma.it/it/news/asili-nido-comunali-avviso-pubblico-iscrizioni-e-riconferme-a-e-2026-27",
+      "citazione": "Asilo nido Axel, sito in Via Isonzo, autorizzato al funzionamento per un numero di 58 minori;",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido comunale Girasole",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via F.lli Wright",
+      "posti": 60,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.ciampino.roma.it/it/news/asili-nido-comunali-avviso-pubblico-iscrizioni-e-riconferme-a-e-2026-27",
+      "citazione": "Asilo nido Girasole, sito in Via F.lli Wright, autorizzato al funzionamento per un numero di 60 minori;",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido comunale integrato nel polo per l'infanzia Collodi",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Viale di Marino",
+      "posti": 49,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.ciampino.roma.it/it/news/asili-nido-comunali-avviso-pubblico-iscrizioni-e-riconferme-a-e-2026-27",
+      "citazione": "Asilo nido integrato nel polo per l’infanzia Collodi, sito in Viale di Marino, autorizzato al funzionamento per un numero di 49 minori.",
+      "anno": "2026/27"
+    }
+  ]
+}

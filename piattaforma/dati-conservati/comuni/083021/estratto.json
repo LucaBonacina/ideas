@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "083021",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "telefono": "0942 771001",
+      "etaMinimaMesi": 0,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.fiumedinisi.me.it/servizio/iscrizione-allasilo-nido/",
+      "citazione": "Servizio per richiedere l'ammissione alla frequenza dell'asilo nido comunale per bambini da 0 a 3 anni, con assegnazione del posto in base a criteri di priorità",
+      "anno": "2026"
+    }
+  ]
+}

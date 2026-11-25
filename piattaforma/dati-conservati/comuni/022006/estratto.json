@@ -1,0 +1,33 @@
+{
+ "codiceIstat": "022006",
+ "strutture": [
+  {
+   "nome": "Nido d’infanzia comunale Millecolori",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Francesco di Borbone 5",
+   "telefono": "0464 516176",
+   "email": "nido@comune.arco.tn.it",
+   "posti": 66,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.arco.tn.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Millecolori",
+   "citazione": "Il nido comunale Millecolori vuole offrire opportunità per crescere in un luogo pensato e creato per promuovere lo sviluppo psicofisico dei/lle 66 bambini/bambine accolti/e.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Micronido comunale di Bolognano",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0464 512764",
+   "sito": "https://www.lacoccinella.coop/content/nido-di-arco",
+   "posti": 19,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.arco.tn.it/Vivere-il-Comune/Luoghi/Micronido",
+   "citazione": "Il Micronido può ospitare fino a 19 bambini/e e si caratterizza per essere dedicato, a tutto tondo, al tema della MUSICA.",
+   "anno": "2026"
+  }
+ ],
+ "note": "Solo due nidi comunali (il micronido, a Bolognano, gestito dalla coop La Coccinella). Tagesmütter citate solo come contributo, senza strutture nominate."
+}

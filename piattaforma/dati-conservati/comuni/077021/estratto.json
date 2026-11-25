@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "077021",
+ "strutture": [
+  {
+   "nome": "Asilo Nido comunale Linus",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Cristoforo Colombo 6",
+   "telefono": "0835 973883",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.policoro.basilicata.it/il-comune/i-settore-amministrativo/biblioteca-pubblica-istruzione-e-asilo-nido/istruzione/",
+   "citazione": "L’asilo nido è situato in via Cristoforo Colombo n.6 tel.0835-973883",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Solo il nido comunale Linus."
+}

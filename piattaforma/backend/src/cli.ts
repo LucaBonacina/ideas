@@ -54,11 +54,23 @@ async function main(): Promise<void> {
     geocodifica: () => app.get(GeocodificaService).esegui(),
   };
   const daEseguire = comando === 'tutto' ? Object.keys(passi).filter((p) => !['raccolta-comuni', 'testi-comuni'].includes(p)) : [comando];
+  // Con "tutto" una fonte che fallisce non ferma le altre: si riporta l'errore e si chiude con codice 1.
+  const falliti: string[] = [];
   try {
     for (const nome of daEseguire) {
       if (!passi[nome]) throw new Error(`Import sconosciuto: ${nome}`);
-      const rapporto = await passi[nome]();
-      process.stdout.write(`${JSON.stringify(rapporto, null, 2)}\n`);
+      try {
+        const rapporto = await passi[nome]();
+        process.stdout.write(`${JSON.stringify(rapporto, null, 2)}\n`);
+      } catch (errore) {
+        log.error('Import fallito', { passo: nome, errore: errore instanceof Error ? errore.message : errore });
+        falliti.push(nome);
+        if (comando !== 'tutto') break;
+      }
+    }
+    if (falliti.length > 0) {
+      log.error('Passi non riusciti', { falliti });
+      process.exitCode = 1;
     }
   } catch (errore) {
     log.error('Import fallito', { errore: errore instanceof Error ? errore.message : errore });

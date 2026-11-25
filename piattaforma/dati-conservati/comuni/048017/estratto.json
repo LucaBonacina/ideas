@@ -1,0 +1,87 @@
+{
+ "codiceIstat": "048017",
+ "strutture": [
+  {
+   "nome": "Nido d'Infanzia Sbarbacipolla",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "il Nido d’Infanzia Sbarbacipolla, a gestione diretta comunale e con una capienza indicativa di 40 posti, aprirà in via Benedetto Fortini n. 16/b (Quartiere 3)",
+   "anno": "2026/27",
+   "indirizzo": "Via Benedetto Fortini 16/b",
+   "posti": 40
+  },
+  {
+   "nome": "Nido d'Infanzia Cipì",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "il Nido d’Infanzia Cipì, a gestione indiretta e con una capienza di 50 posti, aprirà in Piazzale del Re (Quartiere 1) come nido a tempo prolungato",
+   "anno": "2026/27",
+   "indirizzo": "Piazzale del Re",
+   "posti": 50
+  },
+  {
+   "nome": "Nido d'Infanzia Pezzettino",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "il Nido d’Infanzia Pezzettino, a gestione indiretta e con una capienza di 25 posti, aprirà in via Campania n. 20 (Quartiere 5) come nido a tempo prolungato",
+   "anno": "2026/27",
+   "indirizzo": "Via Campania 20",
+   "posti": 25
+  },
+  {
+   "nome": "Nido Pinolo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "il Nido Pinolo (Quartiere 2) sarà sottoposto a importanti interventi di riqualificazione a partire indicativamente dal mese di gennaio 2027.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido Scoiattolo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "il Nido Scoiattolo (Quartiere 4) riaprirà presso la propria sede ristrutturata in via Bugiardini n. 43 a partire dal mese di settembre 2026",
+   "anno": "2026/27",
+   "indirizzo": "Via Bugiardini 43"
+  },
+  {
+   "nome": "Nido Farfalla",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "il Nido Farfalla (Quartiere 4), oggetto di importanti interventi di riqualificazione, sarà ospitato, da settembre 2026, presso la sede del nido Pollicino in viale Ludovico Ariosto 14",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido Pollicino",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "sarà ospitato presso la sede del nido Pollicino in viale Ludovico Ariosto 14",
+   "anno": "2026/27",
+   "indirizzo": "Viale Ludovico Ariosto 14"
+  },
+  {
+   "nome": "Nido Aquilone Rosso",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "il Nido Aquilone Rosso (Quartiere 5) sarà sottoposto a importanti interventi di riqualificazione a partire indicativamente dal mese di gennaio 2027.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido Lorenzo il Magnifico",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.fi.it/servizi/educazione-e-formazione/integrazione-iscrizione-nidi-dinfanzia",
+   "citazione": "il Nido Lorenzo il Magnifico (Quartiere 5) riaprirà presso la propria sede di Via di Careggi n. 36 a partire dal mese di settembre 2026",
+   "anno": "2026/27",
+   "indirizzo": "Via di Careggi 36"
+  }
+ ],
+ "note": "Il sito elenca solo i nidi nominati nelle avvertenze per l'a.e. 2026/27 (3 nuovi + alcuni in riqualificazione); l'Allegato A con l'elenco completo non è nel testo. Pollicino: citazione indiretta (sede ospitante). Sedi volano (Bechi, Guicciardini, viale Bassi 9) non incluse come strutture a sé."
+}

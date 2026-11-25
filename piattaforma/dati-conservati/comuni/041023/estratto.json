@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "041023",
+  "strutture": [
+    {
+      "nome": "Asilo Nido \"La Coccinella\"",
+      "tipologia": "NIDO",
+      "gestione": "PRIVATA",
+      "indirizzo": "Via della Gioventù 1",
+      "telefono": "0722 73174",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.maceratafeltria.pu.it/vivere-il-comune/luoghi/asilo-nido-mondo-bimbi/",
+      "citazione": "denominazione: Asilo Nido privato \" La Coccinella\" di Bernardini Sefora; ubicazione: via della Gioventù, n. 1; convenzionato: Comune di Macerata Feltria - Atto di G.C. nr 59/2025",
+      "anno": "2025/26"
+    }
+  ],
+  "note": "Nido privato convenzionato con il comune. Email personale della titolare omessa."
+}

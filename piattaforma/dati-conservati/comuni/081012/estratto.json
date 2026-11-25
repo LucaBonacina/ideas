@@ -1,0 +1,33 @@
+{
+ "codiceIstat": "081012",
+ "strutture": [
+  {
+   "nome": "Micro nido comunale plesso Poggioreale",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "posti": 22,
+   "url": "https://www.comune.mazaradelvallo.tp.it/it/news/al-via-i-servizi-di-micro-nido-e-spazio-gioco-comunali-del-plesso-poggioreale",
+   "citazione": "Lunedì scorso sono stati inaugurati i servizi all'infanzia del micro nido (22 posti) e dello spazio gioco (16 posti) del plesso Poggioreale.",
+   "anno": "2025/26"
+  },
+  {
+   "nome": "Spazio gioco comunale plesso Poggioreale",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "posti": 16,
+   "url": "https://www.comune.mazaradelvallo.tp.it/it/news/al-via-i-servizi-di-micro-nido-e-spazio-gioco-comunali-del-plesso-poggioreale",
+   "citazione": "Lunedì scorso sono stati inaugurati i servizi all'infanzia del micro nido (22 posti) e dello spazio gioco (16 posti) del plesso Poggioreale.",
+   "anno": "2025/26"
+  },
+  {
+   "nome": "Micro nido comunale plesso Santa Gemma",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "posti": 13,
+   "url": "https://www.comune.mazaradelvallo.tp.it/it/news/al-via-i-servizi-di-micro-nido-e-spazio-gioco-comunali-del-plesso-poggioreale",
+   "citazione": "Per quanto riguarda il micro nido comunale di Santa Gemma (13 posti), il servizio sarà avviato con qualche giorno di ritardo",
+   "anno": "2025/26"
+  }
+ ],
+ "note": "Due nuovi nidi comunali (via Livorno, 45 posti; via Vaccara, 65 posti) sono solo in costruzione (PNRR), non inclusi."
+}

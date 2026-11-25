@@ -1,0 +1,124 @@
+{
+ "codiceIstat": "022205",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia Interporto",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Innsbruck 15",
+   "telefono": "0461 889708",
+   "email": "asilonido.interporto@comune.trento.it",
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Interporto",
+   "citazione": "Asilo nido. Servizio a tempo pieno. Capienza 45/50 bambini a seconda della fascia d'età. Gestore: Comune di Trento."
+  },
+  {
+   "nome": "Nido d'infanzia Roncafort - Caneppele",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via L. Caneppele 19",
+   "telefono": "0461 829854",
+   "email": "roncafort@citta-futura.it",
+   "posti": 54,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Roncafort-Caneppele",
+   "citazione": "Asilo nido. Servizio a tempo pieno. Capienza 54 bambini. Gestore: Cooperativa Città Futura"
+  },
+  {
+   "nome": "Nido d'infanzia Il Magicocastello",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via F. Petrarca 9",
+   "telefono": "0461 261443",
+   "email": "nido.magicocastello@progestrento.it",
+   "posti": 57,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Il-Magicocastello",
+   "citazione": "Asilo nido. Servizio a tempo pieno - capienza 57 bambini. Gestore: Cooperativa Pro.Ges. Trento"
+  },
+  {
+   "nome": "Nido d'infanzia La Mongolfiera",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via della Rozola 36",
+   "telefono": "0461 944428",
+   "email": "nido.lamongolfiera@lacoccinella.coop",
+   "posti": 63,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-La-Mongolfiera",
+   "citazione": "Asilo nido. Servizio a tempo pieno. Capienza 63 bambini. Gestore: Cooperativa La Coccinella"
+  },
+  {
+   "nome": "Nido d'infanzia La Trottola - Solteri",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via dei Solteri 26",
+   "telefono": "0461 889702",
+   "email": "asilonido.solteri@comune.trento.it",
+   "posti": 54,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-La-Trottola",
+   "citazione": "Asilo nido. Servizio a tempo pieno. Capienza 54 bambini. Gestore: Comune di Trento"
+  },
+  {
+   "nome": "Nido d'infanzia Madonna Bianca",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Bettini 1",
+   "telefono": "0461 931290",
+   "email": "nido.madonnabianca@progestrento.it",
+   "posti": 30,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Madonna-Bianca",
+   "citazione": "Asilo nido. Servizio a tempo parziale mattino. Capienza 30 bambini. Gestore: Cooperativa Pro.Ges. Trento"
+  },
+  {
+   "nome": "Nido d'infanzia Oltrecastello",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Borino 1, Povo",
+   "telefono": "0461 342169",
+   "email": "nido.oltrecastello@progestrento.it",
+   "posti": 21,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Oltrecastello",
+   "citazione": "Asilo nido. Servizio a tempo pieno. Capienza 21 bambini. Gestore: Cooperativa Pro.Ges. Trento"
+  },
+  {
+   "nome": "Nido d'infanzia Meano",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via delle Sugarine 38, Meano",
+   "telefono": "0461 950398",
+   "email": "meano@citta-futura.it",
+   "posti": 30,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Meano",
+   "citazione": "Asilo nido. Servizio a tempo pieno. Capienza 30 bambini. Gestore: Cooperativa Città Futura"
+  },
+  {
+   "nome": "Nido d'infanzia Orsetto Pandi - Cristo Re",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via L. Senesi 3",
+   "email": "nido.orsettopandi@progestrento.it",
+   "posti": 60,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Orsetto-Pandi",
+   "citazione": "Asilo nido. Servizio a tempo pieno. Capienza 60 bambini. Gestore: Comune di Trento"
+  },
+  {
+   "nome": "Nido d'infanzia Roncafort - Caproni",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Caproni 36",
+   "telefono": "0461 420943",
+   "email": "nido.roncafort@progestrento.it",
+   "posti": 30,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Roncafort-Caproni",
+   "citazione": "Asilo nido. Servizio a tempo parziale mattino. Capienza 30 bambini. Gestore: Cooperativa Pro.Ges. Trento"
+  },
+  {
+   "nome": "Nido d'infanzia Padre V. Tonini - Vigolo Baselga",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0461 866291",
+   "email": "tonini@citta-futura.it",
+   "posti": 26,
+   "url": "https://www.comune.trento.it/Vivere-il-Comune/Luoghi/Nido-d-infanzia-Padre-V.-Tonini",
+   "citazione": "Asilo nido. Servizio a tempo pieno. Capienza 26 bambini. Gestore: Cooperativa Città Futura"
+  }
+ ],
+ "note": "Nidi d'infanzia pubblicati dal Comune di Trento (gestione affidata a cooperative; titolare comune, quindi COMUNALE). Posti = capienza indicata (per alcuni solo tempo parziale mattino). Tonini a Vigolo Baselga senza via. Orsetto Pandi: telefono (cellulare) omesso."
+}

@@ -1,0 +1,30 @@
+{
+ "codiceIstat": "111057",
+ "strutture": [
+  {
+   "nome": "Spazio Bimbi comunale",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "telefono": "0781 51111",
+   "posti": 20,
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 24,
+   "url": "https://www.comune.portoscuso.ci.it/sites/default/files/upload/2026/08/manifesto%20servizi%20educativi%20prima%20infanzia.pdf",
+   "citazione": "sono aperte le iscrizioni per l'anno educativo 2026/2027. Il servizio è rivolto ai bambini residenti nel territorio del Comune di Portoscuso, di età compresa tra i 12 ed i 24 mesi, per lo Spazio Bimbi e tra i 24 e i 36 mesi per la Sezione Primavera.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione Primavera comunale",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "telefono": "0781 51111",
+   "posti": 20,
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.portoscuso.ci.it/sites/default/files/upload/2026/08/manifesto%20servizi%20educativi%20prima%20infanzia.pdf",
+   "citazione": "sono aperte le iscrizioni per l'anno educativo 2026/2027. Il servizio è rivolto ai bambini residenti nel territorio del Comune di Portoscuso, di età compresa tra i 12 ed i 24 mesi, per lo Spazio Bimbi e tra i 24 e i 36 mesi per la Sezione Primavera.",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Posti: \"quota di 20 bambini per servizio\" (soglia oltre la quale si fa graduatoria). Sezione Primavera affidata in appalto (gara 2022/23). Nessun indirizzo delle sedi. Ludoteche estive/invernali escluse."
+}

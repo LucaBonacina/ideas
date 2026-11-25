@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "069059",
+  "strutture": [
+    {
+      "nome": "Asilo Nido Comunale \"Magico Mondo\"",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via A. Pertini 8",
+      "telefono": "087280821",
+      "email": "info@comune.paglieta.ch.it",
+      "posti": 25,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.paglieta.ch.it/luoghi/2499642/asilo-nido-comunale-magico-mondo",
+      "citazione": "L’Asilo Nido Comunale “Magico Mondo” di Paglieta, sito in Via A. Pertini, 8, ha una capacità ricettiva di n. 25 posti.",
+      "anno": "2024"
+    }
+  ]
+}

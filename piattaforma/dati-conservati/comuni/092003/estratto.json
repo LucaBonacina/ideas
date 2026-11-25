@@ -1,0 +1,135 @@
+{
+ "codiceIstat": "092003",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale di Assemini",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Carife",
+   "telefono": "070 946448",
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/asilo-nido.html",
+   "citazione": "Asilo Nido Via Carife — 09032 Assemini, CA. L'asilo nido è un servizio educativo e sociale che favorisce l'armonico sviluppo della personalità del bambino."
+  },
+  {
+   "nome": "La casa dei bambini",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Piazza Della Conciliazione snc",
+   "posti": 24,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "Servizio di Nido per n.24 bambini da 3 a 36 mesi e Ludoteca per bambini da 3 a 10 anni in orario extrascolastico.",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "Nido in famiglia Tetty",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Giudicessa Benedetta 10",
+   "posti": 5,
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 72,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "“Nido in famiglia Tetty” dell’Associazione di Promozione Sociale A.R.E., Via Giudicessa Benedetta 10. Servizio di Nido in famiglia n. 5 bambini dai 0 a 6 anni.",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "La gang del bosco (nido)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Marconi 50",
+   "posti": 15,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 24,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "“La gang del bosco”, Via Marconi 50. Servizio di Nido per n. 15 bambini dai 3 ai 24 mesi, Sezione primavera per n. 15 bambini dai 24 ai 36 mesi",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "La gang del bosco (sezione primavera)",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Marconi 50",
+   "posti": 15,
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "“La gang del bosco”, Via Marconi 50. Servizio di Nido per n. 15 bambini dai 3 ai 24 mesi, Sezione primavera per n. 15 bambini dai 24 ai 36 mesi",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "Ali per volare",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Carmine 201",
+   "posti": 24,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "“Ali per volare” di Ali per volare s.r.l.s., Via Carmine 201. Servizio di Nido per n. 24 bambini dai 3 ai 36 mesi.",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "Nido d'infanzia Mariposa",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Piazza Don Bosco",
+   "posti": 22,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "“Nido d’infanzia Mariposa” della Cooperativa Sociale GINT, Piazza Don Bosco. Servizio di Nido per n. 22 bambini dai 3 ai 36 mesi.",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "Sezione Primavera Spiccare il volo",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "PRIVATA",
+   "indirizzo": "Piazza Don Bosco",
+   "posti": 10,
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "“Sezione Primavera “Spiccare il volo” della Cooperativa Sociale GINT, Piazza Don Bosco. Servizio di “Sezione primavera” per n. 10 bambini dai 12 ai 36 mesi.",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "Nido in famiglia Gli Aristobimbi",
+   "tipologia": "SERVIZIO_DOMICILIARE",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Filzi 8A",
+   "posti": 5,
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 72,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "“Gli Aristobimbi” della Associazione di Promozione Sociale “Gli Aristobimbi APS”, Via Filzi 8A. Servizio di Nido in famiglia n. 5 bambini dai 0 a 6 anni.",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "Nido Gli Aristobimbi",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Filzi 8A",
+   "posti": 20,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "Servizio di Nido per n. 20 bambini da 3 a 36 mesi (voce “Gli Aristobimbi” APS, Via Filzi 8A)",
+   "anno": "elenco aggiornato al 31.01.2023"
+  },
+  {
+   "nome": "Asilo nido Le libellule",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Tevere 146",
+   "posti": 20,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.assemini.ca.it/amministrazione/uffici/articolazione-degli-uffici/area-iii-servizi-socio-culturali-e-istruzione/politiche-sociali/infanzia/servizi-privati-prima-infanzia-autorizzati.html",
+   "citazione": "“Asilo nido Le libellule s.n.c.”, Via Tevere 146 Servizio di Asilo Nido per n. 20 bambini da 3 a 36 mesi.",
+   "anno": "elenco aggiornato al 31.01.2023"
+  }
+ ],
+ "note": "Elenco servizi privati autorizzati aggiornato al 31.01.2023 (possibile obsolescenza). Ludoteche 3-10 anni escluse. Telefoni dei coordinatori (cellulari) omessi. Nido Aristobimbi: sede assunta uguale a quella del nido in famiglia (stessa voce)."
+}

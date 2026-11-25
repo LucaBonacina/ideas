@@ -1,0 +1,28 @@
+{
+  "codiceIstat": "060038",
+  "strutture": [
+    {
+      "nome": "Nido d'infanzia comunale Fantasia",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Fedele Calvosa snc",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.frosinone.it/documento_pubblico/iscrizione-ai-nidi-dinfanzia-comunali-anno-2026-2027/",
+      "citazione": "le tariffe sono già state definite per ciascuna struttura comunale, in particolare per i nidi “FANTASIA”, situato in via Fedele Calvosa, e “POLLICINO”, in Corso Lazio.",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Nido d'infanzia comunale Pollicino",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Corso Lazio snc",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.frosinone.it/documento_pubblico/iscrizione-ai-nidi-dinfanzia-comunali-anno-2026-2027/",
+      "citazione": "le tariffe sono già state definite per ciascuna struttura comunale, in particolare per i nidi “FANTASIA”, situato in via Fedele Calvosa, e “POLLICINO”, in Corso Lazio.",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "il testo nomina solo i due nidi comunali; il buco di 1 resta non coperto (nidi privati non citati)"
+}

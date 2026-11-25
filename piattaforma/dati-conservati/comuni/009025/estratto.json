@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "009025",
+  "strutture": [
+    {
+      "nome": "Micro-nido comunale Le Cicogne",
+      "tipologia": "MICRONIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Palazzo Gollo",
+      "telefono": "0182 595026",
+      "email": "segreteria@comune.cisanosulneva.sv.it",
+      "posti": 13,
+      "etaMinimaMesi": 9,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.cisanosulneva.sv.it/servizio/richiesta-ammissione-al-micro-nido-comunale-le-cicogne/",
+      "citazione": "Il micro-nido comunale, sito in un’apposita sezione del Palazzo Gollo, può ospitare sino a 13 bambini.",
+      "anno": "2026"
+    }
+  ]
+}

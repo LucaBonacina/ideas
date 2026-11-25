@@ -1,0 +1,16 @@
+{
+ "codiceIstat": "082027",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.cefalu.pa.it/servizio/iscrizione-allasilo-nido/",
+   "citazione": "Iscrizione all’asilo nido. Servizio attivo. Il servizio è rivolto ai minori da zero a tre anni. Utenza asilo nido comunale",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Nido comunale senza nome né indirizzo nel testo (contatti solo degli uffici servizi sociali)."
+}

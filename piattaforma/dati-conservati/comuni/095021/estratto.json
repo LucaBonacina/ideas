@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "095021",
+  "strutture": [
+    {
+      "nome": "Asilo nido di Ghilarza (Unione dei Comuni del Guilcier)",
+      "tipologia": "NIDO",
+      "gestione": "PUBBLICA_ALTRA",
+      "indirizzo": "Via Emilio Lussu",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.abbasanta.or.it/it/novita/page/iscrizioni-all-asilo-nido-anno-educativo-2019-2020",
+      "citazione": "aperte le iscrizioni all'Asilo Nido dell'Unione dei Comuni del Guilcier, con sede a Ghilarza ... presso la sede dell'asilo nido in Via Emilio Lussu a Ghilarza",
+      "anno": "2019/20"
+    }
+  ],
+  "note": "Fonte principale del 2019 (sito di Abbasanta); il sito di Ghilarza conferma l'asilo nido in una notizia del 2020. Ludoteca 3-11 anni esclusa."
+}

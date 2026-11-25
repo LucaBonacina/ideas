@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "041048",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Cappuccetto Rosso",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "telefono": "0722 75110 int. 2",
+      "posti": 12,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.pietrarubbia.pu.it/luoghi/3393628/asilo-nido-cappuccetto-rosso",
+      "citazione": "Nido d’Infanzia “Cappuccetto Rosso”: l’asilo nido attualmente, in via provvisoria, accoglie sino ad un massimo di 12 bambini, di età compresa dai 3 ai 36 mesi.",
+      "anno": "2024/25"
+    }
+  ],
+  "note": "pagina aggiornata 22/04/2025; esiste anche modulo iscrizione 2025/26"
+}

@@ -1,0 +1,21 @@
+{
+ "codiceIstat": "009004",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale (Asilo del Centro)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Corso Ferrari 195",
+   "telefono": "019 8933225",
+   "email": "segreteria@asilodelcentro.org",
+   "sito": "http://www.asilodelcentro.org",
+   "posti": 12,
+   "etaMinimaMesi": 9,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.albisola-superiore.sv.it/amministrazione/unita_organizzativa/servizio-nido-dinfanzia/",
+   "citazione": "Il servizio Nido d’infanzia è attualmente gestito per conto del Comune di Albisola Superiore dall’ Associazione del centro : Corso Ferrari, 195 [...] accoglie bambini dai nove ai trentasei mesi",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Un solo nido comunale gestito da associazione; 'posti' = bambini accolti attualmente (12), non capienza. Nome 'Asilo del Centro' dedotto dal sito/email."
+}

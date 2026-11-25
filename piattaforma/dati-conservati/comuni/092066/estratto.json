@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "092066",
+  "strutture": [
+    {
+      "nome": "Nido d'Infanzia comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Raffaello",
+      "posti": 26,
+      "etaMinimaMesi": 6,
+      "etaMassimaMesi": 36,
+      "url": "https://mycity.s3.sbg.io.cloud.ovh.net/4128161/Regolamento-per-il-funzionamento-nido-d%27infanzia-comunale.pdf",
+      "citazione": "Il Nido d'Infanzia è un servizio educativo e sociale di interesse pubblico, preposto all’accoglimento di max n°26 bambini ... fino al compimento del terzo anno di età",
+      "anno": "2018"
+    }
+  ],
+  "note": "Fonte: regolamento (mod. 2018); sede di Via Raffaello dedotta dal regolamento; nessuna conferma recente del funzionamento."
+}

@@ -1,0 +1,15 @@
+{
+  "codiceIstat": "043046",
+  "strutture": [
+    {
+      "nome": "Asilo nido",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "citazione": "Il servizio di iscrizione all’asilo nido è rivolto alle famiglie con bambini di età compresa tra i 3 mesi e i 3 anni.",
+      "url": "https://www.comune.sanginesio.mc.it/servizio/asilo-nido-iscrizione-al-servizio/"
+    }
+  ],
+  "note": "Pagina di servizio generica; non è indicato nome né sede del nido."
+}

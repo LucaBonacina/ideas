@@ -1,0 +1,28 @@
+{
+ "codiceIstat": "044023",
+ "strutture": [
+  {
+   "nome": "Centro Infanzia comunale Pollicino",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.grottammare.ap.it/centro-infanzia-comunale-pollicino/",
+   "citazione": "Servizio educativo che accoglie bambini e bambine in età compresa tra tre mesi e tre anni [...] Il Centro Infanzia Pollicino è attivo per 11 mesi (da settembre a luglio)",
+   "anno": "2023/24"
+  },
+  {
+   "nome": "Sezione Primavera Il Mondo di Olaf",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "indirizzo": "Plesso per l'infanzia Battisti",
+   "posti": 18,
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.grottammare.ap.it/sezione-primavera-il-mondo-di-olaf/",
+   "citazione": "La Sezione Primavera è un servizio educativo [...] inserito all’interno del plesso per l’infanzia “Battisti” [...] aperta a un massimo di 18 bambini di età compresa tra i 24 e i 36 mesi",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Solo i 2 servizi comunali; i privati non sono citati. Centro Infanzia (L.R. 9/03) classificato NIDO."
+}

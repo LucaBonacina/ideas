@@ -1,0 +1,77 @@
+{
+ "codiceIstat": "058074",
+ "strutture": [
+  {
+   "nome": "Fiabaland",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via della Stella 68",
+   "url": "https://www.comune.palestrina.rm.it/it/page/asili-nido-2",
+   "citazione": "\"FIABALAND\", Via della Stella, 68, Tel. 06.99330824 www.fiabaland.it",
+   "anno": "pagina aggiornata 19/01/2022",
+   "telefono": "06 99330824",
+   "sito": "https://www.fiabaland.it"
+  },
+  {
+   "nome": "Gli Amici di Winnie",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Colle La Torre 13, Fraz. Carchitti",
+   "url": "https://www.comune.palestrina.rm.it/it/page/asili-nido-2",
+   "citazione": "\"GLI AMICI DI WINNIE\", Via Colle La Torre, 13 (Fraz. Carchitti), 06.9586862",
+   "anno": "pagina aggiornata 19/01/2022",
+   "telefono": "06 9586862"
+  },
+  {
+   "nome": "I Pulcini Ballerini",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Giovanni XXIII 27",
+   "url": "https://www.comune.palestrina.rm.it/it/page/asili-nido-2",
+   "citazione": "\"I PULCINI BALLERINI\", Via Giovanni XXIII, 27, Tel 06.95271232",
+   "anno": "pagina aggiornata 19/01/2022",
+   "telefono": "06 95271232"
+  },
+  {
+   "nome": "Il Pastrocchio",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via della Stella 205/c",
+   "url": "https://www.comune.palestrina.rm.it/it/page/asili-nido-2",
+   "citazione": "\"IL PASTROCCHIO\", Via della Stella 205/c, 06 95270570",
+   "anno": "pagina aggiornata 19/01/2022",
+   "telefono": "06 95270570"
+  },
+  {
+   "nome": "La Maisonnette",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via della Colombella 5/7",
+   "url": "https://www.comune.palestrina.rm.it/it/page/asili-nido-2",
+   "citazione": "\"LA MAISONNETTE\", Via della Colombella 5/7, Tel. [cellulare omesso], www.lamaisonnette.net",
+   "anno": "pagina aggiornata 19/01/2022",
+   "sito": "https://www.lamaisonnette.net"
+  },
+  {
+   "nome": "L'Isola che non c'è",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via della Colombella 109",
+   "url": "https://www.comune.palestrina.rm.it/it/page/asili-nido-2",
+   "citazione": "\"L'ISOLA CHE NON C'E'\", Via della Colombella, 109, Tel 06.9535335",
+   "anno": "pagina aggiornata 19/01/2022",
+   "telefono": "06 9535335"
+  },
+  {
+   "nome": "Peter Pan",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Viale Pio XII 30",
+   "url": "https://www.comune.palestrina.rm.it/it/page/asili-nido-2",
+   "citazione": "\"PETER PAN\", Viale Pio XII, 30, Tel 06.9537461",
+   "anno": "pagina aggiornata 19/01/2022",
+   "telefono": "06 9537461"
+  }
+ ],
+ "note": "Elenco nidi privati (pagina del 2022, tipologia assunta NIDO dal titolo 'asili nido privati'). Nido comunale PNRR in costruzione a Boccapiana (2023): escluso, non nominato come attivo. Telefono cellulare di La Maisonnette omesso."
+}

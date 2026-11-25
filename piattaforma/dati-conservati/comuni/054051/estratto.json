@@ -1,0 +1,87 @@
+{
+ "codiceIstat": "054051",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Il Girotondo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Viale Martiri della Resistenza",
+   "telefono": "0743 220050",
+   "posti": 56,
+   "anno": "2025/26",
+   "url": "https://www.comune.spoleto.pg.it/it/vivere/asili-nido-il-girotondo-il-carillon",
+   "citazione": "Il Comune di Spoleto è titolare di 3 asili nido: “Il Girotondo“, “Il Carillon” e “Il Bruco“."
+  },
+  {
+   "nome": "Asilo nido comunale Il Carillon",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via San Francesco 36, San Venanzo",
+   "posti": 16,
+   "anno": "2026/27",
+   "url": "https://www.comune.spoleto.pg.it/it/news/inaugurato-il-nuovo-micronido-piccoli-passi",
+   "citazione": "Dal 2 novembre, infatti, nella stessa struttura è ospitato anche il nido “Il Carillon”, trasferito dalla precedente sede"
+  },
+  {
+   "nome": "Asilo nido comunale Il Bruco",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Olimpia, San Giacomo",
+   "posti": 28,
+   "anno": "2025/26",
+   "url": "https://www.comune.spoleto.pg.it/it/news/aperte-le-iscrizioni-agli-asili-nido-comunali-2025",
+   "citazione": "il nido “Il Bruco”, in via Olimpia a San Giacomo, gestito in forma indiretta"
+  },
+  {
+   "nome": "Micronido comunale Piccoli Passi",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via San Francesco 36, San Venanzo",
+   "posti": 8,
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "anno": "2026/27",
+   "url": "https://www.comune.spoleto.pg.it/it/news/inaugurato-il-nuovo-micronido-piccoli-passi",
+   "citazione": "il nuovo micronido comunale “Piccoli Passi”, in via San Francesco n. 36, nella frazione di San Venanzo [...] otto posti aggiuntivi per bambine e bambini dai 12 ai 36 mesi"
+  },
+  {
+   "nome": "Sezione primavera presso la scuola dell'infanzia di Eggi",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "posti": 10,
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "anno": "2026/27",
+   "url": "https://www.comune.spoleto.pg.it/it/news/inaugurata-la-sezione-primavera-alla-scuola-dellinfanzia-di-eggi",
+   "citazione": "È stata inaugurata questa mattina la sezione Primavera alla scuola dell’Infanzia di Eggi che, da gennaio 2026, ha ampliato l’offerta dei servizi 0-3 anni del Comune di Spoleto per un totale di 10 nuovi posti."
+  },
+  {
+   "nome": "Asilo nido Il Nido delle Piccole Api",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Frazione Morgnano 3",
+   "anno": "2025/26",
+   "url": "https://www.comune.spoleto.pg.it/it/news/aperte-le-iscrizioni-agli-asili-nido-comunali-2025",
+   "citazione": "tre asili nido privati autorizzati (“Il Nido delle Piccole Api”, frazione Morgnano, 3; “Favolandia”, via E. Torricelli, 3; “Città Domani”, via della Repubblica)"
+  },
+  {
+   "nome": "Asilo nido Favolandia",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via E. Torricelli 3",
+   "anno": "2025/26",
+   "url": "https://www.comune.spoleto.pg.it/it/news/aperte-le-iscrizioni-agli-asili-nido-comunali-2025",
+   "citazione": "tre asili nido privati autorizzati (“Il Nido delle Piccole Api”, frazione Morgnano, 3; “Favolandia”, via E. Torricelli, 3; “Città Domani”, via della Repubblica)"
+  },
+  {
+   "nome": "Asilo nido Città Domani",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via della Repubblica 26",
+   "anno": "2024/25",
+   "url": "https://www.comune.spoleto.pg.it/it/news/asili-nido-avviso-iscrizioni-settembre-2024",
+   "citazione": "Asilo nido “Città Domani” via della Repubblica, n. 26"
+  }
+ ],
+ "note": "Nidi privati convenzionati col Comune. Il Carillon era in viale Martiri della Resistenza (sede unica con Girotondo) fino al trasferimento a San Venanzo del 2 novembre 2026. Il nido di Villa Redenta citato come delocalizzato (non nominato altrove). Centro Infanzia Il Glicine (via Martiri della Resistenza) non chiaramente distinto dalla sede Girotondo."
+}

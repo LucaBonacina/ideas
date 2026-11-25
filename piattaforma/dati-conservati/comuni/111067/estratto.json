@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "111067",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Parco Comunale S'Arei",
+      "url": "https://www.comune.sanluri.su.it/vivere-il-comune/servizi-comunali-nel-territorio/asilo-nido-comunale/",
+      "citazione": "L'Asilo Nido Comunale è sito all'interno del Parco Comunale S'Arei. Si occupa della crescita e dell'educazione dei bambini (0-3 anni)",
+      "etaMinimaMesi": 0,
+      "etaMassimaMesi": 36
+    }
+  ],
+  "note": "Un bando 2022/23 indicava 'Asilo nido comunale via Azuni c/o Parco degli Scolopi'; la pagina attuale indica il Parco S'Arei."
+}

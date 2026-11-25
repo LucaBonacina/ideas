@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "083042",
+  "strutture": [
+    {
+      "nome": "Asilo Nido \"Spazio Gioco\"",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Plebiscito 1",
+      "telefono": "0941485040",
+      "email": "protocollo@comunelongi.it",
+      "etaMinimaMesi": 12,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.longi.me.it/vivere-il-comune/luoghi/centro-per-l-assistenza-e-la-tutela-sociale/asilo-nido-spazio-gioco/",
+      "citazione": "L'Asilo Nido denominato \"Spazio Gioco\" è un servizio socio educativo, volto a favorire la crescita dei bambini da 1 anno ai 3 anni",
+      "anno": "2025"
+    }
+  ],
+  "note": "Gestione dedotta dalla pagina comunale (Ufficio Affari Generali - Servizi alla Persona)."
+}

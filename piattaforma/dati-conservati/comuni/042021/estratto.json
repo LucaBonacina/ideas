@@ -1,0 +1,42 @@
+{
+ "codiceIstat": "042021",
+ "strutture": [
+  {
+   "nome": "Nido comunale Oscar Romero",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0731 538609",
+   "url": "https://www.comune.jesi.an.it/-/servizio-prima-infanzia",
+   "citazione": "Organizzazione e gestione diretta nido Oscar Romero",
+   "anno": "2026"
+  },
+  {
+   "nome": "Centro per l'Infanzia 44 Gatti",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0731 538609",
+   "url": "https://www.comune.jesi.an.it/-/servizio-prima-infanzia",
+   "citazione": "Gestione, tramite concessione, Centri per l’Infanzia: 44 Gatti, Girotondo e Piccola Oasi",
+   "anno": "2026"
+  },
+  {
+   "nome": "Centro per l'Infanzia Girotondo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0731 538609",
+   "url": "https://www.comune.jesi.an.it/-/servizio-prima-infanzia",
+   "citazione": "Gestione, tramite concessione, Centri per l’Infanzia: 44 Gatti, Girotondo e Piccola Oasi",
+   "anno": "2026"
+  },
+  {
+   "nome": "Centro per l'Infanzia Piccola Oasi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0731 538609",
+   "url": "https://www.comune.jesi.an.it/-/servizio-prima-infanzia",
+   "citazione": "Gestione, tramite concessione, Centri per l’Infanzia: 44 Gatti, Girotondo e Piccola Oasi",
+   "anno": "2026"
+  }
+ ],
+ "note": "Pagina di competenze del servizio, senza indirizzi. I tre 'Centri per l'Infanzia' in concessione classificati NIDO (dubbio: potrebbero essere centri per l'infanzia/spazi gioco). Citate anche convenzioni con servizi privati non nominati. Telefono = Servizio Prima Infanzia."
+}

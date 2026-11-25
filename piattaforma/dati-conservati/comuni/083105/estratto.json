@@ -1,0 +1,13 @@
+{
+  "codiceIstat": "083105",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "url": "https://comune.villafrancatirrena.me.it/servizi/servizio-asilo-nido-comunale.aspx",
+      "citazione": "Richiesta iscrizione asilo nido comunale » Servizi"
+    }
+  ],
+  "note": "Solo il titolo della pagina del servizio; nessun dettaglio."
+}

@@ -1,0 +1,22 @@
+{
+ "codiceIstat": "058049",
+ "strutture": [
+  {
+   "nome": "Nido privato accreditato Fantasylandia",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "url": "https://www.comune.labico.rm.it/it/news/asili-nido-come-funzionano-i-bonus",
+   "citazione": "i fondi destinati alla convenzione comunale con Fantasylandia sono stati destinati allo Spazio Gioco comunale",
+   "anno": "2024"
+  },
+  {
+   "nome": "Spazio Gioco comunale",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.labico.rm.it/it/news/asili-nido-come-funzionano-i-bonus",
+   "citazione": "i fondi ... sono stati destinati allo Spazio Gioco comunale, non più finanziato dalla Regione Lazio ma da risorse di bilancio. A breve uscirà l'avviso pubblico per l'iscrizione.",
+   "anno": "2024"
+  }
+ ],
+ "note": "Dubbio: pagine del maggio 2024 (nessuna conferma recente). Fantasylandia e' citato solo come soggetto in convenzione comunale per le rette (nido privato accreditato, non esplicitato); Spazio Gioco comunale citato senza indirizzo."
+}

@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "058093",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Cerquetta",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Località Cerquetta",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2024",
+      "url": "https://mycity.s3.sbg.io.cloud.ovh.net/4939556/Regolamento-asilo-nido-comunale-2024.pdf",
+      "citazione": "Regolamento di gestione dell'Asilo Nido comunale \"Cerquetta\""
+    }
+  ],
+  "note": "Gestione in concessione a terzi con gara in corso (titolarita' pubblica)."
+}

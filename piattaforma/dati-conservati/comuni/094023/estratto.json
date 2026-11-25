@@ -1,0 +1,30 @@
+{
+ "codiceIstat": "094023",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Parco urbano della Stazione",
+   "posti": 22,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.isernia.it/wp-content/uploads/2024/11/avviso-iscrizioni-servizi-educativi-2024_25.pdf",
+   "citazione": "L'asilo nido è ubicato in immobile di proprietà comunale sito all’interno del Parco urbano della Stazione. La disponibilità è per n. 22 bambine/i di età compresa tra 3 e 36 mesi.",
+   "anno": "2024/25"
+  },
+  {
+   "nome": "Sezione Primavera comunale",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "indirizzo": "Ex Poliambulatorio, località San Lazzaro",
+   "posti": 8,
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.isernia.it/wp-content/uploads/2024/11/avviso-iscrizioni-servizi-educativi-2024_25.pdf",
+   "citazione": "La Sezione Primavera ha sede presso l’immobile “Ex Poliambulatorio” in località San Lazzaro. La disponibilità è per n. 8 bambine/i di età compresa tra 24 e 36 mesi.",
+   "anno": "2024/25"
+  }
+ ],
+ "note": "Dati dall'avviso iscrizioni 2024/25 (file originale in cartella). Pagine PNRR: nido in Via Umbria in demolizione/ricostruzione (probabilmente il nido già censito, non aggiunto come riga separata), nuovi nidi De Baggis (Corso Marcelli) e Parco San Lazzaro in costruzione: non esistenti, esclusi."
+}

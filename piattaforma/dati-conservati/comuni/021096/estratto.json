@@ -1,0 +1,20 @@
+{
+  "codiceIstat": "021096",
+  "strutture": [
+    {
+      "nome": "Asilo nido Terento",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "url": "https://www.comune.terento.bz.it/it/Vivere_il_comune/Luoghi/Centro_per_la_cultura/Asilo_nido_Terento",
+      "citazione": "Comune di Terento - Home - Vivere il comune - Luoghi - Centro per la cultura ... Asilo nido Terento"
+    },
+    {
+      "nome": "Microstruttura per la prima infanzia KITA Terento",
+      "tipologia": "MICRONIDO",
+      "gestione": "SCONOSCIUTA",
+      "url": "https://www.comune.terento.bz.it/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/Microstruttura_per_la_prima_infanzia_KITA_Terento",
+      "citazione": "Comune di Terento - Home - Vivere il comune - Luoghi - Scuola e formazione ... Microstruttura per la prima infanzia KITA Terento"
+    }
+  ],
+  "note": "Il testo contiene solo titoli/breadcrumb delle due pagine, nessun dettaglio. Possibile che 'Asilo nido Terento' (pagina sotto 'Centro per la cultura') e la Kita siano lo stesso servizio."
+}

@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "041054",
+  "strutture": [
+    {
+      "nome": "Centro per l'Infanzia \"Peter Pan\" (asilo nido)",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "telefono": "0721774211",
+      "email": "comune.san-lorenzo@provincia.ps.it",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.sanlorenzoincampo.pu.it/servizi/servizio-dettaglio/3013753",
+      "citazione": "Il servizio viene gestito da: Cooperativa Sociale La Macina S.c.p.a. ... Cosa si ottiene: L'iscrizione al Centro per l'Infanzia \"Peter Pan\".",
+      "anno": "2024"
+    }
+  ],
+  "note": "Dubbio sulla gestione: servizio richiesto al Comune ma gestito da cooperativa (marcato COMUNALE); telefono/email sono quelli dell'Ufficio comunale."
+}

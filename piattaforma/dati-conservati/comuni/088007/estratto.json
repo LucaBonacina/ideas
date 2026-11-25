@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "088007",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2025",
+      "url": "https://comune.monterossoalmo.rg.it/servizio/richiesta-iscrizione-asilo-nido/",
+      "citazione": "Servizio per richiedere l'iscrizione all'asilo nido comunale. L'iscrizione all'asilo nido è riservata ai minori di età compresa tra i 3 e i 36 mesi."
+    }
+  ],
+  "note": "Pagina aggiornata 18/06/2025."
+}

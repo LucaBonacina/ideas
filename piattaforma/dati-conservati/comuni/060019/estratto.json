@@ -1,0 +1,26 @@
+{
+ "codiceIstat": "060019",
+ "strutture": [
+  {
+   "nome": "Nido comunale Botticelli",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Botticelli",
+   "posti": 69,
+   "url": "https://www.comune.cassino.fr.it/it-it/servizi/educazione-e-formazione/richiedere-iscrizione-all-asilo-nido-357-11740-1-1ec302a386ccf8db6b93a8951e8e3b3f",
+   "citazione": "I posti disponibili ammontano a nr. 69 per il Nido Botticelli (come da accreditamento Regionale nr. AR14044), e nr. 30 per il Nido ALFIERI (come da accreditamento Regionale nr. AR14041)",
+   "anno": "2024/25"
+  },
+  {
+   "nome": "Nido comunale Alfieri",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Alfieri",
+   "posti": 30,
+   "url": "https://www.comune.cassino.fr.it/it-it/servizi/educazione-e-formazione/richiedere-iscrizione-all-asilo-nido-357-11740-1-1ec302a386ccf8db6b93a8951e8e3b3f",
+   "citazione": "I posti disponibili ammontano a nr. 69 per il Nido Botticelli (come da accreditamento Regionale nr. AR14044), e nr. 30 per il Nido ALFIERI (come da accreditamento Regionale nr. AR14041)",
+   "anno": "2024/25"
+  }
+ ],
+ "note": "Nidi/micronidi privati menzionati solo come categoria (voucher nido) senza nomi; il nuovo nido Alfieri era in consegna nel 2024."
+}

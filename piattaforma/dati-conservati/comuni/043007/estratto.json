@@ -1,0 +1,28 @@
+{
+ "codiceIstat": "043007",
+ "strutture": [
+  {
+   "nome": "Asilo Nido Comunale Lucia Riccioni Romaldi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Battista Varano s.n.c.",
+   "telefono": "0737 636150",
+   "email": "info@comune.camerino.mc.it",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2025/26",
+   "url": "https://www.comune.camerino.mc.it/vivere-il-comune/luoghi/asilo-nido-lucia-riccioni-romaldi/",
+   "citazione": "L'Asilo Nido Comunale \"Lucia Riccioni Romaldi\" è la principale struttura per la prima infanzia gestita dal Comune di Camerino."
+  },
+  {
+   "nome": "Asilo Nido Felice Cambriani (Maria Ausiliatrice)",
+   "tipologia": "NIDO",
+   "gestione": "PARITARIA",
+   "indirizzo": "Via Piccolomini Cicarelli s.n.c.",
+   "telefono": "0737 434211",
+   "url": "https://www.comune.camerino.mc.it/vivere-il-comune/luoghi/scuola-dellinfanzia-maria-ausiliatrice-asilo-nido-felice-cambriani/",
+   "citazione": "Scuola dell'Infanzia Paritaria \"Maria Ausiliatrice\" e Asilo Nido \"Felice Cambriani\"."
+  }
+ ],
+ "note": "Gestione del nido Cambriani dedotta dalla scheda congiunta con la scuola dell'infanzia paritaria (gestione privata/paritaria, non esplicita). 'Uno spazio per crescere' citato solo come servizio ricreativo natalizio, escluso."
+}

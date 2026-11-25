@@ -1,0 +1,24 @@
+{
+  "codiceIstat": "095038",
+  "strutture": [
+    {
+      "nome": "Asilo nido via Libeccio",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Libeccio, 09170 Oristano",
+      "url": "https://comune.oristano.it/it/vivere-il-comune/luoghi/luogo/Asilo-nido-via-Libeccio/",
+      "citazione": "Asilo nido via Libeccio. Via Libeccio, 09170 Oristano. Una parte dei posti disponibili presso il nido di Via Libeccio, è riservata ai figli dei dipendenti ASSL di Oristano",
+      "anno": "2025"
+    },
+    {
+      "nome": "Asilo nido via Deledda",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via G. Deledda, 09170 Oristano",
+      "url": "https://comune.oristano.it/it/vivere-il-comune/luoghi/luogo/Asilo-Nido-via-Deledda/",
+      "citazione": "Asilo Nido via Deledda. Via G. Deledda, 09170 Oristano",
+      "anno": "2025"
+    }
+  ],
+  "note": "Gestione COMUNALE dedotta (schede 'luoghi' del Comune + graduatorie comunali), non dichiarata esplicitamente. Un titolo di galleria parla di 'asili nido ... 145 bambini' (probabilmente 2-3 nidi); micronidi/sezioni primavera/nidi domiciliari privati citati solo nei bonus senza nomi; 'ludoteche' (Silì, Donigala) escluse."
+}

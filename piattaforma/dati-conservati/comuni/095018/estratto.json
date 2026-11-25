@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "095018",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Amsicora",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2026/27",
+      "url": "https://www.comune.cabras.or.it/it/news/al-via-martedi-1-settembre-il-nuovo-anno-educativo-dellasilo-nido-comunale",
+      "citazione": "Le porte dell'Asilo Nido comunale riapriranno domani, martedì 1° settembre. La struttura accoglie i bambini dai 3 ai 36 mesi nelle sezioni lattanti, semi divezzi e divezzi"
+    }
+  ]
+}

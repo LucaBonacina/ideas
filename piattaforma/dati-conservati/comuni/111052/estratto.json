@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "111052",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Sa Maioba",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Umberto I",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.pabillonis.vs.it/servizio/asilo-nido/",
+      "citazione": "L'asilo nido comunale \"Sa maioba\" (La coccinella) è sito in via Umberto I°. Si tratta di un servizio asilo nido pubblico appartenente al Comune di Pabillonis.",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Gestito dalla Cooperativa Sociale Laurus."
+}

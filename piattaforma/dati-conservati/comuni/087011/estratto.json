@@ -1,0 +1,57 @@
+{
+  "codiceIstat": "087011",
+  "strutture": [
+    {
+      "nome": "Nido d'infanzia comunale Arcobaleno",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Balchino",
+      "telefono": "0933 1931119",
+      "email": "servizionidi@comune.caltagirone.ct.it",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.caltagirone.ct.it/it/novita/page/nidi-d-infanzia-comunali-iscrizioni-entro-il-15-maggio-le-date-degli-open-day",
+      "citazione": "Nido Arcobaleno - Via Balchino 22/04 e 05/05 dalle 15 alle 17,30",
+      "anno": "2025/26"
+    },
+    {
+      "nome": "Nido d'infanzia Arcobaleno - Sezione Primavera",
+      "tipologia": "SEZIONE_PRIMAVERA",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Amoroso",
+      "posti": 14,
+      "etaMinimaMesi": 24,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.caltagirone.ct.it/it/novita/page/venerdi-7-marzo-nel-ristrutturato-plesso-di-via-amoroso-s-inaugura-la-sezione-primavera-del-nido-d-infanzia-arcobaleno",
+      "citazione": "nel ristrutturato plesso di via Amoroso ... sarà inaugurata la nuova sezione Primavera (14 bimbi dai 2 ai 3 anni) del nido d’infanzia Arcobaleno.",
+      "anno": "2025"
+    },
+    {
+      "nome": "Nido d'infanzia comunale I Folletti",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Rossini",
+      "telefono": "0933 1931793",
+      "email": "servizionidi@comune.caltagirone.ct.it",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.caltagirone.ct.it/it/novita/page/nidi-d-infanzia-comunali-iscrizioni-entro-il-15-maggio-le-date-degli-open-day",
+      "citazione": "Nido I Folletti - Via Rossini 28/04 e 05/05 dalle 15 alle 17",
+      "anno": "2025/26"
+    },
+    {
+      "nome": "Nido d'infanzia comunale Peter Pan",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Arianna",
+      "telefono": "0933 58438",
+      "email": "servizionidi@comune.caltagirone.ct.it",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.caltagirone.ct.it/it/novita/page/nidi-d-infanzia-comunali-iscrizioni-entro-il-15-maggio-le-date-degli-open-day",
+      "citazione": "Nido Peter Pan - Via Arianna 28/04 e 05/05 dalle 15,30 alle 17",
+      "anno": "2025/26"
+    }
+  ],
+  "note": "DUBBIO: Peter Pan e' indicato in 'Via Arianna' (open day) ma la scheda Servizio Nidi dice 'via Minosse'. Telefoni dai nidi nel 2023. Esistono anche 'nidi privati accreditati' citati senza nomi (buco 4 non coperto dal sito)."
+}

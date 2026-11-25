@@ -1,0 +1,54 @@
+{
+ "codiceIstat": "109034",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale L'isola che non c'è",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Milano 85",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "telefono": "0734 908307",
+   "url": "https://comune.portosantelpidio.fm.it/it/servizi/asilo-nido",
+   "citazione": "“ L’Isola che non c’è ” nido di infanzia comunale situato in via Milano 85 (apertura 21 settembre 2026) - per minori da 3 a 36 mesi",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia comunale La carovana dei piccoli mocciosi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Martiri delle Foibe",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "telefono": "0734 908307",
+   "url": "https://comune.portosantelpidio.fm.it/it/servizi/asilo-nido",
+   "citazione": "“ La Carovana dei Piccoli Mocciosi ” nido di infanzia comunale situato in via Martiri delle Foibe (apertura 7 settembre 2026) - per minori da 3 a 36 mesi",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Centro infanzia Baby Dysnei",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Parma 14/16",
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "telefono": "0734 908307",
+   "url": "https://comune.portosantelpidio.fm.it/it/servizi/asilo-nido",
+   "citazione": "“ Baby Dysnei ” centro infanzia con pasto e sonno privato convenzionato situato in via Parma 14/16 (apertura 7settembre 2026) - per minori da 12 a 36 mesi",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Centro infanzia Sacra Famiglia",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Adige 68",
+   "etaMinimaMesi": 18,
+   "etaMassimaMesi": 36,
+   "telefono": "0734 908307",
+   "url": "https://comune.portosantelpidio.fm.it/it/servizi/asilo-nido",
+   "citazione": "“ Sacra Famiglia ” Centro infanzia con pasto e sonno privato convenzionato situato in Via Adige 68 (apertura 7settembre 2026) - per minori da 18 a 36 mesi",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Nido L'isola che non c'è temporaneamente in Via S. Giovanni Bosco 26/A (Villa Murri) per lavori PNRR. Centri infanzia privati convenzionati classificati NIDO (autorizzati/accreditati LR 9/2003). Telefono = Servizi Sociali."
+}

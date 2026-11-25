@@ -1,0 +1,15 @@
+{
+  "codiceIstat": "086018",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Cristoforo Colombo 4",
+      "telefono": "0935 937161",
+      "url": "https://www.comune.troina.en.it/it/vivere/ufficio-asilo-nido",
+      "citazione": "L'Ufficio Asilo Nido si occupa dell'amministrazione e della gestione degli asili nido del comune. Offre servizi educativi e assistenza per i bambini in età prescolare"
+    }
+  ],
+  "note": "Indirizzo e telefono sono della sede dell'Ufficio Asilo Nido."
+}

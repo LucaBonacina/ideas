@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "058046",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale L'Isola che c'è",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "email": "ufficioasilonido@comune.grottaferrata.roma.it",
+      "telefono": "06 945401607",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.grottaferrata.rm.it/it/servizi/page/asilo-nido-comunale",
+      "citazione": "Le iscrizioni online all'Asilo Nido Comunale ''L'Isola che c'è'' per l'Anno Educativo 2026/27 sono chiuse.",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Un solo nido comunale. La pagina sui servizi privati 0-6 descrive solo la procedura di autorizzazione (nessuna struttura privata nominata): buco di 5 non coperto. Telefono/email dell'ufficio comunale."
+}

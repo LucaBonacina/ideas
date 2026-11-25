@@ -1,0 +1,45 @@
+{
+  "codiceIstat": "078045",
+  "strutture": [
+    {
+      "nome": "Nido d'infanzia comunale di Via Riccardo Misasi",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Riccardo Misasi",
+      "posti": 49,
+      "url": "https://www.comune.cosenza.it/it/novita/page/pubblicato-l-avviso-per-le-iscrizioni-ai-nidi-d-infanzia-comunali-per-l-anno-educativo-2025-2026",
+      "citazione": "I posti disponibili sono 115, così distribuiti: 49 nel nido di Via Riccardo Misasi e 66 nel nido di via Rosario Livatino.",
+      "anno": "2025/26"
+    },
+    {
+      "nome": "Nido d'infanzia comunale di Via Rosario Livatino",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Rosario Livatino",
+      "posti": 66,
+      "url": "https://www.comune.cosenza.it/it/novita/page/pubblicato-l-avviso-per-le-iscrizioni-ai-nidi-d-infanzia-comunali-per-l-anno-educativo-2025-2026",
+      "citazione": "I posti disponibili sono 115, così distribuiti: 49 nel nido di Via Riccardo Misasi e 66 nel nido di via Rosario Livatino.",
+      "anno": "2025/26"
+    },
+    {
+      "nome": "Asilo nido comunale di Via Saverio Albo",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Saverio Albo",
+      "posti": 40,
+      "url": "https://www.comune.cosenza.it/it/novita/page/impegnati-356-mila-euro-per-gli-arredi-didattici-innovativi-nei-tre-asili-nido-comunali",
+      "citazione": "asili nido comunali di via Sprovieri, via Albo e via Asmara, già via Matteotti",
+      "anno": "2026"
+    },
+    {
+      "nome": "Asilo nido comunale di Via Asmara (ex Via Matteotti)",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Asmara (già Via Matteotti)",
+      "url": "https://www.comune.cosenza.it/it/novita/page/impegnati-356-mila-euro-per-gli-arredi-didattici-innovativi-nei-tre-asili-nido-comunali",
+      "citazione": "asili nido comunali di via Sprovieri, via Albo e via Asmara, già via Matteotti",
+      "anno": "2026"
+    }
+  ],
+  "note": "DUBBI: l'avviso 2025/26 elenca solo Misasi (49) e Livatino (66); una notizia di ottobre 2026 parla di 'tre asili nido comunali' in via Sprovieri, via Albo (nuovo, PNRR, 40 posti) e via Asmara (ex Matteotti, PNRR): Sprovieri non incluso (non chiaro se coincida con Misasi/Livatino), Largo Vergini (23 posti, solo 2017-2019) escluso. Albo e Asmara potrebbero non essere ancora operativi."
+}

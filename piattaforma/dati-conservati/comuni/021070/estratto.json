@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "021070",
+ "strutture": [
+  {
+   "nome": "Asilo Nido Stanghe",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Località Stanghe 101, 39040 Racines",
+   "telefono": "0471 953348",
+   "email": "info@casabimbo.it",
+   "sito": "https://www.casabimbo.it/?lang=it_IT",
+   "url": "https://www.racines.eu/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/Asilo_Nido_Stanghe",
+   "citazione": "L'asilo nido Stange offre assistenza e sostegno ai bambini nel comune di Racines, per supportare i genitori e promuovere lo sviluppo dei bambini.",
+   "anno": "2025"
+  }
+ ],
+ "note": "Dati dall'html originale; contatti riconducibili a Casa Bimbo (gestore probabilmente cooperativa/ente privato, non esplicitato)."
+}

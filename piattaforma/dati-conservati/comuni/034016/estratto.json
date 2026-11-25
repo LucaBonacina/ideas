@@ -1,0 +1,28 @@
+{
+ "codiceIstat": "034016",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale Cucciolo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via 7 Fratelli Cervi 24",
+   "telefono": "0521 611942",
+   "posti": 24,
+   "etaMinimaMesi": 6,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.fontevivo.pr.it/it/servizi/nido-d-infanzia-comunale-cucciolo",
+   "citazione": "E’ un servizio educativo e sociale, rivolto alle famiglie, che accoglie bambini in età compresa fra i 6 ed i 36 mesi.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido e Scuola dell'infanzia Santa Teresa del Bambin Gesù",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Via Al Taro 7, Ponte Taro",
+   "telefono": "0521 619189",
+   "url": "https://www.comune.fontevivo.pr.it/it/vivere/nido-e-scuola-dell-infanzia-santa-teresa-del-bambin-gesu",
+   "citazione": "Nido e Scuola dell'infanzia \"Santa Teresa del bambin Gesù\" - Via Al Taro, 7, 43010 Ponte Taro PR"
+  }
+ ],
+ "note": "Posti 24 'almeno' dal bando 2026/27. Santa Teresa: pagina sul sito comunale con solo titolo e indirizzo; gestione non indicata (probabile paritaria), da verificare."
+}

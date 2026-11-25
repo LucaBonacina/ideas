@@ -1,0 +1,59 @@
+{
+  "codiceIstat": "058120",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Il Pagliaccetto",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Torrimpietra",
+      "url": "https://www.comune.fiumicino.rm.it/it/news/torrimpietra-oltre-530mila-euro-per-la-ristrutturazione-dell-asilo-nido-il-pagliaccetto",
+      "citazione": "consolidamento strutturale dell'asilo nido comunale “Il Pagliaccetto” di Torrimpietra"
+    },
+    {
+      "nome": "Nido d'infanzia comunale Primo volo",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "url": "https://www.comune.fiumicino.rm.it/it/news/graduatorie-definitive-nidi-d-infanzia-comunali-e-convenzionati-anno-educativo-2026-2027",
+      "citazione": "Rettifica graduatoria definitiva nido d'infanzia comunale Primo volo - sezione medi - anno educativo 2026-2027",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido comunale di Via Foce Micina",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Foce Micina 57",
+      "url": "https://www.comune.fiumicino.rm.it/it/news/riapre-lasilo-nido-comunale-di-via-foce-micina-dopo-i-lavori-di-ristrutturazione",
+      "citazione": "Il Comune di Fiumicino annuncia la riapertura dell'Asilo Nido Comunale di Via Foce Micina, 57, a conclusione dei lavori di ristrutturazione",
+      "anno": "2025"
+    },
+    {
+      "nome": "Asilo nido comunale L'isola che non c'è",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "url": "https://www.comune.fiumicino.rm.it/it/news/climatizzazione-negli-asili-nido-comunali-approvato-il-progetto-di-fattibilita-tecnica-ed-economica",
+      "citazione": "impianti di climatizzazione negli asili nido comunali. Gli istituti interessati sono: “L'isola che non c'è”, il “Pagliaccetto”, “Il Girasole”, “L'Allegro Ranocchio”, “Il Delfino Curioso”."
+    },
+    {
+      "nome": "Asilo nido comunale Il Girasole",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "url": "https://www.comune.fiumicino.rm.it/it/news/climatizzazione-negli-asili-nido-comunali-approvato-il-progetto-di-fattibilita-tecnica-ed-economica",
+      "citazione": "impianti di climatizzazione negli asili nido comunali. Gli istituti interessati sono: “L'isola che non c'è”, il “Pagliaccetto”, “Il Girasole”, “L'Allegro Ranocchio”, “Il Delfino Curioso”."
+    },
+    {
+      "nome": "Asilo nido comunale L'Allegro Ranocchio",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "url": "https://www.comune.fiumicino.rm.it/it/news/climatizzazione-negli-asili-nido-comunali-approvato-il-progetto-di-fattibilita-tecnica-ed-economica",
+      "citazione": "impianti di climatizzazione negli asili nido comunali. Gli istituti interessati sono: “L'isola che non c'è”, il “Pagliaccetto”, “Il Girasole”, “L'Allegro Ranocchio”, “Il Delfino Curioso”."
+    },
+    {
+      "nome": "Asilo nido comunale Il Delfino Curioso",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "url": "https://www.comune.fiumicino.rm.it/it/news/climatizzazione-negli-asili-nido-comunali-approvato-il-progetto-di-fattibilita-tecnica-ed-economica",
+      "citazione": "impianti di climatizzazione negli asili nido comunali. Gli istituti interessati sono: “L'isola che non c'è”, il “Pagliaccetto”, “Il Girasole”, “L'Allegro Ranocchio”, “Il Delfino Curioso”."
+    }
+  ],
+  "note": "Buco 1 su 13 gia presenti: non sapendo quale manchi, elencati tutti i nidi nominati (7). Il sito cita anche nidi convenzionati senza nome. Il Pagliaccetto ha lavori di consolidamento proposti, ma il testo non dice che sia chiuso; Via Foce Micina potrebbe coincidere con uno dei nidi nominati."
+}

@@ -1,0 +1,24 @@
+{
+  "codiceIstat": "069058",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale A. Gramsci - sede di via Berardi",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Berardi",
+      "url": "https://www.comune.ortona.ch.it/it/novita/page/asilo-nido-a-gramsci-di-ortona-sedi-di-via-berardi-e-via-palombo-fontegrande-graduatorie-ammissione-e-liste-d-attesa-anno-educativo-2024-2025",
+      "citazione": "asilo nido ''A. Gramsci'' di Ortona: Sede di via Berardi sez. lattanti (1^) n. 11 ammessi; sez. 2^ n. 24 ammessi; sez. 3^ n. 24 ammessi",
+      "anno": "2024/25"
+    },
+    {
+      "nome": "Asilo nido comunale A. Gramsci - sede di via Palombo (Fontegrande)",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Palombo (Fontegrande)",
+      "url": "https://www.comune.ortona.ch.it/it/novita/page/asilo-nido-a-gramsci-di-ortona-sedi-di-via-berardi-e-via-palombo-fontegrande-graduatorie-ammissione-e-liste-d-attesa-anno-educativo-2024-2025",
+      "citazione": "Sede di via Palombo (Fontegrande) sez. lattanti n. 9 ammessi; Sede di via Palombo (Fontegrande) sez. mista n. 21 ammessi",
+      "anno": "2024/25"
+    }
+  ],
+  "note": "nido gestito da cooperativa; dati piu' recenti nel testo sono del 2024/25"
+}

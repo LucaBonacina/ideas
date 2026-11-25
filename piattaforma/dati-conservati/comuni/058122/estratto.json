@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "058122",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Mariangela Furone",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Liguria, fraz. Santa Lucia",
+      "posti": 60,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.fontenuova.rm.it/wp-content/uploads/2026/08/Avviso-asilo-nido-2026.pdf",
+      "citazione": "formazione della graduatoria per l'assegnazione di n. 18 posti riservati presso l'Asilo Nido Comunale \"Mariangela Furone\". Gli ulteriori 42 posti disponibili presso l'Asilo Nido Comunale saranno gestiti direttamente dal concessionario",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Un solo nido comunale in concessione (nuovo gestore da settembre 2026). Posti 60 = 18 riservati + 42 del concessionario (somma dedotta). Nidi privati autorizzati citati solo genericamente (voucher): buco di 3 non coperto."
+}

@@ -1,0 +1,15 @@
+{
+  "codiceIstat": "081022",
+  "strutture": [
+    {
+      "nome": "Asilo Nido comunale \"L'Aquilone\"",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 12,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.valderice.tp.it/s3/7574/allegati/bando-asilo-nido-anno-2025-2026.pdf",
+      "citazione": "l'Asilo Nido comunale “L'Aquilone” ospita bambini da un anno fino a tre anni d’età, e si articola in sezioni miste",
+      "anno": "2025/26"
+    }
+  ]
+}

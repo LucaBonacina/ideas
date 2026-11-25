@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "058029",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale di Cerveteri",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "telefono": "06 89630241",
+      "url": "https://www.comune.cerveteri.rm.it/servizi/asilo-nido-comunale",
+      "citazione": "L'asilo nido e un servizio educativo e sociale di interesse pubblico che il Comune di Cerveteri rivolge ai bambini e alle loro famiglie. Dal mese di Settembre 2021 il servizio è gestito dalla Filef Soc. Coop."
+    }
+  ],
+  "note": "Un solo nido comunale (gestito da Filef Soc. Coop. dal 2021), senza nome ne indirizzo. Telefono dei Servizi Sociali."
+}

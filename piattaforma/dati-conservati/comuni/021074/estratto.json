@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "021074",
+ "strutture": [
+  {
+   "nome": "Microstruttura per la prima infanzia Bärchenstube",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Mathias Perger 7, Rio di Pusteria",
+   "email": "info@kinderfreunde.it",
+   "sito": "https://www.kinderfreunde.it/",
+   "posti": 12,
+   "url": "https://www.comune.riodipusteria.bz.it/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/Microstruttura_per_la_prima_infanzia_Rio_di_Pusteria",
+   "citazione": "Da gennaio 2018 la Cooperativa Sociale “Die Kinderfreunde Südtirol” con sede a Brunico, ha assunto la gestione della microstruttura per la prima infanzia a Rio di Pusteria.",
+   "anno": "2026"
+  }
+ ],
+ "note": "Le pagine IT/DE descrivono un'unica microstruttura (Bärchenstube = ABC-Microstruttura = Kleinkindertagesstätte Mühlbach), 12 posti, gestita dalla coop Kinderfreunde. Gestione COMUNALE dedotta (iscrizioni e graduatoria in Comune), non esplicita. Buco ISTAT 2: seconda struttura non trovata."
+}

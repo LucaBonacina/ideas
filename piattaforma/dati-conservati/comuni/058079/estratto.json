@@ -1,0 +1,26 @@
+{
+ "codiceIstat": "058079",
+ "strutture": [
+  {
+   "nome": "Asilo Nido comunale Piccole Orme",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Don Luigi Sturzo snc",
+   "telefono": "06 91603464",
+   "url": "https://www.comune.pomezia.rm.it/it/page/asili-nido-comunali-1",
+   "citazione": "Asilo Nido “Piccole Orme” (ex Casale Balducci) situato in via Don Luigi Sturzo snc. Tel. 06/91603464",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo Nido comunale L'isola che non c'è",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Fratelli Bandiera 47",
+   "telefono": "06 91621038",
+   "url": "https://www.comune.pomezia.rm.it/it/page/asili-nido-comunali-1",
+   "citazione": "Asilo nido “L’isola che non c’è\" ubicato in via F.lli Bandiera n. 47. Tel. 06/91621038",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Solo i due nidi comunali; nessun nido privato nel testo."
+}

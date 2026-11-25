@@ -1,0 +1,43 @@
+{
+ "codiceIstat": "063083",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale di Via Parini",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Giuseppe Parini 78",
+   "posti": 60,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "telefono": "081 5358617",
+   "url": "https://comune.torreannunziata.na.it/servizio/richiedere-iscrizione-all-asilo-nido/",
+   "citazione": "Il servizio si articola su due sedi (Via Giuseppe Parini n. 78, con capienza massima di n. 60 posti, e Via Isonzo n. 1, con capienza massima di n. 30 posti)",
+   "anno": "2026"
+  },
+  {
+   "nome": "Asilo nido comunale di Via Isonzo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Isonzo 1",
+   "posti": 30,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "telefono": "081 5358617",
+   "url": "https://comune.torreannunziata.na.it/servizio/richiedere-iscrizione-all-asilo-nido/",
+   "citazione": "Il servizio si articola su due sedi (Via Giuseppe Parini n. 78, con capienza massima di n. 60 posti, e Via Isonzo n. 1, con capienza massima di n. 30 posti)",
+   "anno": "2026"
+  },
+  {
+   "nome": "Ludoteca per la prima infanzia di Via Parini",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Parini 78",
+   "etaMinimaMesi": 6,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.torreannunziata.na.it/wp-content/uploads/2025/12/regolamento-servizi-prima-infanzia-Ambito-N30.pdf",
+   "citazione": "Le Ludoteche per la Prima Infanzia offrono ... bambini di età compresa fra sei mesi e tre anni, occasioni di gioco e di socializzazione. Le sedi sono ubicate a: Torre Annunziata – via Parini n. 78",
+   "anno": "2025"
+  }
+ ],
+ "note": "Servizi dell'Ambito N30 (capofila Torre Annunziata). Ludoteca prima infanzia 6-36 mesi = spazio gioco; esiste anche sede a Trecase (fuori comune, non estratta)."
+}

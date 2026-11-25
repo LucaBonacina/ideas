@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "021091",
+  "strutture": [
+    {
+      "nome": "KITAS - Asilo Nido - centro per l'infanzia",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "indirizzo": "Via Madonna 127, 39020 Senales",
+      "email": "kitas-schnals@tagesmutter-bz.it",
+      "sito": "https://www.tagesmutter-bz.it",
+      "url": "https://www.comune.senales.bz.it/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/KITAS_-_Asilo_Nido_-_centro_per_infanzia",
+      "citazione": "Nel centro per l’infanzia si accolgono bambini da pochi mesi fino all’età scolare materno.",
+      "anno": "2025"
+    }
+  ],
+  "note": "Fonte: html originale (non nel testo.txt). Descrizione generica; tipo organizzazione 'Scuola materna / asilo nido'; email/sito riconducibili a Tagesmutter BZ. Telefono cellulare omesso."
+}

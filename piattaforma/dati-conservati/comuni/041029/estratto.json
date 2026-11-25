@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "041029",
+  "strutture": [
+    {
+      "nome": "Asilo nido di Centocroci",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Occorsio 35, Mondolfo",
+      "telefono": "0721 959971",
+      "posti": 30,
+      "etaMinimaMesi": 9,
+      "etaMassimaMesi": 36,
+      "url": "https://mycity.s3.sbg.io.cloud.ovh.net/4250198/CARTA-DEL-SERVIZIO-ASILO-NIDO.pdf",
+      "citazione": "Attualmente accoglie 30 bambini, di età compresa tra i nove mesi e i tre anni. Asilo Nido di Centocroci di Mondolfo, Via Occorsio n. 35",
+      "anno": "2010"
+    }
+  ],
+  "note": "Dati dalla Carta del servizio del 2010 (possibili variazioni); retta comunale aggiornata a gennaio 2022. Ludoteca Giocolandia esclusa (6-13 anni)."
+}

@@ -1,0 +1,28 @@
+{
+  "codiceIstat": "055022",
+  "strutture": [
+    {
+      "nome": "Nido d'infanzia Il Grillo Parlante",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Piazza Rossellini 17, Narni Scalo",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.narni.tr.it/servizi/educazione-e-formazione/richiesta-iscrizione-asilo-nido",
+      "citazione": "Nido d'infanzia \"Il grillo parlante\" – Piazza Rossellini n. 17 Narni Scalo",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Nido L'Ape Maja",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Piazza Galeotto Marzio 6, Narni",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.narni.tr.it/servizi/educazione-e-formazione/richiesta-iscrizione-asilo-nido",
+      "citazione": "Nido \"L'ape Maja\" – Piazza Galeotto Marzio n. 06 – Narni",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Due nidi comunali gestiti in appalto esterno."
+}

@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "083108",
+  "strutture": [
+    {
+      "nome": "Asilo Nido Comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "telefono": "0941 785060",
+      "email": "info@comune.torrenova.me.it",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.torrenova.me.it/contents/2026/1/11/9/BANDO-ISCRIZIONE-AL-SERVIZIO-ASILO-NIDO-COMUNALE-ANNO-2026---2027_signed_signed.pdf",
+      "citazione": "ammissione alla frequenza del Servizio Asilo Nido Comunale per il periodo settembre 2026/luglio 2027 ... bambini/bambine di età compresa da 03 mesi a 03 anni",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Telefono/email sono quelli generali del comune."
+}

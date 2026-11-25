@@ -1,0 +1,17 @@
+{
+ "codiceIstat": "092074",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale Emanuela Loi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "posti": 60,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.sestu.ca.it/servizio/nido-di-infanzia-comunale/",
+   "citazione": "Il Nido d’infanzia Comunale “E. Loi” è un servizio socio-educativo [...] La struttura può ospitare n. 60 bambini suddivisi in due sezioni: piccolissimi/piccoli dai 3 ai 18 mesi (n. 26 posti ) e medi grandi dai 19 ai 36 mesi (n. 34 posti)",
+   "anno": "2025/26"
+  }
+ ],
+ "note": "Solo il nido comunale; le altre strutture (private) non sono nominate, solo elenchi Nidi Gratis anonimi."
+}

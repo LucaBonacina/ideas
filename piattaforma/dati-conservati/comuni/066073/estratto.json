@@ -1,0 +1,19 @@
+{
+  "codiceIstat": "066073",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale La Velocca",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Viale della Repubblica 17B, Poggio Picenze",
+      "telefono": "0862 80142",
+      "email": "protocollo@comune.poggiopicenze.aq.it",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "citazione": "L'Asilo Nido Comunale \"La Velocca\" è un servizio socio-educativo del Comune di Poggio Picenze rivolto ai bambini di età compresa tra i 3 e i 36 mesi",
+      "anno": "2026/27",
+      "url": "https://comune.poggiopicenze.aq.it/servizi/servizio-dettaglio/3623653"
+    }
+  ],
+  "note": "La pagina riporta \"Servizio inattivo\" riferito alle iscrizioni online (chiuse il 15/07/2026); il nido risulta attivo con retta mensile."
+}

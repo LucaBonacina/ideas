@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "078155",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale di Zumpano",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via S. Pasquale, Malavicina",
+      "telefono": "0984 413762",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.zumpano.cs.it/it/vivere/asilo-nido",
+      "citazione": "L'asilo nido è un servizio socio educativo, volto a favorire la crescita dei bambini dai 3 mesi ai 3 anni di vita. Via S. Pasquale, 87040 Malavicina CS",
+      "anno": "2025/26"
+    }
+  ],
+  "note": "Un nido; telefono del Comune."
+}

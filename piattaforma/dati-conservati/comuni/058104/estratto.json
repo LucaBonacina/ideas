@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "058104",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Fantabimbi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Domenico Giuliani",
+   "telefono": "0774 312161",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2026/27",
+   "url": "https://www.comune.tivoli.rm.it/luogo/asilo-nido-comunale-fantabimbi/",
+   "citazione": "Asilo nido comunale Fantabimbi - Sede dell'Ufficio Asilo nido - Via Domenico Giuliani, 00019 Tivoli"
+  }
+ ],
+ "note": "Unico nido citato (comunale). I moduli parlano di 'asilo nido comunale e convenzionati' ma senza nomi dei convenzionati (buco 3)."
+}

@@ -1,0 +1,185 @@
+{
+ "codiceIstat": "054018",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Le Colline",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Secolo XXI, Vescia, Foligno",
+   "telefono": "0742 660066",
+   "posti": 36,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.foligno.pg.it/vivere-il-comune/luoghi/asilo-nido-le-colline/",
+   "citazione": "Il nido, a gestione diretta del comune di Foligno, si trova nella periferia nord-est della città a circa 4 Km dal centro. Ricettività massima: 36 bambini/e.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Asilo nido comunale Le Nuvole",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via G. Ferrero, Foligno",
+   "telefono": "0742 350463",
+   "posti": 36,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.foligno.pg.it/vivere-il-comune/luoghi/asilo-nido-le-nuvole/",
+   "citazione": "Il nido, a gestione diretta del comune di Foligno, si trova in prossimità del centro, a poca distanza dal Parco dei Canapè. Ricettività massima: 36 bambini/e.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Asilo nido comunale Millecolori",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Marconi 2, Foligno",
+   "telefono": "0742 691080",
+   "posti": 36,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.foligno.pg.it/vivere-il-comune/luoghi/asilo-nido-millecolori/",
+   "citazione": "Il nido, a gestione diretta del comune di Foligno, si trova in una via del centro. Ricettività massima: 36 bambini/e.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Asilo nido comunale Prato Smeraldo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Ugolino di Gisberto, Foligno",
+   "telefono": "0742 20808",
+   "posti": 36,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.foligno.pg.it/vivere-il-comune/luoghi/asilo-nido-prato-smeraldo/",
+   "citazione": "Il nido, a gestione diretta del comune di Foligno, si trova nella prima periferia della città, nel quartiere di Prato Smeraldo. Ricettività massima: 36 bambini/e.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Asilo nido comunale Raffaello Sanzio - Dina Tanganelli Caprai",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Sicilia 42, Foligno",
+   "telefono": "0742 358349",
+   "posti": 36,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.foligno.pg.it/nidi-comunali-a-gestione-diretta/",
+   "citazione": "Asilo nido \"RAFFAELLO SANZIO\" Il nido è temporaneamente chiuso per ristrutturazione. Indirizzo: Via Sicilia, 42. Ricettività massima: 36 bambini/e",
+   "anno": "2026"
+  },
+  {
+   "nome": "Asilo nido comunale Raggio di Sole",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Colle Scandolaro 1, Sant'Eraclio, Foligno",
+   "telefono": "0742 67469",
+   "posti": 32,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.foligno.pg.it/vivere-il-comune/luoghi/asilo-nido-raggio-di-sole/",
+   "citazione": "Il nido, a gestione diretta del comune di Foligno, si trova a circa 4 km dal centro della città, in località Sant'Eraclio. La struttura accoglie 32 bambini/e.",
+   "anno": "2026"
+  },
+  {
+   "nome": "Centro per l'infanzia F. Innamorati",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Borroni 26, Foligno",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.foligno.pg.it/documento_pubblico/centro-infanzia-borroni-regolamento-centro-dinfanzia-f-innamorati-via-borroni/",
+   "citazione": "Nella struttura comunale \"Francesco Innamorati\" sita in Via Borroni viene istituito un Centro d'Infanzia rivolto ai bambini dai 3 mesi ai 3 anni di età"
+  },
+  {
+   "nome": "Asilo nido Brucomela",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://comune.foligno.pg.it/punto_contatto/asilo-nido-brucomela/",
+   "citazione": "Asilo Nido Brucomela - Comune di Foligno"
+  },
+  {
+   "nome": "Hippo (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Piazza L. Vanvitelli, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: Hippo Piazza L. Vanvitelli, Foligno (PG)",
+   "anno": "2026"
+  },
+  {
+   "nome": "L'Albero Magico (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Terminillo 6, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: L'Albero Magico Via Terminillo, 6 Foligno (PG)",
+   "anno": "2026"
+  },
+  {
+   "nome": "Dedalo (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Umberto Nobile 12, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: Dedalo Via Umberto Nobile, 12 Foligno (PG) Tel: 0742/691159",
+   "anno": "2026",
+   "telefono": "0742 691159"
+  },
+  {
+   "nome": "Girasole (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Monte di Pale 1, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: Girasole Via Monte di Pale, 1 Foligno (PG)",
+   "anno": "2026"
+  },
+  {
+   "nome": "L'Aquilone (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Fiamenga 55, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: L'Aquilone Via Fiamenga, 55 Foligno (PG)",
+   "anno": "2026"
+  },
+  {
+   "nome": "Il Giglio (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Umberto I 57, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: Il Giglio Via Umberto I, 57 Foligno (PG) tel 0742-67156",
+   "anno": "2026",
+   "telefono": "0742 67156"
+  },
+  {
+   "nome": "Piccole Meraviglie (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Treviso 1, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: Piccole Meraviglie Via Treviso,1 Foligno (PG)",
+   "anno": "2026"
+  },
+  {
+   "nome": "Zucchero Filato (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Oslavia 32, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: Zucchero Filato Via Oslavia, 32 Foligno (PG)",
+   "anno": "2026"
+  },
+  {
+   "nome": "Atelier della Natura (nido privato)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Torino 2, Foligno",
+   "url": "https://comune.foligno.pg.it/nidi-dinfanzia-privati/",
+   "citazione": "Nidi d'infanzia privati presenti nel Comune di Foligno: Atelier della Natura Via Torino, 2 Foligno (PG)",
+   "anno": "2026",
+   "email": "info@atelierdellanatura.it"
+  }
+ ],
+ "note": "Nido Raffaello Sanzio temporaneamente chiuso per ristrutturazione (inserito comunque). Brucomela: pagina contatti con solo telefono cellulare/email, senza indirizzo ne' gestione (dubbio: potrebbe essere il gestore del centro Innamorati o un nido privato). Centro Innamorati via Borroni: struttura comunale data in concessione (bando 5 anni), classificato NIDO. Privati: tipologia assunta NIDO dal titolo 'Nidi d'infanzia privati'; omessi cellulari e email nominative dei referenti. Atelier della Natura potrebbe non essere un nido tradizionale."
+}

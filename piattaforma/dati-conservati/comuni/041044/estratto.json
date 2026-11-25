@@ -1,0 +1,198 @@
+{
+ "codiceIstat": "041044",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia L'incontrario",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Sarnano, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: L'incontrario - Via Sarnano",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Albero Azzurro",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Boni, S. Veneranda, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Albero Azzurro - Via Boni - S. Veneranda aperto fino alle 18.30",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Arcobaleno",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Ariosto, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Arcobaleno - Via Ariosto",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Alberone (Polo per l'infanzia 0-6 Il Faro)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Rigoni, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Alberone - Polo per l'infanzia 0-6 \"Il Faro\" - Via Rigoni",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Aquilone",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Togliatti, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Aquilone - Via Togliatti",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Cucciolo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via del Novecento, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Cucciolo - Via del Novecento",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Filippini",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Giusti, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Filippini - Via Giusti",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Girotondo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Lambro, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Girotondo - Via Lambro",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Lilliput",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Casella, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Lilliput - Via Casella",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Macondo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Negrelli, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Macondo - Via Negrelli",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Millestorie (Polo per l'infanzia 0-6)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Vincolungo, Colombarone, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Millestorie - Polo per l'infanzia 0-6 - Via Vincolungo - Colombarone",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Mondogaio",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Martini, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Mondogaio - Via Martini",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Nuvole di cotone",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Monte Argentario, Borgo S. Maria, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Nuvole di cotone - via Monte Argentario - Borgo S. Maria",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Torraccia",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Piazzale Vittime dell'Heysel, Pesaro",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/nido-dinfanzia/elenco-nidi-comunali/",
+   "citazione": "Elenco nidi comunali: Torraccia - Piazzale Vittime dell'Heysel",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione Primavera scuola dell'infanzia comunale Grande Quercia",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 24,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/scuola-dellinfanzia/scuola-infanzia-sezione-primavera/",
+   "citazione": "Le iscrizioni online alle sezioni Primavera delle scuole dell'infanzia comunali Grande Quercia, Grillo Parlante, Tre Giardini per l'anno scolastico 2026/2027",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione Primavera scuola dell'infanzia comunale Grillo Parlante",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 24,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/scuola-dellinfanzia/scuola-infanzia-sezione-primavera/",
+   "citazione": "Le iscrizioni online alle sezioni Primavera delle scuole dell'infanzia comunali Grande Quercia, Grillo Parlante, Tre Giardini per l'anno scolastico 2026/2027",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione Primavera scuola dell'infanzia comunale Tre Giardini",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 24,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/scuola-dellinfanzia/scuola-infanzia-sezione-primavera/",
+   "citazione": "Le iscrizioni online alle sezioni Primavera delle scuole dell'infanzia comunali Grande Quercia, Grillo Parlante, Tre Giardini per l'anno scolastico 2026/2027",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Spazio Gioco a Borgo S. Maria",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Borgo S. Maria, Pesaro",
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 72,
+   "url": "https://www.comune.pesaro.pu.it/servizieducativi/altri-servizi-0-19-anni/0-6-anni/",
+   "citazione": "Spazio Gioco a Borgo S. Maria. Servizio gratuito rivolto a bambine e bambini 1-6 anni con un adulto di riferimento. Le attività si svolgono il sabato mattina da ottobre a luglio.",
+   "anno": "2026"
+  }
+ ],
+ "note": "Elenco nidi comunali: 14 voci, mentre il testo dice 12 nidi comunali + 1 intercomunale a gestione associata (13): discrepanza, probabilmente Torraccia e' l'intercomunale o il conteggio e' datato. Sezioni Primavera presso 3 scuole infanzia comunali, indirizzi non indicati nel testo. Spazio Gioco Borgo S. Maria: indirizzo preciso non indicato (potrebbe coincidere con il nido Nuvole di cotone, non confermato); gestione comunale solo dedotta. Etá minime/massime nidi dal testo generico (3 mesi-3 anni)."
+}

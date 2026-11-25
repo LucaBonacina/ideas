@@ -1,0 +1,19 @@
+{
+ "codiceIstat": "041014",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale di Fermignano",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Mazzini 3",
+   "telefono": "0722 336821",
+   "email": "politicheeducative@comune.fermignano.pu.it",
+   "etaMinimaMesi": 0,
+   "etaMassimaMesi": 36,
+   "anno": "2025/26",
+   "url": "https://comune.fermignano.pu.it/unit%C3%A0-organizzative/3324620/nido-d-infanzia",
+   "citazione": "Nido d'Infanzia. Assicura e organizza le attività educative per bambini da zero a tre anni [...] Sede principale Nido d'infanzia Via Mazzini, 3, 61033 Fermignano PU"
+  }
+ ],
+ "note": "Il PNRR finanzia demolizione e ricostruzione dell'asilo nido di via Tronto (80 posti, lavori quasi finiti, 2026): puo' essere la stessa struttura o la sua nuova sede; non duplicato."
+}

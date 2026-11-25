@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "041007",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Magicabula",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Monte Petrano 1",
+      "telefono": "0721 781537",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 31,
+      "url": "https://comune.cagli.ps.it/servizio/asilo-nido-comunale/",
+      "citazione": "L'Asilo Nido Comunale denominato \"MAGICABULA\" (tel. 0721/781537) è situato in Via Monte Petrano n.1.",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Due sezioni: lattanti e divezzi."
+}

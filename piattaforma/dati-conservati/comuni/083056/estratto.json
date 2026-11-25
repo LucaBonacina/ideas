@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "083056",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale di Montagnareale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "telefono": "0941 315252",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.montagnareale.me.it/servizio/richiedere-iscrizione-all-asilo-nido/",
+      "citazione": "Servizio per richiedere l’ammissione alla frequenza dell’asilo nido comunale, per i bambini di età compresa da 0 a 3 anni",
+      "anno": "2024"
+    }
+  ],
+  "note": "Dubbio: pagina generica (testo copiato da altro comune, cita anche nidi privati in convenzione senza nomi). Telefono e' quello del comune."
+}

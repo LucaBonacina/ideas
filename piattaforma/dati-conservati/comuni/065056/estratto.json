@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "065056",
+  "strutture": [
+    {
+      "nome": "Asilo nido (servizio prima infanzia a titolarita pubblica)",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "posti": 45,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2025/26",
+      "url": "https://cloud.municipiumapp.it/s3/3134/allegati/avviso_per_accesso_ai_servizi_alla_prima_infanzia-2026-2027.pdf",
+      "citazione": "Comune di Giffoni Valle Piana- n. 45 posti servizio a tempo pieno con mensa"
+    }
+  ],
+  "note": "Avviso d'ambito S04_2: servizio a titolarita pubblica con gestione esternalizzata; graduatoria nido 2026/27 pubblicata. Il nuovo nido di S. Maria (lavori finiti 31/08/2026) non e confermato come attivo e non e estratto separatamente."
+}

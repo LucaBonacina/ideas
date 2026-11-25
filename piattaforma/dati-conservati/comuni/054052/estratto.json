@@ -1,0 +1,37 @@
+{
+  "codiceIstat": "054052",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale del Broglino",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via del Broglino, Todi",
+      "telefono": "075 8956224",
+      "url": "https://www.comune.todi.pg.it/it/news/graduatoria-degli-inserimenti-all-asilo-nido-comunale-da-settembre-2024",
+      "citazione": "graduatoria delle domande di iscrizione all'asilo nido comunale con inserimento da settembre 2024. In allegato la graduatoria con i 20 bambini ammessi al Broglino e i 9 a Santa Maria.",
+      "anno": "2024/25"
+    },
+    {
+      "nome": "Asilo nido comunale Santa Maria (in Camuccia)",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "telefono": "075 8956224",
+      "url": "https://www.comune.todi.pg.it/it/news/graduatoria-degli-inserimenti-all-asilo-nido-comunale-da-settembre-2024",
+      "citazione": "graduatoria delle domande di iscrizione all'asilo nido comunale con inserimento da settembre 2024. In allegato la graduatoria con i 20 bambini ammessi al Broglino e i 9 a Santa Maria.",
+      "anno": "2024/25"
+    },
+    {
+      "nome": "Centro bambini e famiglie presso l'asilo nido del Broglino",
+      "tipologia": "CENTRO_BAMBINI_FAMIGLIE",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via del Broglino, Todi",
+      "telefono": "075 8956224",
+      "etaMinimaMesi": 18,
+      "etaMassimaMesi": 60,
+      "url": "https://www.comune.todi.pg.it/it/news/nuovo-centro-bambini-e-e-famiglie",
+      "citazione": "presso l’Asilo nido comunale del Broglino sarà ospitato, a partire dal 18 MARZO p.v. nei giorni di lunedì, mercoledì e giovedì, dalle ore 16,00 alle ore 18,30 il nuovo \"Centro bambini/e e famiglie\"",
+      "anno": "2019"
+    }
+  ],
+  "note": "DUBBI: l'immobile 'Nido d'Infanzia Santa Maria in Camuccia' risulta oggetto di avviso di valorizzazione (PSPP, luglio 2026), quindi il nido Santa Maria potrebbe essere chiuso o trasferito; dati nido del 2024/25. Il centro bambini e famiglie e' del 2019, non confermato recentemente. 'Nido dell'Aquila' e' un cinema, escluso."
+}

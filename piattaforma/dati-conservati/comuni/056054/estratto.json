@@ -1,0 +1,17 @@
+{
+  "codiceIstat": "056054",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Area Bambini",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "posti": 30,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2023",
+      "url": "https://mycity.s3.sbg.io.cloud.ovh.net/3275250/REGOLAMENTO-ASILO-NIDO---MODIFICA-ED-INTEGRAZIONI.PDF",
+      "citazione": "Il Nido d'infanzia (denominato Area Bambini) è un servizio educativo e sociale di interesse pubblico che accoglie i bambini e le bambine in età compresa tra i 3 mesi ed i 3 anni"
+    }
+  ],
+  "note": "Casa vacanza 'Il Nido' non e' un servizio 0-3."
+}

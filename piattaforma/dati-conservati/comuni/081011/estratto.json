@@ -1,0 +1,44 @@
+{
+ "codiceIstat": "081011",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale di Sappusi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "anno": "2025/26",
+   "url": "https://www.comune.marsala.tp.it/it/news/bonus-asili-nido-marsala-chiarimento-tra-amministrazione-comunale-e-inps",
+   "citazione": "le cinque strutture private presenti a Marsala - oltre ai tre asili nido comunali di Amabilina, Sappusi e c.da Sant'Anna - sono regolarmente autorizzate dall'Assessorato regionale all'Istruzione"
+  },
+  {
+   "nome": "Asilo nido comunale di contrada Sant'Anna",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2025/26",
+   "url": "https://www.comune.marsala.tp.it/it/news/gestione-asili-nido-comunali-di-santanna-e-viale-whitaker",
+   "citazione": "il bando di gara per l'affidamento della gestione negli asili nido comunali operativi in contrada Sant’Anna e viale Whitaker. Entrambi accolgono in totale 74 bambine e bambini - di età compresa tra i 3 e i 36 mesi"
+  },
+  {
+   "nome": "Asilo nido comunale Guido Baccelli (viale Whitaker)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Viale Whitaker",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2025/26",
+   "url": "https://www.comune.marsala.tp.it/it/news/gestione-asili-nido-comunali-di-santanna-e-viale-whitaker",
+   "citazione": "asili nido comunali operativi in contrada Sant’Anna e viale Whitaker. Entrambi accolgono in totale 74 bambine e bambini - di età compresa tra i 3 e i 36 mesi"
+  },
+  {
+   "nome": "Asilo nido comunale di Amabilina",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Contrada Amabilina",
+   "anno": "2025/26",
+   "url": "https://www.comune.marsala.tp.it/it/news/bonus-asili-nido-marsala-chiarimento-tra-amministrazione-comunale-e-inps",
+   "citazione": "oltre ai tre asili nido comunali di Amabilina, Sappusi e c.da Sant'Anna"
+  }
+ ],
+ "note": "Le 'cinque strutture private' sono citate senza nome. Il nuovo nido di Amabilina (e quello di Bosco) risultano in costruzione PNRR (fine lavori giugno 2026): non e' chiaro se Amabilina sia il vecchio nido operativo; Bosco non incluso. Avvisi 'micro-nido' a voucher (24 posti) tramite enti accreditati non nominati. Posti 74 totali per Sant'Anna+Whitaker."
+}

@@ -1,0 +1,70 @@
+{
+ "codiceIstat": "087008",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Domenico Savio",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via F. Turati 145",
+   "posti": 44,
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.biancavilla.ct.it/s3/675/allegati/asili-nido-e-spazio-gioco-2026_2027/bando-pubblico-asilo-nido_-spazio-gioco-2026_2027.pdf",
+   "citazione": "Asilo Nido Comunale “Domenico Savio”, sito in Via F. Turati n. 145, per n. 44 posti - distinti in n. 30 semidivezzi e n. 14 divezzi, età 12-36 mesi",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Spazio Gioco Comunale",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Sacro Cuore 1",
+   "posti": 26,
+   "etaMinimaMesi": 18,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.biancavilla.ct.it/s3/675/allegati/asili-nido-e-spazio-gioco-2026_2027/bando-pubblico-asilo-nido_-spazio-gioco-2026_2027.pdf",
+   "citazione": "Servizio integrativo per l’infanzia denominato “Spazio Gioco Comunale”, sito in Via Sacro Cuore n. 1, per n. 26 posti, composto di un’unica sezione (18-36 mesi)",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Spazio gioco Prato Fiorito",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://www.comune.biancavilla.ct.it/it/page/servizi-per-l-infanzia-09bc32ab-e694-42a0-a237-482da22adf37",
+   "citazione": "Servizi spazio gioco Prato Fiorito 28-09-2021",
+   "anno": "2021"
+  },
+  {
+   "nome": "Spazio gioco Miniclub Annunziata",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://www.comune.biancavilla.ct.it/it/page/servizi-per-l-infanzia-09bc32ab-e694-42a0-a237-482da22adf37",
+   "citazione": "Servizi spazio gioco Miniclub Annunziata 28-09-2021",
+   "anno": "2021"
+  },
+  {
+   "nome": "Spazio gioco Albero Azzurro",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://www.comune.biancavilla.ct.it/it/page/servizi-per-l-infanzia-09bc32ab-e694-42a0-a237-482da22adf37",
+   "citazione": "Servizi spazio gioco Albero Azzurro 28-09-2021",
+   "anno": "2021"
+  },
+  {
+   "nome": "Sezione primavera Albero Azzurro",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://www.comune.biancavilla.ct.it/it/page/servizi-per-l-infanzia-09bc32ab-e694-42a0-a237-482da22adf37",
+   "citazione": "Servizi Sezione primavera Albero Azzurro 28-09-2021",
+   "anno": "2021"
+  },
+  {
+   "nome": "Sezione primavera Annunziata Badia",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "SCONOSCIUTA",
+   "url": "https://www.comune.biancavilla.ct.it/it/page/servizi-per-l-infanzia-09bc32ab-e694-42a0-a237-482da22adf37",
+   "citazione": "Servizi Sezione primavera Annunziata Badia 28-09-2021",
+   "anno": "2021"
+  }
+ ],
+ "note": "Dubbi: Cicalisi 'di prossima apertura' (PNRR); le ultime 5 righe vengono da una pagina del 2021 che elenca solo titoli di PDF (private/paritarie, probabilmente anche scuole infanzia con sezione primavera, possibili sovrapposizioni con Albero Azzurro/Annunziata). Esiste anche una graduatoria 'Spazio Gioco Padre Greco' 2026/27, probabilmente lo stesso Spazio Gioco Comunale. | Revisione 24/11/2026: escluse perché la prova indica lavori, arredi o apertura non confermata: Asilo nido comunale Cicalisi"
+}

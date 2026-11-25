@@ -1,0 +1,15 @@
+{
+ "codiceIstat": "091005",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comunedibarisardo.it/servizio/asilo-nido-comunale/",
+   "citazione": "Servizio attivo. Servizio rivolto ai bambini, utilmente collocati nella graduatoria, con età compresa dai 3 mesi compiuti alla data di inserimento, ai 3 anni d’età"
+  }
+ ],
+ "note": "DUBBIO: nome e sede del nido non indicati (richiesta tramite Unione dei Comuni d'Ogliastra); nome generico."
+}

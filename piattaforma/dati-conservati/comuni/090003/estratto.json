@@ -1,0 +1,37 @@
+{
+ "codiceIstat": "090003",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Viale Giovanni XXIII 110",
+   "telefono": "079 9978512",
+   "url": "https://comune.alghero.ss.it/it/vivere-il-comune/luoghi/luogo/Nido-dinfanzia-comunale/",
+   "citazione": "Nido d'infanzia comunale Indirizzo Viale Giovanni XXIII, 110, 07041 Alghero SS, Italia Telefono : +39 0799978512",
+   "anno": "2024"
+  },
+  {
+   "nome": "Micronido An glin glo",
+   "tipologia": "MICRONIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Antonio Marongiu 51/A",
+   "telefono": "079 9978512",
+   "url": "https://comune.alghero.ss.it/it/vivere-il-comune/luoghi/luogo/Micronido-An-glin-glo/",
+   "citazione": "Micronido “An glin glo” Indirizzo Via Antonio Marongiu, 51/A, 07041 Alghero SS, Italia Telefono : +39 0799978512",
+   "anno": "2024"
+  },
+  {
+   "nome": "Nido d'infanzia Il Girotondo",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Via Alcide De Gasperi 36/C",
+   "telefono": "079 981565",
+   "email": "info@nidoilgirotondo.it",
+   "url": "https://comune.alghero.ss.it/it/vivere-il-comune/luoghi/luogo/Nido-dinfanzia-Il-Girotondo-di-A.-Doppio/",
+   "citazione": "Nido d'infanzia Il Girotondo di A. Doppio Indirizzo Via Alcide De Gasperi, 36/C, 07041 Alghero SS, Italia Telefono : +39 079981565 Email : info@nidoilgirotondo.it",
+   "anno": "2024"
+  }
+ ],
+ "note": "Regolamento cita 'Educatore Familiare' e 'Mamma Accogliente' (servizi domiciliari) senza strutture nominate. Il Girotondo: gestione non indicata (probabile privato, il nome 'A. Doppio' sembra del titolare; omesso dal nome)."
+}

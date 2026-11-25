@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "058005",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Il Ranocchio",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Duca degli Abruzzi",
+   "posti": 39,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2026/27",
+   "url": "https://www.comune.anguillara-sabazia.roma.it/servizio/iscrizione-asilo-nido/",
+   "citazione": "sono aperte le iscrizioni all’Asilo Nido Comunale “Il Ranocchio” sito in Via Duca degli Abruzzi per il periodo 01 Settembre 2026 – 31 Luglio 2027"
+  }
+ ],
+ "note": "Posti: 11+14+14 per sezione (39 piu' 3 riservati servizi sociali; autorizzato fino a 60 bambini); indicato 39 come posti ordinari."
+}

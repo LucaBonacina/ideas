@@ -1,0 +1,61 @@
+{
+ "codiceIstat": "044066",
+ "strutture": [
+  {
+   "nome": "Nido La Mongolfiera",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Ferri 53",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.sanbenedettodeltronto.ap.it/it/servizi/nidi-d-infanzia-e-sezioni-primavera",
+   "citazione": "Nido La Mongolfiera, Via Ferri 53 (ridotto, ordinario, prolungato)",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido Il Giardino delle Meraviglie",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Foglia, Porto d'Ascoli",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.sanbenedettodeltronto.ap.it/it/servizi/nidi-d-infanzia-e-sezioni-primavera",
+   "citazione": "Nido Il Giardino delle Meraviglie, Via Foglia, Porto D'Ascoli (ridotto, ordinario, prolungato)",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione Primavera Il Girasole",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "indirizzo": "Scuola Marchegiani, Paese Alto",
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.sanbenedettodeltronto.ap.it/it/servizi/nidi-d-infanzia-e-sezioni-primavera",
+   "citazione": "Sezione Primavera Il Girasole, Scuola Marchegiani, Paese Alto ( ridotto ordinario)",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione Primavera La Girandola",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "indirizzo": "Scuola Infanzia Mattei, Porto d'Ascoli",
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.sanbenedettodeltronto.ap.it/it/servizi/nidi-d-infanzia-e-sezioni-primavera",
+   "citazione": "Sezione Primavera La Girandola, Scuola Infanzia Mattei, Porto D'Ascoli (ridotto, ordinario)",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione Primavera Girotondo",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "indirizzo": "Scuola Infanzia Via Puglia",
+   "etaMinimaMesi": 24,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.sanbenedettodeltronto.ap.it/it/servizi/nidi-d-infanzia-e-sezioni-primavera",
+   "citazione": "Sezione Primavera Girotondo, Scuola Infanzia Via Puglia (ridotto, ordinario)",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Solo servizi comunali; i nidi privati convenzionati sono citati solo in delibere del 2013 senza nome."
+}

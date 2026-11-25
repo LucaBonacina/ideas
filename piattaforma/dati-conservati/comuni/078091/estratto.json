@@ -1,0 +1,17 @@
+{
+ "codiceIstat": "078091",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale Collodi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Collodi",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.paola.cs.it/s3/4969/allegati/avviso-asilo-nido-a-s-2026-2027.pdf",
+   "citazione": "1. Nido d'infanzia \"Collodi\" sito in via Collodi di Paola;",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Il nido Peter Pan (via delle Terme) è ad Acquappesa, non a Paola: escluso."
+}

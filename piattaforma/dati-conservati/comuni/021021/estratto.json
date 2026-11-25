@@ -1,0 +1,15 @@
+{
+ "codiceIstat": "021021",
+ "strutture": [
+  {
+   "nome": "Asilo nido del Comune di Chienes",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.chienes.bz.it/it/Servizi/Educazione_e_formazione/Asilo_nido_-_iscrizione",
+   "citazione": "Il servizio permette di iscrivere bambini di età compresa tra i 3 mesi e i 3 anni all'asilo nido del Comune di Chienes"
+  }
+ ],
+ "note": "Pagina di iscrizione; nome e sede del nido non indicati (l'indirizzo Via Chienes 4/c nella pagina e' quello del Comune, non usato)."
+}

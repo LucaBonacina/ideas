@@ -1,0 +1,26 @@
+{
+ "codiceIstat": "109017",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "telefono": "0734 952053",
+   "email": "servizi.sociali@comune.montegiorgio.fm.it",
+   "url": "https://comune.montegiorgio.fm.it/servizi/servizio-dettaglio/3303734",
+   "citazione": "Il seguente servizio d'iscrizione permette ad un genitore di iscrivire il/la proprio/a figlio/a all'asilo nido comunale e alla sezione primavera",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione primavera",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "SCONOSCIUTA",
+   "telefono": "0734 952053",
+   "email": "servizi.sociali@comune.montegiorgio.fm.it",
+   "url": "https://comune.montegiorgio.fm.it/servizi/servizio-dettaglio/3303734",
+   "citazione": "Richiedere l'iscrizione all'asilo nido comunale e sezione primavera 2026/2027",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Nome e indirizzo delle strutture non indicati; telefono/email dell'Ufficio Servizi Sociali."
+}

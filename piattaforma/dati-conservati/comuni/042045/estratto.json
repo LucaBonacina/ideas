@@ -1,0 +1,84 @@
+{
+ "codiceIstat": "042045",
+ "strutture": [
+  {
+   "nome": "Asilo nido Le Mimose",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Viale dei Gerani 16, Senigallia",
+   "telefono": "071 7921575",
+   "posti": 45,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.senigallia.an.it/wp-content/uploads/2023/12/REGOLAMENTO_SERVIZI_INFANZIA_0-3_09-04-24.pdf",
+   "citazione": "NIDO D'INFANZIA \"MIMOSE\" Viale dei Gerani 16 SENIGALLIA. Accoglie 45 bambini da tre mesi a tre anni.",
+   "anno": "2024"
+  },
+  {
+   "nome": "Asilo nido Prato Verde",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Pierelli 1, Senigallia",
+   "telefono": "071 7925430",
+   "posti": 45,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.senigallia.an.it/wp-content/uploads/2023/12/REGOLAMENTO_SERVIZI_INFANZIA_0-3_09-04-24.pdf",
+   "citazione": "NIDO D'INFANZIA \"PRATO VERDE\" Via Pierelli 1 SENIGALLIA. Accoglie 45 bambini da tre mesi a tre anni.",
+   "anno": "2024"
+  },
+  {
+   "nome": "Asilo nido La Cannella",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Strada Roncitelli Cannella 72, Senigallia",
+   "telefono": "071 7925186",
+   "posti": 38,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.senigallia.an.it/wp-content/uploads/2023/12/REGOLAMENTO_SERVIZI_INFANZIA_0-3_09-04-24.pdf",
+   "citazione": "NIDO D'INFANZIA \"LA CANNELLA\" Str. Roncitelli Cannella 72 SENIGALLIA. Accoglie 38 bambini da tre mesi a tre anni.",
+   "anno": "2024"
+  },
+  {
+   "nome": "Centro per l'infanzia Cavalluccio Marino",
+   "tipologia": "CENTRO_BAMBINI_FAMIGLIE",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via della Resistenza 42, Marzocca di Senigallia",
+   "telefono": "071 698946",
+   "posti": 25,
+   "etaMinimaMesi": 12,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.senigallia.an.it/wp-content/uploads/2023/12/REGOLAMENTO_SERVIZI_INFANZIA_0-3_09-04-24.pdf",
+   "citazione": "CENTRO INFANZIA \"CAVALLUCCIO MARINO\" Viale della Resistenza Marzocca SENIGALLIA. Accoglie 25 bambini da dodici mesi a tre anni.",
+   "anno": "2024"
+  },
+  {
+   "nome": "Centro per l'infanzia Le Favole",
+   "tipologia": "CENTRO_BAMBINI_FAMIGLIE",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Montessori 5, Montignano, Senigallia",
+   "telefono": "071 698946",
+   "posti": 19,
+   "etaMinimaMesi": 18,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.senigallia.an.it/wp-content/uploads/2023/12/REGOLAMENTO_SERVIZI_INFANZIA_0-3_09-04-24.pdf",
+   "citazione": "CENTRO INFANZIA \"LE FAVOLE\" Via Montessori 5 Montignano SENIGALLIA. Accoglie 19 bambini da diciotto mesi a tre anni.",
+   "anno": "2024"
+  },
+  {
+   "nome": "Centro per l'infanzia Le Nuvole",
+   "tipologia": "CENTRO_BAMBINI_FAMIGLIE",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Botticelli, Cesanella, Senigallia",
+   "telefono": "071 6609018",
+   "posti": 26,
+   "etaMinimaMesi": 18,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.senigallia.an.it/wp-content/uploads/2023/12/REGOLAMENTO_SERVIZI_INFANZIA_0-3_09-04-24.pdf",
+   "citazione": "CENTRO INFANZIA \"LE NUVOLE\" Via Botticelli – Cesanella SENIGALLIA. Accoglie 26 bambini da diciotto mesi a tre anni.",
+   "anno": "2024"
+  }
+ ],
+ "note": "Fonte: Sezione 3 del regolamento ATS 8 (elenco servizi pubblici, rev. 2024); esclusi i servizi di Arcevia, Corinaldo, Ostra, Ostra Vetere, Trecastelli. Dubbi: i 'centri per l'infanzia con pasto' mappati come CENTRO_BAMBINI_FAMIGLIE ma sono 12/18-36 mesi, di fatto simili a nidi; Le Favole: via Montessori n.1 nell'elenco, n.5 nella scheda; telefono di Le Favole mancante nella scheda (usato lo stesso di Cavalluccio Marino, riportato in riga adiacente). Il PDF 'Elenco servizi privati convenzionati' non e' tra i file scaricati: privati non estratti. Nuovi nidi PNRR (De Amicis Marzocca 45 posti, polo Cesanella) non ancora esistenti, esclusi."
+}

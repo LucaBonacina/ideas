@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "009057",
+  "strutture": [
+    {
+      "nome": "Micronido comunale Gli Orsetti",
+      "tipologia": "MICRONIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via SS. Annunziata, Spotorno",
+      "telefono": "019 9482950",
+      "email": "assistentesociale@comune.spotorno.sv.it",
+      "etaMinimaMesi": 9,
+      "etaMassimaMesi": 36,
+      "citazione": "Il Micronido comunale “Gli Orsetti” è destinato ai bambini di età compresa tra i 9 ed i 36 mesi.",
+      "anno": "2025/26",
+      "url": "https://comune.spotorno.sv.it/vivere-il-comune/luoghi/nido-comunale/"
+    }
+  ]
+}

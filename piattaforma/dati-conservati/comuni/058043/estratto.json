@@ -1,0 +1,30 @@
+{
+  "codiceIstat": "058043",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale via Tevere",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Tevere, Genzano di Roma",
+      "posti": 27,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.genzanodiroma.roma.it/sites/comune.genzanodiroma.roma.it/files/2026-05/Bando%20iscrizione%20asili%20nido%20comunali%20a.e.%202026%202027_0.pdf",
+      "citazione": "sono aperte le iscrizioni al servizio di asilo nido comunale per l'anno educativo 2026/2027, presso la struttura di via Tevere ( n. 27 posti con orario 07.30 – 15.30)",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido comunale San Carlino",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via S. Carlino, Genzano di Roma",
+      "posti": 22,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.genzanodiroma.roma.it/sites/comune.genzanodiroma.roma.it/files/2026-05/Bando%20iscrizione%20asili%20nido%20comunali%20a.e.%202026%202027_0.pdf",
+      "citazione": "e di San Carlino (n. 22 posti con orario 07.30 – 17.30)",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Due nidi comunali gestiti in appalto."
+}

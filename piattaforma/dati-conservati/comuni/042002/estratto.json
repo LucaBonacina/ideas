@@ -1,0 +1,39 @@
+{
+ "codiceIstat": "042002",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Stella Stellina",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.ancona.it/it/news/caldo-e-asili-nido-l-intervento-dell-amministrazione-comunale",
+   "citazione": "Intervento all'asilo nido Stella Stellina di Montedago, struttura comunale che accoglie bambini fino a 36 mesi, per risolvere il problema del caldo all'interno."
+  },
+  {
+   "nome": "Asilo nido comunale Orsacchiotto",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.ancona.it/it/news/lavori-di-manutenzione-straordinaria-per-rifacimento-copertura-degli-asili-nido-orsacchiotto-e-chicco-di-grano",
+   "citazione": "copertura del fabbricato sede degli Asili nido \"Orsacchiotto\" e \"Chicco di Grano\""
+  },
+  {
+   "nome": "Asilo nido comunale Chicco di Grano",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.ancona.it/it/news/lavori-di-manutenzione-straordinaria-per-rifacimento-copertura-degli-asili-nido-orsacchiotto-e-chicco-di-grano",
+   "citazione": "copertura del fabbricato sede degli Asili nido \"Orsacchiotto\" e \"Chicco di Grano\""
+  },
+  {
+   "nome": "Asilo nido comunale Agrodolce",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Francesco Redi 1, Torrette, 60126 Ancona",
+   "posti": 45,
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.ancona.it/it/page/realizzazione-di-nuova-sede-dellasilo-nido-agrodolce-di-collemarino",
+   "citazione": "dove si trova ad oggi l'attuale nido Agrodolce che verrà con il presente intervento demolito e ricostruito. Il lotto è in Via Redi Francesco n1, Località Torrette - 60126 Ancona",
+   "anno": "2025"
+  }
+ ],
+ "note": "Il testo cita 13 nidi comunali + sezione primavera e 3 nidi in via Redipuglia, ma ne nomina solo 4. Esclusi: nuovo nido Sabin (via Camerano, in costruzione/completamento PNRR) e nuovo nido presso scuola infanzia Alba Serena (via Misa, Torrette, in costruzione). Orsacchiotto e Chicco di Grano condividono lo stesso edificio, indirizzo non indicato (forse via Redipuglia, non confermato). Il sito Agrodolce sarà demolito e ricostruito; ora citato come esistente. Dati recuperati anche dagli html delle news."
+}

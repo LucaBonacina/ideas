@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "083038",
+  "strutture": [
+    {
+      "nome": "Micronido comunale",
+      "tipologia": "MICRONIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Monte Bianco",
+      "telefono": "0942 657300",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://www.comune.letojanni.me.it/wp-content/uploads/2025/06/LOCANDINA-MICRONIDO-2025.pdf",
+      "citazione": "MICRONIDO COMUNALE. Il Servizio è rivolto ai bambini dai 3 mesi ai 3 anni. Si svolge dal lunedì al venerdì, dalle 8:00 alle 16:00.",
+      "anno": "2025/26"
+    }
+  ],
+  "note": "Indirizzo da modulo iscrizione ('asilo nido di Via Monte Bianco'); telefono Servizi Sociali."
+}

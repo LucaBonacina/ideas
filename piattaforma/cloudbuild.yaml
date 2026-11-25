@@ -1,0 +1,21 @@
+# Costruisce le immagini su Cloud Build e le carica su Artifact Registry.
+#   gcloud builds submit --config cloudbuild.yaml \
+#     --substitutions=_REGIONE=europe-west8,_REPO=nidi,_API_URL=https://nidi-api-xxxx.a.run.app,_NOME_SITO="Nido Vicino"
+# _API_URL è l'indirizzo del servizio API (serve al sito per l'inoltro di /api/*): al primo giro si costruisce e
+# pubblica l'API, poi si rilancia con l'indirizzo giusto per il sito.
+substitutions:
+  _REGIONE: europe-west8
+  _REPO: nidi
+  _API_URL: http://localhost:8181
+  _NOME_SITO: Nido Vicino
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', '${_REGIONE}-docker.pkg.dev/$PROJECT_ID/${_REPO}/api:$BUILD_ID',
+      '-t', '${_REGIONE}-docker.pkg.dev/$PROJECT_ID/${_REPO}/api:latest', 'backend']
+  - name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', '${_REGIONE}-docker.pkg.dev/$PROJECT_ID/${_REPO}/web:$BUILD_ID',
+      '-t', '${_REGIONE}-docker.pkg.dev/$PROJECT_ID/${_REPO}/web:latest',
+      '--build-arg', 'API_URL=${_API_URL}', '--build-arg', 'NEXT_PUBLIC_NOME_SITO=${_NOME_SITO}', 'web']
+images:
+  - '${_REGIONE}-docker.pkg.dev/$PROJECT_ID/${_REPO}/api'
+  - '${_REGIONE}-docker.pkg.dev/$PROJECT_ID/${_REPO}/web'

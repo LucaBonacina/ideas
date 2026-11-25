@@ -1,0 +1,28 @@
+{
+ "codiceIstat": "084001",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale Esseneto",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Esseneto s.n.c.",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.agrigento.it/novita/graduatoria-ammessi-asili-nido-comunali-esseneto-e-villaggio-mose-anno-educativo-2026-2027/",
+   "citazione": "SONO STATE APPROVATE LE GRADUATORIE DEGLI AMMESSI AGLI ASILI NIDO \"ESSENETO\" E \"VILLAGGIO MOSE'\" PER L'ANNO EDUCATIVO 2026/2027. ... ASILO NIDO \"ESSENETO\" - Via Esseneto s.n.c.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Asilo nido comunale Villaggio Mosè",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Lucrezio 1",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://comune.agrigento.it/novita/graduatoria-ammessi-asili-nido-comunali-esseneto-e-villaggio-mose-anno-educativo-2026-2027/",
+   "citazione": "ASILO NIDO \"VILLAGGIO MOSE' \" - Via Lucrezio 1",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Esclusi i nuovi nidi PNRR 'Montaperto' e 'Collegamento' (in costruzione, consegna prevista primavera 2026): non ancora citati come attivi. Esseneto riaperto dopo anni di chiusura (lavori fino a maggio 2026) ma ha graduatoria 2026/27."
+}

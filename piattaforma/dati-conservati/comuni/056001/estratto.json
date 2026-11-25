@@ -1,0 +1,18 @@
+{
+ "codiceIstat": "056001",
+ "strutture": [
+  {
+   "nome": "Asilo nido intercomunale di Acquapendente",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via del Carmine 1",
+   "telefono": "0763 7309203",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.acquapendente.vt.it/s3/31/allegati/bando-iscrizione-asilo-nido-2026.pdf",
+   "citazione": "sono aperte le iscrizioni al servizio di asilo nido intercomunale per l'anno educativo 2026/2027. Hanno diritto all'iscrizione tutti i bambini di età compresa tra i 3 mesi e i 3 anni",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Indirizzo dalla pagina luogo \"Asilo nido\" (https://www.comune.acquapendente.vt.it/it/vivere/asilo-nido). Un solo nido intercomunale."
+}

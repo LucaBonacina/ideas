@@ -1,0 +1,14 @@
+{
+  "codiceIstat": "067008",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Il sentiero delle fate",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "anno": "2025",
+      "url": "https://comune.campli.te.it/servizio/iscrizione-refezione-scolastica-scuola-dellinfanzia-e-asilo-nido/",
+      "citazione": "Avviso ai genitori modulistica iscrizione asilo nido \"Il sentiero delle fate\". Il servizio di refezione è rivolto a tutti gli iscritti al nido comunale."
+    }
+  ],
+  "note": "Nome desunto da un titolo di notizia collegata; verificare che il nido sia a Campli."
+}

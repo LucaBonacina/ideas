@@ -1,0 +1,24 @@
+{
+ "codiceIstat": "021015",
+ "strutture": [
+  {
+   "nome": "Kita Caldaro (Via Maria Teresa)",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Via Maria Teresa 4/c",
+   "email": "kitas-kaltern@tagesmutter-bz.it",
+   "url": "https://www.caldaro.eu/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/KITAS_Caldaro",
+   "citazione": "La struttura per la prima infanzia di Caldaro in Via Maria Teresa 4/c è un servizio vicino alle famiglie per bambini piccoli. [...] Tipo di organizzazione: Scuola materna / asilo nido"
+  },
+  {
+   "nome": "Kita Pfuss Caldaro (Via Pozzo)",
+   "tipologia": "NIDO",
+   "gestione": "SCONOSCIUTA",
+   "indirizzo": "Via Pozzo 52/A",
+   "email": "kitas-kalternpfuss@tagesmutter-bz.it",
+   "url": "https://www.caldaro.eu/it/Vivere_il_comune/Luoghi/Scuola_e_formazione/KITAS_Caldaro_-_Pozzo",
+   "citazione": "La Kita Pfuss di Caldaro è una struttura locale per bambini in età prescolare. [...] VIA POZZO 52/A, 39052 CALDARO SULLA STRADA DEL VINO"
+  }
+ ],
+ "note": "Dati dai file html della cartella (testo.txt contiene solo i titoli). Entrambe le Kitas hanno email @tagesmutter-bz.it (gestore probabilmente cooperativa Tagesmutter); età e posti non indicati; non chiaro se tutte 0-3 (la prima è etichettata 'scuola materna / asilo nido'). Omesso nome della direttrice."
+}

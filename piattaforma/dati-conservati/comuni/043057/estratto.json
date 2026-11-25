@@ -1,0 +1,15 @@
+{
+  "codiceIstat": "043057",
+  "strutture": [
+    {
+      "nome": "Asilo nido",
+      "tipologia": "NIDO",
+      "gestione": "SCONOSCIUTA",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "citazione": "Il servizio è rivolto alle famiglie con bambini di età compresa tra i 3 mesi e i 3 anni.",
+      "url": "https://www.comune.visso.mc.it/servizio/asilo-nido-rinuncia-al-servizio/"
+    }
+  ],
+  "note": "Pagina di servizio generica; non è indicato nome né sede del nido."
+}

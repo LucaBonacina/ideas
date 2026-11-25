@@ -1,0 +1,18 @@
+{
+  "codiceIstat": "058034",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale Aladin",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "posti": 58,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "email": "istruzione@comune.colleferro.rm.it",
+      "url": "https://www.comune.colleferro.rm.it/servizi/asilo-nido-comunale",
+      "citazione": "l’asilo nido comunale è organizzato in tre sezioni: piccoli/lattanti 3/12 mesi (14 posti); medi/semidivezzi 13/24 mesi (16 posti); grandi/divezzi 25/36 mesi (28 posti).",
+      "anno": "2026"
+    }
+  ],
+  "note": "nome Aladin dalla pagina arredi PNRR (stessa struttura presumibilmente); posti = somma delle tre sezioni"
+}

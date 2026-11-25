@@ -1,0 +1,32 @@
+{
+ "codiceIstat": "041067",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia comunale Tartaruga",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Neruda 9",
+   "telefono": "+39 0722 327232",
+   "email": "asilotartaruga@urbinoservizi.it",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.urbino.pu.it/vivere-il-comune/luoghi/l/scuola-cultura/nido-dinfanzia-tartaruga-130?cHash=3eddde66939414cf9c0502f6a365b1ae",
+   "citazione": "Nido d'infanzia comunale. Il nido d'infanzia è una agenzia educativa ed una istituzione pedagogica che ospita i bambini e le bambine di età compresa tra i 3 e i 36 mesi.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia comunale Colibrì",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Santa Maria Pomonte",
+   "telefono": "+39 0722 377076",
+   "email": "asilocolibri@urbinoservizi.it",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.urbino.pu.it/vivere-il-comune/luoghi/l/scuola-cultura/nido-dinfanzia-colibri-209?cHash=826579e1cb9599dcce1c4b5a3678f4ca",
+   "citazione": "Nido d'infanzia comunale. Il nido d'infanzia è una agenzia educativa ed una istituzione pedagogica che ospita i bambini e le bambine di età compresa tra i 3 e i 36 mesi.",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Escluso \"Centro famiglia e ludoteca Via del Popolo\" (aggregazione per giovani e famiglie, aperto la sera, non 0-3)."
+}

@@ -1,0 +1,16 @@
+{
+  "codiceIstat": "043009",
+  "strutture": [
+    {
+      "nome": "Asilo nido comunale",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "anno": "2026",
+      "url": "https://www.comune.castelraimondo.mc.it/servizio/asilo-nido-iscrizione-al-servizio/",
+      "citazione": "Il servizio di iscrizione all'asilo nido è rivolto alle famiglie con bambini di età compresa tra i 3 mesi e i 3 anni."
+    }
+  ],
+  "note": "Nome e indirizzo non indicati."
+}

@@ -1,0 +1,27 @@
+{
+ "codiceIstat": "037039",
+ "strutture": [
+  {
+   "nome": "Asilo Nido comunale Cip & Ciop",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Don Giovanni Minzoni 1",
+   "telefono": "051 6906828",
+   "etaMinimaMesi": 6,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.molinella.bo.it/it/vivere/asilo-nido-cip-ciop",
+   "citazione": "Asilo Nido Cip & Ciop - Asilo Nido comunale per bimbi fra sei mesi e tre anni - Via Don Giovanni Minzoni, 1, 40062 Molinella BO",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido Primi Giochi",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Severino Ferrari 26, San Pietro Capofiume",
+   "url": "https://www.comune.molinella.bo.it/it/vivere/nido-e-scuola-dell-infanzia-paritaria-primi-giochi",
+   "citazione": "Servizio composto da una sezione di nido d'infanzia autorizzato dal Comune di Molinella e da due sezioni di scuola dell'infanzia paritaria gestito dalla Cooperativa sociale Primi Giochi",
+   "anno": "2025/26"
+  }
+ ],
+ "note": "Telefono di Primi Giochi omesso (cellulare). Il Cip & Ciop probabilmente corrisponde alla struttura già nostra."
+}

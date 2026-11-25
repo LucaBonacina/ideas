@@ -1,0 +1,47 @@
+{
+ "codiceIstat": "085004",
+ "strutture": [
+  {
+   "nome": "Asilo nido comunale S. Petronilla",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://caltanissetta-api.municipiumapp.it/s3/1099/allegati/asili-nido.pdf",
+   "citazione": "graduatoria provvisoria unica lattanti e divezzi per i 4 asili nido comunali (S. Petronilla Colajanni sito in Via Degli Orti, P.P.Pasolini e S. Barbara), per l'anno educativo 2026/27",
+   "anno": "2026/27",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36
+  },
+  {
+   "nome": "Asilo nido comunale Colajanni",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://caltanissetta-api.municipiumapp.it/s3/1099/allegati/asili-nido.pdf",
+   "citazione": "graduatoria provvisoria unica lattanti e divezzi per i 4 asili nido comunali (S. Petronilla Colajanni sito in Via Degli Orti, P.P.Pasolini e S. Barbara), per l'anno educativo 2026/27",
+   "anno": "2026/27",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "indirizzo": "Via degli Orti"
+  },
+  {
+   "nome": "Asilo nido comunale P.P. Pasolini",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://caltanissetta-api.municipiumapp.it/s3/1099/allegati/asili-nido.pdf",
+   "citazione": "graduatoria provvisoria unica lattanti e divezzi per i 4 asili nido comunali (S. Petronilla Colajanni sito in Via Degli Orti, P.P.Pasolini e S. Barbara), per l'anno educativo 2026/27",
+   "anno": "2026/27",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36
+  },
+  {
+   "nome": "Asilo nido comunale S. Barbara",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "url": "https://caltanissetta-api.municipiumapp.it/s3/1099/allegati/asili-nido.pdf",
+   "citazione": "graduatoria provvisoria unica lattanti e divezzi per i 4 asili nido comunali (S. Petronilla Colajanni sito in Via Degli Orti, P.P.Pasolini e S. Barbara), per l'anno educativo 2026/27",
+   "anno": "2026/27",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36
+  }
+ ],
+ "note": "4 nidi comunali; il sito non cita nidi privati. Il testo è ambiguo se 'S. Petronilla' e 'Colajanni' siano la stessa sede, ma altre frasi elencano quattro nomi distinti."
+}

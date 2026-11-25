@@ -1,0 +1,74 @@
+{
+ "codiceIstat": "054024",
+ "strutture": [
+  {
+   "nome": "Nido comunale Il Cerbiatto",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Piazza S. Pietro",
+   "url": "https://www.comune.gubbio.pg.it/it/servizi/nidi-di-infanzia",
+   "citazione": "IL cerbiatto -Piazza S. Pietro tel. [cellulare omesso] utenti n. 46 apertura e orari: dal lunedi al venerdi dalle ore 07.30 alle ore 17.00",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido comunale Il Girasole",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Villa Fassia-Ponte d'Assi",
+   "url": "https://www.comune.gubbio.pg.it/it/servizi/nidi-di-infanzia",
+   "citazione": "Il girasole Villa Fassia-Ponte d'Assi tel. [cellulare omesso] utenti n. 14 apertura e orari: dal lunedi al venerdi dalle ore 07.30 alle ore 14.00",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido comunale La Prima Avventura",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via L. da Vinci",
+   "url": "https://www.comune.gubbio.pg.it/it/servizi/nidi-di-infanzia",
+   "citazione": "La prima avventura via L. da Vinci tel. [cellulare omesso] utenti n. 16 apertura e orari: dal lunedi al venerdi dalle ore 07.30 alle ore 14.00",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido comunale Lilla",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Loc. Spada",
+   "url": "https://www.comune.gubbio.pg.it/it/servizi/nidi-di-infanzia",
+   "citazione": "Lilla Loc. Spada tel. [cellulare omesso] utenti n. 15 apertura e orari dal lunedi al venerdi dalle ore 07.30 alle ore 17.00",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Centro Bambine/i",
+   "tipologia": "CENTRO_BAMBINI_FAMIGLIE",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.gubbio.pg.it/it/news/iscrizioni-ai-servizi-educativi-nidi-dinfanzia-centro-bambine-i-e-sezione-primavera-2026-2027-apertura-del-bando",
+   "citazione": "Allegato A - Graduatoria Centro Bambini 2026-2027 - turno lun-merc-ven; Allegato A - Graduatoria Centro Bambini 2026-2027 - Turno mart-giov-sab",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Sezione Primavera comunale",
+   "tipologia": "SEZIONE_PRIMAVERA",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.gubbio.pg.it/it/news/iscrizioni-ai-servizi-educativi-nidi-dinfanzia-centro-bambine-i-e-sezione-primavera-2026-2027-apertura-del-bando",
+   "citazione": "Iscrizioni ai Servizi Educativi (nidi d’infanzia, Centro Bambine/i e Sezione Primavera) 2026-2027: Allegato A - Graduatoria Sezione Primavera 2026-2027",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Spazio Gioco comunale",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "url": "https://www.comune.gubbio.pg.it/it/news/iscrizioni-ai-servizi-educativi-nidi-dinfanzia-centro-bambine-i-e-sezione-primavera-2026-2027-apertura-del-bando",
+   "citazione": "DD 1829 del 02.10.2026 - Approvazione ulteriore graduatoria anno educativo 2026 - 2027 Sezione Primavera e Spazio Gioco - Mese di Ottobre.",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "DUBBIO: Centro Bambine/i, Sezione Primavera e Spazio Gioco sono citati solo come servizi nelle graduatorie, senza nome/sede (nomi generici). Le pagine news (inaugurato nuovo nido San Pietro, riapre nido di Spada, nidi comunali aumentano posti) sono nei file html ma non nel testo estratto. 'utenti n.' dei nidi: 46/14/16/15 (iscritti, non capienza); telefoni sono cellulari di servizio dei nidi."
+}

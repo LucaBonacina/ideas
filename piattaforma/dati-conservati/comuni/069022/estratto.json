@@ -1,0 +1,66 @@
+{
+  "codiceIstat": "069022",
+  "strutture": [
+    {
+      "nome": "Asilo nido Il Riccio e la Volpe",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Amiterno",
+      "posti": 36,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.chieti.it/servizio/asili-nido-comunali/",
+      "citazione": "1) Asilo nido \" il Riccio e la Volpe \"; Via Amiterno n.36 utenti",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido Bambi",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Piazza Carafa",
+      "posti": 35,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.chieti.it/servizio/asili-nido-comunali/",
+      "citazione": "2) Asilo nido \" Bambi \"; Piazza Carafa n.35 utenti",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido Ape Maia",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Bruracchio snc",
+      "posti": 35,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.chieti.it/servizio/asili-nido-comunali/",
+      "citazione": "3) Asilo nido \" Ape Maia \"; Via Bruracchio snc n. 35 utenti",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido Pollicino",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Viale Amendola snc",
+      "posti": 50,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.chieti.it/servizio/asili-nido-comunali/",
+      "citazione": "4) Asilo nido \" Pollicino\" - Viale Amendola snc n.50 utenti",
+      "anno": "2026/27"
+    },
+    {
+      "nome": "Asilo nido Via Smirne",
+      "tipologia": "NIDO",
+      "gestione": "COMUNALE",
+      "indirizzo": "Via Smirne",
+      "posti": 60,
+      "etaMinimaMesi": 3,
+      "etaMassimaMesi": 36,
+      "url": "https://comune.chieti.it/servizio/asili-nido-comunali/",
+      "citazione": "5) Asilo nido \" Via Smirne \" - Via Smirne. 60 utenti",
+      "anno": "2026/27"
+    }
+  ],
+  "note": "Cinque nidi comunali in concessione a Coop Leonardo / Piccoli Passi Bio. Il numero 'utenti' e' accanto all'indirizzo: interpretato come posti. Il nido di Via Smirne e' in apertura (lavori finali)."
+}

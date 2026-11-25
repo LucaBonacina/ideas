@@ -1,0 +1,66 @@
+{
+ "codiceIstat": "008055",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia Raggio di sole",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via della Repubblica 2",
+   "telefono": "0184 571260",
+   "url": "https://www.comune.sanremo.im.it/it/page/nidi-di-infanzia",
+   "citazione": "Nido d’infanzia Raggio di sole - Via della Repubblica, 2 - Tel. 0184 571260"
+  },
+  {
+   "nome": "Nido d'infanzia Arcobaleno",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Morardo 13",
+   "telefono": "0184 580526",
+   "url": "https://www.comune.sanremo.im.it/it/vivere/nido-d-infanzia-arcobaleno",
+   "citazione": "Nido d'infanzia Arcobaleno - Sede del nido comunale - Via Morardo, 13, 18038 Sanremo IM"
+  },
+  {
+   "nome": "Nido d'infanzia Villa Peppina",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Piazza San Bernardo",
+   "telefono": "0184 501087",
+   "url": "https://www.comune.sanremo.im.it/it/page/nidi-di-infanzia",
+   "citazione": "Nido d’infanzia Villa Peppina - Piazza San Bernardo - Tel. 0184 501087"
+  },
+  {
+   "nome": "Nido d'infanzia La Nuvola",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Panizzi 64",
+   "telefono": "0184 990656",
+   "url": "https://www.comune.sanremo.im.it/it/page/nidi-di-infanzia",
+   "citazione": "Nido d’infanzia La Nuvola - Via Panizzi, 64 - Tel. 0184 990656"
+  },
+  {
+   "nome": "Nido d'infanzia Di Benedetta (Ist. Mater Misericordiae)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Gioberti 36",
+   "url": "https://www.comune.sanremo.im.it/it/page/nidi-di-infanzia",
+   "citazione": "Nido d’infanzia “DI BENEDETTA” dell’ Ist. “Mater Misericordiae” - Via Gioberti, 36"
+  },
+  {
+   "nome": "Nido d'infanzia Corradi (Fondazione Corradi)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Strada Borgo 46",
+   "url": "https://www.comune.sanremo.im.it/it/page/nidi-di-infanzia",
+   "citazione": "Nido d’infanzia “CORRADI” della “Fondazione Corradi” - Strada Borgo, 46"
+  },
+  {
+   "nome": "Nido d'infanzia Dante Alighieri (Fondazione Almerini)",
+   "tipologia": "NIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Asquasciati 14",
+   "url": "https://www.comune.sanremo.im.it/it/page/nidi-di-infanzia",
+   "citazione": "Nido d’infanzia “DANTE ALIGHIERI” della “Fondazione Almerini” - Via Asquasciati, 14"
+  }
+ ],
+ "note": "Palafiori (Corso G. Garibaldi 1) e' indicato come 'sede principale' dell'ufficio nidi: non e' chiaro se sia un nido, omesso."
+}

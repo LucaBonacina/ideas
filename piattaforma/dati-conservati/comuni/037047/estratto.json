@@ -1,0 +1,59 @@
+{
+ "codiceIstat": "037047",
+ "strutture": [
+  {
+   "nome": "Nido d'infanzia Millepiedi",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Repubblica 1, Pianoro",
+   "telefono": "051 776606",
+   "etaMinimaMesi": 9,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pianoro.bo.it/it-it/servizi/educazione-e-formazione/richiedere-iscrizione-all-asilo-nido-357-50956-1-fbd033702ad3bfc1354d9d49123894b9",
+   "citazione": "Nido \"Millepiedi\" , Via Repubblica n. 1, Pianoro, Tel. 051 776606 servizio a tempo pieno;",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Millemani",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Repubblica 1, Pianoro",
+   "etaMinimaMesi": 9,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pianoro.bo.it/it-it/servizi/educazione-e-formazione/richiedere-iscrizione-all-asilo-nido-357-50956-1-fbd033702ad3bfc1354d9d49123894b9",
+   "citazione": "Nido \"Millemani\" , Via Repubblica n. 1, Pianoro, Tel. [cellulare omesso] servizio a part-time;",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nido d'infanzia Girotondo",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Rodari 1, Rastignano",
+   "telefono": "051 744811",
+   "etaMinimaMesi": 9,
+   "etaMassimaMesi": 36,
+   "url": "https://www.comune.pianoro.bo.it/it-it/servizi/educazione-e-formazione/richiedere-iscrizione-all-asilo-nido-357-50956-1-fbd033702ad3bfc1354d9d49123894b9",
+   "citazione": "Nido \"Girotondo\" , Via Rodari 1, Rastignano, Tel. 051 744811 - servizio a tempo pieno e part-time.",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Spazio Bambini LudoLab",
+   "tipologia": "SPAZIO_GIOCO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Padre Marella 15, Pianoro",
+   "url": "https://www.comune.pianoro.bo.it/it-it/servizi/educazione-e-formazione/richiedere-iscrizione-all-asilo-nido-357-50956-1-fbd033702ad3bfc1354d9d49123894b9",
+   "citazione": "Spazio Bambini \"LudoLab\" , Via Padre Marella 15, Pianoro, Tel. [cellulare omesso] - servizio part-time senza pranzo",
+   "anno": "2026/27"
+  },
+  {
+   "nome": "Nuova sezione nido di via Fantini (scuola dell'infanzia Nonna Orsa)",
+   "tipologia": "NIDO",
+   "gestione": "COMUNALE",
+   "indirizzo": "Via Fantini",
+   "url": "https://www.comune.pianoro.bo.it/it-it/novita/avvisi/2026/istruzione-e-scuola/riapertura-del-bando-di-iscrizione-agli-asili-nido-comunali-a-e-2026-2027-407605-1-af3e5b883a961b387efb36e0e0c69980",
+   "citazione": "3 posti presso la nuova sezione di via Fantini (all’interno della nuova scuola dell’infanzia “Nonna Orsa”)",
+   "anno": "2026/27"
+  }
+ ],
+ "note": "Dubbio: la sezione di via Fantini è una sezione 0-3 dentro una scuola dell'infanzia, potrebbe essere già contata altrove. Telefoni 335 sono numeri di servizio indicati dal comune per le strutture."
+}

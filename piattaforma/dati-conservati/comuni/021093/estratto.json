@@ -1,0 +1,31 @@
+{
+ "codiceIstat": "021093",
+ "strutture": [
+  {
+   "nome": "Kita Burgzwerge",
+   "tipologia": "MICRONIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Castello di Silandro 1, 39028 Silandro",
+   "telefono": "0473 310020",
+   "email": "info@lola.bz.it",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.silandro.it/it/Vivere_il_comune/Luoghi/Infrastruttura_e_impianto/KITA_Burgzwerge_microstruttura_per_la_prima_infanzia_a_Silandro_",
+   "citazione": "L'asilo nido “Burgzwerge” è gestito dalla cooperativa sociale LOLA. Le microstrutture di prima infanzia ... assistenza dei bambini di età compresa tra i tre mesi e i tre anni.",
+   "anno": "2025"
+  },
+  {
+   "nome": "Kita Silandro (microstruttura Covelano)",
+   "tipologia": "MICRONIDO",
+   "gestione": "PRIVATA",
+   "indirizzo": "Via Pater Marjan Tumler 11/C, 39028 Silandro",
+   "email": "kitas-schlanders@tagesmutter-bz.it",
+   "etaMinimaMesi": 3,
+   "etaMassimaMesi": 36,
+   "url": "https://www.silandro.it/it/Vivere_il_comune/Sanita_ed_affari_sociali/KITA_Silandro_microstruttura_per_la_prima_infanzia_a_Covelano_",
+   "citazione": "La microstruttura di prima infanzia “Silandro\" è gestito dalla cooperativa sociale \"Tagesmütter\".",
+   "anno": "2025"
+  }
+ ],
+ "note": "Dati dai file html originali (il testo.txt non conteneva il contenuto). La cooperativa Tagesmütter ha sede a Cornedo all'Isarco e offre anche servizio domiciliare (non nominato per sede in Silandro): non inclusa. Gestione coop sociale assunta PRIVATA."
+}
