@@ -77,6 +77,9 @@ import {
 import {
   FONTE_SICILIA_ALBO, MINIMO_SICILIA_ALBO, URL_SICILIA_ALBO, parseAlboSicilia, righeDaPagineAlboSicilia,
 } from './sicilia/albo-minori.parser';
+import {
+  ELENCHI_LIGURIA, ElencoLiguria, FONTE_LIGURIA_ALBO, MINIMO_LIGURIA, parseLiguria, righeLiguria,
+} from './liguria/albo-liguria.parser';
 import { EstrattoComune, FONTE_SITI_COMUNALI, parseSitiComunali } from './siti-comunali/siti-comunali.parser';
 import { FONTE_BOLOGNA, MINIMO_BOLOGNA, URL_BOLOGNA, parseBologna } from './open-data-comunali/bologna.parser';
 import { FONTE_FERRARA, MINIMO_FERRARA, URL_FERRARA, parseFerrara } from './open-data-comunali/ferrara.parser';
@@ -448,6 +451,19 @@ export class ImportService {
     const { dati, data } = await this.file(FONTE_SICILIA_ALBO, 'minori.pdf', URL_SICILIA_ALBO, offline, 5);
     const esito = parseAlboSicilia(righeDaPagineAlboSicilia(await elementiPdf(dati)), comuni, data);
     return this.salva(FONTE_SICILIA_ALBO, esito, MINIMO_SICILIA_ALBO);
+  }
+
+  /** Liguria: albo regionale dei servizi socioeducativi per la prima infanzia (quattro elenchi Excel). */
+  async importaLiguria(offline = false): Promise<RapportoImport> {
+    const comuni = await this.lookup();
+    const totale: EsitoParsing = { strutture: [], scartate: [] };
+    for (const [elenco, { url }] of Object.entries(ELENCHI_LIGURIA) as [ElencoLiguria, { url: string }][]) {
+      const { dati, data } = await this.file(FONTE_LIGURIA_ALBO, `${elenco}.xlsx`, url, offline, 5);
+      const e = parseLiguria(await righeLiguria(dati), elenco, comuni, data);
+      totale.strutture.push(...e.strutture);
+      totale.scartate.push(...e.scartate);
+    }
+    return this.salva(FONTE_LIGURIA_ALBO, totale, MINIMO_LIGURIA);
   }
 
   /** Open data di Bologna, Ferrara, Reggio Emilia e Genova; va eseguito dopo l'anagrafe MIM. */
