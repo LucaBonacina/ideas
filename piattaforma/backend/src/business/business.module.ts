@@ -12,13 +12,15 @@ import { ComuniService } from './comuni/comuni.service';
 import { RaccoltaComuniService } from './raccolta/raccolta-comuni.service';
 import { DeduplicaService } from './deduplica/deduplica.service';
 import { GeocodificaService } from './geocodifica/geocodifica.service';
+import { FontiController } from './fonti/fonti.controller';
+import { FontiService } from './fonti/fonti.service';
 
 @Module({
   imports: [DatabaseModule],
-  controllers: [StruttureController, CalcolatoreController, ComuniController],
+  controllers: [StruttureController, CalcolatoreController, ComuniController, FontiController],
   providers: [
     HttpFetchService, RawStoreService, ImportService, StruttureService, CalcolatoreService, ComuniService,
-    RaccoltaComuniService, DeduplicaService, GeocodificaService,
+    RaccoltaComuniService, DeduplicaService, GeocodificaService, FontiService,
   ],
   exports: [ImportService, RaccoltaComuniService, DeduplicaService, GeocodificaService],
 })

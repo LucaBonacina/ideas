@@ -29,7 +29,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               Dati da fonti pubbliche ufficiali, con la fonte e la data indicate su ogni scheda. Possono contenere errori o
               essere incompleti: prima di iscriverti, verifica sempre con la struttura e con il tuo Comune.
             </p>
-            <p>Versione di prova. Mappe © OpenStreetMap contributors.</p>
+            <p>
+              Versione di prova. Mappe © OpenStreetMap contributors.{' '}
+              <a href="/fonti">Fonti e licenze</a> · <a href="/privacy">Privacy</a> · <a href="/note-legali">Note legali</a>
+            </p>
           </div>
         </footer>
       </body>

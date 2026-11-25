@@ -35,6 +35,17 @@ export interface EstrattoComune {
   note?: string;
 }
 
+/** Toglie dall'indirizzo CAP e comune, che la scheda mostra già ("Via Roma 1, 17025 Loano" -> "Via Roma 1"). */
+export function viaSenzaComune(indirizzo: string | undefined, comune: string): string | undefined {
+  if (!indirizzo) return undefined;
+  const nome = comune.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const via = indirizzo
+    .replace(new RegExp(`(\\s*[,-]\\s*(\\d{5}\\s+)?|\\s+\\d{5}\\s+)${nome}(\\s*\\([A-Z]{2}\\))?\\s*$`, 'i'), '')
+    .replace(/[,\s-]*\b\d{5}\b\s*$/, '')
+    .trim();
+  return pulisci(via);
+}
+
 const TIPOLOGIE = new Set<string>(Object.values(Tipologia));
 const GESTIONI = new Set<string>(Object.values(Gestione));
 
@@ -73,7 +84,7 @@ export function parseSitiComunali(estratti: EstrattoComune[], comuni: ComuniLook
         fascia: fasciaDiTipologia(tipologia),
         gestione: s.gestione && GESTIONI.has(s.gestione) ? s.gestione as Gestione : Gestione.SCONOSCIUTA,
         indirizzo: {
-          via: domiciliare ? undefined : pulisci(s.indirizzo),
+          via: domiciliare ? undefined : viaSenzaComune(s.indirizzo, comune.nome),
           comune: comune.nome,
           codiceIstat: comune.codiceIstat,
           codiceCatastale: comune.codiceCatastale,

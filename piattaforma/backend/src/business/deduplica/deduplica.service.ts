@@ -18,8 +18,14 @@ export const PRIORITA_FONTI = [
   'puglia-catalogo-zerosei', 'puglia-registro-strutture',
   'trento-elenco-nidi-infanzia', 'trento-nidi-familiari-tagesmutter', 'vda-autorizzazioni-nidi',
   'veneto-servizi-finanziati-ddr', 'veneto-nidi-in-famiglia',
+  'emilia-romagna-servizi-autorizzati', 'liguria-albo-servizi-prima-infanzia', 'sicilia-albo-lr22-86-minori',
+  'bolzano-microstrutture-prima-infanzia',
   'reggio-emilia-servizi-prima-infanzia', 'bologna-elenco-scuole', 'genova-scuole', 'ferrara-nidi-spazi-bambini',
 ];
+
+/** Dopo i registri: gli elenchi di finanziamento delle sezioni primavera, poi le pagine dei siti comunali. */
+const PRIORITA_SEZIONI_PRIMAVERA = PRIORITA_FONTI.length;
+const PRIORITA_SITI_COMUNALI = PRIORITA_FONTI.length + 2;
 
 const FAMIGLIA: Record<string, string> = {
   [Tipologia.NIDO]: 'nido',
@@ -32,7 +38,10 @@ const FAMIGLIA: Record<string, string> = {
 
 const priorita = (fonte: string): number => {
   const i = PRIORITA_FONTI.indexOf(fonte);
-  return i < 0 ? PRIORITA_FONTI.length : i;
+  if (i >= 0) return i;
+  if (fonte.startsWith('sezioni-primavera-')) return PRIORITA_SEZIONI_PRIMAVERA;
+  if (fonte === 'siti-comunali') return PRIORITA_SITI_COMUNALI;
+  return PRIORITA_FONTI.length + 1;
 };
 
 /** Stessa struttura se: stessa famiglia di servizio e nome molto simile, oppure stesso indirizzo e nome compatibile. */

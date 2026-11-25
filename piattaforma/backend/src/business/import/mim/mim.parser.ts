@@ -32,6 +32,18 @@ function caratteristica(valore: string | undefined): string[] {
 }
 
 /** Estrae le scuole dell'infanzia da un file dell'anagrafe MIM (statali o paritarie). */
+/**
+ * Nell'anagrafe MIM il civico è spesso attaccato alla via ("Via Mazzini159", "Via Locatellin.1"):
+ * si separa con uno spazio, lasciando stare sigle e numeri ordinali ("Via XXV Aprile", "Via 4 Novembre").
+ */
+export function separaCivico(via: string): string {
+  return via
+    .replace(/([a-zà-ù])n\.\s*(\d)/g, '$1 n. $2')
+    .replace(/([a-zà-ù]{2})(\d+[a-zA-Z]?)\b/g, '$1 $2')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 export function parseMim(contenuto: Buffer, file: FileMim, comuni: ComuniLookup, scaricatoIl: Date): EsitoParsing {
   const righe: Record<string, string>[] = parse(contenuto.toString('utf8').replace(/^\uFEFF/, ''), {
     columns: true, skip_empty_lines: true, relax_column_count: true,
@@ -59,7 +71,7 @@ export function parseMim(contenuto: Buffer, file: FileMim, comuni: ComuniLookup,
       gestione: file.statale ? Gestione.STATALE : Gestione.PARITARIA,
       gestore: file.statale ? titoloLeggibile(pulisci(r.DENOMINAZIONEISTITUTORIFERIMENTO) ?? '') || undefined : undefined,
       indirizzo: {
-        via: via ? titoloLeggibile(via) : undefined,
+        via: via ? separaCivico(titoloLeggibile(via)) : undefined,
         cap: pulisci(r.CAPSCUOLA),
         comune: comune.nome,
         codiceIstat: comune.codiceIstat,

@@ -127,4 +127,12 @@ describe('API strutture (con MongoDB in memoria)', () => {
     const salvata = await repo.model.findOne({ chiave: 'prova:riservata' }).select('+riservato').lean();
     expect(salvata?.riservato?.via).toBe('Via Privata 1');
   });
+
+  it('elenca le fonti con licenza e attribuzioni', async () => {
+    const res = await request(app.getHttpServer()).get('/fonti').expect(200);
+    const mim = res.body.fonti.find((f: { codice: string }) => f.codice === 'mim-anagrafe');
+    expect(mim).toMatchObject({ licenza: 'IODL 2.0' });
+    expect(mim.nome).toMatch(/Ministero/);
+    expect(res.body.ausiliarie.map((f: { nome: string }) => f.nome).join(' ')).toMatch(/OpenStreetMap/);
+  });
 });

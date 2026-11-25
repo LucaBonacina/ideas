@@ -12,6 +12,7 @@ export interface Struttura {
   };
   posizione?: { type: 'Point'; coordinates: [number, number] };
   posizioneFonte?: string;
+  posizionePrecisione?: string;
   posti?: number;
   etaMinimaMesi?: number;
   etaMassimaMesi?: number;
@@ -82,4 +83,28 @@ export interface EsitoCostoNetto {
   misure: EsitoMisura[];
   avvertenze: string[];
   struttura?: string;
+}
+
+export interface Fonte {
+  codice: string;
+  nome: string;
+  descrizione: string;
+  strutture: number;
+  licenza?: string;
+  url?: string;
+  dataRiferimento?: string;
+  scaricatoIl?: string;
+}
+
+export interface FonteAusiliaria {
+  nome: string;
+  descrizione: string;
+  url: string;
+  licenza: string;
+  uso: string;
+}
+
+export interface CatalogoFonti {
+  fonti: Fonte[];
+  ausiliarie: FonteAusiliaria[];
 }

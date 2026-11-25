@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import MappaStrutture from '@/components/MappaStrutture';
-import { api } from '@/lib/api';
+import { api, catalogoFonti, nomeFonte } from '@/lib/api';
 import {
-  FONTI, GESTIONI, TIPOLOGIE, dataBreve, fasciaTesto,
+  GESTIONI, TIPOLOGIE, dataBreve, fasciaTesto,
 } from '@/lib/etichette';
 import type { Struttura } from '@/lib/tipi';
 
@@ -35,7 +35,7 @@ export default async function PaginaStruttura({ params }: Parametri) {
   if (!s) notFound();
   const contatti = s.contatti ?? {};
   const caratteristiche = s.caratteristiche ?? [];
-  const fonte = FONTI[s.provenienza.fonte];
+  const catalogo = await catalogoFonti();
   const nido = s.fascia !== '3-6';
   const domiciliare = s.tipologia === 'SERVIZIO_DOMICILIARE';
   return (
@@ -93,7 +93,7 @@ export default async function PaginaStruttura({ params }: Parametri) {
           <div className="carta">
             <h3>Da dove vengono questi dati</h3>
             <p className="tenue">
-              {fonte?.nome ?? s.provenienza.fonte}.{' '}
+              {nomeFonte(catalogo, s.provenienza.fonte)}.{' '}
               {s.provenienza.url && <a href={s.provenienza.url} rel="noopener" target="_blank">Vai alla fonte</a>}
             </p>
             <p className="tenue">
@@ -101,9 +101,9 @@ export default async function PaginaStruttura({ params }: Parametri) {
               {s.provenienza.dataRiferimento && <>Dato riferito al {dataBreve(s.provenienza.dataRiferimento)}<br /></>}
               Scaricato il {dataBreve(s.provenienza.scaricatoIl)}<br />
               Licenza: {s.provenienza.licenza ?? 'non indicata'}
-              {s.posizioneFonte && <><br />Posizione: {FONTI[s.posizioneFonte]?.nome ?? s.posizioneFonte}</>}
+              {s.posizioneFonte && <><br />Posizione: {nomeFonte(catalogo, s.posizioneFonte)}{s.posizionePrecisione === 'via' ? ' (punto approssimato sulla via)' : ''}</>}
               {s.altreFonti && s.altreFonti.length > 0 && (
-                <><br />Confermata anche da: {[...new Set(s.altreFonti.map((c) => FONTI[c.split(':')[0]]?.nome ?? c.split(':')[0]))].join('; ')}</>
+                <><br />Confermata anche da: {[...new Set(s.altreFonti.map((c) => nomeFonte(catalogo, c.split(':')[0])))].join('; ')}</>
               )}
             </p>
           </div>
