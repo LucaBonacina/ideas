@@ -18,7 +18,7 @@ Decisione dell'utente (25/11/2026): ospitare la piattaforma su Google Cloud Plat
 | Pianificazione | Cloud Scheduler | una volta a settimana |
 | Segreti | Secret Manager | `mongo-uri` |
 
-Costo previsto con traffico iniziale: 0-5 euro al mese (Cloud Run gratuito entro la quota mensile, bucket di circa 1,3 GB, Atlas M0 gratuito).
+Costo previsto con traffico iniziale: 0-5 euro al mese (Cloud Run gratuito entro la quota mensile, bucket di circa 1 GB, Atlas M0 gratuito).
 
 Compromesso su Atlas: Cloud Run esce da IP variabili, quindi l'accesso di rete ad Atlas va aperto (0.0.0.0/0) e protetto da utente e password robusti. Un IP fisso richiede connettore VPC e Cloud NAT (circa 30-40 euro al mese): da valutare solo più avanti.
 
@@ -57,6 +57,13 @@ gcloud config set project $PROGETTO
    gcloud secrets add-iam-policy-binding mongo-uri --member=serviceAccount:$SA --role=roles/secretmanager.secretAccessor
    gcloud storage buckets add-iam-policy-binding gs://$BUCKET --member=serviceAccount:$SA --role=roles/storage.objectAdmin
    ```
+   Permessi di Cloud Build (nei progetti nuovi le build girano con l'account di servizio predefinito di Compute, che non può scrivere su Artifact Registry):
+   ```bash
+   NUMERO=$(gcloud projects describe $PROGETTO --format='value(projectNumber)')
+   for RUOLO in roles/artifactregistry.writer roles/logging.logWriter roles/storage.objectViewer; do
+     gcloud projects add-iam-policy-binding $PROGETTO --member=serviceAccount:$NUMERO-compute@developer.gserviceaccount.com --role=$RUOLO
+   done
+   ```
 6. **Immagini** (dalla cartella `piattaforma/`): primo giro per l'API.
    ```bash
    gcloud builds submit --config cloudbuild.yaml --substitutions=_REGIONE=$REGIONE
@@ -84,6 +91,8 @@ gcloud config set project $PROGETTO
    ```bash
    gcloud run jobs execute nidi-import --region=$REGIONE --args=dist/cli.js,tutto,--offline --wait
    ```
+   Al primo giro la geocodifica estrae lo zip dello stradario nel bucket (circa 480 MB in più), poi lo riusa.
+   Il database occupa circa 46 MB, dentro il limite di 512 MB di Atlas M0.
    Nota: con il bucket montato in `/data`, i file grezzi stanno in `/data/raw/...`: corrisponde al percorso `raw/` usato nel passo 3.
 10. **Aggiornamento settimanale** (lunedì alle 3:10):
     ```bash
