@@ -24,7 +24,7 @@ const PAGINA: ElementoPdf[] = [
   e('info@scaccomattocoop', 587, 522), e('081/0380234', 684, 522), e('Via Argine, 929', 739, 522), e('30', 810, 522),
   e("d'Infanzia", 156, 519), e('.it', 590, 519),
   e('2', 18, 491), e('Municipalità I', 32, 491), e('La Ludoteca', 108, 491), e('Micro-Nido', 154, 491),
-  e('La Ludoteca s.a.s. di Fabrizia Esposito', 185, 491), e('fabrizia.esposito@gmail.com', 587, 491), e('333 1234567', 684, 491),
+  e('La Ludoteca s.a.s. di Paola Bianchi', 185, 491), e('nome.cognome@gmail.com', 587, 491), e('333 1234567', 684, 491),
   e('Via Chiaia, 30', 741, 491), e('14', 810, 491),
   e('3', 18, 461), e('Il Sole', 110, 461), e('Micro-Nido', 154, 461), e('SOSPESA con', 436, 461), e('Via Sole 1', 741, 461),
   e('Pagina', 412, 14), e('2', 429, 14),
@@ -56,7 +56,7 @@ describe('parser nidi privati autorizzati Napoli', () => {
     expect(nido.provenienza.dataRiferimento).toEqual(new Date('2026-11-03T00:00:00Z'));
     expect(micro).toMatchObject({ tipologia: Tipologia.MICRONIDO, denominazione: 'La Ludoteca' });
     expect(micro.gestore).toBeUndefined();
-    expect(JSON.stringify(esito.strutture)).not.toMatch(/Fabrizia|Esposito|gmail|333|pec\./);
+    expect(JSON.stringify(esito.strutture)).not.toMatch(/Paola|Bianchi|gmail|333|pec\./);
   });
 
   it('trova il link al PDF nella pagina comunale', () => {
